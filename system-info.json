@@ -1,0 +1,29 @@
+{
+  "last_updated": "2025-10-24T21:17:44Z",
+  "server": {
+    "hostname": "vultr",
+    "ip_address": "45.32.106.139",
+    "os": "Ubuntu 22.04.5 LTS",
+    "kernel": "5.15.0-160-generic",
+    "uptime_seconds": 74799
+  },
+  "cpu": {
+    "model": "Intel Core Processor (Broadwell, no TSX, IBRS)",
+    "cores": 96,
+    "usage_percent": 0.1
+  },
+  "memory": {
+    "total_gb": 944,
+    "used_gb": 8,
+    "free_gb": 859,
+    "usage_percent": 0.9
+  },
+  "disk": {
+    "root": {
+      "total_gb": 1595,
+      "used_gb": 206,
+      "free_gb": 1321,
+      "usage_percent": 14
+    }
+  }
+}

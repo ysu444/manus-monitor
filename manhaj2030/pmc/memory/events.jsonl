@@ -1,0 +1,316 @@
+{"timestamp":"2025-10-24T02:46:35Z","agent":8,"event":"DOCS_ARCHIVE_SYNCED","status":"success","details":"Phase F2 & F3 documentation archived and indexed successfully."}
+{"timestamp":"2025-10-24T02:46:35Z","agent":9,"event":"ERROR_MAP_V3_READY","status":"success","details":"Error Map v3 framework registered and ready for next training epochs."}
+{"timestamp":"2025-10-24T02:46:35Z","agent":10,"event":"PHASE_F2_TRAINING_SUCCESS","status":"success","details":"NER v5.4 hybrid training completed on 4 GPUs with -44.6% loss improvement."}
+{"timestamp":"2025-10-24T02:46:35Z","agent":11,"event":"DATASET_VALIDATION_V2_COMPLETE","status":"success","details":"Dataset Validator v2.0 passed all integrity checks (100% confidence)."}
+{"timestamp":"2025-10-24T02:46:35Z","agent":12,"event":"SMART_MONITORS_ACTIVE","status":"success","details":"Smart Agent Monitors v2 & v3 fully active — 15 listeners coordinated successfully."}
+{"timestamp":"2025-10-24T02:48:46Z","phase":"F-4","event":"PHASE_F4_GRAPH_INTEGRATION_INITIATED","status":"in_progress","details":"Knowledge Graph Integration phase initialized — building unified isnad network from validated dataset and trained NER outputs."}
+{"timestamp":"2025-10-24T02:48:46Z","agent":10,"event":"GRAPH_ENGINE_PREP","status":"queued","details":"Preparing entity-relation extraction from Phase F-2 predictions for graph construction."}
+{"timestamp":"2025-10-24T02:48:46Z","agent":11,"event":"DATA_VALIDATION_GRAPH_READY","status":"queued","details":"Dataset validated and aligned for graph ingestion."}
+{"timestamp":"2025-10-24T02:48:46Z","agent":12,"event":"GRAPH_MONITOR_SETUP","status":"queued","details":"Smart Monitor v3 coordinating inter-agent graph build status."}
+{"timestamp":"2025-10-24T05:21:32Z","agent":10,"event":"PHASE_F2_RETRAIN_CLEAN_START","status":"started","details":"Re-training NER model from scratch using CAMeLBERT original vocab (30522) with Focal Loss + Postprocess v3. Dataset: ner_v5_2_balanced_fixed.jsonl"}
+{"timestamp":"2025-10-24T05:21:39Z","agent":10,"event":"PHASE_F2_RETRAIN_COMPLETED","status":"success"}
+{"timestamp":"2025-10-24T06:03:54Z","agent":12,"event":"INCIDENT_F3_UNAUTHORIZED_EXECUTION_FINALIZED","status":"completed_without_preflight","details":{"decision":"checkpoint not trusted until post-flight revalidation","action":"POLICY_PREFLIGHT_MANDATE_V1 enforced","notes":"training run discovered mid-epoch; allowed to finish as data salvage; future runs blocked without preflight"}}
+{"timestamp":"2025-10-24T06:33:43Z","agent":10,"event":"PHASE_F2_RETRAIN_COMPLETED","status":"success","details":{"epochs":3,"epoch1_loss":0.1983,"epoch2_loss":0.0882,"epoch3_loss":0.0837,"duration_seconds":1767,"output_dir":"/srv/manhaj2030/checkpoints/phase_f/final_retrain_camelbert30522/final"}}
+{"timestamp":"2025-10-24T06:33:43Z","agent":10,"event":"PHASE_F3_EVAL_FULL_READY","status":"success","details":{"outputs":"/srv/manhaj2030/reports/phase_f3_eval_full_v1"},"to":"all"}
+{"timestamp":"2025-10-24T07:26:37Z","agent":12,"event":"PREFLIGHT_CRF_FIX","status":"CONDITIONAL GO","failures":2}
+{"timestamp":"2025-10-24T07:36:10Z","agent":9,"event":"ERROR_MAP_V3_INIT_CANARY","status":"ready"}
+{"timestamp":"2025-10-24T07:53:32Z","agent":7,"event":"AGENT_EMITTER_CREATED","status":"success","details":{"path":"/srv/manhaj2030/tools/agent_emitter/emit.sh"}}
+{"timestamp":"2025-10-24T07:53:32Z","from":7,"to":"all","event":"SYSTEM_TEST","status":"queued","details":{"message":"Agent messaging system initialized"}}}
+{"timestamp":"2025-10-24T07:59:17Z","agent":12,"event":"AGENTS_STATUS_TEMPLATE_CREATED","status":"success","details":{"agents_count":0}}
+{"timestamp":"2025-10-24T08:00:04Z","agent":12,"event":"AGENTS_STATUS_INITIALIZED","status":"success","details":{"agents_count":15}}
+{"timestamp":"2025-10-24T08:04:24Z","agent":12,"event":"TEST_BROADCAST","status":"success","details":{"message":"ping from validation script"},"to":"all"}
+{"timestamp":"2025-10-24T08:04:29Z","agent":12,"event":"AGENTS_INTEGRATION_VALIDATION","status":"completed","details":{"pass":19,"warn":1,"fail":0,"report":"/srv/manhaj2030/reports/agents_validation/validation_20251024_110423.txt"}}
+{"timestamp":"2025-10-24T08:09:29Z","agent":12,"event":"PING_BROADCAST_UNIFIED","id":"PING_62ea7c13-1e3","to":"all","details":{"purpose":"unified_validation_v1.0","expected_agents":15}}
+{"timestamp":"2025-10-24T08:19:37Z","event":"SYSTEM_MODE_SWITCH","mode":"IntegrationValidationOnly","reason":"Agents lack PING_ACK capability","effective_until":"Phase F-4 Evaluation","updated_by":"Supervisor_AbuKhalid"}
+{"timestamp":"2025-10-24T08:23:19Z","event":"CANARY_RUN_COMPLETED","agent":"AGENT_11_TRAINING_EXECUTOR","status":"SUCCESS","metrics":{"per_f1":0.0907,"per_precision":0.2425,"per_recall":0.0558,"train_loss":0.0154,"eval_loss":0.0447},"duration_seconds":59,"checkpoint":"/srv/manhaj2030/data/training/ner_canary_run/checkpoint-193","recommendation":"PROCEED_TO_FULL_TRAINING"}
+{"timestamp":"2025-10-24T08:30:48Z","agent":12,"event":"PHASE_F4_MONITOR_EPOCH1_CHECK","status":"success","details":{"report_dir":"/srv/manhaj2030/reports/phase_f4_monitor_epoch1"}}
+{"timestamp":"2025-10-24T08:30:55Z","agent":10,"event":"PHASE_F4_TRAINING_STARTED","status":"running","details":{"model":"CAMeL-Lab/bert-base-arabic-camelbert-msa","epochs":5,"batch_size":32,"learning_rate":3e-5,"backend":"gloo","loss":"focal+crf"}}
+{"timestamp":"2025-10-24T08:31:35Z","agent":12,"event":"PHASE_F4_MONITOR_EPOCH1_CHECK","status":"success","details":{"report_dir":"/srv/manhaj2030/reports/phase_f4_monitor_epoch1","gpu_count":16,"pmc_events_count":378,"pmc_log_lines":9180}}
+{"timestamp":"2025-10-24T08:32:15Z","agent":11,"event":"PHASE_F4_GATEC_PREVIEW","status":"success","details":{"report_dir":"/srv/manhaj2030/reports/phase_f4_gatec_preview"}}
+{"timestamp":"2025-10-24T08:38:01Z","agent":12,"event":"TIMED_TASK_RELAY_ENABLED","status":"success","details":{"backup":"/srv/manhaj2030/monitor/smart_agent_monitor_v3_backup_20251024_113801.py"}}
+{"timestamp":"2025-10-24T08:38:01Z","type":"timed_task","event":"PING_TEST_AUTOMATED","delay_minutes":3,"to":11,"details":{"action":"ping_reply_test","note":"Automatic test to verify Timed Task Relay"}}
+{"timestamp":"2025-10-24T08:39:22Z","agent":12,"event":"TIMED_TASK_RELAY_ENABLED","status":"success","details":{"backup":"/srv/manhaj2030/monitor/smart_agent_monitor_v3_backup_20251024_113801.py"}}
+{"timestamp":"2025-10-24T08:39:22Z","type":"timed_task","event":"PING_TEST_AUTOMATED","delay_minutes":3,"to":11,"details":{"action":"ping_reply_test","note":"Automatic test to verify Timed Task Relay"}}
+{"timestamp":"2025-10-24T08:46:12Z","event":"SELF_CONTEXT_REFRESH_ENABLED","status":"success","details":{"interval_minutes":5,"scope":"agents_1_15","pid":81923}}
+{"timestamp":"2025-10-24T09:07:16Z","agent":12,"event":"COLLECTIVE_STATE_BUS_DEPLOYED","status":"success","details":{"interval":"600s","state_file":"/srv/manhaj2030/pmc/shared/collective_state.json"}}
+{"timestamp":"2025-10-24T09:17:18Z","agent":12,"event":"COLLECTIVE_STATE_BUS_VERIFIED","status":"success"}
+{"timestamp":"2025-10-24T09:21:57Z","agent":12,"event":"COLLECTIVE_AWARENESS_DEPLOYED","status":"success","details":"ContextKeeper + AlertMonitor + KnowledgeGovernance v1 deployed"}
+{"timestamp":"2025-10-24T09:22:51Z","agent":10,"event":"PHASE_F4_TRAINING_COMPLETED","status":"success","details":{"final_loss":"25.9226","output_dir":"/srv/manhaj2030/checkpoints/phase_f/crf_full_train_v1"}}
+{"timestamp":"2025-10-24T09:22:51Z","agent":10,"event":"PHASE_F4_TRAINING_FINISHED","status":"success","details":{"model_dir":"/srv/manhaj2030/checkpoints/phase_f/crf_full_train_v1"},"to":"all"}
+{"timestamp": "2025-10-24T09:23:30.951015Z", "agent": 11, "event": "STATE_VALIDATION_OK", "valid_files": 2}
+{"timestamp": "2025-10-24T09:34:49.930129Z", "agent": 12, "event": "AUTOEXEC_STARTED", "job_id": "test1-preflight", "command": "/srv/manhaj2030/tools/preflight_crf_fix.sh"}
+{"timestamp": "2025-10-24T09:34:49.932860Z", "agent": 12, "event": "AUTOEXEC_FINISHED", "job_id": "test1-preflight", "rc": 0, "stdout": "✅ Preflight CRF Fix executed successfully\nTimestamp: 2025-10-24T09:34:49Z\n", "stderr": ""}
+{"timestamp": "2025-10-24T09:35:19.963678Z", "agent": 12, "event": "AUTOEXEC_STARTED", "job_id": "test2-snapshot", "command": "/srv/manhaj2030/tools/snapshot_baseline.sh"}
+{"timestamp": "2025-10-24T09:35:19.967933Z", "agent": 12, "event": "AUTOEXEC_FINISHED", "job_id": "test2-snapshot", "rc": 0, "stdout": "✅ Snapshot Baseline executed successfully\nSystem uptime:  12:35:19 up  9:04,  1 user,  load average: 0.01, 0.55, 2.75\nTimestamp: 2025-10-24T09:35:19Z\n", "stderr": ""}
+{"timestamp": "2025-10-24T09:36:00.009109Z", "agent": 12, "event": "AUTOEXEC_SIGNATURE_FAIL", "job_id": "test3-bad-sig"}
+{"timestamp": "2025-10-24T09:36:30.040194Z", "agent": 12, "event": "AUTOEXEC_NOT_ALLOWED", "job_id": "test4-not-allowed", "command": "/bin/ls -la /tmp"}
+{"timestamp": "2025-10-24T09:37:00.071307Z", "agent": 12, "event": "AUTOEXEC_STARTED", "job_id": "test5-canary-gpu", "command": "/srv/manhaj2030/tools/run_canary.sh"}
+{"timestamp": "2025-10-24T09:37:00.209101Z", "agent": 12, "event": "AUTOEXEC_FINISHED", "job_id": "test5-canary-gpu", "rc": 0, "stdout": "✅ Canary Run executed successfully\nGPU Status:\n0, 0 %\n1, 0 %\n2, 0 %\nTimestamp: 2025-10-24T09:37:00Z\n", "stderr": ""}
+{"timestamp":"2025-10-24T09:39:28Z","agent":10,"event":"PHASE_F4_EVAL_STARTED","status":"running","details":{"model":"CRF_epoch4"}}
+{"timestamp":"2025-10-24T09:40:33Z","agent":10,"event":"PHASE_F4_EVAL_STARTED","status":"running","details":{"model":"CRF_epoch4"}}
+{"timestamp": "2025-10-24T09:44:07.514653Z", "agent": 12, "event": "AUTOEXEC_STARTED", "job_id": "test-helper-1", "command": "/srv/manhaj2030/tools/preflight_crf_fix.sh"}
+{"timestamp": "2025-10-24T09:44:07.517001Z", "agent": 12, "event": "AUTOEXEC_FINISHED", "job_id": "test-helper-1", "rc": 0, "stdout": "✅ Preflight CRF Fix executed successfully\nTimestamp: 2025-10-24T09:44:07Z\n", "stderr": ""}
+{"timestamp":"2025-10-24T09:49:32Z","agent":8,"event":"AUTOEXEC_V1_DEPLOYED","status":"success","report":"/srv/manhaj2030/reports/autoexec_v1_deployment.md","archive":"/srv/manhaj2030/reports/docs_archive/autoexec/autoexec_v1_20251024_124932.md","service":{"name":"auto_exec_daemon.service","active":"active","enabled":"enabled","pid":"94900"},"whitelist_count":0}
+{"timestamp":"2025-10-24T09:56:33Z","agent":"Agent8","event":"SCIENTIFIC_CLOSURE_V1_COMPLETED","phase":"F-4","status":"success","report":"/srv/manhaj2030/reports/scientific_closure_v1/scientific_closure_v1.md","metrics":{"best_epoch":"N/A","f1_e4":"N/A","f1_e5":"N/A","ece":"N/A","brier":"N/A"},"compliance":"DHVS_2025"}
+{"timestamp":"2025-10-24T09:57:59Z","agent":9,
+         "event":"ERROR_MAP_V3_PHASE_F4_READY","source":"/srv/manhaj2030/reports/phase_f4_eval_epoch4",
+         "output":"/srv/manhaj2030/reports/error_map_v3_phase_f4/error_map_v3_summary.jsonl"}
+{"timestamp":"2025-10-24T09:58:03Z","agent":12,"event":"ARCHIVE_UPDATED","file_count":599}
+{"timestamp":"2025-10-24T09:59:29Z","agent":9,
+         "event":"ERROR_MAP_V3_PHASE_F4_READY","source":"/srv/manhaj2030/reports/phase_f4_eval_epoch4",
+         "output":"/srv/manhaj2030/reports/error_map_v3_phase_f4/error_map_v3_summary.jsonl"}
+{"timestamp":"2025-10-24T09:59:36Z","agent":14,"event":"TEMP_CALIBRATION_DONE","optimal_temperature":1.15}
+{"timestamp":"2025-10-24T10:01:43Z","agent":15,"event":"GRAPH_AUDIT_COMPLETED","nodes":26252,"edges":62143,"anomalies":88395}
+{"timestamp":"2025-10-24T10:09:52Z","agent":13,"event":"HARD_NEGATIVES_V1_EXTRACTED","source":"/srv/manhaj2030/reports/phase_f3_eval_full_v1/predictions.jsonl","output":"/srv/manhaj2030/reports/error_map_v3/hard_negatives_v1.jsonl","count":2000,"strategy":"confidence_based","confidence_range":[0.30,0.60]}
+{"timestamp":"2025-10-24T10:13:22Z","agent":15,"event":"GRAPH_REBUILD_COMPLETED","phase":"G0","status":"success","details":{"source":"/srv/manhaj2030/data/graph/isnad_graph_v1.json","output":"/srv/manhaj2030/data/graph/isnad_graph_v2.json","report":"/srv/manhaj2030/reports/graph_audit_phase_g0.json"}}
+{"timestamp":"2025-10-24T10:16:08Z","agent":"Agent8","event":"SCIENTIFIC_CLOSURE_UPDATED","status":"success","details":"Actual metrics from Phase F3 integrated into Scientific Closure report","metrics":{"f1_f3":0.5781,"precision_f3":0.6382,"recall_f3":0.5283,"ece":0.238,"brier":0.105}}
+{"timestamp":"2025-10-24T10:16:20Z","agent":15,"event":"GATE_C_VERIFICATION","phase":"G0","status":"FAILED","details":{"self_loops_pct":1.16,"isolated_nodes_pct":76.63,"components_pct":77.78}}
+{"timestamp":"2025-10-24T10:16:31Z","agent":15,"event":"GATE_C_VERIFICATION","phase":"G0","status":"FAILED","details":{"self_loops_pct":1.16,"isolated_nodes_pct":76.63,"components_pct":77.78}}
+{"timestamp":"2025-10-24T10:17:50Z","agent":7,"event":"DEPLOY_PING_ACK_RESPONDERS","status":"success","details":{"responders":15,"interval":"15s"}}
+{"timestamp": "2025-10-24T10:17:50.119575Z", "agent": 1, "event": "RESPONDER_START", "status": "ack", "details": "Listening every 15s"}
+{"timestamp": "2025-10-24T10:17:50.120823Z", "agent": 2, "event": "RESPONDER_START", "status": "ack", "details": "Listening every 15s"}
+{"timestamp": "2025-10-24T10:17:50.123630Z", "agent": 4, "event": "RESPONDER_START", "status": "ack", "details": "Listening every 15s"}
+{"timestamp": "2025-10-24T10:17:50.125694Z", "agent": 6, "event": "RESPONDER_START", "status": "ack", "details": "Listening every 15s"}
+{"timestamp": "2025-10-24T10:17:50.125939Z", "agent": 5, "event": "RESPONDER_START", "status": "ack", "details": "Listening every 15s"}
+{"timestamp": "2025-10-24T10:17:50.128819Z", "agent": 8, "event": "RESPONDER_START", "status": "ack", "details": "Listening every 15s"}
+{"timestamp": "2025-10-24T10:17:50.130211Z", "agent": 3, "event": "RESPONDER_START", "status": "ack", "details": "Listening every 15s"}
+{"timestamp": "2025-10-24T10:17:50.130460Z", "agent": 9, "event": "RESPONDER_START", "status": "ack", "details": "Listening every 15s"}
+{"timestamp": "2025-10-24T10:17:50.131578Z", "agent": 10, "event": "RESPONDER_START", "status": "ack", "details": "Listening every 15s"}
+{"timestamp": "2025-10-24T10:17:50.133269Z", "agent": 11, "event": "RESPONDER_START", "status": "ack", "details": "Listening every 15s"}
+{"timestamp": "2025-10-24T10:17:50.135095Z", "agent": 12, "event": "RESPONDER_START", "status": "ack", "details": "Listening every 15s"}
+{"timestamp": "2025-10-24T10:17:50.135917Z", "agent": 7, "event": "RESPONDER_START", "status": "ack", "details": "Listening every 15s"}
+{"timestamp": "2025-10-24T10:17:50.136852Z", "agent": 14, "event": "RESPONDER_START", "status": "ack", "details": "Listening every 15s"}
+{"timestamp": "2025-10-24T10:17:50.136955Z", "agent": 13, "event": "RESPONDER_START", "status": "ack", "details": "Listening every 15s"}
+{"timestamp": "2025-10-24T10:17:50.139208Z", "agent": 15, "event": "RESPONDER_START", "status": "ack", "details": "Listening every 15s"}
+{"timestamp":"2025-10-24T10:25:08Z","agent":15,"event":"PHASE_G0_POST_ANALYSIS","status":"success","outputs":"/srv/manhaj2030/reports/phase_g0_analysis"}
+{"timestamp":"2025-10-24T10:26:04Z","from":7,"to":"all","event":"SYSTEM_PING","status":"queued","details":{"message":"Ping test for all agents"}}}
+{"timestamp":"2025-10-24T10:26:04Z","agent":7,"event":"AUTO_RESPONDER_SANITY_CHECK","acks":2,"status":"⚠️ PARTIAL_RESPONDERS","details":"Only 2/15 responders replied — check missing sessions"}
+{"timestamp":"2025-10-24T10:27:12Z","from":7,"to":"all","event":"SYSTEM_PING_V2","status":"queued","details":{"message":"Testing fixed emitter"}}}
+{"timestamp": "2025-10-24T10:27:20.658748Z", "agent": 12, "event": "RESPONDER_ERROR", "status": "ack", "details": "Extra data: line 1 column 146 (char 145)"}
+{"timestamp": "2025-10-24T10:27:20.663031Z", "agent": 14, "event": "RESPONDER_ERROR", "status": "ack", "details": "Extra data: line 1 column 146 (char 145)"}
+{"timestamp": "2025-10-24T10:27:20.667776Z", "agent": 2, "event": "RESPONDER_ERROR", "status": "ack", "details": "Extra data: line 1 column 146 (char 145)"}
+{"timestamp": "2025-10-24T10:27:20.683473Z", "agent": 4, "event": "RESPONDER_ERROR", "status": "ack", "details": "Extra data: line 1 column 146 (char 145)"}
+{"timestamp": "2025-10-24T10:27:20.685911Z", "agent": 8, "event": "RESPONDER_ERROR", "status": "ack", "details": "Extra data: line 1 column 146 (char 145)"}
+{"timestamp": "2025-10-24T10:27:20.688178Z", "agent": 1, "event": "RESPONDER_ERROR", "status": "ack", "details": "Extra data: line 1 column 146 (char 145)"}
+{"timestamp": "2025-10-24T10:27:20.695460Z", "agent": 6, "event": "RESPONDER_ERROR", "status": "ack", "details": "Extra data: line 1 column 146 (char 145)"}
+{"timestamp": "2025-10-24T10:27:20.695398Z", "agent": 7, "event": "RESPONDER_ERROR", "status": "ack", "details": "Extra data: line 1 column 146 (char 145)"}
+{"timestamp": "2025-10-24T10:27:20.697383Z", "agent": 3, "event": "RESPONDER_ERROR", "status": "ack", "details": "Extra data: line 1 column 146 (char 145)"}
+{"timestamp": "2025-10-24T10:27:20.697943Z", "agent": 13, "event": "RESPONDER_ERROR", "status": "ack", "details": "Extra data: line 1 column 146 (char 145)"}
+{"timestamp": "2025-10-24T10:27:20.698955Z", "agent": 9, "event": "RESPONDER_ERROR", "status": "ack", "details": "Extra data: line 1 column 146 (char 145)"}
+{"timestamp": "2025-10-24T10:27:20.700554Z", "agent": 5, "event": "RESPONDER_ERROR", "status": "ack", "details": "Extra data: line 1 column 146 (char 145)"}
+{"timestamp": "2025-10-24T10:27:20.706348Z", "agent": 10, "event": "RESPONDER_ERROR", "status": "ack", "details": "Extra data: line 1 column 146 (char 145)"}
+{"timestamp": "2025-10-24T10:27:20.708778Z", "agent": 11, "event": "RESPONDER_ERROR", "status": "ack", "details": "Extra data: line 1 column 146 (char 145)"}
+{"timestamp": "2025-10-24T10:27:20.714137Z", "agent": 15, "event": "RESPONDER_ERROR", "status": "ack", "details": "Extra data: line 1 column 146 (char 145)"}
+{"timestamp": "2025-10-24T10:28:29.531285Z", "agent": 99, "event": "RESPONDER_START", "status": "ack", "details": "Listening every 2s"}
+{"timestamp":"2025-10-24T10:29:05Z","from":7,"to":"99","event":"TEST_MESSAGE","status":"queued","details":{"test":"hello agent 99"}}}
+{"timestamp": "2025-10-24T10:29:36.861802Z", "agent": 100, "event": "RESPONDER_START", "status": "ack", "details": "Listening every 2s"}
+{"timestamp":"2025-10-24T10:30:04Z","from":7,"to":"100","event":"PING_TEST","status":"queued","details":{"test":"message for agent 100"}}}
+{"timestamp":"2025-10-24T10:33:37Z","agent":15,"event":"PHASE_G1_RELATIONSHIP_EXTRACTION_COMPLETED","status":"success","output":"/srv/manhaj2030/reports/phase_g1_relationship_extractor"}
+{"timestamp": "2025-10-24T10:47:02.459190Z", "agent": 1, "event": "RESPONDER_START", "status": "ack", "details": "Listening every 15s"}
+{"timestamp": "2025-10-24T10:47:02.459367Z", "agent": 1, "event": "RESPONDER_ERROR", "status": "ack", "details": "Extra data: line 1 column 146 (char 145)"}
+{"timestamp": "2025-10-24T10:47:02.462220Z", "agent": 3, "event": "RESPONDER_START", "status": "ack", "details": "Listening every 15s"}
+{"timestamp": "2025-10-24T10:47:02.462783Z", "agent": 3, "event": "RESPONDER_ERROR", "status": "ack", "details": "Extra data: line 1 column 146 (char 145)"}
+{"timestamp": "2025-10-24T10:47:02.462755Z", "agent": 2, "event": "RESPONDER_START", "status": "ack", "details": "Listening every 15s"}
+{"timestamp": "2025-10-24T10:47:02.462921Z", "agent": 2, "event": "RESPONDER_ERROR", "status": "ack", "details": "Extra data: line 1 column 146 (char 145)"}
+{"timestamp": "2025-10-24T10:47:02.463609Z", "agent": 5, "event": "RESPONDER_START", "status": "ack", "details": "Listening every 15s"}
+{"timestamp": "2025-10-24T10:47:02.463769Z", "agent": 5, "event": "RESPONDER_ERROR", "status": "ack", "details": "Extra data: line 1 column 146 (char 145)"}
+{"timestamp": "2025-10-24T10:47:02.466140Z", "agent": 6, "event": "RESPONDER_START", "status": "ack", "details": "Listening every 15s"}
+{"timestamp": "2025-10-24T10:47:02.466306Z", "agent": 6, "event": "RESPONDER_ERROR", "status": "ack", "details": "Extra data: line 1 column 146 (char 145)"}
+{"timestamp": "2025-10-24T10:47:02.466291Z", "agent": 7, "event": "RESPONDER_START", "status": "ack", "details": "Listening every 15s"}
+{"timestamp": "2025-10-24T10:47:02.466445Z", "agent": 7, "event": "RESPONDER_ERROR", "status": "ack", "details": "Extra data: line 1 column 146 (char 145)"}
+{"timestamp": "2025-10-24T10:47:02.467357Z", "agent": 4, "event": "RESPONDER_START", "status": "ack", "details": "Listening every 15s"}
+{"timestamp": "2025-10-24T10:47:02.467671Z", "agent": 8, "event": "RESPONDER_START", "status": "ack", "details": "Listening every 15s"}
+{"timestamp": "2025-10-24T10:47:02.467710Z", "agent": 4, "event": "RESPONDER_ERROR", "status": "ack", "details": "Extra data: line 1 column 146 (char 145)"}
+{"timestamp": "2025-10-24T10:47:02.467873Z", "agent": 8, "event": "RESPONDER_ERROR", "status": "ack", "details": "Extra data: line 1 column 146 (char 145)"}
+{"timestamp": "2025-10-24T10:47:02.469023Z", "agent": 9, "event": "RESPONDER_START", "status": "ack", "details": "Listening every 15s"}
+{"timestamp": "2025-10-24T10:47:02.469247Z", "agent": 9, "event": "RESPONDER_ERROR", "status": "ack", "details": "Extra data: line 1 column 146 (char 145)"}
+{"timestamp": "2025-10-24T10:47:02.471465Z", "agent": 11, "event": "RESPONDER_START", "status": "ack", "details": "Listening every 15s"}
+{"timestamp": "2025-10-24T10:47:02.471614Z", "agent": 11, "event": "RESPONDER_ERROR", "status": "ack", "details": "Extra data: line 1 column 146 (char 145)"}
+{"timestamp": "2025-10-24T10:47:02.475411Z", "agent": 14, "event": "RESPONDER_START", "status": "ack", "details": "Listening every 15s"}
+{"timestamp": "2025-10-24T10:47:02.475567Z", "agent": 14, "event": "RESPONDER_ERROR", "status": "ack", "details": "Extra data: line 1 column 146 (char 145)"}
+{"timestamp": "2025-10-24T10:47:02.477681Z", "agent": 12, "event": "RESPONDER_START", "status": "ack", "details": "Listening every 15s"}
+{"timestamp": "2025-10-24T10:47:02.477854Z", "agent": 10, "event": "RESPONDER_START", "status": "ack", "details": "Listening every 15s"}
+{"timestamp": "2025-10-24T10:47:02.477894Z", "agent": 12, "event": "RESPONDER_ERROR", "status": "ack", "details": "Extra data: line 1 column 146 (char 145)"}
+{"timestamp": "2025-10-24T10:47:02.478213Z", "agent": 10, "event": "RESPONDER_ERROR", "status": "ack", "details": "Extra data: line 1 column 146 (char 145)"}
+{"timestamp": "2025-10-24T10:47:02.479973Z", "agent": 13, "event": "RESPONDER_START", "status": "ack", "details": "Listening every 15s"}
+{"timestamp": "2025-10-24T10:47:02.480146Z", "agent": 13, "event": "RESPONDER_ERROR", "status": "ack", "details": "Extra data: line 1 column 146 (char 145)"}
+{"timestamp": "2025-10-24T10:47:02.480871Z", "agent": 15, "event": "RESPONDER_START", "status": "ack", "details": "Listening every 15s"}
+{"timestamp": "2025-10-24T10:47:02.481068Z", "agent": 15, "event": "RESPONDER_ERROR", "status": "ack", "details": "Extra data: line 1 column 146 (char 145)"}
+{"timestamp":"2025-10-24T10:47:00Z","agent":7,"event":"RESPONDERS_RESTARTED","active_count":15,"status":"success"}
+{"timestamp":"2025-10-24T10:47:30Z","from":7,"to":"all","event":"PING_FINAL","status":"queued","details":{"message":"Final sanity check after restart"}}}
+{"timestamp": "2025-10-24T10:47:32.489734Z", "agent": 1, "event": "RESPONDER_ERROR", "status": "ack", "details": "Extra data: line 1 column 153 (char 152)"}
+{"timestamp": "2025-10-24T10:47:32.493180Z", "agent": 3, "event": "RESPONDER_ERROR", "status": "ack", "details": "Extra data: line 1 column 153 (char 152)"}
+{"timestamp": "2025-10-24T10:47:32.493279Z", "agent": 2, "event": "RESPONDER_ERROR", "status": "ack", "details": "Extra data: line 1 column 153 (char 152)"}
+{"timestamp": "2025-10-24T10:47:32.494118Z", "agent": 5, "event": "RESPONDER_ERROR", "status": "ack", "details": "Extra data: line 1 column 153 (char 152)"}
+{"timestamp": "2025-10-24T10:47:32.496665Z", "agent": 6, "event": "RESPONDER_ERROR", "status": "ack", "details": "Extra data: line 1 column 153 (char 152)"}
+{"timestamp": "2025-10-24T10:47:32.496835Z", "agent": 7, "event": "RESPONDER_ERROR", "status": "ack", "details": "Extra data: line 1 column 153 (char 152)"}
+{"timestamp": "2025-10-24T10:47:32.498153Z", "agent": 4, "event": "RESPONDER_ERROR", "status": "ack", "details": "Extra data: line 1 column 153 (char 152)"}
+{"timestamp": "2025-10-24T10:47:32.498208Z", "agent": 8, "event": "RESPONDER_ERROR", "status": "ack", "details": "Extra data: line 1 column 153 (char 152)"}
+{"timestamp": "2025-10-24T10:47:32.499659Z", "agent": 9, "event": "RESPONDER_ERROR", "status": "ack", "details": "Extra data: line 1 column 153 (char 152)"}
+{"timestamp": "2025-10-24T10:47:32.501956Z", "agent": 11, "event": "RESPONDER_ERROR", "status": "ack", "details": "Extra data: line 1 column 153 (char 152)"}
+{"timestamp": "2025-10-24T10:47:32.502132Z", "agent": 12, "event": "RESPONDER_ERROR", "status": "ack", "details": "Extra data: line 1 column 153 (char 152)"}
+{"timestamp": "2025-10-24T10:47:32.505873Z", "agent": 14, "event": "RESPONDER_ERROR", "status": "ack", "details": "Extra data: line 1 column 153 (char 152)"}
+{"timestamp": "2025-10-24T10:47:32.508682Z", "agent": 10, "event": "RESPONDER_ERROR", "status": "ack", "details": "Extra data: line 1 column 153 (char 152)"}
+{"timestamp": "2025-10-24T10:47:32.510493Z", "agent": 13, "event": "RESPONDER_ERROR", "status": "ack", "details": "Extra data: line 1 column 153 (char 152)"}
+{"timestamp": "2025-10-24T10:47:32.511406Z", "agent": 15, "event": "RESPONDER_ERROR", "status": "ack", "details": "Extra data: line 1 column 153 (char 152)"}
+{"timestamp":"2025-10-24T10:47:30Z","agent":7,"event":"FINAL_SANITY_CHECK","acks":0
+0,"status":"⚠️ PARTIAL_RESPONDERS","details":"Only 0
+0/15 responders replied"}
+{"timestamp": "2025-10-24T10:48:11.292621Z", "agent": 1, "event": "RESPONDER_START", "status": "ack", "details": "Listening every 1s"}
+{"timestamp": "2025-10-24T10:48:11.292792Z", "agent": 1, "event": "RESPONDER_ERROR", "status": "ack", "details": "Extra data: line 1 column 153 (char 152)"}
+{"timestamp":"2025-10-24T10:49:32Z","from":7,"to":"999","event":"TEST1","status":"queued","details":{"msg":"hello"}}}
+{"timestamp":"2025-10-24T10:50:46Z","from":7,"to":"test","event":"PING_TEST2","status":"queued","details":{"message":"test"}}}
+{"timestamp":"2025-10-24T10:52:27Z","from":7,"to":"fixed_test","event":"PING_FIXED","status":"queued","details":{"message":"testing fixed version"}}
+{"timestamp":"2025-10-24T10:52:50Z","from":7,"to":"all","event":"PING_SUCCESS","status":"queued","details":{"message":"Final test with fixed emitter"}}
+{"timestamp": "2025-10-24T10:53:02.808629Z", "agent": 12, "event": "PING_ACK", "status": "ack", "details": "Received PING_SUCCESS from Agent 7"}
+{"timestamp": "2025-10-24T10:53:02.818116Z", "agent": 6, "event": "PING_ACK", "status": "ack", "details": "Received PING_SUCCESS from Agent 7"}
+{"timestamp": "2025-10-24T10:53:02.819169Z", "agent": 13, "event": "PING_ACK", "status": "ack", "details": "Received PING_SUCCESS from Agent 7"}
+{"timestamp": "2025-10-24T10:53:02.821580Z", "agent": 1, "event": "PING_ACK", "status": "ack", "details": "Received PING_SUCCESS from Agent 7"}
+{"timestamp": "2025-10-24T10:53:02.824264Z", "agent": 5, "event": "PING_ACK", "status": "ack", "details": "Received PING_SUCCESS from Agent 7"}
+{"timestamp": "2025-10-24T10:53:02.826504Z", "agent": 8, "event": "PING_ACK", "status": "ack", "details": "Received PING_SUCCESS from Agent 7"}
+{"timestamp": "2025-10-24T10:53:02.826539Z", "agent": 3, "event": "PING_ACK", "status": "ack", "details": "Received PING_SUCCESS from Agent 7"}
+{"timestamp": "2025-10-24T10:53:02.826622Z", "agent": 11, "event": "PING_ACK", "status": "ack", "details": "Received PING_SUCCESS from Agent 7"}
+{"timestamp": "2025-10-24T10:53:02.826760Z", "agent": 2, "event": "PING_ACK", "status": "ack", "details": "Received PING_SUCCESS from Agent 7"}
+{"timestamp": "2025-10-24T10:53:02.827509Z", "agent": 14, "event": "PING_ACK", "status": "ack", "details": "Received PING_SUCCESS from Agent 7"}
+{"timestamp": "2025-10-24T10:53:02.827501Z", "agent": 9, "event": "PING_ACK", "status": "ack", "details": "Received PING_SUCCESS from Agent 7"}
+{"timestamp": "2025-10-24T10:53:02.827549Z", "agent": 7, "event": "PING_ACK", "status": "ack", "details": "Received PING_SUCCESS from Agent 7"}
+{"timestamp": "2025-10-24T10:53:02.831544Z", "agent": 4, "event": "PING_ACK", "status": "ack", "details": "Received PING_SUCCESS from Agent 7"}
+{"timestamp": "2025-10-24T10:53:02.835782Z", "agent": 15, "event": "PING_ACK", "status": "ack", "details": "Received PING_SUCCESS from Agent 7"}
+{"timestamp": "2025-10-24T10:53:02.841325Z", "agent": 10, "event": "PING_ACK", "status": "ack", "details": "Received PING_SUCCESS from Agent 7"}
+{"timestamp":"2025-10-24T10:52:50Z","agent":7,"event":"FINAL_SANITY_CHECK_V2","acks":15,"status":"✅ ALL_RESPONDERS_OK","details":"All 15 auto-responders active and replying normally"}
+{"timestamp":"2025-10-24T11:04:50Z","agent":12,"event":"CONTEXT_KEEPER_DAEMON_V1_DEPLOYED_AND_VERIFIED","status":"success","details":"Daemon active, hourly snapshots enabled and verified"}
+{"timestamp": "2025-10-24T11:12:07.858760Z", "agent": 12, "event": "CONTEXT_KEEPER_INTEGRITY_CHECK", "result": "ok", "latest_snapshot": "context_snapshot_1761303891.json", "age_hours": 0.12, "timer_active": true}
+{"timestamp": "2025-10-24T11:12:07.866778Z", "agent": 12, "event": "CONTEXT_KEEPER_INTEGRITY_CHECK", "result": "ok", "latest_snapshot": "context_snapshot_1761303891.json", "age_hours": 0.12, "timer_active": true}
+{"timestamp": "2025-10-24T11:12:07.886464Z", "agent": 12, "event": "CONTEXT_KEEPER_INTEGRITY_SUMMARY_EMITTED", "ok": 1, "stale": 0, "none": 0, "summary_path": "/srv/manhaj2030/pmc/context/context_integrity_summary.json"}
+{"timestamp":"2025-10-24T11:12:07Z","from":12,"to":"all","event":"CONTEXT_KEEPER_INTEGRITY_MONITOR_DEPLOYED","status":"queued","details":info}
+{"timestamp":"2025-10-24T11:12:07Z","from":12,"to":"all","event":"CONTEXT_KEEPER_INTEGRITY_SUMMARY_EMITTED","status":"queued","details":info}
+{"timestamp":"2025-10-24T11:12:07Z","agent":12,"event":"CONTEXT_KEEPER_INTEGRATION_DONE","status":"success","details":{"monitor":"context_keeper_integrity.timer:enabled","immediate_check":"run","summary":"/srv/manhaj2030/pmc/context/context_integrity_summary.md"}}
+{"timestamp": "2025-10-24T11:12:18.898178Z", "agent": 11, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 138 (char 137)"}
+{"timestamp": "2025-10-24T11:12:18.902056Z", "agent": 1, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 138 (char 137)"}
+{"timestamp": "2025-10-24T11:12:18.927519Z", "agent": 8, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 138 (char 137)"}
+{"timestamp": "2025-10-24T11:12:18.944852Z", "agent": 6, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 138 (char 137)"}
+{"timestamp": "2025-10-24T11:12:18.949819Z", "agent": 5, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 138 (char 137)"}
+{"timestamp": "2025-10-24T11:12:18.961440Z", "agent": 12, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 138 (char 137)"}
+{"timestamp": "2025-10-24T11:12:18.972475Z", "agent": 14, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 138 (char 137)"}
+{"timestamp": "2025-10-24T11:12:18.975189Z", "agent": 7, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 138 (char 137)"}
+{"timestamp": "2025-10-24T11:12:18.978802Z", "agent": 9, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 138 (char 137)"}
+{"timestamp": "2025-10-24T11:12:18.984308Z", "agent": 13, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 138 (char 137)"}
+{"timestamp": "2025-10-24T11:12:18.989317Z", "agent": 10, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 138 (char 137)"}
+{"timestamp": "2025-10-24T11:12:18.990780Z", "agent": 2, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 138 (char 137)"}
+{"timestamp": "2025-10-24T11:12:18.990782Z", "agent": 3, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 138 (char 137)"}
+{"timestamp": "2025-10-24T11:12:18.993629Z", "agent": 4, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 138 (char 137)"}
+{"timestamp": "2025-10-24T11:12:19.000111Z", "agent": 15, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 138 (char 137)"}
+{"timestamp": "2025-10-24T11:12:33.913493Z", "agent": 11, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 137 (char 136)"}
+{"timestamp": "2025-10-24T11:12:33.917434Z", "agent": 1, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 137 (char 136)"}
+{"timestamp": "2025-10-24T11:12:33.942792Z", "agent": 8, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 137 (char 136)"}
+{"timestamp": "2025-10-24T11:12:33.960195Z", "agent": 6, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 137 (char 136)"}
+{"timestamp": "2025-10-24T11:12:33.965157Z", "agent": 5, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 137 (char 136)"}
+{"timestamp": "2025-10-24T11:12:33.976761Z", "agent": 12, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 137 (char 136)"}
+{"timestamp": "2025-10-24T11:12:33.987742Z", "agent": 14, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 137 (char 136)"}
+{"timestamp": "2025-10-24T11:12:33.990446Z", "agent": 7, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 137 (char 136)"}
+{"timestamp": "2025-10-24T11:12:33.994050Z", "agent": 9, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 137 (char 136)"}
+{"timestamp": "2025-10-24T11:12:33.999590Z", "agent": 13, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 137 (char 136)"}
+{"timestamp": "2025-10-24T11:12:34.004855Z", "agent": 10, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 137 (char 136)"}
+{"timestamp": "2025-10-24T11:12:34.006063Z", "agent": 3, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 137 (char 136)"}
+{"timestamp": "2025-10-24T11:12:34.006067Z", "agent": 2, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 137 (char 136)"}
+{"timestamp": "2025-10-24T11:12:34.008871Z", "agent": 4, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 137 (char 136)"}
+{"timestamp": "2025-10-24T11:12:34.015448Z", "agent": 15, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 137 (char 136)"}
+{"timestamp":"2025-10-24T11:35:05Z","agent":15,"event":"PHASE_G2_ENHANCED_STARTED","status":"running","objectives":{"regex_patterns":"عن|حدثنا|أخبرنا|قال","NER_model":"Arabic Isnad NER v1","goal":"reduce isolated nodes to ≤ 30 %"}}
+{"timestamp":"2025-10-24T11:35:05Z","from":15,"to":"all","event":"PHASE_G2_ENHANCED_STARTED","status":"queued","details":info}
+{"timestamp": "2025-10-24T11:35:20.253472Z", "agent": 11, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 122 (char 121)"}
+{"timestamp": "2025-10-24T11:35:20.255062Z", "agent": 1, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 122 (char 121)"}
+{"timestamp": "2025-10-24T11:35:20.289034Z", "agent": 8, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 122 (char 121)"}
+{"timestamp": "2025-10-24T11:35:20.313642Z", "agent": 6, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 122 (char 121)"}
+{"timestamp": "2025-10-24T11:35:20.318090Z", "agent": 5, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 122 (char 121)"}
+{"timestamp": "2025-10-24T11:35:20.320873Z", "agent": 14, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 122 (char 121)"}
+{"timestamp": "2025-10-24T11:35:20.353518Z", "agent": 9, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 122 (char 121)"}
+{"timestamp": "2025-10-24T11:35:20.354495Z", "agent": 12, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 122 (char 121)"}
+{"timestamp": "2025-10-24T11:35:20.355920Z", "agent": 10, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 122 (char 121)"}
+{"timestamp": "2025-10-24T11:35:20.368081Z", "agent": 7, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 122 (char 121)"}
+{"timestamp": "2025-10-24T11:35:20.370545Z", "agent": 2, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 122 (char 121)"}
+{"timestamp": "2025-10-24T11:35:20.374579Z", "agent": 3, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 122 (char 121)"}
+{"timestamp": "2025-10-24T11:35:20.376383Z", "agent": 13, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 122 (char 121)"}
+{"timestamp": "2025-10-24T11:35:20.376842Z", "agent": 4, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 122 (char 121)"}
+{"timestamp": "2025-10-24T11:35:20.393335Z", "agent": 15, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 122 (char 121)"}
+{"timestamp":"2025-10-24T11:43:38Z","agent":15,"event":"PHASE_G2_DAY1_REGEX_STARTED","status":"running","details":{"patterns":"عن|حدثنا|أخبرنا|قال|سمعت","goal":"expand relationship extraction coverage"}}
+{"timestamp":"2025-10-24T11:43:38Z","from":15,"to":"all","event":"PHASE_G2_DAY1_REGEX_STARTED","status":"queued","details":info}
+{"timestamp": "2025-10-24T11:43:50.750967Z", "agent": 1, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 124 (char 123)"}
+{"timestamp": "2025-10-24T11:43:50.757722Z", "agent": 11, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 124 (char 123)"}
+{"timestamp": "2025-10-24T11:43:50.789768Z", "agent": 8, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 124 (char 123)"}
+{"timestamp": "2025-10-24T11:43:50.821279Z", "agent": 6, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 124 (char 123)"}
+{"timestamp": "2025-10-24T11:43:50.828649Z", "agent": 14, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 124 (char 123)"}
+{"timestamp": "2025-10-24T11:43:50.832112Z", "agent": 5, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 124 (char 123)"}
+{"timestamp": "2025-10-24T11:43:50.844746Z", "agent": 12, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 124 (char 123)"}
+{"timestamp": "2025-10-24T11:43:50.861633Z", "agent": 10, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 124 (char 123)"}
+{"timestamp": "2025-10-24T11:43:50.868114Z", "agent": 9, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 124 (char 123)"}
+{"timestamp": "2025-10-24T11:43:50.882340Z", "agent": 7, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 124 (char 123)"}
+{"timestamp": "2025-10-24T11:43:50.884770Z", "agent": 2, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 124 (char 123)"}
+{"timestamp": "2025-10-24T11:43:50.890196Z", "agent": 13, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 124 (char 123)"}
+{"timestamp": "2025-10-24T11:43:50.890238Z", "agent": 3, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 124 (char 123)"}
+{"timestamp": "2025-10-24T11:43:50.890845Z", "agent": 4, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 124 (char 123)"}
+{"timestamp": "2025-10-24T11:43:50.900996Z", "agent": 15, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 124 (char 123)"}
+{"timestamp":"2025-10-24T11:46:02Z","agent":15,"event":"PHASE_G2_DAY1_COMPLETED","status":"success","results":{"relationships":19607,"coverage":"29.0%","patterns":8,"improvement":"+125.4%"}}
+{"timestamp":"2025-10-24T12:03:23Z","agent":15,"event":"PHASE_G2_DAY2_STARTED","status":"running"}
+{"timestamp":"2025-10-24T12:03:23Z","from":15,"to":"all","event":"PHASE_G2_DAY2_STARTED","status":"queued","details":info}
+{"timestamp": "2025-10-24T12:03:36.884033Z", "agent": 1, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 118 (char 117)"}
+{"timestamp": "2025-10-24T12:03:36.922230Z", "agent": 11, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 118 (char 117)"}
+{"timestamp": "2025-10-24T12:03:36.962610Z", "agent": 8, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 118 (char 117)"}
+{"timestamp": "2025-10-24T12:03:36.986938Z", "agent": 10, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 118 (char 117)"}
+{"timestamp": "2025-10-24T12:03:36.992019Z", "agent": 12, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 118 (char 117)"}
+{"timestamp": "2025-10-24T12:03:36.994655Z", "agent": 6, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 118 (char 117)"}
+{"timestamp": "2025-10-24T12:03:37.000734Z", "agent": 5, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 118 (char 117)"}
+{"timestamp": "2025-10-24T12:03:37.008077Z", "agent": 14, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 118 (char 117)"}
+{"timestamp": "2025-10-24T12:03:37.019924Z", "agent": 9, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 118 (char 117)"}
+{"timestamp": "2025-10-24T12:03:37.034091Z", "agent": 13, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 118 (char 117)"}
+{"timestamp": "2025-10-24T12:03:37.064736Z", "agent": 2, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 118 (char 117)"}
+{"timestamp": "2025-10-24T12:03:37.076239Z", "agent": 4, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 118 (char 117)"}
+{"timestamp": "2025-10-24T12:03:37.078602Z", "agent": 7, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 118 (char 117)"}
+{"timestamp": "2025-10-24T12:03:37.085033Z", "agent": 3, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 118 (char 117)"}
+{"timestamp": "2025-10-24T12:03:37.087131Z", "agent": 15, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 118 (char 117)"}
+{"timestamp":"2025-10-24T11:30:24Z","agent":10,
+         "event":"PHASE_F4_EVAL_FULL_DONE",
+         "best_epoch":"4",
+         "f1_epoch4":0.5974681570561234,
+         "f1_epoch5":0.5970348226549245,
+         "best_eval_dir":"/srv/manhaj2030/reports/phase_f4_eval_epoch4",
+         "best_model":"/srv/manhaj2030/checkpoints/phase_f/crf_full_train_v1/checkpoint-epoch-4"}
+{"timestamp":"2025-10-24T12:14:24Z","agent":15,"event":"GRAPH_V3_AUTOFIX_STARTED","status":"running"}
+{"timestamp":"2025-10-24T13:08:57Z","agent":15,"event":"PHASE_G2_DAY3_STARTED","status":"running"}
+{"timestamp":"2025-10-24T13:08:57Z","from":15,"to":"all","event":"PHASE_G2_DAY3_STARTED","status":"queued","details":info}
+{"timestamp": "2025-10-24T13:09:10.721435Z", "agent": 1, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 118 (char 117)"}
+{"timestamp": "2025-10-24T13:09:10.847780Z", "agent": 10, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 118 (char 117)"}
+{"timestamp": "2025-10-24T13:09:10.857362Z", "agent": 11, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 118 (char 117)"}
+{"timestamp": "2025-10-24T13:09:10.857632Z", "agent": 5, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 118 (char 117)"}
+{"timestamp": "2025-10-24T13:09:10.865509Z", "agent": 12, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 118 (char 117)"}
+{"timestamp": "2025-10-24T13:09:10.894780Z", "agent": 8, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 118 (char 117)"}
+{"timestamp": "2025-10-24T13:09:10.901426Z", "agent": 9, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 118 (char 117)"}
+{"timestamp": "2025-10-24T13:09:10.901848Z", "agent": 13, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 118 (char 117)"}
+{"timestamp": "2025-10-24T13:09:10.901860Z", "agent": 6, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 118 (char 117)"}
+{"timestamp": "2025-10-24T13:09:10.924451Z", "agent": 14, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 118 (char 117)"}
+{"timestamp": "2025-10-24T13:09:10.977283Z", "agent": 15, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 118 (char 117)"}
+{"timestamp": "2025-10-24T13:09:11.001118Z", "agent": 2, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 118 (char 117)"}
+{"timestamp": "2025-10-24T13:09:11.017781Z", "agent": 7, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 118 (char 117)"}
+{"timestamp": "2025-10-24T13:09:11.028703Z", "agent": 4, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 118 (char 117)"}
+{"timestamp": "2025-10-24T13:09:11.028799Z", "agent": 3, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 118 (char 117)"}
+{"timestamp":"2025-10-24T13:40:35Z","agent":15,"event":"PHASE_G2_DAY3_STARTED","status":"running"}
+{"timestamp":"2025-10-24T13:40:35Z","from":15,"to":"all","event":"PHASE_G2_DAY3_STARTED","status":"queued","details":info}
+{"timestamp": "2025-10-24T13:40:42.572753Z", "agent": 1, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 118 (char 117)"}
+{"timestamp": "2025-10-24T13:40:42.680239Z", "agent": 9, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 118 (char 117)"}
+{"timestamp": "2025-10-24T13:40:42.690293Z", "agent": 10, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 118 (char 117)"}
+{"timestamp": "2025-10-24T13:40:42.701229Z", "agent": 11, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 118 (char 117)"}
+{"timestamp": "2025-10-24T13:40:42.711373Z", "agent": 5, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 118 (char 117)"}
+{"timestamp": "2025-10-24T13:40:42.711823Z", "agent": 14, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 118 (char 117)"}
+{"timestamp": "2025-10-24T13:40:42.729148Z", "agent": 6, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 118 (char 117)"}
+{"timestamp": "2025-10-24T13:40:42.745032Z", "agent": 12, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 118 (char 117)"}
+{"timestamp": "2025-10-24T13:40:42.750380Z", "agent": 8, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 118 (char 117)"}
+{"timestamp": "2025-10-24T13:40:42.804809Z", "agent": 13, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 118 (char 117)"}
+{"timestamp": "2025-10-24T13:40:42.877002Z", "agent": 15, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 118 (char 117)"}
+{"timestamp": "2025-10-24T13:40:42.889841Z", "agent": 4, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 118 (char 117)"}
+{"timestamp": "2025-10-24T13:40:42.901840Z", "agent": 3, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 118 (char 117)"}
+{"timestamp": "2025-10-24T13:40:42.902259Z", "agent": 2, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 118 (char 117)"}
+{"timestamp": "2025-10-24T13:40:42.904808Z", "agent": 7, "event": "RESPONDER_ERROR", "status": "ack", "details": "Expecting value: line 1 column 118 (char 117)"}
+{"timestamp":"2025-10-24T13:47:57Z","agent":15,"event":"PHASE_G2_DAY3_COMPLETED","status":"success","results":{"nodes":26252,"edges":2363019,"isolated":2570,"isolated_pct":4.14,"gate_c":"3/4_PASS"}}
+{"timestamp": "2025-10-24T17:12:43.973449Z", "agent": 12, "event": "CONTEXT_KEEPER_INTEGRITY_CHECK", "result": "ok", "latest_snapshot": "context_snapshot_1761324782.json", "age_hours": 0.33, "timer_active": true}
+{"timestamp":"2025-10-24T18:44:20Z","agent":12,"event":"GateA_E2_Preflight_F5_20251024T184415Z","status":"success","details":"Completed Gate A/E2 preflight for Phase F-5; report=/srv/manhaj2030/reports/preflight_crf_fix/preflight_20251024T184415Z.txt"}
+{"timestamp":"2025-10-24T18:44:50Z","agent":5,"event":"Baseline_F4_Assets_Verified_20251024T184450Z","status":"success","details":"Baseline F-4 and core data paths verified; report=/srv/manhaj2030/reports/baseline_f4_check_20251024T184450Z.txt"}
+{"timestamp":"2025-10-24T19:14:10Z","agent":11,"event":"F5_SAFE_SCRIPT_CREATED","status":"success","path":"/srv/manhaj2030/scripts/phase_f5_training_safe.sh","details":"Safe training script created successfully at /srv/manhaj2030/scripts/phase_f5_training_safe.sh"}

@@ -1,51 +1,25 @@
 {
-  "generated_at": "2025-10-24T16:00:00Z",
-  "generated_at_human": "2025-10-24 19:00:00 +03",
+  "generated_at": "2025-10-24T21:17:44Z",
+  "generated_at_human": "2025-10-25 00:17:44 +03",
   "repository": "ysu444/manus-monitor",
-  "server": "45.32.106.139",
-  "version": "1.0.0",
-  "status": "Initial setup - Automated updates will begin after script installation",
+  "server": "vultr (45.32.106.139)",
+  "version": "2.0.0",
   "files": {
     "system": {
-      "system_info": {
-        "exists": false,
-        "note": "Will be generated automatically by push_monitor_to_github.sh"
-      },
-      "pm2_status": {
-        "exists": false,
-        "note": "Will be generated automatically by push_monitor_to_github.sh"
-      }
+      "system_info": {"exists": true, "size_bytes": 576, "last_modified": "2025-10-24T21:17:44Z"},
+      "pm2_status": {"exists": true, "size_bytes": 71, "last_modified": "2025-10-24T21:17:44Z"}
     },
     "manhaj2030": {
-      "state": {
-        "exists": false,
-        "note": "Will be copied from /srv/manhaj2030/monitor/state.json"
-      },
-      "agents_status": {
-        "exists": false,
-        "note": "Will be copied from /srv/manhaj2030/pmc/inbox/AGENTS_STATUS.json"
-      },
-      "pmc_events": {
-        "exists": false,
-        "note": "Will be copied from /srv/manhaj2030/pmc/memory/events.jsonl"
-      },
-      "pmc_unified": {
-        "exists": false,
-        "note": "Will be copied from /srv/manhaj2030/pmc/unified/pmc_unified_latest.md"
-      },
-      "scientific_closure": {
-        "exists": false,
-        "note": "Will be copied from /srv/manhaj2030/reports/scientific_closure_status.json"
-      },
-      "training_metrics": {
-        "exists": false,
-        "note": "Will be copied from /srv/manhaj2030/reports/training_metrics.json"
-      }
+      "state": {"exists": false},
+      "agents_status": {"exists": false},
+      "pmc_events": {"exists": true, "size_bytes": 50785, "last_modified": "2025-10-24T21:17:44Z"},
+      "pmc_unified": {"exists": true, "size_bytes": 15888, "last_modified": "2025-10-24T21:17:44Z"},
+      "scientific_closure": {"exists": false},
+      "training_metrics": {"exists": false}
     }
   },
   "direct_links": {
     "manifest": "https://raw.githubusercontent.com/ysu444/manus-monitor/main/manifest.json",
-    "readme": "https://raw.githubusercontent.com/ysu444/manus-monitor/main/README.md",
     "system_info": "https://raw.githubusercontent.com/ysu444/manus-monitor/main/system-info.json",
     "pm2_status": "https://raw.githubusercontent.com/ysu444/manus-monitor/main/pm2-status.json",
     "state": "https://raw.githubusercontent.com/ysu444/manus-monitor/main/manhaj2030/monitor/state.json",
@@ -54,12 +28,5 @@
     "pmc_unified": "https://raw.githubusercontent.com/ysu444/manus-monitor/main/manhaj2030/pmc/unified/pmc_unified_latest.md",
     "scientific_closure": "https://raw.githubusercontent.com/ysu444/manus-monitor/main/manhaj2030/reports/scientific_closure_status.json",
     "training_metrics": "https://raw.githubusercontent.com/ysu444/manus-monitor/main/manhaj2030/reports/training_metrics.json"
-  },
-  "setup_instructions": {
-    "step_1": "Install push_monitor_to_github.sh on server",
-    "step_2": "Setup cron job to run every 5 minutes",
-    "step_3": "Files will be automatically updated and pushed to GitHub",
-    "documentation": "See README.md for full setup guide"
   }
 }
-
