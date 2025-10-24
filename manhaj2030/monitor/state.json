@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-10-24T22:49:00.528956Z",
+  "timestamp": "2025-10-24T22:59:01.780608Z",
   "events_total": 325,
   "last_event": "DDP_REFACTOR_V1_INFRASTRUCTURE_LIMITATION",
   "last_timestamp": "2025-10-24T22:31:11Z",
@@ -10,7 +10,7 @@
     "avg_mem_total": 16384.0
   },
   "system": {
-    "cpu": 0.0,
+    "cpu": 0.2,
     "mem": 1.4,
     "disk": 13.6,
     "overall": "green"
