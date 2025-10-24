@@ -1,16 +1,16 @@
 {
-  "timestamp": "2025-10-24T22:28:58.017993Z",
-  "events_total": 324,
-  "last_event": "ddp_refactor_v1_smoke_test",
-  "last_timestamp": "2025-10-24T22:25:11Z",
+  "timestamp": "2025-10-24T22:38:59.274757Z",
+  "events_total": 325,
+  "last_event": "DDP_REFACTOR_V1_INFRASTRUCTURE_LIMITATION",
+  "last_timestamp": "2025-10-24T22:31:11Z",
   "gpu": {
     "count": 16,
     "avg_util": 6.12,
-    "avg_mem_used": 548.31,
+    "avg_mem_used": 554.31,
     "avg_mem_total": 16384.0
   },
   "system": {
-    "cpu": 1.2,
+    "cpu": 1.1,
     "mem": 1.6,
     "disk": 13.5,
     "overall": "green"
