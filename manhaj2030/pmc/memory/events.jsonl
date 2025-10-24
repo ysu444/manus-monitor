@@ -321,3 +321,4 @@
 {"timestamp":"2025-10-24T22:02:34Z","agent":12,"event":"phase_f5_full_single_gpu_start","status":"started","details":"Started Phase F-5 Full Training (Single GPU - Safe Mode, Proven Configuration)"}
 {"timestamp":"2025-10-24T22:21:18Z","agent":12,"event":"phase_f5_training_running","status":"in_progress","samples":10494,"epochs":5,"eta_hours":68,"details":"Phase F-5 Full Training successfully started - 10,494 samples, 5 epochs, GPU 1, ETA: 65-70 hours"}
 {"timestamp":"2025-10-24T22:25:00Z","agent":11,"event":"ddp_refactor_v1_validation","status":"success","details":"Validated DDP Refactor v1.0 (2-GPU Smoke Test) and integrated into PMC."}
+{"timestamp":"2025-10-24T22:25:11Z","agent":9,"event":"ddp_refactor_v1_smoke_test","status":"success","details":"DDP Refactor v1.0 Smoke Test (2 GPUs) executed successfully."}

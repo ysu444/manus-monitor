@@ -1,6 +1,6 @@
 {
-  "generated_at": "2025-10-24T22:25:01Z",
-  "generated_at_human": "2025-10-25 01:25:01 +0300",
+  "generated_at": "2025-10-24T22:26:02Z",
+  "generated_at_human": "2025-10-25 01:26:02 +0300",
   "repository": "ysu444/manus-monitor",
   "server": "vultr (45.32.106.139)",
   "version": "2.0.0",
@@ -9,44 +9,44 @@
       "system_info": {
         "exists": true,
         "size_bytes": 333,
-        "last_modified": "2025-10-24T22:25:01Z"
+        "last_modified": "2025-10-24T22:26:02Z"
       },
       "pm2_status": {
         "exists": true,
         "size_bytes": 30,
-        "last_modified": "2025-10-24T22:25:01Z"
+        "last_modified": "2025-10-24T22:26:02Z"
       }
     },
     "manhaj2030": {
       "state": {
         "exists": true,
         "size_bytes": 682,
-        "last_modified": "2025-10-24T22:25:01Z"
+        "last_modified": "2025-10-24T22:26:02Z"
       },
       "realtime_state": {
         "exists": true,
         "size_bytes": 148065,
-        "last_modified": "2025-10-24T22:25:01Z"
+        "last_modified": "2025-10-24T22:26:02Z"
       },
       "agents_status": {
         "exists": true,
         "size_bytes": 2536,
-        "last_modified": "2025-10-24T22:25:01Z"
+        "last_modified": "2025-10-24T22:26:02Z"
       },
       "pmc_events": {
         "exists": true,
-        "size_bytes": 52388,
-        "last_modified": "2025-10-24T22:25:01Z"
+        "size_bytes": 52564,
+        "last_modified": "2025-10-24T22:26:02Z"
       },
       "pmc_unified": {
         "exists": true,
         "size_bytes": 15905,
-        "last_modified": "2025-10-24T22:25:01Z"
+        "last_modified": "2025-10-24T22:26:02Z"
       },
       "scientific_closure": {
         "exists": true,
         "size_bytes": 1861,
-        "last_modified": "2025-10-24T22:25:01Z"
+        "last_modified": "2025-10-24T22:26:02Z"
       },
       "training_metrics": {
         "exists": false,
