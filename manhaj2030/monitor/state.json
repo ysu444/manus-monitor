@@ -1,17 +1,17 @@
 {
-  "timestamp": "2025-10-24T22:08:55.513362Z",
+  "timestamp": "2025-10-24T22:18:56.763813Z",
   "events_total": 321,
   "last_event": "phase_f5_full_single_gpu_start",
   "last_timestamp": "2025-10-24T22:02:34Z",
   "gpu": {
     "count": 16,
-    "avg_util": 6.12,
-    "avg_mem_used": 448.44,
+    "avg_util": 0.0,
+    "avg_mem_used": 134.75,
     "avg_mem_total": 16384.0
   },
   "system": {
-    "cpu": 1.1,
-    "mem": 1.6,
+    "cpu": 0.0,
+    "mem": 1.4,
     "disk": 13.5,
     "overall": "green"
   },
