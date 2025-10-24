@@ -1,0 +1,3354 @@
+{
+  "seen": {
+    "ba1b4238e18a6d89759ab8dfcacccf2bd8a2b9bc434c7993c22db3b2ed3b48a7": {
+      "path": "/srv/manhaj2030/data/shared/PMC_FULL_SNAPSHOT_2025-10-18_19-22.tar.gz",
+      "ts": "2025-10-19T02:20:14.972708",
+      "size": 61654
+    },
+    "2de66969f92dae125569deb38f50d2a9f210009273ce7924e426e7f4a9beff42": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-19T02:20:14.974972",
+      "size": 8170
+    },
+    "95be02f1421aa474341584ba1ca33cb9edd51d17e35dc61f454c7f54bae65163": {
+      "path": "/srv/manhaj2030/data/shared/narrators_dictionary_v2.json",
+      "ts": "2025-10-19T02:20:15.048756",
+      "size": 18780027
+    },
+    "21ef9c201b2e8dcee2f0da42f37a79da68eeb6682647519fb82948bc89bd31e4": {
+      "path": "/srv/manhaj2030/data/shared/hadith_json_complete_2025-10-24.tar.gz",
+      "ts": "2025-10-19T02:20:15.215059",
+      "size": 45067948
+    },
+    "54755a9d7a9e801fef0d71000a23a5836bf14898587eec1ed3445468d7ccff5e": {
+      "path": "/srv/manhaj2030/data/shared/isnad_temporal_v4.json",
+      "ts": "2025-10-19T02:20:15.260313",
+      "size": 12089067
+    },
+    "434a0edc5bb3d1e23bc870a6cae3d24aea09e08ccae8aa8d7adb70d3da7b7604": {
+      "path": "/srv/manhaj2030/data/shared/narrators_dictionary_complete_2025-10-23.tar.gz",
+      "ts": "2025-10-19T02:20:15.267507",
+      "size": 1732945
+    },
+    "de563ecb99330d242b2c0b7303b8089b1fbd0515124ebe9fe5449a5ef9bee15f": {
+      "path": "/srv/manhaj2030/data/shared/hadith_json_v2/hadith_json_complete_v2.json",
+      "ts": "2025-10-19T02:20:16.181286",
+      "size": 260259683
+    },
+    "2497b05f26bf919bd6c83e404e74769e6fd5bea25135875fc84f81f271814e51": {
+      "path": "/srv/manhaj2030/data/shared/hadith_json_v2/hadith_json_complete_v2.tar.gz",
+      "ts": "2025-10-19T02:20:16.355226",
+      "size": 48876837
+    },
+    "42e8d1017362f9ae8665239c5d11a6db65958e19d14489cd7c2b2fe9c59fb8e1": {
+      "path": "/srv/manhaj2030/data/shared/isnad_analysis_v3/narrator_normalization_map.json",
+      "ts": "2025-10-19T02:20:16.358713",
+      "size": 540070
+    },
+    "de92afda13f5d7a64eb5ffcf0544134038a4f0586c3ac04730fd7a0b7c4c8a82": {
+      "path": "/srv/manhaj2030/data/shared/isnad_analysis_v3/isnad_relations_v3.json",
+      "ts": "2025-10-19T02:20:16.515363",
+      "size": 42796663
+    },
+    "100d22203c9272c505bdd226ca58e468b65ab7ed6ea9ecdae2337bdef96a7936": {
+      "path": "/srv/manhaj2030/data/shared/isnad_analysis_v3/ISNAD_ANALYSIS_SUMMARY_v3.1.md",
+      "ts": "2025-10-19T02:20:16.516733",
+      "size": 1346
+    },
+    "a7635f700deeba26add7e2188b39d01749ab999b3bde892d7b31186dcaccda9f": {
+      "path": "/srv/manhaj2030/data/shared/isnad_analysis_v3/ISNAD_ANALYSIS_SUMMARY_v3.md",
+      "ts": "2025-10-19T02:20:16.518005",
+      "size": 1254
+    },
+    "8f73e00473318175b4b1a61a3c22c6bf0b5d287442306ed94df3cf31b20afebe": {
+      "path": "/srv/manhaj2030/data/shared/isnad_analysis_v3/narrator_frequency_v3.json",
+      "ts": "2025-10-19T02:20:16.520281",
+      "size": 269023
+    },
+    "c9e911387df135876f8d0aa6651de16f9a5f46e183e4ce085c407858ccca2d95": {
+      "path": "/srv/manhaj2030/data/shared/isnad_graph/closeness_centrality.json",
+      "ts": "2025-10-19T02:20:16.522124",
+      "size": 219338
+    },
+    "88429ff4ad117c6c79e7561d4b49f2c33079c8ce4b829197ea0465215f176852": {
+      "path": "/srv/manhaj2030/data/shared/isnad_graph/narrator_stats.json",
+      "ts": "2025-10-19T02:20:16.523157",
+      "size": 616
+    },
+    "347db0fb670dd8ed9a33090946f9207708766bf02a320cc3707748b66f5b05a7": {
+      "path": "/srv/manhaj2030/data/shared/isnad_graph/isnad_relations.json",
+      "ts": "2025-10-19T02:20:16.547183",
+      "size": 6120799
+    },
+    "d9c7629a33355c31237eff565bd60923a502f87b1406996961e6ab4a3f0314c3": {
+      "path": "/srv/manhaj2030/data/shared/isnad_graph/narrator_layers.json",
+      "ts": "2025-10-19T02:20:16.550290",
+      "size": 588251
+    },
+    "19d23e475e9c57ae69dad3ddab589dd374aae263bf0645794453efbea78955b3": {
+      "path": "/srv/manhaj2030/data/shared/isnad_graph/isnad_visualization.json",
+      "ts": "2025-10-19T02:20:16.557322",
+      "size": 1680473
+    },
+    "c8fa954cc66e161c1f7f0bc833543fad7407a1f4b278baf60f53355d9dfcf484": {
+      "path": "/srv/manhaj2030/data/shared/isnad_graph/ISNAD_VALIDATION_REPORT.md",
+      "ts": "2025-10-19T02:20:16.558464",
+      "size": 668
+    },
+    "71c027b4ccf142b1f87bbfe15d08255781b79ddef09493f909d7c27fcca6b5a5": {
+      "path": "/srv/manhaj2030/data/shared/isnad_graph/eigenvector_centrality.json",
+      "ts": "2025-10-19T02:20:16.560479",
+      "size": 237761
+    },
+    "481568a8b3fbef2c41596b420970e46acfbce418917088297fa9f5e7bc6cf21f": {
+      "path": "/srv/manhaj2030/data/shared/isnad_graph/betweenness_centrality.json",
+      "ts": "2025-10-19T02:20:16.562203",
+      "size": 174202
+    },
+    "4be559cd5c08dce62486e2d6896a8b5d129d06f9e36e94b26d064d8a8ef18a57": {
+      "path": "/srv/manhaj2030/data/shared/isnad_graph/top50_narrators.json",
+      "ts": "2025-10-19T02:20:16.563355",
+      "size": 8496
+    },
+    "2c128d0dd552b3c70606f6f8ef31a18d273d727662f360b6a3c00485dc57f0fd": {
+      "path": "/srv/manhaj2030/data/shared/isnad_graph/isnad_knowledge_map.json",
+      "ts": "2025-10-19T02:20:16.568356",
+      "size": 1047148
+    },
+    "1e8fc306f5c00b656a4f11b7ec832e677973ddeca86b092c4e52aaa278a92b0b": {
+      "path": "/srv/manhaj2030/data/shared/isnad_graph/sample_500_edges.json",
+      "ts": "2025-10-19T02:20:16.569628",
+      "size": 46604
+    },
+    "70fe2b52e9d7483fd10f387f4a34e6da24a90ed9f167718a1099c4b0fd6d5f3e": {
+      "path": "/srv/manhaj2030/data/shared/isnad_graph/degree_centrality.json",
+      "ts": "2025-10-19T02:20:16.571646",
+      "size": 239363
+    },
+    "e4cd5c6e47e5e58a206c77ff2405468784e3bb59b1bb91352824ea6f1dccbe3c": {
+      "path": "/srv/manhaj2030/data/shared/isnad_graph/deep_analytics/narrator_centrality.json",
+      "ts": "2025-10-19T02:20:16.575438",
+      "size": 794769
+    },
+    "f629337dfd7db83ed65a6e3d9e0d0dfec664ad4dd6f566e21d9156ff17deded4": {
+      "path": "/srv/manhaj2030/data/shared/isnad_graph/deep_analytics/isnad_statistics_features.json",
+      "ts": "2025-10-19T02:20:16.578444",
+      "size": 559592
+    },
+    "3eaff7bb255c1093b7fb82ca68ee03beed5ea78b485adf608d951a4098d69ef0": {
+      "path": "/srv/manhaj2030/data/shared/isnad_graph/deep_analytics/weak_links_report.md",
+      "ts": "2025-10-19T02:20:16.579418",
+      "size": 2549
+    },
+    "48379679aa49bdab222fe0b1dd48b29d7d36dfec4a1cd10dd85105977e11bdc3": {
+      "path": "/srv/manhaj2030/data/shared/isnad_graph/layers_temporal/ISNAD_LAYER_TEMPORAL_REPORT.md",
+      "ts": "2025-10-19T02:20:16.580503",
+      "size": 3423
+    },
+    "70af754ffdad0c8061408af7419c99f293f17c05f4d6f1eec967d6bf7490e645": {
+      "path": "/srv/manhaj2030/data/shared/isnad_graph/layers_temporal/layer_connections.json",
+      "ts": "2025-10-19T02:20:16.581477",
+      "size": 315
+    },
+    "53e03818814b545994d7a77c63467a9683a25b1a27a26a5b0630eb05172c3df1": {
+      "path": "/srv/manhaj2030/data/shared/isnad_graph/layers_temporal/layer_statistics_report.md",
+      "ts": "2025-10-19T02:20:16.582460",
+      "size": 737
+    },
+    "5e21bb7ce2b28a82bc490eacab835378c3ff056c1caf27b6003926686a4a0a07": {
+      "path": "/srv/manhaj2030/data/shared/isnad_graph/layers_temporal/temporal_overlap_matrix.json",
+      "ts": "2025-10-19T02:20:16.583472",
+      "size": 529
+    },
+    "ae41dfba96b50ccefa8e6c353458b5610ce287d8656786e4822ff8ab7dbb4d67": {
+      "path": "/srv/manhaj2030/data/shared/isnad_graph/layers_temporal/temporal_overlap_analysis.md",
+      "ts": "2025-10-19T02:20:16.584423",
+      "size": 843
+    },
+    "194473093465663185966c1563212ac25a60f2459413c2a911784ab2a5dd8b75": {
+      "path": "/srv/manhaj2030/data/shared/isnad_graph/layers_temporal/layer_classification_summary.md",
+      "ts": "2025-10-19T02:20:16.585452",
+      "size": 672
+    },
+    "e213ff4a2916a33a4fed57b17b66d9bdc2cccafee9d63b53a64daed6fa67c7d9": {
+      "path": "/srv/manhaj2030/data/shared/isnad_graph/layers_temporal/narrators_by_layer.json",
+      "ts": "2025-10-19T02:20:16.588920",
+      "size": 699045
+    },
+    "63727246b5afd37cab9c2b0c60a728521ac7ca7e2a9a5983a97834ecebee8f40": {
+      "path": "/srv/manhaj2030/data/shared/isnad_quality/isnad_quality_merge_2025-10-18_21-26.json",
+      "ts": "2025-10-19T02:20:16.589996",
+      "size": 115
+    },
+    "5931b7d24eae9f64ce4d9ec806c79e1aa6d1607139795e190c48452705411b57": {
+      "path": "/srv/manhaj2030/data/shared/isnad_quality/ISNAD_QUALITY_SUMMARY_2025-10-18_21-26.md",
+      "ts": "2025-10-19T02:20:16.591183",
+      "size": 338
+    },
+    "b3f4fc1e9a04af4d6ef05fad59f5699ae266c9f74b4232c8871645818a4e302d": {
+      "path": "/srv/manhaj2030/data/shared/narrators_v4/RELIABILITY_MATRIX.json",
+      "ts": "2025-10-19T02:20:16.603459",
+      "size": 3208278
+    },
+    "693e513b5526307031422e1884ef4a53bd64e7bac52062600017f8aa35935429": {
+      "path": "/srv/manhaj2030/data/shared/narrators_v4/narrator_reliability_v4.json",
+      "ts": "2025-10-19T02:20:16.753663",
+      "size": 42336887
+    },
+    "238e5b8d7dd5f25d65c847b1e9798141d27424f77fae8fe1c3f52bc11490cada": {
+      "path": "/srv/manhaj2030/data/shared/narrators_v4/NARRATOR_VALIDATION_REPORT.md",
+      "ts": "2025-10-19T02:20:16.754918",
+      "size": 639
+    },
+    "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945": {
+      "path": "/srv/manhaj2030/data/shared/narrators_v4/UNMATCHED_NAMES.json",
+      "ts": "2025-10-19T02:20:16.756175",
+      "size": 2
+    },
+    "98f5bc293170172a106d341a2a2f9a2caa781a2880080fc071330451d6287433": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified/UNIFIED_NARRATORS_REPORT_v5_hybrid.md",
+      "ts": "2025-10-19T02:20:16.757392",
+      "size": 857
+    },
+    "522d81f3b2f1ff51dfc7e85ea6c20d8ee7fe824ff7bd2c786ee2b9e2672bd4c3": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified/UNMATCHED_RIJAL_v5_hybrid.json",
+      "ts": "2025-10-19T02:20:16.758890",
+      "size": 84480
+    },
+    "a392c60969bc255c129e734e78977500cb7af880f262022360fe6e75fd464a08": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified/narrators_unified_v5_hybrid.json",
+      "ts": "2025-10-19T02:20:16.761679",
+      "size": 474471
+    },
+    "17d1b0333a7af8fea37bc375626a7a4211a9361a30b63de1d3a9b2ea5690bcc1": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified/UNMATCHED_TEMPORAL_v5_hybrid.json",
+      "ts": "2025-10-19T02:20:16.763032",
+      "size": 48454
+    },
+    "111358f2a215e53d4c65e8cee0b0fcd7674a5df52f3e5fe7972bd64f4e4dee71": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified/UNIFIED_INDEX_v5_hybrid.json",
+      "ts": "2025-10-19T02:20:16.764613",
+      "size": 115409
+    },
+    "a83cf62f1fc486ce811603f2431633f18a4c3e2e617f3f91069d9fa2cc2c9e14": {
+      "path": "/srv/manhaj2030/data/shared/hadith_json_v3/hadith_json_complete_v3.tar.gz",
+      "ts": "2025-10-19T02:20:16.958006",
+      "size": 54348515
+    },
+    "b933fb02eda7a35116837b83be9b4e6b5cf41cdc54beb307ec403f936b81283a": {
+      "path": "/srv/manhaj2030/data/shared/hadith_json_v3/hadith_json_complete_v3.json",
+      "ts": "2025-10-19T02:20:18.008577",
+      "size": 288436742
+    },
+    "a516cd27e40889e64cf9fb918a86546f7a26c2f487c9580528b6f030405bd3dd": {
+      "path": "/srv/manhaj2030/data/shared/hadith_json_v3/HADITH_PARSING_REPORT_v3.md",
+      "ts": "2025-10-19T02:20:18.010126",
+      "size": 609
+    },
+    "68bdd3da5c6b3febe719d8ee1bc2ec56a7d5eaa12f5726cf3f5c140e708720ed": {
+      "path": "/srv/manhaj2030/data/shared/narrators_temporal_enriched/temporal_completeness_report.md",
+      "ts": "2025-10-19T02:20:18.011380",
+      "size": 3965
+    },
+    "9ca6ffb46637efa9fa0e9e77c0a4e2acdaa5e454b31ee113a0bdbf5abe6e01e7": {
+      "path": "/srv/manhaj2030/data/shared/narrators_temporal_enriched/temporal_sources_log.json",
+      "ts": "2025-10-19T02:20:18.012592",
+      "size": 187
+    },
+    "23557a3a1b45cdf74f98f4802bd9e174397f2f1534badc99f6d46bbb0c095146": {
+      "path": "/srv/manhaj2030/data/shared/narrators_temporal_enriched/birth_death_index.json",
+      "ts": "2025-10-19T02:20:18.013795",
+      "size": 10689
+    },
+    "07d54ef91a74fd827906481fa0293eecc2286f677e33fc68db6b2b1d3f120610": {
+      "path": "/srv/manhaj2030/data/shared/narrators_temporal_enriched/narrators_temporal_v3.json",
+      "ts": "2025-10-19T02:20:18.023934",
+      "size": 2608457
+    },
+    "0947d8c545660b71eaacd4aeb55017fc6e1ee8eed66ee34bdb97a217bd92b1e0": {
+      "path": "/srv/manhaj2030/data/shared/isnad_graph_visualization_v3/ISNAD_GRAPH_REPORT_v3.2.md",
+      "ts": "2025-10-19T02:20:18.025356",
+      "size": 738
+    },
+    "46e5444f368ceb61b82648c31b696e1dc0af1d0d8b62b9f8ae0fb7ede9add0b1": {
+      "path": "/srv/manhaj2030/data/shared/isnad_graph_visualization_v3/top100_narrators.json",
+      "ts": "2025-10-19T02:20:18.026586",
+      "size": 5816
+    },
+    "453aa8fa717b957f72ed5515d5a52dc96e18203152d51d4606daeb1c5e6b0de1": {
+      "path": "/srv/manhaj2030/data/shared/isnad_graph_visualization_v3/graph_statistics.json",
+      "ts": "2025-10-19T02:20:18.027764",
+      "size": 4442
+    },
+    "ce00e43a01f1f22aa5d5bdf7e153959755782632bb16f215e071deb94475ad5f": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-19T06:48:29.282571",
+      "size": 25205
+    },
+    "f7361966215e46117d4d70e524e1535f4fffc3658f615b15053c24481b770704": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-19T06:48:29.288232",
+      "size": 290816
+    },
+    "03bff4a598cfbdab528fc4d15fe920e751053c5c42876ae330a86eb341af7563": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-19T06:48:29.294652",
+      "size": 573031
+    },
+    "c8b5ffda0bac6a56d933777beb3bd5431a4309d5227c23181869dc5701190b80": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-19T06:48:29.308455",
+      "size": 1051394
+    },
+    "302a6010237ecaaa0c33349255bd7fb12204704752cd6a45ddc92908098036c1": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-19T06:48:29.342519",
+      "size": 2414377
+    },
+    "cd77a64908d298f15b1df38d68c15c6a006cd2e7aeac226476a3e675fe6ade9e": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-19T06:48:29.390218",
+      "size": 5303209
+    },
+    "96e94fd448d2cd832e7253b797abe720f1bfd5caaad0a3448a03da21a34e2964": {
+      "path": "/srv/manhaj2030/data/shared/gpt_labeling/test_realtime_sync_1760858196.json",
+      "ts": "2025-10-19T07:16:36.953149",
+      "size": 75
+    },
+    "9362dd049a71afe0dbb367db5423f579a62b5ea9083a97859f7a0deb1f1f3636": {
+      "path": "/srv/manhaj2030/data/shared/gpt_labeling/test_realtime_sync_1760858225.json",
+      "ts": "2025-10-19T07:17:05.242275",
+      "size": 75
+    },
+    "67cb36572808dde1467d380046107fe8e1ddf5b6cafa25484fcf8751252457ce": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-19T07:55:38.732201",
+      "size": 17537
+    },
+    "a53a792c13f4028cf1407dce92db49a6198d2ab163a59f6cd8204304084c98d6": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-19T08:25:38.756030",
+      "size": 17030
+    },
+    "04049cabdbe0f4c49c4165b187a1840ab5d0cc844491644ad1e46dbe7643fb8d": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-19T08:55:38.781431",
+      "size": 17010
+    },
+    "9d1fc186dd6788113a3cac032d5f4e5afc885426f76836b60b197d57f9667371": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-19T08:59:09.685297",
+      "size": 16372
+    },
+    "ffdece6cf00c93efa969a823886aec60d09fa10ed33f9effe4240de638859700": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-19T08:59:09.687775",
+      "size": 106022
+    },
+    "9b1255cade37deaf53acd41ce5960f49b0e67bb8c7692e8cd445b9e42e0e3b1f": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-19T08:59:09.690734",
+      "size": 187124
+    },
+    "931703bade2c9028a1eb26adfb6ce47790f6b58568d809a01199f76ffe73c401": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-19T08:59:09.693372",
+      "size": 293104
+    },
+    "62ea4e7df674ffbadfdef66ede354c4a2d4ee3d5f02e670f2b0b04ac6c049822": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-19T08:59:09.699649",
+      "size": 495803
+    },
+    "ba25455af9cb6278b9efdf73f18d8a7039ee394fdeddfc62702eaebf1f61372a": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-19T08:59:09.705245",
+      "size": 683709
+    },
+    "9eb6bc0052359250ca33024eee386dbf07143c6ca5c1c340569bbc3dbee8dbc3": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-19T08:59:09.709882",
+      "size": 732024
+    },
+    "65c1b046b7a175fb7e0ba7741152caf868cd8eb0c2be138c379e6a90b7095589": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-19T08:59:09.715529",
+      "size": 919266
+    },
+    "f457b7c1c351868feeeafa92a8fcf72c3855e4012309f4751908c505cf5a9b7c": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-19T08:59:09.729720",
+      "size": 1399956
+    },
+    "33e99c5888caa08c623e6f6d8a7afee586a749a4cdd5ba6229cf876155556dca": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-19T08:59:09.750205",
+      "size": 2083376
+    },
+    "b0360b1c82f256eb98c195379792824eed372e8f9bf0faf64359b6bd26e01b66": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-19T08:59:09.761757",
+      "size": 2469888
+    },
+    "908f225e774f89ca08a28db00ebad1ea2080a3501589f74f6beb1174949298e1": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-19T08:59:09.775406",
+      "size": 2912525
+    },
+    "1e37ba6d3d1dfc0b757fd51cc67d5fa7e12f80cce8c16e9f7759310639a09c3e": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-19T08:59:09.803423",
+      "size": 3847169
+    },
+    "bf533c48a2f579a4cbc876bbe75c37ce4ee1696578aea722aa2b0e44f773bb7a": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-19T08:59:09.839930",
+      "size": 5058958
+    },
+    "a00c5d510e23b3d2c84e2fa1eb595a6c70720e9f8cd8462f790f3cc5660902c7": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-19T08:59:09.908595",
+      "size": 7357792
+    },
+    "902c40a75054036d23edd12dd9f4c948021dae2976c2cbc2434783ee43249d49": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-19T08:59:09.947242",
+      "size": 8624751
+    },
+    "6f8f7132c45cb1428b0129c36c77c1a3d028696ec6fd6422f9f2a48cf61e0c68": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-19T08:59:10.012921",
+      "size": 10373676
+    },
+    "098b4a6d6f8893dbf0d6efb7857a04e3def583cc5c7af757dfc64d842ae6aa30": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/UNIFIED_V6_REPORT.md",
+      "ts": "2025-10-19T08:59:19.216191",
+      "size": 722
+    },
+    "d8370d4d5dbad5307a25cf30d9e53035eccd9411ea1cc72d6f83bd8457a5f19d": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-19T09:01:30.562994",
+      "size": 8186
+    },
+    "2a625d346bf841485c2e295a481e400799054e7c7c8c3ea5890ce3e6edff449f": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-19T09:01:30.565511",
+      "size": 130540
+    },
+    "f76d2ba090588a0061ce26594cac3489efc22ddca5adc9d8acf9ecfaeb8a1692": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-19T09:01:30.568048",
+      "size": 219589
+    },
+    "065d7ab14f65fed502a99245255801dfbed1adad5a37f2730c6437e5305daeaa": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-19T09:01:30.570947",
+      "size": 309178
+    },
+    "826ec1c611633030c32ea070fd2f034c73573c3259ad04e29df14fda21528214": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-19T09:01:30.575805",
+      "size": 471526
+    },
+    "300971edc2becf76fc7b61f9a7c525166090a9ac854be9a5f975c35778c8e47b": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-19T09:01:30.584400",
+      "size": 756232
+    },
+    "27b58c6468eb89382a5467c8a37f68649482010f27111ae63b9e673edb49d2e2": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-19T09:01:30.593292",
+      "size": 1057789
+    },
+    "ea0d0ca2046be37b7b612de80b6bb3a7fc8c6add97962e3fa518b6869db22992": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-19T09:01:30.600422",
+      "size": 1293910
+    },
+    "7d33137cd43751df6cb2d651d0e9dc7921ae1ca738a42e1e713691dadc36eb6f": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-19T09:01:30.608652",
+      "size": 1562987
+    },
+    "f60598eb0561e21d7d0e07a82c4d8dd28fb61309e26e58ca8745beac95862778": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-19T09:01:30.631104",
+      "size": 2303553
+    },
+    "2de707ec0d6998c145702ba65fbd3fe32e3a30fc0544bab80a74ea4d6b4accff": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-19T09:01:30.663445",
+      "size": 3367486
+    },
+    "8ddc2a6601931a061b948dce58f8887a76315b6c9070ffddda519a4a3ce09795": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-19T09:01:30.695771",
+      "size": 4441764
+    },
+    "6caf0913b56e05817a2928304b00e1a9a21e935012fd936a81226d46fb2a6bad": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-19T09:01:30.719396",
+      "size": 5228459
+    },
+    "8b34cb20883748164cde6f2504207f7eecb8a4509c08f3ddebfe560c04cc8570": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-19T09:01:30.769124",
+      "size": 6878990
+    },
+    "5458b1e09b8aab9b72065ec3359cb26992a00a5486b29ad2ad0f67a174a3c863": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-19T09:01:30.834125",
+      "size": 9014120
+    },
+    "56d6c94d1937acd01243ecf3ca51c3692eec1b22a034cc64e8cd2d6fc879157e": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-19T09:20:10.960483",
+      "size": 18238
+    },
+    "e3abc94642e8eb2a24c815a03f7aa0da70a8efd6ca00cc67785cd2bf0a6c1495": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-19T09:25:38.804404",
+      "size": 17111
+    },
+    "ef6800736009fe91985253aca323184088ea7c0e5307583dfff54193fade8c3d": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-19T09:55:38.828448",
+      "size": 17079
+    },
+    "6cb980d0bc1f22e3c1f59734968dbe16d1db19ce780350988b0805860e7bc119": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-19T10:10:02.989937",
+      "size": 17905
+    },
+    "38ae8bdbccfcf948e47dd9e0e280ad15b58da78ff575bb5b17473b9cdd01c2c0": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-19T10:25:38.852562",
+      "size": 17039
+    },
+    "5149b1e45287a1137266ea8c12e38f4f78c2e4869702ac43a20a7c9fb3918241": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-19T10:55:38.879267",
+      "size": 17020
+    },
+    "41ac1cc2d8b5ef28a498189ba314bd43a95af4c795d0da7f99db4ad6f864ebd9": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-19T11:10:03.232323",
+      "size": 14173
+    },
+    "f438d40dae4e21b2868c54be023c648a5d61d7c7c5378e74a73e8f6517f87ae5": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-19T11:25:38.905365",
+      "size": 16980
+    },
+    "806e2b82ba2eabb27c02c71e1b26d42d949415532a18916ec4e6c43112641956": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-19T11:55:38.930171",
+      "size": 16953
+    },
+    "bb2cb968329cafc25d1a46445f225c6dff854db07ec21fa6f9888a3358866979": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-19T12:10:03.741518",
+      "size": 15688
+    },
+    "6634bbb8a534ad8cbd436df0016c0c89a12915ee5db7596285effb522b323cde": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-19T12:25:38.953835",
+      "size": 16893
+    },
+    "988971266c25a2bb7b22e885da2d906b5a326cd805c911b15ad94600e41fc617": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-19T12:49:34.908268",
+      "size": 25153
+    },
+    "96050da8c3bd6c0e07450561dec608407196a9ac21652f979627b2970f8e9504": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-19T12:49:34.916197",
+      "size": 466104
+    },
+    "2d826305e89d9bcc0e479ea00c12ef43834fdea438960abb754de0d0a0c5b658": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-19T12:49:34.928612",
+      "size": 1144235
+    },
+    "fce920e3f9b2ce01aca1cb568c2185f41ced2f1ec2febac813fd192bc2415118": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-19T12:49:34.949824",
+      "size": 2289778
+    },
+    "1b6b925b2baca4122f96d2371da3d66772c827fd9a835c31178f06fd93eaca28": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-19T12:49:34.989202",
+      "size": 5748124
+    },
+    "95fa9c8ba3de63ebdb2781496fad00285e6ffcfbc1dd66afaa55b9e7336c06d2": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-19T12:55:38.978107",
+      "size": 16745
+    },
+    "407208e1ff086662153bf8346b1edfb7b08dcad3dea4d44d34a5ba3ae1134587": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-19T13:10:03.614993",
+      "size": 16402
+    },
+    "8450df54153740ebb403997e75c34beb6ced511ab718856f6f1b44a67913b1ae": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-19T13:25:39.001785",
+      "size": 16681
+    },
+    "08f4d71c174faa648589a47780c7e302a85d5d1a8de9aecec5b7cae9d8ddf96a": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-19T13:55:39.026198",
+      "size": 16649
+    },
+    "de8b944c2236e1261a25e4691a16d23ba8421ce267b3e72887a0a93ab95c4315": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-19T14:10:03.980264",
+      "size": 16342
+    },
+    "0a5a8eb10a733ea3e1510dfb43f305e87ffc084fff6ebd331e9cf99d222c8c25": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-19T14:25:39.049585",
+      "size": 16593
+    },
+    "b9189105741c3ab5e6eb64e15d05d4059ac749169f5d2f814b33f1907dea31ac": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-19T14:55:39.074312",
+      "size": 16591
+    },
+    "7d146d1ee7f51041b118b640dfca0b3d452967541e11b2fe4655bbc249df5a13": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-19T15:10:03.368264",
+      "size": 16078
+    },
+    "bcd64c1af40af03b20816d976b7aea9f7e2307ebeec6c8513d945792cd7fdd06": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-19T15:25:39.098554",
+      "size": 16585
+    },
+    "bab98080de0c564e1e0871682b6898cdd57ea28efbcda8bb28dfbd333dff6484": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-19T15:36:21.020118",
+      "size": 8186
+    },
+    "71727b566da4d20742727b305b8237a86b8bb101d339e9994b2f66821ae19e5f": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-19T15:36:21.023155",
+      "size": 138632
+    },
+    "31c0b5f1ab959b52915ee71982e7cad0a6d3b11e154c69f335df401165b04bba": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-19T15:36:21.026586",
+      "size": 260351
+    },
+    "fbf40df68764a4349f73081c28b6f6ecacc02303fd0341be9aece040012e5006": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-19T15:36:21.032448",
+      "size": 389915
+    },
+    "7f24b58a5b4df29f1bb572facb52b32e2c3e92029c61274f42ce5e84b32b35c1": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-19T15:36:21.042092",
+      "size": 764420
+    },
+    "3fac058a633e304b0b5e4259587190b3afe77a691fdb565481fbbf1ab7719a34": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-19T15:36:21.052701",
+      "size": 1114776
+    },
+    "50f9d7404d0531b20ba88f975c744602df2401f7702a5b0dd4bb73c866b04fe3": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-19T15:36:21.063750",
+      "size": 1399956
+    },
+    "7409931534c32f4570363d8f9d8bd74efc6094ed84c73473fc14f048d079efef": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-19T15:36:21.082193",
+      "size": 2083376
+    },
+    "4b837c4ff89b78bf93a8604287c5a89ce21989effe52385acc296bc1cebbbfd4": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-19T15:36:21.106924",
+      "size": 2896226
+    },
+    "fd2fdb7cbdcaadd24a4b06708553a8e4b27de9b71429b33fd40fb4ce380667d8": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-19T15:36:21.139643",
+      "size": 3977554
+    },
+    "e7a769b77f12ac9befe805e6973187ace00fac7b389ff2a854bdce3d1db55754": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-19T15:36:21.164678",
+      "size": 4799529
+    },
+    "14052e7e759b48f0ed1015b47e6b557a8faf48b5ea7bb979d9fe0c1fdf1d5db8": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-19T15:36:21.217933",
+      "size": 6545082
+    },
+    "d44e950c91c297dc93ab5de290f60c3b94befa513ab680b672ecff22c4d47c10": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-19T15:36:21.289530",
+      "size": 8932763
+    },
+    "45440206264fd93043f062555a5de726449c9cdf7490e32524390e62a17849a9": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-19T15:55:39.122425",
+      "size": 16716
+    },
+    "b7515c837844d43231fa28a8f47fef40cda69095556480ad97e27b2ebdb6abf3": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-19T16:10:03.695422",
+      "size": 17243
+    },
+    "4d5dffc40f306ac4cac26f786b616ece20ed1dc0222c23f78751714f03da5f8f": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-19T16:25:39.147732",
+      "size": 16664
+    },
+    "15040d63a093b5c3b1cedec887914a016bd3cedc8242cd7c07499a6b3b23a56b": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-19T16:55:39.172086",
+      "size": 16638
+    },
+    "f572a85b0088408219fc0977d166d53530dab7f193fe60ae4bccacf8f36a594d": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-19T17:10:03.230588",
+      "size": 17243
+    },
+    "6c037bbdf9dcd5d15b1d62eff3d607393553ca5e24f4c8590181fbf7d0b3a978": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-19T17:25:39.196528",
+      "size": 16586
+    },
+    "4ffeb6cf470aee386624634db72396e2d7cd804274899cd2937dafbf98cf288c": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-19T17:55:39.219974",
+      "size": 16559
+    },
+    "b45ba8681738c03ff737441fc7ee883a240e8473f1b2b6df4d3211d5709faef0": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-19T18:10:03.849781",
+      "size": 15917
+    },
+    "63ddf97b6563afa4c37fcf5df3e77de595341a5a740754752074560c9f000bde": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-19T18:25:39.243746",
+      "size": 16505
+    },
+    "6ca553ffc97c9a44dc4fe83967b22eb3b58db04fc3414512811316f7d6253cee": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-19T18:48:50.260338",
+      "size": 32183
+    },
+    "0cfc27c3fc091e586bf36e4f5bc908674900569f1c7c33a103efa81b465ecd88": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-19T18:48:50.268835",
+      "size": 529009
+    },
+    "f0757d83bdfa8b68b5564252c9fe8ae28c689438af7aa1de7e0ba75ef90b98d6": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-19T18:48:50.283483",
+      "size": 1277153
+    },
+    "6e28635ca424ad055f46e6a23d20f225c64d2620f63afbf964eab7325021e663": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-19T18:48:50.310217",
+      "size": 2575220
+    },
+    "d56e063d38454a4f42ccbca632fa8b4def58388e433386ac6966ef51e253245f": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-19T18:48:50.348349",
+      "size": 5748245
+    },
+    "2d9375a5c0a4f42fadad09c49eb62705f367304c6ac72e81b4f9bc8c3c90b0bb": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-19T18:55:39.268441",
+      "size": 16359
+    },
+    "f59a649326bb0fa7ab3f1ff58ce921780c07bead9f26063ceff826e706ecfe74": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-19T19:10:03.298022",
+      "size": 16390
+    },
+    "b23c6380274dc77456597442769d73e33e8fd0b467bdd9a764d7364780e08fcd": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-19T19:25:39.293475",
+      "size": 16317
+    },
+    "523a3e6be037dca260dddcce5def241a618ee5870e5c076518283767af65630c": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-19T19:55:39.317861",
+      "size": 16291
+    },
+    "89d71e83661117e9d5abfe78a4d0c9589101f7e4eec43fb18c150ec2ebcd0dc9": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-19T20:10:04.481721",
+      "size": 18472
+    },
+    "29a1bf64c6d24bfcb080464786c0b33ffa8c745189fae53828b07fa024fc40a9": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-19T20:25:39.361545",
+      "size": 16239
+    },
+    "a9dbac194562cbfda2a75d9c39d2e296adbc4f3a39d438bfc8a5bba735ed8fab": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-19T20:55:39.404626",
+      "size": 16213
+    },
+    "509ae2c7d602f91288678be1cb5c76468c0b9eb654ed8f22efd5f1ef2d339d52": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-19T21:10:04.865622",
+      "size": 16795
+    },
+    "69027b8fc69da338371d660ecf523cdcd7c9c1db947d1f9acb3bd14df40e400a": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-19T21:25:39.445534",
+      "size": 16160
+    },
+    "5a9fdb8767c943e4900504d720188d71b13a75359a0f01d165e54819b2c6f6db": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-19T21:55:39.475895",
+      "size": 16133
+    },
+    "64bff10b067b51ec513cbef643af413556e7e908fe030ead708d96e5af44a396": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-19T22:10:05.246124",
+      "size": 16500
+    },
+    "30c7b71b907d7a07aff10ccd8a525c552f6566ecbf5b4f2187bb5543e9e7001c": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-19T22:25:39.507534",
+      "size": 16079
+    },
+    "434e677bf327a94a9644d28b7bbbb6dfec1358c885a0f3a9f05c24fa83f0b9a0": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-19T22:55:39.532385",
+      "size": 16052
+    },
+    "baaa4c53e192fdf75f312d1622f5f684edbf8d33a16f0809e5b1457190b5bc68": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-19T23:10:05.113200",
+      "size": 16876
+    },
+    "3dcbd7f982577ad9035111b53f678b9c2706bd124835842151af3ef7eb310438": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-19T23:25:39.556983",
+      "size": 15998
+    },
+    "f3cdb2281ba572b3d5714a6af43f6aa9456f4f3c05182145b9c0d86d8f999b34": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-19T23:55:39.582725",
+      "size": 15971
+    },
+    "37f83fb8334f2f114f4660f4f9f97d2e312a19616057cf53e5f2bbb8f4590427": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-20T00:10:04.755711",
+      "size": 16889
+    },
+    "a85ac5fe2fb33cb825259137c3b4d1c8d059193abf06c39b21fd37b535407c52": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-20T00:25:39.606652",
+      "size": 15944
+    },
+    "b2264376c5fc73f430ecfafa72c8c606eff6f12f5e5c40882088dac8ea489657": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-20T00:48:32.758576",
+      "size": 25204
+    },
+    "37ca345a76a66b25cce85d13bdb945977b8ade523e8a72f01f7d49f868e6a153": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-20T00:48:32.774948",
+      "size": 603427
+    },
+    "6709a05e68a353c20a7fab02cbf1fa877d1e827183f1aa0257d0d4105ac12994": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-20T00:48:32.813867",
+      "size": 2084476
+    },
+    "9288642e0bbf4ac01fe3fe4a3f1d0be284914f492a353e32bdccbdc43146ec7c": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-20T00:48:32.836683",
+      "size": 5748485
+    },
+    "789d260f86fac239ded205f4c4bd0e761cda18078e254396d4e6d072d9276aeb": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-20T00:55:39.631135",
+      "size": 15957
+    },
+    "68109b4b134bc002608ff12f24eb421e85160917218d37c0de429a3d2a8d347e": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-20T01:10:04.595406",
+      "size": 17064
+    },
+    "b3dc3052503d5a1adc6e1230427824009a129caed526342258d980d2586b5832": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-20T01:25:39.656022",
+      "size": 15957
+    },
+    "490d4a316a5ab0388fac07747d8b2f84bf244758567c536860968bcda890d199": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-20T01:55:39.681504",
+      "size": 15957
+    },
+    "584f10efe10993dda525b1b927128d6b45ebe45999e57521c9b72261b02373d4": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-20T02:10:04.085448",
+      "size": 16979
+    },
+    "3bb59b16aff11a85d91571b01915a8ba8c7d84886a58854b43361d6dcaba8ad0": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-20T02:25:39.706341",
+      "size": 15957
+    },
+    "23f88c1ec4d034c9376d0e0c25eecde5f85975c84d5340fbdffadcef1774d15b": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-20T02:55:39.730754",
+      "size": 15955
+    },
+    "afec9a6bc344b35b2e74687501f553a4acc6268784d698acd02c4b6f94b09901": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-20T03:10:04.899636",
+      "size": 16570
+    },
+    "81e22be5863d92452e77d6426c96e8a2ed8d0492df37c934b153bb7dde1be42a": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-20T03:25:39.756056",
+      "size": 15948
+    },
+    "2af899da0188072227abda430aa4c0f2aeb8a9ac9323c560f65e7ade9d84264d": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-20T03:42:53.243951",
+      "size": 32725
+    },
+    "a1730bd97fbb97f5ff0c0301cecece676c55e8c1a23730a69fddd104f0effd6f": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-20T03:42:53.247507",
+      "size": 203240
+    },
+    "f89c4e8b414afcc845600ebcec3fc95b2e6b05964ec8345d2fb2d3516bed347d": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-20T03:42:53.251529",
+      "size": 325552
+    },
+    "5545bafa6fbf85163c1d552525d455462e419babbc4c7ae10c3f4793cc21f1fc": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-20T03:42:53.260318",
+      "size": 618443
+    },
+    "fed5dc398f101b2de0e61d37df09e980263a7c8061263b802c5cce52aa8d1fc0": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-20T03:42:53.272843",
+      "size": 1041460
+    },
+    "b1de13f27f4d1d89c4b0086ad06e5b43d560afb4aa97eba1cde30d68c562c745": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-20T03:42:53.281354",
+      "size": 1326653
+    },
+    "f2924866a4060a836d03b2b0eb1bc966a52d2bc533a5a2b299a16d0bc08d5840": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-20T03:42:53.297226",
+      "size": 1847417
+    },
+    "3f927f0745103c6d02f306db3451f9a9d7dc96f5b3d7e186efb30640a9a131c3": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-20T03:42:53.318314",
+      "size": 2547388
+    },
+    "102b555a325d030e3bd1e7549fc19a7b784ef1341d40cacfd88c1d0a571dae43": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-20T03:42:53.349498",
+      "size": 3571144
+    },
+    "38ccf6af5fff2f8ee5be0f1bf71786a58f62636d7c9d53121a61ab13e21f0b37": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-20T03:42:53.371368",
+      "size": 4311710
+    },
+    "d6d4f7ecef84e57875c93c2cf8d0dffe323b73ebb7ce71cbaaf741d3337d0234": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-20T03:42:53.397434",
+      "size": 5171565
+    },
+    "f7d63f793071fbd803c90c3f4082d5d2b30fc01542352e6a39a9c8391058b320": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-20T03:42:53.489507",
+      "size": 7927606
+    },
+    "6cd91ea9a3b732e2d5bd00a91e19addd19450d6d878598fd65965e9920308aff": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-20T03:42:53.568485",
+      "size": 10373676
+    },
+    "1a6d6a7560c569d1e546c8b53beccd8ef79a1b75da8a1a9ee48f6e8c0c18ca36": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-20T03:55:39.781075",
+      "size": 16211
+    },
+    "c6eeb892eca1f021d215314683f149ecae58e5b38597c713d732cf2e10e8291b": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-20T04:10:04.431346",
+      "size": 18156
+    },
+    "a1966223e52088b9fbdc4d52736ed08802c1a8610ceab8902be94695f5ae36ed": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-20T04:25:39.805947",
+      "size": 16159
+    },
+    "6ec113bb0ba826876f4707576b3a4fe50bcb8ecde370ba603fe33ba9905bb8d4": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-20T04:55:39.830966",
+      "size": 16132
+    },
+    "8fe2ac80595e373b5cbc99bd7c4dc2e17e4d997942a84cf47f773b0a76a99962": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-20T05:10:04.999659",
+      "size": 17190
+    },
+    "83c60a987fe203b7ed50f40cd1a44e68ebaf292a50dc6dda88347b8f751f724a": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-20T05:25:39.856361",
+      "size": 16078
+    },
+    "7dc361a6275055be15058c4ec96b47ad5367f6ac7fdcbcb15e9a290a773b5e03": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-20T05:55:39.881865",
+      "size": 16051
+    },
+    "f8c5b586ba6f91d5df2aa1f721b586dde6cad2552107449fa22a3fe6bad4c99a": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-20T06:10:04.587600",
+      "size": 17371
+    },
+    "5eda4d2cd3dfdebd75e19db64108340e9814fa9e097b259fdaa197b5fff2dbf3": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-20T06:25:39.906499",
+      "size": 15997
+    },
+    "d2a30594d61f1fa0cfced0410f55d70e88213e1c075155eb7e891ced480122ee": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-20T06:50:18.187830",
+      "size": 49379
+    },
+    "415b82610697e9b29d5af271a01fbdc20cf33a1b1eba6b32726ef37bc055c768": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-20T06:50:18.205534",
+      "size": 637549
+    },
+    "95f5beb7bb9ce8586a3e6e88856c6fb67d3e375cf4ec690640f7132400f4ff48": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-20T06:50:18.251562",
+      "size": 2262210
+    },
+    "0d09235e6fa336a35e95c7acaf87e59f87ed4ad5160d9fb57773d301b502f005": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-20T06:55:39.932136",
+      "size": 15952
+    },
+    "4ebd832bebf601a8eada72c59c61d9c787ae4cb92b62c85f690d1e1cc101e32a": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-20T07:10:05.036210",
+      "size": 17800
+    },
+    "0488a9a3e64d3bc7dc4eb93462181d1b988c9bbf34f4dfa480d437ab0f5c77b3": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-20T07:25:39.957454",
+      "size": 15952
+    },
+    "ac1b85ff3762864a039c0742f4827cec82a46f0d9526d16f006538e000d346a1": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-20T07:55:39.983861",
+      "size": 15952
+    },
+    "6db917ed3bb2d16fd5bb740ea57df5127d87ab699722dbe1fea0d9e120cc27c3": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-20T08:10:04.946981",
+      "size": 17385
+    },
+    "1903891a6b9d5e96557a99824d610c7de1e8b4fd88567308c44ccc4d4e65c822": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-20T08:25:40.009274",
+      "size": 15952
+    },
+    "cfcfe77ab929ad1d20b4dbce4c2988916c36e45475c623b680c33484d00d9934": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-20T08:55:40.035423",
+      "size": 15952
+    },
+    "19fd53f441a0367fcec2d6f99c78a34715f4fc19ed1f8e7d71a3a31ac7d5b4e4": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-20T09:10:04.742255",
+      "size": 17385
+    },
+    "8a3b474fac687f175ccf0c3613984947f1ba92701e48f8ce5faa1d1383bfe7b6": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-20T09:25:40.060663",
+      "size": 15950
+    },
+    "7b2ceef7129abc952cc8a363532f6dbd9ba4cb018accb7393f53f96111acbf59": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-20T09:55:40.086476",
+      "size": 15947
+    },
+    "7a5a14ecf334233626df3ecbc1c856dc0122fa598d3a5e91b2c46c3f99e18234": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-20T10:10:04.156780",
+      "size": 17475
+    },
+    "d34e77a573a3714d909485b5d04bb2b97519db04dc3bd0a22ca9a120f82955e1": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-20T10:25:40.112455",
+      "size": 15939
+    },
+    "7b07de43a712ccbe1481dfe9d3a666cc875d0db4061231d816149d16a88f1cbe": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-20T10:55:40.138020",
+      "size": 15935
+    },
+    "238e49dc7782cc5bd4ae29f727954050e65c083045c04177b38c3cba8b859dc7": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-20T11:10:04.433408",
+      "size": 17645
+    },
+    "95b283ab66b32e44a2dc1f08d40113d6f288312a410eed6f70aa467fe7571fa8": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-20T11:25:40.164108",
+      "size": 15935
+    },
+    "9becdedddfa2886f0f30a17d34f52fabefe5526be6b153afa8139f72b766c137": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-20T11:55:40.190019",
+      "size": 15935
+    },
+    "af3c8204e30dd451f35e2c2955b5274af0843f248ce304593a5796e7d952e4be": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-20T12:10:04.839142",
+      "size": 18066
+    },
+    "ce074e06bc2ceeaed3b190b866aa2277defb06c3d163c818c8b1d680fe17dff6": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-20T12:25:40.216770",
+      "size": 15935
+    },
+    "e0d7b0d1befa0d720b1f340f5cf431dbc5803eb36970c692eb1db4cb10c6678c": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-20T12:55:40.242876",
+      "size": 15935
+    },
+    "d60c7688ad68d6a74e3da71baabd1761eca79e8e8b77b4ddb02b4f512ef82430": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-20T13:10:04.206934",
+      "size": 17938
+    },
+    "4fbebdf4a04f38de188398c22490e126bb48185956e4c1989b60cb072675aee6": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-20T13:14:29.394094",
+      "size": 32165
+    },
+    "b67cf89b73bcc6fd0b3b6e8837d00d68df578b32166a4a69582b88b759fbef7c": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-20T13:14:29.410055",
+      "size": 657099
+    },
+    "86df100ef6a04fa439eaabe228cb67ff551465ea2a987dab46d5eb596e8337ab": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-20T13:14:29.446292",
+      "size": 2117004
+    },
+    "127877989b304e36990cfa7fbd8503f4fb37f48663de4df1a10b2ca931673fd8": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-20T13:14:29.472813",
+      "size": 5748435
+    },
+    "d1dbc8302504f0a25ce8e9f5cbb8817e022325a7161eb1cf3484f5863b37bd3a": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-20T13:25:40.268665",
+      "size": 15948
+    },
+    "7a91e4ddc9b5ddb1b9d723d97852df7d288aaacc0463d3562f15973e98b3fb82": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-20T13:55:40.294462",
+      "size": 15948
+    },
+    "9a275944a4cb60482ce7411226100f82fba6d644cc81a4c5eeed0cccada5c2de": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-20T14:10:04.607489",
+      "size": 17728
+    },
+    "48a6b49d0c6e9b3d472663bf30400977a51ccf1fda3c0f61761743035e3fc8f1": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-20T14:25:40.320547",
+      "size": 15948
+    },
+    "d9a6fb96e07b07225af5c384667759183d05b5c28ad10d64b99ef175480d6371": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-20T14:55:40.346232",
+      "size": 15948
+    },
+    "8a8b9ce4b0994b7799cbda3b599883f60c124c5284bf95b1fb8becf4b0cb1b9d": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-20T15:10:04.424591",
+      "size": 17659
+    },
+    "f82f62eaa230193cf40438f580cfb3a6936813828ece18bedce5b9191a4d4b24": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-20T15:25:40.372711",
+      "size": 15948
+    },
+    "5e53d8780d16053db43198716920279e563975c6d42097654cc2a2a30a9d59e3": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-20T15:36:21.485369",
+      "size": 32725
+    },
+    "a693c39759cef15cbaac9515eaf273f3d96232e4c8eb915f11ba294cc2946fbc": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-20T15:36:21.491116",
+      "size": 252167
+    },
+    "9588f9eb3c19fac3e45eea8c78d1f5d844f22ece2baa656673e99a467c23c920": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-20T15:36:21.498558",
+      "size": 544842
+    },
+    "f7d035f1b01232412ef51e6bca3f191ed2419d82fd7280145869907c68ca10ce": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-20T15:36:21.508489",
+      "size": 862374
+    },
+    "92e75137432cc63674344f4be32c7c71fd3c362002235b02d92ef1c59e80f949": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-20T15:36:21.521348",
+      "size": 1302090
+    },
+    "ea185b7cd37e016e64cc464db8dfe03807a3cc7241bf0e5778089fa8fc07c5a6": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-20T15:36:21.545567",
+      "size": 2099752
+    },
+    "ad5d7c2ba364f3d97acc5b53ff7867183cd7b1e3f155d8f2bc1dd131f8ad98de": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-20T15:36:21.571789",
+      "size": 2945163
+    },
+    "8ab30b1fd89e998e36dcf11a5a64724a3ec8255e2ee545fa6736cb0174a0fa15": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-20T15:36:21.592091",
+      "size": 3620063
+    },
+    "dfc024fe0dde3f798b047ff75199de9b942f03aa42b998c02afa2d2a8b9ede75": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-20T15:36:21.616527",
+      "size": 4409346
+    },
+    "cdf6b6a3d99c57ba278a23481d5d821af7c56e5de4da124a443318456f3eeaf9": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-20T15:36:21.667564",
+      "size": 6105228
+    },
+    "ded163fe90318af1230d73910a096acfddd02f5b949f725dc3d63c7e5e5e23f6": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-20T15:36:21.737044",
+      "size": 8397520
+    },
+    "bb7e1ddfda202197df34068446debf5446a9859c79eb164d2ccd9171cfd794e4": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-20T15:55:40.399053",
+      "size": 16227
+    },
+    "3558aeb4c3b91fa52d32928fa66ba21d17fb44e95b559ba84f68e33a77abf811": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-20T16:10:04.528743",
+      "size": 18652
+    },
+    "7fe8cf427216633c81db28f32a101e49e339845a18c4b89321e1c9d9a1ea6598": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-20T16:25:40.424911",
+      "size": 16202
+    },
+    "d1565c64ebaefe26327231de4110711cac2a2eb921ed2b9a4538c1b0eb4929eb": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-20T16:55:40.451202",
+      "size": 16176
+    },
+    "0b69b9e037cd832d1a54d6cca781b7030b5f4ae3d26912c51048f7db11f1c062": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-20T17:10:04.111583",
+      "size": 17660
+    },
+    "6b556271c73f29e3431696de4ec98922d72d3eb7dd3e1ed154fbca83fdf9a595": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-20T17:25:40.478153",
+      "size": 16124
+    },
+    "df123e9f12afd7b8d111506dbd180a07f780d1ea95a93d8e5efab5f502525ff1": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-20T17:55:40.504395",
+      "size": 16097
+    },
+    "55cd2f8ac1d0fc8791b6ca5c120f34e634ddd914a2a7306509af296ff2b6e834": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-20T18:10:04.955227",
+      "size": 17609
+    },
+    "c971fac7db0df425b16e5a1ac5e59b9375291fcaaab8e1ca5d4fee938e4d8e26": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-20T18:25:40.529905",
+      "size": 16043
+    },
+    "c2cd4d14de8f48a2da8f73afcb6628301a74037a45ba89e43af68de6278b5ce8": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-20T18:55:40.555330",
+      "size": 16016
+    },
+    "1fd49e65c948e1c14616e057de5da4e5e5a6ebe1cea48272cf6ccae0b1f4dee8": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-20T19:10:04.141477",
+      "size": 18209
+    },
+    "3b6ce8e1a3e64159de05c475c69e097269346e51b146bd86e8292462d8503429": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-20T19:16:18.476765",
+      "size": 49404
+    },
+    "8b59ff3ab6c53732309860a638d8b72b1456db3a66fb0b89559d4cc6049a6aa3": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-20T19:16:18.485460",
+      "size": 595260
+    },
+    "bc57dd27732fff2b3389c28c4149cafc5d7ea005579d203e3723f0e718921575": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-20T19:16:18.499075",
+      "size": 1318909
+    },
+    "41544a9af6c97a7b8705b3a4e2864d2b6b1f9fafc8df4c14d1dd72ba4f75cb7f": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-20T19:16:18.521194",
+      "size": 2617344
+    },
+    "270eed7eb0743026d3728bac1618d4ed198ebf4088653e5d54c5cb635dfd3b99": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-20T19:16:18.561619",
+      "size": 5748728
+    },
+    "372b5fcee0e1b8b67a91f53f9604af910b4229b4655996b1461abcf71f4b513d": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-20T19:25:40.581837",
+      "size": 15897
+    },
+    "8e377abb43b4cef33aeb16240e2230114ed59f662730c766558eee6f8d93bd91": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-20T19:55:40.611315",
+      "size": 15897
+    },
+    "cfd25611a23dc1384962518dabd0520c8484bfec7177e43b4df2a0f633872626": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-20T20:10:04.695438",
+      "size": 17340
+    },
+    "2d1c5dce85d1e01afa3763005ec8ef5eb9e43dc9235629ac5c92d93b9762471c": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-20T20:25:40.639763",
+      "size": 15897
+    },
+    "a0fa8a6c26b10e5cf293698765f125f163a29e16acdb60c5b744efee2cc7f3b6": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-20T20:55:40.666088",
+      "size": 15897
+    },
+    "a7a33ef343bd45ec3cd7e6b4136e4b3eeeb08fd101922b36a9223dd122443d1c": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-20T21:10:04.522976",
+      "size": 17793
+    },
+    "96619da9fa45cd613f5de447e3b27805fc72e69c3a3b09ceb5424a70ec612982": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-20T21:25:40.693449",
+      "size": 15897
+    },
+    "723ee0c81173af0e8ad97ba84d15d4fbb19fa2035c39183a695f00463eea1641": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-20T21:55:40.719631",
+      "size": 15897
+    },
+    "0952350467bdaae81d3e0d0b9a6fb5f0212760dbcb4f63c9679aa5e31c84e783": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-20T22:10:04.370268",
+      "size": 17920
+    },
+    "c0c34db3d195b1605ed4b24f24acdf93890890d377028b72cabbe6f8aa4f61c3": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-20T22:25:40.746408",
+      "size": 4096
+    },
+    "78be65cd28263f0c3b6b6c2d81923feb999e770ec92d855057ac648b21b3d67f": {
+      "path": "/srv/manhaj2030/data/shared/semantic_terms_v1.json",
+      "ts": "2025-10-20T22:33:25.457808",
+      "size": 110
+    },
+    "c1920d784748a66f8c1360c91f1f9bc9b4bee2fd1df392dd25b5fd3dc88cdf00": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-20T22:55:40.773910",
+      "size": 15886
+    },
+    "93bb338f6acac8fe2104280880cd2e9b87ebc50bef6c4ce33eee66e500aa01c9": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-20T23:10:04.290263",
+      "size": 18148
+    },
+    "0484eed92020e6336d884c0a99fe79ed4517259d4326e2d19a3139919dd12791": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-20T23:25:40.800419",
+      "size": 15886
+    },
+    "d73d0dd1a8a09aee93e6741902745528f8fec05617712a4207248c636c033af7": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-20T23:55:40.827775",
+      "size": 15886
+    },
+    "10dcc7d45900767a979e5c7b4ec8beb3a38d68a3cf9cd1bbdc8af7b4aaf8e969": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-21T00:10:04.347778",
+      "size": 18129
+    },
+    "46e0c914eb47a248b774993d89ff6f6e02c69972743f62d17bc79edc4dfc8481": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-21T00:25:40.853947",
+      "size": 15886
+    },
+    "cf8eeb4a58c554b1cd934cab5005d9faeb56306a549fb70df3efdc59f30bfafc": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-21T00:52:26.261433",
+      "size": 17119
+    },
+    "1f6e3e0cd596f8fc0e29798b2bc30d76347fecec7bfcb5473b406a18aa86b5cb": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-21T00:52:26.269443",
+      "size": 543514
+    },
+    "e0384009139c811126f1cedf3c656da82f3f624c805b6fbf0e3afdd82cd13556": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-21T00:52:26.282666",
+      "size": 1244159
+    },
+    "2e22eea9c5aca4b5b2cec4f3d26a510c7cc7da044803f9965e9a84129543cb3e": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-21T00:52:26.304290",
+      "size": 2474776
+    },
+    "15a81c4e27de2bffe2245fe5c92066864717c079329cdd22a7a6286914c0bab0": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-21T00:52:26.344421",
+      "size": 5040554
+    },
+    "1ff86b326395f35b6ad53a039c969f263163515cd1d84dda40ce414a26d32430": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-21T00:55:40.880479",
+      "size": 15903
+    },
+    "2f881fd4b37b7c3dc8cced24d7e82a1c06711d8315272867a7d98e1e9a37a0c2": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-21T01:10:05.002385",
+      "size": 18489
+    },
+    "6b37d9d628ee6e9990866fcd75c84178000c1eafc6d3d3e27f53cb4a0d9efee3": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-21T01:25:40.907377",
+      "size": 15903
+    },
+    "e87e48640c90d8bd1dad735452f11c8b38e00bb840c6f020d45c84884235aa33": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-21T01:55:40.933848",
+      "size": 4096
+    },
+    "4fc0743cdf4ebae952c51567300dfddd1bec4d3c39e0e75793b13cef1427b311": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-21T02:10:04.546844",
+      "size": 18098
+    },
+    "0f90f5b1f1f7f5572bbe66a261627769764b1534fd123e4cb798dbacde3c131e": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-21T02:25:40.960845",
+      "size": 15902
+    },
+    "5203f84451784f7e439cc6c7206f753b42465ba9c5e374956e76f88a59ed3f7a": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-21T02:55:40.987929",
+      "size": 15902
+    },
+    "23e18bd00269b1b64c1fcc8de0e8608a4febe08f184323e0621507b0da1fb8ba": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-21T03:10:04.590797",
+      "size": 18099
+    },
+    "4f2a4a0f90b58833c59a51f2532785cd9e301ad6dd6a200bc0a28798fe9f20a3": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-21T03:25:41.016174",
+      "size": 15902
+    },
+    "dc8b4df20a365496dae1fc07b8ec1a8c33246482f5aac4fcde8728bef500fd5c": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-21T03:42:58.430154",
+      "size": 40916
+    },
+    "71a2a6a13e29cae442f9c89a5cceb061536d5b5da2a21f0b9e965b3c4fd3ce94": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-21T03:42:58.437970",
+      "size": 358000
+    },
+    "d3545da202b5337b67c02b6b19dbeef2e0b6255fc4e6d963fca0b80da3e6d251": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-21T03:42:58.444630",
+      "size": 593891
+    },
+    "9f21a7c290e116365c5e9271461ff74018e6162dbc8a26492e6f7fdd8b16b7aa": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-21T03:42:58.456018",
+      "size": 974848
+    },
+    "e0aa8d4fb62da2ac2cef2949bc0282987fcc8f39652e603f4bafd4265c9f2952": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-21T03:42:58.471282",
+      "size": 1466368
+    },
+    "2b4ed1edd8133a1a752410da8bdeca8b7b4743ea493bfdd9cacc18639b119104": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-21T03:42:58.491732",
+      "size": 2140461
+    },
+    "448dcd48be5c45c46ee7d073a0415e0a3d396eb2f35e7cea7fe77f9b82b21545": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-21T03:42:58.509522",
+      "size": 2674688
+    },
+    "3a455f2eb18fe57f4a5b117a56a3ff1ef55b55cabc3eb2dce9ea27e856c79e1f": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-21T03:42:58.529681",
+      "size": 3359433
+    },
+    "a28fff59702143d912b9d34b4366ade6e5598185364a360f08f1d1eb94bca55a": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-21T03:42:58.570161",
+      "size": 4669758
+    },
+    "3d23fb268f166bc5cc0cbc4903afcc0640e9ef0a63aa0493a42d61187b38a6c4": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-21T03:42:58.627251",
+      "size": 6472441
+    },
+    "57170ab0b05c2aca0e83b0170131158cd7c5704180fbe67dc200a54a5836e4d9": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-21T03:42:59.154116",
+      "size": 10373676
+    },
+    "1de644b38d53c1229dd414919efd1e0802a27dc25a0e57620638f584eb586bda": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-21T03:42:59.158642",
+      "size": 114159
+    },
+    "3cb31070878080dde4f129d681fa4baf38d43c887f1d470165959b7c6a229464": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-21T03:42:59.177548",
+      "size": 723849
+    },
+    "6bff22485bfac7d49cd7e751ef3c4b6d0efaa88b44da468e84698192828feca6": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-21T03:42:59.186229",
+      "size": 1000679
+    },
+    "2bcb6e27bad69a171490f8389007e4131dcf48f6e4ca44d42681a53ed0639f14": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-21T03:42:59.202694",
+      "size": 1522102
+    },
+    "65db42a1ffa2c9b09ae7486ab5a9de0734fc239ca8d1e1c06cd3b0aaa48789ff": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-21T03:42:59.232665",
+      "size": 2466043
+    },
+    "9d376a871a8a6d33f2695fef5fc89fb339f46ce1ce00b595ec549321f7e3e65a": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-21T03:42:59.265153",
+      "size": 3505751
+    },
+    "d3e83a3cf28dd581ff28b0bb7f606b4b12e03a91f09a2f4ee7b62e8926d1e748": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-21T03:42:59.309599",
+      "size": 4937198
+    },
+    "d06f780c2c7033c64af50a34ef98c3c589a67c63531236f287277b183bdf3491": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-21T03:42:59.370650",
+      "size": 6911656
+    },
+    "6adb20ab6d3c8a23f8cb0d9ed7e5b39a07f766a4e64c38b48fa443e1adfceb05": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-21T03:55:41.042839",
+      "size": 16158
+    },
+    "30781ee4138cddca4dada2e17b2f41d83e941bae82ecfa970c5eeb4bd256e499": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-21T04:10:04.266693",
+      "size": 19078
+    },
+    "b7f1f14995936a55234bbf729c35f3859fed2a8ddcb185937f1469fb0129be56": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-21T04:25:41.070908",
+      "size": 16104
+    },
+    "d836f8275ff39e0f8f5516b7fc8e3096aa375d819c3b70bab832a85f67a2c82b": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-21T04:55:41.097722",
+      "size": 16104
+    },
+    "0b51eac7e16dea8d55a3b159dbd9650cd6bbf87f0d8bcddefca46400231c180a": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-21T05:10:04.542440",
+      "size": 17991
+    },
+    "a57c3b23f0312b0f05a1e971966e680cb8d77243ec554c1c49a82171517b8617": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-21T05:25:41.124605",
+      "size": 16104
+    },
+    "4da32088c976457aeaf9bf10104e178f4fd9cb66542132fbc6c7c17e31ce5cb0": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-21T05:55:41.152948",
+      "size": 16104
+    },
+    "ca133fc4594abd789bab37164b29673913ede03d7120d0d10d0628c185e6c26a": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-21T06:10:04.115797",
+      "size": 18005
+    },
+    "406af99b9e197cddea93c9670fcfec8c24886fcab479dc93b25ce10cce33e83a": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-21T06:25:41.179972",
+      "size": 16104
+    },
+    "d2fcb891a6e1a1b23e787b76adcfd6063d3993df6a531cdf3beb79d9487b86f5": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-21T06:53:31.241472",
+      "size": 32159
+    },
+    "73469b7b0f81c3c8133e5dd6191f434f4c32961c8156726c568fe86aa066c5c0": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-21T06:53:31.260341",
+      "size": 688433
+    },
+    "51c10a2a208fabb0c72d6d56acd4d125e8eeea234624e2c1722cc579fc89bb55": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-21T06:53:31.306772",
+      "size": 2543556
+    },
+    "16236db81e5625a95a8e8828625dd675cf742cb34ee8369f76ccc0d710113df0": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-21T06:55:41.206557",
+      "size": 16113
+    },
+    "a2dbb7b65907734550c1487a8591299359339ad97847b5a0024254524c057108": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-21T07:10:04.919101",
+      "size": 18212
+    },
+    "02c1ea226a7180639308a4e188b4857473bc14dd40e55a114b9884e8f49412f9": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-21T07:25:41.234051",
+      "size": 16111
+    },
+    "7a9b24875f900ef3068a2bef8a008672548c011f07aa744071d243ae6e49a395": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-21T07:55:41.260937",
+      "size": 16108
+    },
+    "f5ae8fc0f656133707f33a6aeb22c0c4a9b47e31936d26b3463c9f92226d2898": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-21T08:10:05.111018",
+      "size": 19696
+    },
+    "eff1dcd9cf13c3c9c841c491f566f45561a879607f5908be90879525535dfbea": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-21T08:25:41.289407",
+      "size": 16100
+    },
+    "0bdcf20b7f097071b650dddcf6bf2a2a758959d1c86f2160d17bbe87787e7a4b": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-21T08:55:41.317633",
+      "size": 16096
+    },
+    "88a5078553854b19c8bbffce791e98bb38a3448876f642e7748602f86c2cd1cf": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-21T09:10:04.612740",
+      "size": 18100
+    },
+    "2458dd540101df29cc97c85f5eafa85bf9c1d5a06e611be88022fc9747270313": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-21T09:25:41.345688",
+      "size": 16096
+    },
+    "c2dc9b64b1357cc3af94894f765e5b681b14ab4a9986fe9e8e25b4b41f01d970": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-21T09:55:41.373215",
+      "size": 16096
+    },
+    "e158bc685185eae8c489184b7e843edfca38f8e20f0d99193b0ba6d2e4589bd9": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-21T10:10:04.174195",
+      "size": 18100
+    },
+    "bcd99886cfb4ef37655da0d1e67d606eac09e63642cb5a8838dbdc4c6ac740ba": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-21T10:25:41.401694",
+      "size": 16096
+    },
+    "2ddc6a5f9b69ce5cc6a8841bb76914fa4ee516abfaffdac3a68cd05ca0ff261d": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-21T10:55:41.430611",
+      "size": 16096
+    },
+    "af21b0d2cad5351d06496e0b281ddaed2ea6c755f6e2ea086e8a9368b5293ff3": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-21T11:10:04.472254",
+      "size": 18008
+    },
+    "f1502af81a60844edc55b68ad0a595e2fc0ce6e0378f7c1312c53e019e8b6b78": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-21T11:25:41.458798",
+      "size": 16096
+    },
+    "42fc7a68fd4e62f81bf07bbb1462677b73201e5bbafeffb6a75e95ccb1d6d5c2": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-21T11:55:41.485995",
+      "size": 16096
+    },
+    "e388430a11a535035777b4cf45719bda1c1dd2363fafedd1b45ac159d1939aa6": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-21T12:10:04.328630",
+      "size": 18141
+    },
+    "3237d4ad52e02910462453ed4bbe5261ddcee90bafd598a327b68f3b9ea23c05": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-21T12:25:41.514944",
+      "size": 16098
+    },
+    "19fc96f885fa0756bc6c9664453eb9021135cfeb582e9ba6544c4fc748109573": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-21T12:55:41.544111",
+      "size": 16098
+    },
+    "ff8838324d19853c88040715ab85c5f722325e811ddd54892f3544437c955335": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-21T13:03:07.933925",
+      "size": 25195
+    },
+    "ce9e5aa207aa7f3fd518eed1fc5a59e885681ab6e309f021e7a84ee42d74bd09": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-21T13:03:07.953651",
+      "size": 637753
+    },
+    "ccd8f314bbd23e07804a31eec03dc1866be5995329715a6bddc3abec07922e7c": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-21T13:03:07.998886",
+      "size": 2454579
+    },
+    "9bcd563f713e06e68f5e9dc76991824a03e4e518c9a0670805e8f279c446de91": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-21T13:10:04.469359",
+      "size": 18378
+    },
+    "4813bc855ceceaa238abc98fbe04b3e8f93dc0c16b2c4bce528c3a74b2a47096": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-21T13:25:41.573139",
+      "size": 16107
+    },
+    "5b03ed523abcc1b0bfd00f0814d40f9a1c06a5a2e55c124be2931b64c8de1368": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-21T13:55:41.601274",
+      "size": 16105
+    },
+    "083f3eb026d10c899579a90bf6c81c29cc6bff074ba9b43c2dee4b5a5ff184a7": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-21T14:10:04.824363",
+      "size": 18100
+    },
+    "e69d7552c34b01b43e5d916a51d8413f5b850d4dd0d3de5044e83ee74226c192": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-21T14:25:41.629707",
+      "size": 16098
+    },
+    "be9a5b481b40a9eba5148a7f05e898fe08d02f8c94075a697326b85f5896d8c9": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-21T14:55:41.658211",
+      "size": 16094
+    },
+    "869edb679e739bf82bd566f2691924a2ccfb96b60d35a5259104dfe8184bf37e": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-21T15:10:04.466148",
+      "size": 8192
+    },
+    "4753f0260a0bd863ac4a1bd8b72f14663ef9f140e7bf33c605c499d151221b72": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-21T15:10:04.469563",
+      "size": 18100
+    },
+    "e87636be0433321a04b45b1a308205e924b568dcf68be9e6a3e99a1bfb155e1b": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-21T15:25:41.687433",
+      "size": 16089
+    },
+    "cf45f730222ca8d930573e1555768ca1bccdef94ade391b65252e2227970e86c": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-21T15:36:26.581925",
+      "size": 57088
+    },
+    "bb196fa96618a282360bd1b78f2604ba6179f161e70a260f6568a60664b0cbb4": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-21T15:36:26.587013",
+      "size": 276731
+    },
+    "044f1b758649f422749a7bd2e2ae4acc323dd9a024fe53816dbac810aa7c0e54": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-21T15:36:26.592685",
+      "size": 463334
+    },
+    "2fa1e9d11b8d31c653dacba69abe1ffe7e9eb849bdab48b8dcbffb8b03e54eb9": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-21T15:36:26.603254",
+      "size": 805284
+    },
+    "67aede0797c7a0505132670b9ce952368842b9eeb5ee674f1ded3048f416903e": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-21T15:36:26.619478",
+      "size": 1318469
+    },
+    "808c4397cc9c8ee061b4b9403ca2d2d4ffbefa22c893f231443dcb97f27ed14f": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-21T15:36:26.632309",
+      "size": 1701266
+    },
+    "3c48cbfcccfd65bb1ff6bdc41a8bd830c4d9764500383b7f9b074758590d272b": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-21T15:36:26.657326",
+      "size": 2482237
+    },
+    "8b40e7905c368ffa7590e1506370aad8f8124c6a916dc5eae8cbb96ee51ed65f": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-21T15:36:26.691839",
+      "size": 3587471
+    },
+    "0716763c651fe647c0d31b978e3e87b3eabd1b57dd384b37dec0d5f8a2d7e657": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-21T15:36:26.759075",
+      "size": 5739462
+    },
+    "83f00d0c563896ac19725bd928eba2f6f0b6f599fdca755af35529ae3902884c": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-21T15:36:26.800344",
+      "size": 7074329
+    },
+    "c0a942a1caaa8c063e043b68a2c4001cef5c614ce52fd2eebf84b1696e14692d": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-21T15:55:41.715901",
+      "size": 16252
+    },
+    "16f94935f052cb6757c38d38be21aa20324a4e325a86764b3c21fe3c8f085f0b": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-21T16:10:04.864352",
+      "size": 18831
+    },
+    "1fb52a5b89c7a092c1e8a32dc0d1a3f71ab451a0aabc319223ee4ef9fc26455b": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-21T16:25:41.744729",
+      "size": 16198
+    },
+    "92d1e884affeae834d3051805bc44a70a642e6b48f1fb1f33e399552ab36ce2a": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-21T16:55:41.772702",
+      "size": 16171
+    },
+    "adb159cf2acfcd2089f0e006a129453466a8ae77c47178995022afec387fa30c": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-21T17:10:04.159256",
+      "size": 18007
+    },
+    "634a4cec6ad97c17eeaf38c5dae9178167e8b1f23b38338c9dd4545906042e24": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-21T17:25:41.800865",
+      "size": 16117
+    },
+    "53c9fb341d7dd3335bd858336633c2232bf164adee10e55812db955b6153e993": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-21T17:55:41.830014",
+      "size": 16090
+    },
+    "4500d658066c28c90e2f987b10a7846b09afb6c15d1a5f3c8218c502563e0b94": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-21T18:10:04.593224",
+      "size": 18038
+    },
+    "12fbe798d8c36b0228dc7a5988cee0bbd03339fb09d761eee011a7c44dff6b9b": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-21T18:25:41.861029",
+      "size": 16036
+    },
+    "64cef62661f0fca4e1ece16324e5e2d21792014337947f024b2728b88f1d0a5b": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-21T18:55:41.889884",
+      "size": 16010
+    },
+    "9d79357c489b0a1e0192379c2a284ae63da1a6a092807b69704c6d0e90aa5927": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-21T19:03:01.456054",
+      "size": 20480
+    },
+    "2b269e49625f42a43ec905314e0be902ff89ae0354ab1bee918b2dc4f54efc36": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-21T19:03:01.465321",
+      "size": 573086
+    },
+    "9810dc35a7c66b02ee2b6c66e6020bb6154c49669bb71e22637d3895e3cd0efc": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-21T19:03:01.480758",
+      "size": 1400511
+    },
+    "d200a4d1a2e6264a1af56b795cb4d5cc99cafa6c957285788af748cb3994fb5a": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-21T19:03:01.506320",
+      "size": 2843755
+    },
+    "874150a8e7a726999c83e0530711c4457f3f62484d1ff88e2bdfc68fd6373d41": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-21T19:03:01.547151",
+      "size": 5749045
+    },
+    "0f0de13d3c7a3f77e5d40b0cdcd55b243b6ea4128ad0bfc5758317cd6256cc69": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-21T19:10:04.942089",
+      "size": 18490
+    },
+    "bfea497b14fbfcf7c55cb3fcf51940c3aa24c22d019245441094fc50335be75f": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-21T19:25:41.918206",
+      "size": 15865
+    },
+    "d4a70db8990646d6a4398310a5cae9938526a6659aeeedd37c9ef03d723aae1f": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-21T19:55:41.947271",
+      "size": 15865
+    },
+    "e505faf7a40aa4948ff374df20d8829f0978b1e2ff497510afaf1ae84125fefc": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-21T20:10:04.973005",
+      "size": 18100
+    },
+    "2c8e8f7e945b26d87e0b9441a65738a6b33f89a9d951c9840f52b9358b38e278": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-21T20:25:41.976012",
+      "size": 15865
+    },
+    "af532ed9e6a7fa64233a49b2c7b8f0e88dc40629ee03cadfea41cf9882fc8296": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-21T20:55:42.004843",
+      "size": 15865
+    },
+    "24c78541c86203e3554082b597ba96cac859d9c0d990127ab14cc5b315dd6920": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-21T21:10:04.582022",
+      "size": 18351
+    },
+    "33ea4cc367330f6c33a61209541e15c98e9042cfacf87ccbd0f872af45caac90": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-21T21:25:42.034965",
+      "size": 15865
+    },
+    "db5f89d1c69718aec9c930aa9dd1150cf8f686f2fceb9df8e79933ee1af1b447": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-21T21:55:42.063875",
+      "size": 15865
+    },
+    "56648ddabe2a39b52adeaccabe2d611e55cb7d9744a2b7dce3cde078915339a4": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-21T22:10:04.380243",
+      "size": 18096
+    },
+    "bfb9e54ddd2e9361493415dabb3bf450c5adef5cc274af4dcfaf3f1a51aac8b2": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-21T22:25:42.093324",
+      "size": 15863
+    },
+    "a14204fc6a09b00229c7d4251d5884df6466fe406b5ec412803371d48054a753": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-21T22:55:42.121653",
+      "size": 15860
+    },
+    "2e1c4143157b060baca78b797908e005e6ca4288463f192954703c4bdb14b672": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-21T23:10:05.066334",
+      "size": 18246
+    },
+    "5df18c743710c913501aa3af47737f010bb2ba24f3195e796efc5d77829aa70b": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-21T23:25:42.151428",
+      "size": 15856
+    },
+    "d1aecc7ce9fa875fba64ed563600ad76efb473bd99681b14279f39993572c896": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-21T23:55:42.181187",
+      "size": 15856
+    },
+    "85e5909bbb6ed986b61785b5c97137f509442fe210b7a5e7598f61d9085488be": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-22T00:10:04.154393",
+      "size": 18038
+    },
+    "6e2bdf6ba0ba6e6740a7ff4b34ef20218eb2e2fcedc110f80a7096ae09102ca4": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-22T00:25:42.209701",
+      "size": 15856
+    },
+    "66657cc92509e651edabc8ee0bc81783cd91a4d8652090b0c1bfe570abf57928": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-22T00:54:46.988134",
+      "size": 32150
+    },
+    "0536eb96b20571341e31b78924f6f7e762e534f78a2e4ac030e307fe6eabbcbc": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-22T00:54:46.998746",
+      "size": 688128
+    },
+    "8b53dd6c6f0ec2490ac6b1087b849680c825a4465a51f92e0474900506552886": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-22T00:54:47.016913",
+      "size": 1645006
+    },
+    "5e1d647652495f0680e25a60e773358a0b7ee73f29664f3e7bf8192c95c26bc6": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-22T00:54:47.050432",
+      "size": 3345083
+    },
+    "5c9c03fd0f8488b573cd9ba2134233f21f72f67ca30998f7ecc105daa431c1d9": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-22T00:54:47.089868",
+      "size": 5748867
+    },
+    "22a22e89d96a5964eff17cf740ec3432a140b40c39ef9e143be0bca290580fc0": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-22T00:55:42.238625",
+      "size": 15873
+    },
+    "0a3c6fc36a94a47f45a00b30872583c38a4eeeec4e1e85249c0d621154fba6ae": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-22T01:10:04.616680",
+      "size": 18398
+    },
+    "40b0bf752f17c4b0b3fb40c95d8912e2fb4197367e2e5591ccacad5449ce5378": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-22T01:25:42.268440",
+      "size": 15873
+    },
+    "2a869b468a431dc4ed068e70118eb8e814fefcd9e51c274c1e720610c384fa6d": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-22T01:55:42.297462",
+      "size": 15873
+    },
+    "b76861514a2ff7fbc04a6035ab72a6689d876c33a74407f5e48381f82963aa63": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-22T02:10:04.498170",
+      "size": 18008
+    },
+    "a6a427b2bc4889ef62e803003c348322b4690f43bd4172291d5bd3ef6e849605": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-22T02:25:42.326614",
+      "size": 15873
+    },
+    "d7a16e7b0dbe3263f62fc1abec692d5f7c61baf803200af2bf4df66de01770fe": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-22T02:55:42.355888",
+      "size": 15873
+    },
+    "0283d4d2ddd6cdc45842e3131ffd95acf84199477cb326de3a280c01c15bada7": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-22T03:10:04.771158",
+      "size": 18008
+    },
+    "539d12bd990577b96f34521cb43dd28071779ec4f796cf24f5d8bbba556ae6c8": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-22T03:25:42.386311",
+      "size": 15873
+    },
+    "d00dce9e339f33100a13b415ce1070ed17d2c628016a65eb7f6bab6ee9eb276f": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-22T03:45:15.818645",
+      "size": 65240
+    },
+    "c388fc07be91aea8fbc6333d7b9aaa32444fd5be6474b95fd69f96a9c0eb4614": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-22T03:45:15.827791",
+      "size": 422552
+    },
+    "7cc371a0bf432cd63f18911d7a415d715bdb098347483c4b0965c6e8cbca70e3": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-22T03:45:15.837939",
+      "size": 748104
+    },
+    "c86cfc66c91b5270bab001e8b92827bcb5dde0a519d05d2ed03132449e76d0a5": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-22T03:45:15.851066",
+      "size": 1171685
+    },
+    "07a6a56687ae1ca92b1908bb27f0ddfd395b54f142e62a39a6ba58cb0927a4d7": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-22T03:45:15.868084",
+      "size": 1717553
+    },
+    "d7d830364cfa25866c7c116547dd192a60403b98a5a17a209ad97d024fdbe897": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-22T03:45:15.909659",
+      "size": 3042634
+    },
+    "f65f4004dae20bb88ea77ff837f5409370c766ed968a447b7b59136f226ccaa8": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-22T03:45:15.931734",
+      "size": 3757804
+    },
+    "06c48b534c4b9267c4a84795dd0485a9e00a7db82491af861070d4e2d3aef143": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-22T03:45:15.975004",
+      "size": 5156812
+    },
+    "50d8542aac2e3f3c0351d75893153af1e3b928c9ac1715b848fa612c2f950e99": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-22T03:45:16.033597",
+      "size": 7033534
+    },
+    "90b73d32e68ad6fdd6fdc7e19ffb10adbce0e7e319b2d4c1ee143cb17ba0b7d5": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-22T03:45:17.294758",
+      "size": 10373676
+    },
+    "bf5be03f38885bd3b3bc4f53bf3efc24d353c2438c8f690941df4c38b3bee503": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-22T03:45:17.300792",
+      "size": 171019
+    },
+    "872c9fed54f538c7f93e86bc2fdd06cc8eb622972e4807ff0b93f9562a057c4d": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-22T03:45:17.307797",
+      "size": 406216
+    },
+    "91c9bf08d11d3186b918d9945d98506b822766b3e909436c3ec0ab3bf553a4db": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-22T03:45:17.318591",
+      "size": 764420
+    },
+    "4db8945d6826cc17ddbebc675e5dae0405f759295750d1a61eff654d12f4a513": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-22T03:45:17.328219",
+      "size": 1065965
+    },
+    "66b57074fdd85ca7ca9cdee0134a34bc3963c6cde702a9234acda8c434f4cbee": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-22T03:45:17.338503",
+      "size": 1416332
+    },
+    "b6fb4f5dd0d30010f2469afb28097b4551663e0456f49c511acfc52a89081683": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-22T03:45:17.351088",
+      "size": 1823315
+    },
+    "b0fd539c0150be5b59f7f2e8721e8fd7aa2a0e3b11d3a3739423cb7aa559d4e4": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-22T03:45:17.366028",
+      "size": 2303553
+    },
+    "8856afa1689046d33253adfc812a3c5b37bb96f76a929ebb73037dd2209fe389": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-22T03:45:17.383863",
+      "size": 2863871
+    },
+    "22b7604eac6e99e6bacb535d6385af7cf90e9c1967c78ccd343a00655f4dc657": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-22T03:45:17.430182",
+      "size": 4401169
+    },
+    "38dde4cdc5e70cdb9094a8b7cadfdd5e7ec7ab2857a2a26b70d3b7b566236858": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-22T03:45:17.479296",
+      "size": 5999265
+    },
+    "b5e40928da091e3e6515b7d8aacdb377fa25d4d0b68ca505cc61b3387a70aaba": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-22T03:45:17.544923",
+      "size": 8147220
+    },
+    "ffb6950294246cfba97ee76723ffd64fa87e1fe78ba39771fadceb6d77657ee4": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-22T03:55:42.415394",
+      "size": 16188
+    },
+    "9b0a5507ecf75762baa9a1e19edc256dc14d21d0284a9f3033e836d0bad35ba1": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-22T04:10:04.619448",
+      "size": 19690
+    },
+    "f4e95ac7a4c7768496ee2e1be20e3562fed97b57b71cdfa5f0e54d3d484ec0b1": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-22T04:25:42.445972",
+      "size": 16161
+    },
+    "786cffd74284953d89fdfacceaf6c3e4281ae02020fba16b510d9b2d0f38ad1f": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-22T04:55:42.476015",
+      "size": 16161
+    },
+    "a7c24c7c8c4a2fd68ab0e5abc6d9ff405522e34bbe01f91c68787bc4163eb8bf": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-22T05:10:04.770965",
+      "size": 18008
+    },
+    "ecf16b7e9a953b75906ed379730c3ab624d9a83a4d1971715d6dc71a642bdd27": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-22T05:25:42.506820",
+      "size": 16161
+    },
+    "980532ba9df4a7e0e2cf38ca6f8b51dfb7a3aa8a0d35ab43ca06e2371289ff3b": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-22T05:55:42.537764",
+      "size": 16161
+    },
+    "955dc48801eaa37815619492ffc8cabb4e63a47b30d28ba8311f6760c671131f": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-22T06:10:04.212751",
+      "size": 18038
+    },
+    "9b6e30fc0e6a55948f8eb4cb70dd6b658049a20e60a35aa6d06c35e26812770b": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-22T06:25:42.567858",
+      "size": 16161
+    },
+    "9af5d9b677fa02912d49bcba2252dd07d2c32329650af32dc86b28d17093e53f": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-22T06:55:40.493370",
+      "size": 25202
+    },
+    "26a2fae0c56927445f5cd4d17a6c331847657e6d25865bab0bb9d01df9df195b": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-22T06:55:40.504160",
+      "size": 707769
+    },
+    "746c6f71ab6ef24f14a403a24a4b74901a91f7e78f9cb59ac84a1c902953fe4b": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-22T06:55:40.520041",
+      "size": 1524483
+    },
+    "7d5b50befda1231c8e5ad1616b5e1cf772d1b072d65a5d3162c327bc1edc0f11": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-22T06:55:40.544448",
+      "size": 2996269
+    },
+    "b7ff02231aa87b8fa4416f1255e2741edbf84cf2386e1e0a0a6e303a3d6ffd83": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-22T06:55:40.584849",
+      "size": 5748477
+    },
+    "59d58d18631accc87b7db917b83002def151cba312258941e00960fece3be6dd": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-22T06:55:43.458677",
+      "size": 16169
+    },
+    "325c45af7d11c2f448fcc6b8e2a791368afca7110d8ba22079d813c1891de007": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-22T07:10:04.345283",
+      "size": 19870
+    },
+    "2e823f3e1c60cd023ed2782d26cfd5bdd00eb9ccebeeaee3f2920d7e0d33b1c2": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-22T07:25:42.629073",
+      "size": 16161
+    },
+    "0d665783af844606f1d5e85dd0b3811f3649d68b859cf9458cc7714eff442974": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-22T07:55:42.658233",
+      "size": 16161
+    },
+    "eaa6fdf4cc2d7fa50c43faf24a5e30d1a19aafab2c4241cf0067aa0b41d6fb97": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-22T08:10:04.482288",
+      "size": 18008
+    },
+    "6b5f35e90850a05d8973dc4db6634d627434bd0fc907c6c8501acd52a21e8e8f": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-22T08:25:42.688992",
+      "size": 16161
+    },
+    "15388849580168248a65a9da1e67e9d25e357134dbde0eb65f2d0d91217df521": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-22T08:55:42.720051",
+      "size": 16161
+    },
+    "24a49f2a237fbc7513f89b5ba9e24e31953ca16fc877ee539e89368d850a1c37": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-22T09:10:04.480125",
+      "size": 18008
+    },
+    "846c7b52d3e43a696c67742f741c5d205878a4376c1b25f517c3c989d9be153d": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-22T09:25:42.750246",
+      "size": 16161
+    },
+    "deb7b78daf398020dd1c02d58e5112424b24bdabca5d010c707b9c5e65ab003f": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-22T09:55:42.779734",
+      "size": 16161
+    },
+    "c1adb2685b3840bf76c9ca592414b854605579b49d1535a82970e1861bb19640": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-22T10:10:05.157777",
+      "size": 18008
+    },
+    "d6221901e0608d7122a39f5712d308fe77f8ca134127994a5eba3b8e61e78206": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-22T10:25:42.811124",
+      "size": 16161
+    },
+    "e201eeff4625bd143954edf84d81aff57e23e964e73fff72bab722d15e55eada": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-22T10:55:42.842069",
+      "size": 16161
+    },
+    "90cafdec2348436357f1309e71fff1c21dddb0073e14b18261ac81dde339267f": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-22T11:10:04.237563",
+      "size": 18007
+    },
+    "d9494abfe3d5d12d2a20897593bc836a5bdae6f893d5582f76f35a1f144da5dc": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-22T11:25:42.871918",
+      "size": 16161
+    },
+    "3abbded34323889fad7139cda0cf99ca7b82b7f1c91c2750602bd0f5624ce392": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-22T11:55:42.904017",
+      "size": 16161
+    },
+    "2cae0c32ca20954ef57dc7305570ec5af4adadd5b1e3aeef2fb38cda66df00d2": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-22T12:10:04.140244",
+      "size": 18038
+    },
+    "8a1f8ee8bfb3584ec1ca1d2edb881e4dda95c039d63d9f4964ad83dfe93bd96c": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-22T12:25:42.934967",
+      "size": 16161
+    },
+    "2d62520c3b7f05d3688b79ada467e2e856602dae51d596e183920d31e85a80c7": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-22T12:55:42.964837",
+      "size": 16161
+    },
+    "77868fe0bf090154e6a2dc29486b20bc4801f815c9ed97a00eaa2e5b51d4b6b1": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-22T13:03:23.672844",
+      "size": 49401
+    },
+    "c158cbdd79182d4c4d4212412b3879692fae1638733987a19acfde54486592df": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-22T13:03:23.694677",
+      "size": 766988
+    },
+    "c37cd513f6de4ba6f34b9948c5441d1de30d26b7027fa8e45f89a297d9864a49": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-22T13:03:23.739160",
+      "size": 2785280
+    },
+    "85b030ddfc9cde051bebe4dc4346fe0cb97f8e753c9958b8372f5bb64a408fef": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-22T13:10:04.912673",
+      "size": 18286
+    },
+    "ddf17849fd7a6e9a18d1d42af096197e2a98db117707a2fd3db19571a4dfe510": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-22T13:25:42.996374",
+      "size": 16157
+    },
+    "51870ad489ec2c6541fec9f33f3e1fca32d39c05e2c5c2ca0e84620859d6a7d5": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-22T13:55:43.028754",
+      "size": 16153
+    },
+    "1b6b00416f5baf92b84638307d4c85063be8e8d7f2f1ddd542ee4fd85ab8540d": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-22T14:10:04.224623",
+      "size": 18008
+    },
+    "0aa69fdfd6e86b37989db765ad5efe896455fe43c2fb83e583a0545fcf290e79": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-22T14:25:43.058933",
+      "size": 16153
+    },
+    "320887aa20c319178781ce5fa93abdafcc4dbd7ddf264e0b3e509b0048fd0989": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-22T14:55:43.088736",
+      "size": 16153
+    },
+    "8b6730750b2dd768420fe9b74fa48aa0dc4a73873cd7f754c4adf7e80efac387": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-22T15:10:04.638538",
+      "size": 18008
+    },
+    "a948d54c245511eb12618b0737c4067c9ad8be22df96408e7c62b5b710c68c4d": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-22T15:25:43.119669",
+      "size": 16153
+    },
+    "dbd4f01a4beef96ce41547db0ba17e830f50be7368af3fd0fa03e1eab0806eee": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-22T15:36:36.695036",
+      "size": 65240
+    },
+    "17f2f2328e8da177d31c655e3fa539cb201a3ec9e698cd15695588313b8e54e6": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-22T15:36:36.705262",
+      "size": 341838
+    },
+    "b3d187d64d75c76c5c6fc84da4e7ff58bd48c56fc9203bc88f1a17de49a33d42": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-22T15:36:36.718673",
+      "size": 911154
+    },
+    "343a2c5f9abd325d2071188148cb3d04ec3481af1a8f368a905d6463b81612f5": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-22T15:36:36.733126",
+      "size": 1383722
+    },
+    "b284a3647f82163c63d1b16cb169a1a1a08addd24f0124b84ebe0bfd7175ef4a": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-22T15:36:36.751567",
+      "size": 1993903
+    },
+    "93546f6af0eb887cd2684689b6ec8ebd3143afa0a1a51d5bfce39bff126096f1": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-22T15:36:36.767289",
+      "size": 2498481
+    },
+    "e98c3b86c64ea586b56c8e8f613dfd3c7139fd9fbed4fad7a0336499723be5ff": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-22T15:36:36.785325",
+      "size": 3083151
+    },
+    "3062fd40af62ac5866e5c824c20ff8331f59f6eb74bbfb1418e6bd05e0545870": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-22T15:36:36.833458",
+      "size": 4645309
+    },
+    "61c8f3df68b72c4bc3e885e125a6c82c987e818d8f39f205409795575d93568d": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-22T15:36:36.882792",
+      "size": 6259971
+    },
+    "742be991dd2ce8480f2b60f9ccb43bf9df43febf1de5cd7850d6b1ce7764eeed": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-22T15:36:36.948326",
+      "size": 8405640
+    },
+    "af2531d6e63083dbec7a5755e07eff9c0d98adb96d06ea689435959165b301f1": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-22T15:55:43.150915",
+      "size": 16234
+    },
+    "0d196e897dc4c4e8d99b70b6f4168bc2737f2b0dbd0394d8fc550751527438c0": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-22T16:10:04.676694",
+      "size": 18832
+    },
+    "474f967e81601db9d1cc5f34bbd8a7cdf26d98548744e631ab26a835f43d3f81": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-22T16:25:43.182256",
+      "size": 16180
+    },
+    "a0f9054cbcc66d8ec3a36df19701d46ddd16ac86baa08032d71f3d2a638758a0": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-22T16:55:43.214758",
+      "size": 16152
+    },
+    "eb843f056ebdad04a227a4e705df4fef118183eb0d7b8e29491a54831178c9c8": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-22T17:10:04.275673",
+      "size": 18100
+    },
+    "a6ff6b07dc0c3131c2185a23f9585f1dd56d8860aa325fad47e3fc2230849c9d": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-22T17:25:43.246271",
+      "size": 16100
+    },
+    "b83c2430a6ea0c27d5968f4c86e843f4636f066f8fbb45db6121f82a7729ca46": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-22T17:55:43.278030",
+      "size": 16074
+    },
+    "3b04091d8de54e457605104cdca1a6c33996ff276128f45af3056538c0ff0836": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-22T18:10:04.644026",
+      "size": 18038
+    },
+    "3a080fbc1fb67c37cb12c35fc6d0f4c0246a050cde8d8c96133c6c9a2d6b6eb3": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-22T18:25:43.310110",
+      "size": 16020
+    },
+    "e98d2b0598a8df8490644a0b8a1ab32fc6c2ed5e455fc33678dd66f86410f131": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-22T18:55:43.341385",
+      "size": 15993
+    },
+    "e12c4e4316bd2d36214cab6f2ab202b139d81a7c0d8df3eb53106074de53449d": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-22T19:03:37.392043",
+      "size": 32156
+    },
+    "bfd176d401666180f896fbe1920b86e731ed16dc4028bedf88377788b2625733": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-22T19:03:37.412390",
+      "size": 826448
+    },
+    "719417b5af328ca90b5222b3ac177ae94b715584d69c7dcee468b559287f49cf": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-22T19:03:37.458446",
+      "size": 2662400
+    },
+    "6213a252f8eae5d21e1395bffc149e507bd2c2deb8c1015f344e9e1757aa79e7": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-22T19:10:04.253117",
+      "size": 18287
+    },
+    "eb01e1712955407fe611273d4ab5e3add464d95d1dda29d6449694f404d52e25": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-22T19:25:43.373629",
+      "size": 15867
+    },
+    "a689892d436eef22134af3fc9e2c11a5356db9edb870881d9586c8756deb837a": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-22T19:55:43.405302",
+      "size": 15867
+    },
+    "3e72f6e69b957ca93e1164947b8aba76fdc6b760168dc6541b220ddc13a8075d": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-22T20:10:04.516453",
+      "size": 18009
+    },
+    "4367be6ab0fb6f72914c3d375fa163b27578fcf1b3d30a403eb1e2e1699d09ec": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-22T20:25:43.435899",
+      "size": 15867
+    },
+    "de29150a516ebca4e4b33055f0dd838687107199e8628ab2bafc17c1420c7a28": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-22T20:55:43.467623",
+      "size": 15867
+    },
+    "0dbcba7e6cd07bf53a9e4bec046907466bd2262ab0e2fee8bdcdd8da6f166b8d": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-22T21:10:04.819029",
+      "size": 18009
+    },
+    "62165447cbb4105da497bef45288878d213e6c469b19b0575df0b4ad94276d04": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-22T21:25:43.499427",
+      "size": 15867
+    },
+    "82cc61591ed851a8d0631a4aa2207e919384e43a23e3184e55b2c9c20ed23685": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-22T21:55:43.530111",
+      "size": 15867
+    },
+    "561ea8a3c8add658042b93b97a6245ddf5f23299c42479f2e7830fc9fb685571": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-22T22:10:04.610654",
+      "size": 18158
+    },
+    "41985293307ee3e1823d8fc0c78e823172ee01db026b314c4b2b93ce0bf51b27": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-22T22:25:43.560806",
+      "size": 15867
+    },
+    "8990248ec8443c42e04c571291a2cf29a94055c279299333bb24c85f46dd86af": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-22T22:55:43.593000",
+      "size": 15865
+    },
+    "cdcd08c62fba9f2f552e374336317a53950704b457360684a76551bef1b1d03f": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-22T23:10:04.526722",
+      "size": 18158
+    },
+    "b775677106279d4d15047a3d8a5278720bff0c35b21f74f53e2b971a46ffd893": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-22T23:25:43.624788",
+      "size": 15858
+    },
+    "1dbb9a146669457419a533b8eeae0ee4147ec9fd3250d535e059fcdcf22b2aad": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-22T23:55:43.656909",
+      "size": 15854
+    },
+    "448c21b7bf1d86cf068e95182a99f40093257a12d82bdb35d0c4c1729c82280a": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-23T00:10:04.891722",
+      "size": 18188
+    },
+    "f784016d6c2fa819a156096f67bd590672cc7735af5f696a99d6b9569710c1e1": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-23T00:25:43.687788",
+      "size": 15850
+    },
+    "a8d731d4439286fbbfafce2c4b0589d1a37218c32cc43eec67b8111121770cfb": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-23T00:55:43.720121",
+      "size": 15850
+    },
+    "93870f25c22cd2fe06b17c87bac44bd31b729c5f4b8b540bc56cab32e171640c": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-23T01:02:34.315796",
+      "size": 40960
+    },
+    "8c8b57542b8ddb66e1a0ddefdeccd0de3e0382c78944d95edfe8829562b349b1": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-23T01:02:34.340204",
+      "size": 849062
+    },
+    "1effad18c918a2e1b660a93625d34bc945fa73979d24189759d0eaad63898d28": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-23T01:02:34.382177",
+      "size": 3102123
+    },
+    "a58edde8b3a6162d5946f39bdb83943d2bd5de750604b74a77e0766fbb10c4d8": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-23T01:10:04.408927",
+      "size": 18436
+    },
+    "06c203ecce2d65e6a665ce6bc48cd473f1495de7a639e278e5279c6302ec55ed": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-23T01:25:43.750546",
+      "size": 15859
+    },
+    "26977866c38c926ee93889fd2488ef2a102483fae94c7170e04ab3e9fb465894": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-23T01:55:43.781759",
+      "size": 15859
+    },
+    "ea7d5ad39fcd13e9a90bf2b0f8136c39f3e28ca70fed3b92599e1abecb029402": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-23T02:10:04.225333",
+      "size": 18158
+    },
+    "fe2f08f30616b51134e967afb5a109a59599c6d209520e059763dce3830d6538": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-23T02:25:43.815277",
+      "size": 15859
+    },
+    "f33c0698da04a1a69a71c0f61dab7e690653aa16344a97e37de549a11ed16f76": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-23T02:55:43.846620",
+      "size": 15859
+    },
+    "6f2b7f256e3c62f6bd2e9da07b4ed9f6e319780b565c915d6898d341120c2f2f": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-23T03:10:04.286255",
+      "size": 18158
+    },
+    "e5c6cf675d3bf8b1e3cb3e99af15c0b1a79fad00cf4679bfc00cf1149e9ae7b2": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-23T03:25:43.880013",
+      "size": 15859
+    },
+    "addf092bba27fbbbd8e2eb3bbce079429937a1205a689cdb38b0c1e52d23882f": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-23T03:42:49.739186",
+      "size": 81452
+    },
+    "8ef341b085c539382b60a18764a78946e496aab01880039758989854b9dd24e1": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-23T03:42:49.746068",
+      "size": 358000
+    },
+    "f22ec0c6019c8a2e9ef1ee5d63fcca2c6dab25814993cf3fe161ac5abd018a96": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-23T03:42:49.753436",
+      "size": 593891
+    },
+    "9d48f16c3347f5a1aebbb442a0bdbb7f14a52cab713d383a370f397556a71a8b": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-23T03:42:49.767076",
+      "size": 1041460
+    },
+    "279094620c16835644e10d83a57f766f07d27642d68c174cde639f32a0b672b8": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-23T03:42:49.786557",
+      "size": 1668520
+    },
+    "6aee45392a816ba3aad5ae45918094028abe37871a7484b5bc8a17b1ae16da14": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-23T03:42:49.807344",
+      "size": 2327863
+    },
+    "4181482a1e5d3e95521d0f23af67540d1cf3c4d6b068702bd99aa5b3266e4b8b": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-23T03:42:49.824748",
+      "size": 2880238
+    },
+    "59e730155260b8f5943a6baa388ee3cacf4fd45e37e623c45d07173df7a9a2a1": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-23T03:42:49.844967",
+      "size": 3530248
+    },
+    "ac3ebe2ac3f3aebc169150e1a5f9bcf793f94aa33b39c5258b9d95d338f8b8e0": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-23T03:42:49.898563",
+      "size": 5269124
+    },
+    "66b682d5aca4d4f282b508f32d9a917b00347747976e5a78b144d4aa17b2853e": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-23T03:42:49.953391",
+      "size": 7033534
+    },
+    "f2efb78efe4b16f02066d0949c9080624ed5a421b596e7e359d4a020dbff8609": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-23T03:42:50.546993",
+      "size": 2222000
+    },
+    "2aa09cc9a9a27362e44f8fb6dfbac33e4ab7c24ccc30f1e34c410ee4b0f718f5": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-23T03:42:50.575913",
+      "size": 3196792
+    },
+    "df703a4ea3d86413b7203f5482e7ec3346244bb93e749903d10052a1e5e530b7": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-23T03:42:50.614796",
+      "size": 4427776
+    },
+    "2d9288a97a13b98259d9ae3b1f5a71c2b8f302ce01a33fb6991f8af5763acaf7": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-23T03:42:50.645592",
+      "size": 5446683
+    },
+    "37ce62836975ed174d164df10d03cd5b445c16c0fa0e0eaa673494efbaa47f43": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-23T03:42:50.682660",
+      "size": 6618546
+    },
+    "d44430699749bfc6c05fa3b4e87bde4d6004a55d56166aaaccba8f4ae43a3608": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-23T03:42:50.730341",
+      "size": 8041811
+    },
+    "53d24ad4d0a02df7cc1e620a035abe5e25941364918d4565e50ae39fae555a47": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-23T03:55:43.911268",
+      "size": 16278
+    },
+    "868abb7fe719317d3dbaafa0cb848ee1d66133d8b695c7191cf5261ef7fddee7": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-23T04:10:05.276224",
+      "size": 19611
+    },
+    "c81d6f18b957cc822f01765f1af709c1c01a202652f59c14e48a68c1d32a1b77": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-23T04:25:43.942620",
+      "size": 16227
+    },
+    "d20228b15f80e12fa700a3b0b3a78ee6ce1b45569c97aef35b05845e442426df": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-23T04:55:43.974317",
+      "size": 16201
+    },
+    "61958f46ca7046a044ae13ba17248c0d00718979ccbc0e700bcfa4788557d842": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-23T05:10:04.782351",
+      "size": 18157
+    },
+    "246cc9ab482615108a813180c6a9e75a091ef1b9127b079508c846d737e9946b": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-23T05:25:44.005849",
+      "size": 16147
+    },
+    "8f66c9aba5f47a80ac7dc1cf038b0a2c43c6a315add5bbcf64e5fe2d42c68002": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-23T05:55:44.038739",
+      "size": 16120
+    },
+    "662c36fab9eda6fe8d94f8eaf8380713b5d7a4e79fbfd7b1f8d3d70407a380e9": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-23T06:10:04.969566",
+      "size": 18188
+    },
+    "abfe46ebe73926b34e3f24e72f57d5f9311415c1f468252178e0d5be15fd194d": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-23T06:25:44.071319",
+      "size": 16066
+    },
+    "110d5cafe206a857e781cc880f1e67fd62cbcaad1df4ab0e2277e5a9d9103c11": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-23T06:55:44.104722",
+      "size": 16039
+    },
+    "846d37329e2971cd64470671d73716f54912ed29fc0138041a703d7489a4ca9c": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-23T06:57:37.579941",
+      "size": 17119
+    },
+    "814a72cae960605d49a0449cb36c0a4dac7b68c244c7d842d0f7eab7cfc6280f": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-23T06:57:37.591887",
+      "size": 727172
+    },
+    "f9227f1ec7857c9b796655141117a5f0aa026dec00d7db5c5e6bb87528198eb8": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-23T06:57:37.611764",
+      "size": 1757750
+    },
+    "eb300af85d4597ab8abcc27b9c91ad908dad09ac0c50224d8122ca2e565c4ee5": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-23T06:57:37.645183",
+      "size": 3600615
+    },
+    "20fdda7d106e1d04f50ff092fa8bfefabac76cb4e1c418ab8aeeff5b2a994aaf": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-23T07:10:04.636758",
+      "size": 18585
+    },
+    "9f22bd08ba4847c078caf3232ea73f988eaa01861b198708fc30b800de57eb04": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-23T07:25:44.137140",
+      "size": 4096
+    },
+    "f003449b377bab6059e4d471e7ce67226e37477399f342099c697a4e850598c4": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-23T07:55:44.169203",
+      "size": 16024
+    },
+    "f2d5a44c81f45cfedcb38954e059effe887cc753ce5e4519d1567afafeb96587": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-23T08:10:04.165427",
+      "size": 18158
+    },
+    "bfbc6561ad87c876b048e55691a05c50f9a9f2fd4671e89105c36baa65d9112e": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-23T08:25:44.202709",
+      "size": 16024
+    },
+    "ca1cf35154c48227fc244e58f51f6b1782cb6071866856c9c6d4062f6048ee81": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-23T08:55:44.234691",
+      "size": 16024
+    },
+    "ab78e5d8515cfc10026e9a5f8e4a14a59580af78f9fbf7f5e1b3b88696dffe37": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-23T09:10:04.695522",
+      "size": 18250
+    },
+    "c51af6b15ec9143155dde8575c055a013618305928750153a90e920e3958f41a": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-23T09:25:44.267608",
+      "size": 16022
+    },
+    "584c71e5fa9b65311c57017d97f5d4bdd749c18dbb2b919b11f26b7cae255704": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-23T09:55:44.301022",
+      "size": 16019
+    },
+    "1dee421bd20f3ff64b57c6094668e235f115ff02afc543279350294c26506567": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-23T10:10:04.559029",
+      "size": 18342
+    },
+    "7ef7bb541d89e899571ea7fc25c6695603d04eff1e4348a16d241382731620fe": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-23T10:25:44.332712",
+      "size": 16015
+    },
+    "fc88ab680d194cc903fe2d94212ef6f1a1ad1c62fa1cdec723925374a70b3068": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-23T10:55:44.366130",
+      "size": 16015
+    },
+    "24ef6ed51b58587f1aff031ff0a4f69fec907f7f5a0cf812f925b09131e64c63": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-23T11:10:04.269649",
+      "size": 18341
+    },
+    "2f66888e3366420842e515299bc4e00e86dbbfcea7fcfbd599f7c86af4077b44": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-23T11:25:44.399965",
+      "size": 16015
+    },
+    "1b48e0900f8d69b3e9872d49ff4696b9e763605290066c4c18601d63b8b90e02": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-23T11:55:44.432114",
+      "size": 16015
+    },
+    "10de7372408d83a84f6810ae2d2f4e1323f14c94c959c3de561e356b527787e1": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-23T12:10:04.160664",
+      "size": 18279
+    },
+    "c4791f2f88a0f18da778a572851f14df2f369a597f59991fec464cd373067341": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-23T12:25:44.464242",
+      "size": 16015
+    },
+    "0c533a972c3c133aa9b6e37b9e9a922f6bb3521c58f8f886b3d8c4fdf126998c": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-23T12:55:44.496736",
+      "size": 16015
+    },
+    "8d6afd9f14903e1d4a1498c61142c608d11a3f8dcafdcd836f299827d675dd00": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-23T13:04:42.283670",
+      "size": 25192
+    },
+    "bd571d37ada22d7495689c9a08e981e9a75d6b0445e0d8211568da5808aa4e11": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-23T13:04:42.298317",
+      "size": 787010
+    },
+    "565cbaf6975edcbac9902f2ebcec4a3eeb12611cddbb19cf673d264da8eb0faf": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-23T13:04:42.321626",
+      "size": 2071082
+    },
+    "49a23ca8820f7f16950dd36d3fb70b2b18112fc9729dcb2d84d8919d3eb1f05a": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-23T13:04:42.353943",
+      "size": 4217346
+    },
+    "cec09440edec33dfa6e515c4643aa20c826e0b72818d3d02599b1ffdf0c3bcaa": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-23T13:10:04.813718",
+      "size": 18585
+    },
+    "72653676699fb38d9eb78543d64a5ac6f2a109ce1eca602593352d040c442d1b": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-23T13:25:44.528860",
+      "size": 16028
+    },
+    "bdeb946d3c9cacfc89e5f46e31798ba8950b20ef02200bf0c151ca739bd1c0a2": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-23T13:55:44.562637",
+      "size": 16028
+    },
+    "926243df043fe5ebceaec95f7654f60b0addd44b40e05aff1e3d49261117df89": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-23T14:10:04.753853",
+      "size": 18250
+    },
+    "eb2ea3ddeae5e28b6d2bb18e87f4f1f2c36a8f2f0e6fc609353cbcdef14b434e": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-23T14:25:44.596471",
+      "size": 16028
+    },
+    "4d41496c67cda97b5df3d40a493ff9d28070f710f7710ae535341d214c3cbbd6": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-23T14:55:44.629495",
+      "size": 16028
+    },
+    "d10e9b70008790059a03538a48740be3c909ee157dd378b2f8be2f6bfb29ab50": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-23T15:10:04.328294",
+      "size": 18250
+    },
+    "4567206b2ce917ebc365d75a7b5d6e6f17852cefb552dbf208ead3b2e348810d": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-23T15:25:44.661840",
+      "size": 16023
+    },
+    "4b42edfd782836323289fb63434310a061b1087795f79d56d886164062140544": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-23T15:36:22.649321",
+      "size": 40916
+    },
+    "6d270033d0f2d36e52b7c0f72df75518adb0839b57d0dc0d306171f45be0a1d5": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-23T15:36:22.660886",
+      "size": 479636
+    },
+    "1bf9dbd724b4734d4462d7cd90ec2a8f766048412f727c979ea679eaf6a3b08d": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-23T15:36:22.674214",
+      "size": 921600
+    },
+    "fbf8ee01803756f976925379119f0f540ca49a8ab2f00ec3328a4c30ebe6db87": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-23T15:36:22.689596",
+      "size": 1424524
+    },
+    "e58c1e4e9256d5640872eb88eea8883ff1f02aef7d1f5ea2074d4d1a43140427": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-23T15:36:22.703040",
+      "size": 1863710
+    },
+    "e28fa8f6fa69057a60534d061cf7b9868d0462fd28b705d9194e8d9367039ef5": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-23T15:36:22.719232",
+      "size": 2392883
+    },
+    "706d6488ac7a8919f3b3ef54321656040d0f052ab1cc42e59c313a492a20fecd": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-23T15:36:22.737830",
+      "size": 3001993
+    },
+    "d5453a4d74528a34c02ad045ffedc24ccfbfcbe6a3ff07db90300bfba897ad4c": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-23T15:36:22.760037",
+      "size": 3717232
+    },
+    "36bfad6459994c33ca6937a47edf4d0c1b3cf3c3ceb6cfbe30ee4e38b0e172c0": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-23T15:36:22.785650",
+      "size": 4563788
+    },
+    "c793aa0ef7df654ed5d3b9d9b31db063fe2ee6b4424063cfbe64576f3a846f6f": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-23T15:36:22.857276",
+      "size": 6911656
+    },
+    "69f37ca8929f087acb47321847dc74b11dc89100caa6938eb6bb9765394fba23": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-23T15:55:44.694306",
+      "size": 16234
+    },
+    "717b3b8a587252614aae8d8d1264d926b3b732d62bf9ba5971762e3d3be1d7a0": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-23T16:10:04.145892",
+      "size": 19074
+    },
+    "cc4843df92d9f221ba5575dabb577befde209c498b59a73239ca3f497e4759db": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-23T16:25:44.727411",
+      "size": 16181
+    },
+    "c8f5fdb1046cd99ab3339f502829473641376dfd394c334b1b5b981d59f73c9a": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-23T16:55:44.759947",
+      "size": 16154
+    },
+    "982d897dfb62920c58461497d6659c018dab58ece3bc986c922444931cba49d0": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-23T17:10:04.429763",
+      "size": 18331
+    },
+    "b577618e0b50c30283552d2914a22a8f28f734d12724eb6c5e46f6e5e49f7217": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-23T17:25:44.793055",
+      "size": 16100
+    },
+    "f1b805bb65a2b6cb8239e1fd63ef8b11641df07da7aa54b4ffae7bc0fd00fd50": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-23T17:55:44.827829",
+      "size": 16073
+    },
+    "e263cbe31ea685bd26a208733b218527d943acbd4844e8715dd072f0a9f91139": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-23T18:10:04.222061",
+      "size": 18458
+    },
+    "26c210e29baa41e0edb1cb44366fde85c57e4ae5bf54900603c7b2603709544c": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-23T18:25:44.860251",
+      "size": 16019
+    },
+    "22d03b34e74c547b9bbd985e7cb477c52815fdac828f2b1e021ea43a2ecb835e": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-23T18:55:44.893658",
+      "size": 15992
+    },
+    "d1c46f3038c3a127728b260ccc4c8c49ea8b1c6f08f506f7c8a506a92863f9c9": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-23T19:10:04.294397",
+      "size": 18249
+    },
+    "8096505a02b07c67477411234dbc19c568c98467d05d63d879405554e32af473": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-23T19:12:44.698317",
+      "size": 25181
+    },
+    "ed4fc50ca8da5e0e15b44ef17a01c333b64a4eafed98032b4fd6c5d00eeaaec5": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-23T19:12:44.710501",
+      "size": 818823
+    },
+    "db5c4f8107b037db2761143f78165b7fe79f81fc39a5a6659d3b57f9cb68055e": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-23T19:12:44.730603",
+      "size": 1945515
+    },
+    "8758efff0713e97458f575fb231176a6354c042ab09a52e2869197ac1ab9e2bc": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-23T19:12:44.763565",
+      "size": 3814388
+    },
+    "6cdb5a715a6717ca6ab687fcadd4a71e06116337887981519196e0ef58d77410": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-23T19:25:44.926481",
+      "size": 15870
+    },
+    "f502d3394ced1b7369e630caea7e06e3e1242d326d820901ad881e421e4832d1": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-23T19:55:44.960638",
+      "size": 15870
+    },
+    "4113eb178eb1cbfa3968d355bd34d95bce4e3b116a13c2feef209997b4f070c1": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-23T20:10:04.181038",
+      "size": 18580
+    },
+    "84ed4905922b1677e3130e4cf55ffe8d0d519e6e6de7a4575afac23afa9fd9ba": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-23T20:26:04.416698",
+      "size": 15870
+    },
+    "32d696d12cb9e42335bdaa2ac79a1660f24569a40a4486832a75464256d7aa68": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-23T20:56:04.452902",
+      "size": 15870
+    },
+    "72b4c754bb9956e32ac78de8703d188a8035dfbebde4332526fe8920854289ca": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-23T21:13:34.996650",
+      "size": 18342
+    },
+    "534ad245feaa5d3d2cd96f2a3a0f8b47e6c3a7c61355d0b2f2f9516d2335ac0f": {
+      "path": "/srv/manhaj2030/data/shared/pmc_unified_latest.md",
+      "ts": "2025-10-23T21:26:04.485308",
+      "size": 15870
+    },
+    "16bd36255ea46625e59887b7ceb821e8a228726118df3f56e17842ca9b7f57cc": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-23T23:10:04.667706",
+      "size": 18390
+    },
+    "00b7cfb0bf8cfb321db9766cf16b5e34718e9e8339381755fa15fece61ee1e12": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-24T00:10:04.763357",
+      "size": 18394
+    },
+    "30d5d39bf4ecc3ff62f861ab52672b57f777756aba7f0752c4c5223edd5616fc": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-24T01:10:05.589470",
+      "size": 18402
+    },
+    "5cc2e6ead3876cc97e3f17810a67769ffd57ce5a4e7635c12fff7e6f6171179e": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-24T02:10:04.576793",
+      "size": 18544
+    },
+    "343cbe171a5a0ae4fae3bac1cb02d52c86b45086f487efd2ef694394d406bc07": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-24T03:10:04.234423",
+      "size": 18309
+    },
+    "8756f055840a42866b64f4c53ee6a9af344097a6b781aaab870569ffc58ab4a5": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-24T03:54:42.918820",
+      "size": 40960
+    },
+    "ef9fcdc0df8cec96795dd1626cb1ba8539a43dde990841b24510e2b149f4307d": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-24T03:54:42.940918",
+      "size": 798995
+    },
+    "385c6b20cd98b0ef1ea920fb7cbc6af41659b23e6ddc9b1855673aad96076634": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-24T03:54:42.983847",
+      "size": 2849857
+    },
+    "8b4e9b2f43648ff2d81d03cbb82e71033b6426638406ffde6c1fa2b02fa424c9": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-24T04:10:04.888414",
+      "size": 18672
+    },
+    "807e576f02a0a9ec2ec7164dc96636c9ed0606dcd6fbae8f17dc856327c25245": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-24T05:10:04.847718",
+      "size": 18439
+    },
+    "2d231548c4e648bdc42f3f473708519311acbf040d06fa5ea9531380a8d4a421": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-24T06:10:04.707406",
+      "size": 19502
+    },
+    "48f8086b6b776770561bfb093ef7476909a054131414b81563ea9634a86381db": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-24T07:10:04.532876",
+      "size": 18574
+    },
+    "32a5a2d20c1da666c5fc618e56a2a03c2f8f45abbd11fe4390d61bb493a31346": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-24T08:10:04.255607",
+      "size": 18281
+    },
+    "05c6eba6dceb026ca957bf3ecdcd86640906e06b07a3719c593236acbf22d187": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-24T09:10:04.202652",
+      "size": 19083
+    },
+    "e6aaf84810497fe534ff1e18c5ffce530490c69e48b8bce4465a37f48035b566": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-24T09:59:31.583380",
+      "size": 20480
+    },
+    "05af6cbf59395219b934279497ccaaff264bada96c400b5c6be7c9e3f61a2fa0": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-24T09:59:31.594575",
+      "size": 714755
+    },
+    "2e2dc7a6c5c01976bbb7f96bf3114f364d90e665d947dc0e7dafbdbe6a8c418c": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-24T09:59:31.612076",
+      "size": 1724765
+    },
+    "649d7243dd7b50b0c443ddf4529810bbe2ca9b1d806b1c5ee651ab555dbd2fc2": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-24T09:59:31.640987",
+      "size": 3351488
+    },
+    "7cbe8d2c412f1f9ded1bb258c1a56a9c67ed838dd0dda6c4bf8fe13bb89d5763": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-24T09:59:31.680824",
+      "size": 5748018
+    },
+    "333f0d22e46d1d7fc31b95fd0584e8d76f383fe53446454a6e4e8d43b7f4de94": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-24T10:10:04.603970",
+      "size": 18994
+    },
+    "22fe344e4185bdcfbe0afec65efa98517521b0d475ceed1bf2ac4fb025b19b4d": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-24T11:10:04.764902",
+      "size": 17993
+    },
+    "5e5b3c9f5d5941e27d2fd83f5f92d1183eb7a3d2679954ed62afd049e3cbd461": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-24T12:10:04.761073",
+      "size": 18476
+    },
+    "c3d72dfc8fa8b97a7977861e942313a58ab5aad62b67a6607477910d4ebf371a": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-24T12:36:37.842291",
+      "size": 97833
+    },
+    "a1902a467791f35ef5798e55e2fcdc8673a7eaec48f54ea1d08a72022b5c8c31": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-24T12:36:37.848995",
+      "size": 341838
+    },
+    "c6df414d9c3b1e7645e3ec9778a35787eed15519a980ffe009c99e07041c5fc2": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-24T12:36:37.859009",
+      "size": 683709
+    },
+    "fd07556e56dd7158cea3bdf88ba68af30f521d8f87728fc609c380fb740ea568": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-24T12:36:37.874349",
+      "size": 1204174
+    },
+    "31f5797df78baf591ac82354408bd8984f3a5d51ddb1027f7baeb2889e0d4d34": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-24T12:36:37.896283",
+      "size": 1937236
+    },
+    "8770b224b627340ab454ad345af8128899038e0bb7ff5c01e03b0c9fb1114530": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-24T12:36:37.911773",
+      "size": 2441474
+    },
+    "c6f224e2a778dadb9c68bf11ea42199605e2da45db806323bde6ab0aafafb5b7": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-24T12:36:37.950073",
+      "size": 3741804
+    },
+    "c1c1fbee21b6de325427092680f49579965c856d8153be1ddb40349701fad5b2": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-24T12:36:38.025420",
+      "size": 6259971
+    },
+    "6e5f38425a82292c0b6f1668b2da165c3fd59c2d276ddef7c86dd9c208181b40": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-24T12:36:38.062308",
+      "size": 7495832
+    },
+    "dd1ceb736999f0e3d7be16a39746164cfce4f8bd3d9641ec436bf3fa28a14ba6": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-24T12:36:38.105676",
+      "size": 8932763
+    },
+    "8f06c07146140bbe1b1e13459d3dd3ff940ebdd8b245129f2e0ef77090040d79": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-24T13:10:04.459138",
+      "size": 18432
+    },
+    "0d570e4f8d4f86a65387897c8e7b33820440b94a0160e4cd568432c1546de57b": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-24T14:10:04.784755",
+      "size": 18559
+    },
+    "6f1756bfb4fab321d60fb0ddac1eec10e3ee458a69a7e33dca65b4cd6d89d1d2": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-24T15:10:04.465254",
+      "size": 18526
+    },
+    "4996790afd53af2eba4236dd537cda0da05a46bf03aba07da96620c6539e4d55": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-24T16:06:48.669000",
+      "size": 17119
+    },
+    "b555435d92997b2bf46d022a7f80afeba9b1b1168d3ab15fd85348fbfbb2f60e": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-24T16:06:48.678135",
+      "size": 573288
+    },
+    "f329c7a58c5dc3b2306c1ecd27b3e0f748151f1ab78234e10a1bbfb42a1437db": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-24T16:06:48.690351",
+      "size": 1244633
+    },
+    "934b163abb7e16154ab45d47abaa09efca91f7fe6358e079007fb517998a6471": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-24T16:06:48.707136",
+      "size": 2085185
+    },
+    "d8628da10b16bdb262803c1da2725bd2ebd472d991122519f1d88c23676196a5": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-24T16:06:48.758217",
+      "size": 4591616
+    },
+    "62e9d97b072574e9bd45b141557f74f2daa7999e0e9e02694aa3e7d18dabdba3": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-24T16:10:04.604099",
+      "size": 18787
+    },
+    "7f018a3a52c4bc3afb34bf6c634dc400481d0d4f9dd4ed12b28e1adb1708d8be": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-24T17:10:04.445330",
+      "size": 18463
+    },
+    "e40ae4f148b9d4df3835acaef4d16e9f32f68942766e5cbac99faeca02bcaa9a": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-24T18:10:04.800152",
+      "size": 18463
+    },
+    "bde677d8beaca89c1017105c41bd5ee4a0845614d12580108fa6d1973721e34e": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-24T19:10:04.498395",
+      "size": 18846
+    },
+    "c3848f127e09901e355145d051b91ca53376729b63399df4049a3404439cff5d": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-24T20:10:04.289394",
+      "size": 18443
+    },
+    "5a252c600e89a89094da4ef3952b029776104630dfb969d0f1bb655e2f8a3a90": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-24T21:10:04.981901",
+      "size": 18488
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "timestamp": "2025-10-24T21:48:53.141001Z",
+  "events_total": 320,
+  "last_event": "F5_CANARY_V2.5_SUCCESS",
+  "last_timestamp": "2025-10-24T21:46:46Z",
+  "gpu": {
+    "count": 16,
+    "avg_util": 0.0,
+    "avg_mem_used": 134.75,
+    "avg_mem_total": 16384.0
+  },
+  "system": {
+    "cpu": 0.0,
+    "mem": 1.5,
+    "disk": 13.5,
+    "overall": "green"
+  },
+  "active_inboxes": [
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5",
+    "agent_6",
+    "agent_7",
+    "agent_8",
+    "agent_9",
+    "agent_10",
+    "agent_11",
+    "agent_12",
+    "agent_13",
+    "agent_14",
+    "agent_15"
+  ],
+  "inboxes_active_count": 15,
+  "snapshot_exists": true
+}
