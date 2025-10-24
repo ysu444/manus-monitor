@@ -3349,6 +3349,31 @@
       "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
       "ts": "2025-10-24T21:10:04.981901",
       "size": 18488
+    },
+    "220f42949334ef82adcd708fc73a700c0121d2f75bc78503762aa344b64dab7a": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-24T22:06:25.494519",
+      "size": 25195
+    },
+    "edd69a3178d89782b3b44a941702f37f2bf80cc824703d0977a35b9baaab3f9e": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-24T22:06:25.506231",
+      "size": 741438
+    },
+    "b865217c865f7e70f9ed6b8e13a4216be2ab15126ec53fd408ba39b975f3b51d": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-24T22:06:25.525143",
+      "size": 1801003
+    },
+    "0e217c8e4cfa4d95a480671208a43002b9fa8edd3eeb68e7b46dc3a2b0f1724f": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-24T22:06:25.556903",
+      "size": 3577178
+    },
+    "0582fead0ca9c0b8d39e0644d1b276de7430613adb03d0ad8605d6808fc9f13a": {
+      "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
+      "ts": "2025-10-24T22:06:25.596886",
+      "size": 5748434
     }
   }
 }
