@@ -1,8 +1,8 @@
 {
-  "timestamp": "2025-10-25T12:51:56.900619Z",
-  "events_total": 352,
-  "last_event": "NIGHT_MODE_F6_COMPLETED",
-  "last_timestamp": "2025-10-25T12:50:29Z",
+  "timestamp": "2025-10-25T13:01:58.155279Z",
+  "events_total": 358,
+  "last_event": "PHASE_F6_PRODUCTION_COMPLETED",
+  "last_timestamp": "2025-10-25T12:55:56Z",
   "gpu": {
     "count": 16,
     "avg_util": 0.0,
@@ -10,7 +10,7 @@
     "avg_mem_total": 16384.0
   },
   "system": {
-    "cpu": 0.0,
+    "cpu": 1.3,
     "mem": 1.5,
     "disk": 14.7,
     "overall": "green"
