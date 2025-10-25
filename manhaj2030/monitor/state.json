@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-10-25T21:23:00.181030Z",
+  "timestamp": "2025-10-25T21:33:01.436116Z",
   "events_total": 363,
   "last_event": "PHASE_F6_SINGLE_GPU_COMPLETED",
   "last_timestamp": "2025-10-25T18:26:07Z",
@@ -10,7 +10,7 @@
     "avg_mem_total": 16384.0
   },
   "system": {
-    "cpu": 0.0,
+    "cpu": 1.0,
     "mem": 1.6,
     "disk": 15.4,
     "overall": "green"
