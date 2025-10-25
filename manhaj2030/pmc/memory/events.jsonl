@@ -359,3 +359,5 @@
 {"timestamp":"2025-10-25T13:02:04Z","agent":"Agent8","event":"PHASE_F6_SINGLE_GPU_STARTED","status":"started","mode":"single_gpu","gpu":0,"log":"/srv/manhaj2030/logs/phase_f6_single_gpu_20251025T130204Z.log"}
 {"timestamp": "2025-10-25T13:02:08Z", "agent": "Agent8", "event": "PHASE_F6_DDP_TRAINING_STARTED", "status": "success", "details": "Phase F-6 DDP training started with 1 GPUs, 10 epochs"}
 {"timestamp": "2025-10-25T17:12:58.420771Z", "agent": 12, "event": "CONTEXT_KEEPER_INTEGRITY_CHECK", "result": "ok", "latest_snapshot": "context_snapshot_1761411308.json", "age_hours": 0.3, "timer_active": true}
+{"timestamp": "2025-10-25T18:26:06Z", "agent": "Agent8", "event": "PHASE_F6_DDP_TRAINING_COMPLETED", "status": "success", "details": "Phase F-6 DDP training completed successfully. Final loss: 0.0736"}
+{"timestamp":"2025-10-25T18:26:07Z","agent":"Agent8","event":"PHASE_F6_SINGLE_GPU_COMPLETED","status":"success","exit_code":0}
