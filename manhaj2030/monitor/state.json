@@ -1,18 +1,18 @@
 {
-  "timestamp": "2025-10-25T08:20:11.217304Z",
-  "events_total": 333,
-  "last_event": "GPU_INFRASTRUCTURE_READY_FOR_DDP",
-  "last_timestamp": "2025-10-25T08:15:43Z",
+  "timestamp": "2025-10-25T08:30:12.405900Z",
+  "events_total": 335,
+  "last_event": "F5_CHECKPOINT_BACKUP_SAVED",
+  "last_timestamp": "2025-10-25T08:29:31Z",
   "gpu": {
     "count": 16,
-    "avg_util": 6.19,
+    "avg_util": 6.12,
     "avg_mem_used": 554.31,
     "avg_mem_total": 16384.0
   },
   "system": {
-    "cpu": 1.1,
+    "cpu": 1.0,
     "mem": 1.6,
-    "disk": 14.0,
+    "disk": 14.1,
     "overall": "green"
   },
   "active_inboxes": [
