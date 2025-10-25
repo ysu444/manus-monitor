@@ -3474,6 +3474,11 @@
       "path": "/srv/manhaj2030/data/shared/labeled_hadiths_v3.json",
       "ts": "2025-10-25T04:04:41.410337",
       "size": 5749471
+    },
+    "60dddb74e558cc96bc5ab766021a853e74f40cb132524599feb825d9a5e44f3f": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-25T04:10:04.241830",
+      "size": 18786
     }
   }
 }
