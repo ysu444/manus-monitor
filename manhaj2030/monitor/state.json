@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-10-25T01:49:22.784025Z",
+  "timestamp": "2025-10-25T01:59:23.968998Z",
   "events_total": 327,
   "last_event": "HYBRID_METHODOLOGY_V2_CREATED",
   "last_timestamp": "2025-10-24T23:24:51Z",
@@ -11,7 +11,7 @@
   },
   "system": {
     "cpu": 0.0,
-    "mem": 1.5,
+    "mem": 1.4,
     "disk": 13.7,
     "overall": "green"
   },
