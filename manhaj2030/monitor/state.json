@@ -1,8 +1,8 @@
 {
-  "timestamp": "2025-10-25T11:50:37.245495Z",
-  "events_total": 344,
-  "last_event": "F5_TRAINING_COMPLETED",
-  "last_timestamp": "2025-10-25T11:50:09Z",
+  "timestamp": "2025-10-25T12:00:38.464676Z",
+  "events_total": 345,
+  "last_event": "F5_PHASE_COMPLETE",
+  "last_timestamp": "2025-10-25T11:54:04Z",
   "gpu": {
     "count": 16,
     "avg_util": 0.0,
@@ -10,7 +10,7 @@
     "avg_mem_total": 16384.0
   },
   "system": {
-    "cpu": 0.1,
+    "cpu": 1.1,
     "mem": 1.5,
     "disk": 14.7,
     "overall": "green"
