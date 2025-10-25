@@ -1,17 +1,17 @@
 {
-  "timestamp": "2025-10-25T12:20:40.941779Z",
-  "events_total": 345,
-  "last_event": "F5_PHASE_COMPLETE",
-  "last_timestamp": "2025-10-25T11:54:04Z",
+  "timestamp": "2025-10-25T12:30:42.166471Z",
+  "events_total": 346,
+  "last_event": "F5_TRAINING_FULL_SUCCESS",
+  "last_timestamp": "2025-10-25T12:27:26Z",
   "gpu": {
     "count": 16,
-    "avg_util": 0.0,
-    "avg_mem_used": 134.75,
+    "avg_util": 6.19,
+    "avg_mem_used": 283.62,
     "avg_mem_total": 16384.0
   },
   "system": {
-    "cpu": 0.1,
-    "mem": 1.5,
+    "cpu": 1.7,
+    "mem": 1.6,
     "disk": 14.7,
     "overall": "green"
   },
