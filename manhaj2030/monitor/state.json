@@ -1,18 +1,18 @@
 {
-  "timestamp": "2025-10-25T09:30:19.744912Z",
-  "events_total": 339,
-  "last_event": "DDP_REFACTOR_V1_GLOO_SUCCESS",
-  "last_timestamp": "2025-10-25T09:25:24Z",
+  "timestamp": "2025-10-25T09:40:21.005553Z",
+  "events_total": 342,
+  "last_event": "DDP_BENCHMARK_4GPU_SUCCESS",
+  "last_timestamp": "2025-10-25T09:36:53Z",
   "gpu": {
     "count": 16,
-    "avg_util": 6.12,
-    "avg_mem_used": 584.94,
+    "avg_util": 6.19,
+    "avg_mem_used": 571.69,
     "avg_mem_total": 16384.0
   },
   "system": {
     "cpu": 1.1,
-    "mem": 1.9,
-    "disk": 14.4,
+    "mem": 1.7,
+    "disk": 14.5,
     "overall": "green"
   },
   "active_inboxes": [
