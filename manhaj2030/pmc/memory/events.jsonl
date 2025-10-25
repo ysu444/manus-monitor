@@ -356,3 +356,5 @@
 {"timestamp":"2025-10-25T12:55:45Z","agent":"Agent8","event":"PHASE_F6_PRODUCTION_STARTED","status":"started","details":"Phase F-6 production training: 15394 train + 1166 eval examples, 10 epochs, 8 GPUs","log":"/srv/manhaj2030/logs/phase_f6_production_20251025T125545Z.log","fixes":["data_parsing","eval_file_path","training_args_compat"]}
 {"timestamp": "2025-10-25T12:55:49Z", "agent": "Agent8", "event": "PHASE_F6_DDP_TRAINING_STARTED", "status": "success", "details": "Phase F-6 DDP training started with 1 GPUs, 10 epochs"}
 {"timestamp":"2025-10-25T12:55:56Z","agent":"Agent8","event":"PHASE_F6_PRODUCTION_COMPLETED","status":"failed","exit_code":1,"log":"/srv/manhaj2030/logs/phase_f6_production_20251025T125545Z.log"}
+{"timestamp":"2025-10-25T13:02:04Z","agent":"Agent8","event":"PHASE_F6_SINGLE_GPU_STARTED","status":"started","mode":"single_gpu","gpu":0,"log":"/srv/manhaj2030/logs/phase_f6_single_gpu_20251025T130204Z.log"}
+{"timestamp": "2025-10-25T13:02:08Z", "agent": "Agent8", "event": "PHASE_F6_DDP_TRAINING_STARTED", "status": "success", "details": "Phase F-6 DDP training started with 1 GPUs, 10 epochs"}
