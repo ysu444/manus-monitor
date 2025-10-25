@@ -1,16 +1,16 @@
 {
-  "timestamp": "2025-10-25T17:22:30.659431Z",
+  "timestamp": "2025-10-25T17:32:31.865279Z",
   "events_total": 361,
   "last_event": "CONTEXT_KEEPER_INTEGRITY_CHECK",
   "last_timestamp": "2025-10-25T17:12:58.420771Z",
   "gpu": {
     "count": 16,
-    "avg_util": 6.19,
+    "avg_util": 6.12,
     "avg_mem_used": 888.62,
     "avg_mem_total": 16384.0
   },
   "system": {
-    "cpu": 1.2,
+    "cpu": 1.1,
     "mem": 1.7,
     "disk": 15.2,
     "overall": "green"
