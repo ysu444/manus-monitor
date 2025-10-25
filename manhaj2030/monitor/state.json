@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-10-25T16:52:26.891607Z",
+  "timestamp": "2025-10-25T17:02:28.146113Z",
   "events_total": 360,
   "last_event": "PHASE_F6_DDP_TRAINING_STARTED",
   "last_timestamp": "2025-10-25T13:02:08Z",
@@ -10,7 +10,7 @@
     "avg_mem_total": 16384.0
   },
   "system": {
-    "cpu": 1.0,
+    "cpu": 2.2,
     "mem": 1.7,
     "disk": 15.1,
     "overall": "green"
