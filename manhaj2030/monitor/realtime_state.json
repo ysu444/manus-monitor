@@ -3389,6 +3389,56 @@
       "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
       "ts": "2025-10-25T00:10:04.403423",
       "size": 18534
+    },
+    "1053fd4670e80e072c0057086ab8803015a873de5db795afa8f7e7466c403e4a": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-25T00:42:50.157812",
+      "size": 81452
+    },
+    "6cc0bce32572fec8f6dd0fc1538fde1b6aefb869888b73b8c2f8b4f2bd63bf6a": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-25T00:42:50.165339",
+      "size": 366170
+    },
+    "ad2061a625b10d461b9a9fd5653a95fa74f055f385001da4c1483defd55d629c": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-25T00:42:50.173990",
+      "size": 651080
+    },
+    "e0c93814329954f432643f6f98a5f6d3585c121424db0d4aa2207d214b00052f": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-25T00:42:50.184089",
+      "size": 976272
+    },
+    "ebc99868e3219bc689bdb6d98556dba8d63df7908b8bbfef0154338286910907": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-25T00:42:50.204635",
+      "size": 1636075
+    },
+    "bd95daeefd8a7c26418419317833320116dbbc3739a9dc526244f38862cb5f06": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-25T00:42:50.229214",
+      "size": 2368392
+    },
+    "ba432b332b5de082627c8d571d8414f15c059a91d2d0a5fdad0e5eb681162c48": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-25T00:42:50.261624",
+      "size": 3391806
+    },
+    "ee9d23005a67d704e584a4ef631ffde19c4f2b6f6db55479930ee31c8cab9ca8": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-25T00:42:50.288133",
+      "size": 4238131
+    },
+    "4a69478393d53b8975b5c88522083efc2bf4061d9d72b41c542c85ce6bd2eb3f": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-25T00:42:50.319859",
+      "size": 5228459
+    },
+    "a45f4fd085a599154b4cc3ff01a4cfbf9d970beba05b338bd04a240bf78e1d13": {
+      "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
+      "ts": "2025-10-25T00:42:50.411921",
+      "size": 8115073
     }
   }
 }
