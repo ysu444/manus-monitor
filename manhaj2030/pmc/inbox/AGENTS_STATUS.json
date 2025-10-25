@@ -6,105 +6,105 @@
       "name": "Agent 1",
       "role": "PMC Logger",
       "status": "active",
-      "last_refresh": "2025-10-25T21:21:50.645615Z"
+      "last_refresh": "2025-10-25T21:26:50.751158Z"
     },
     {
       "id": 2,
       "name": "Agent 2",
       "role": "Archiver",
       "status": "active",
-      "last_refresh": "2025-10-25T21:21:50.645945Z"
+      "last_refresh": "2025-10-25T21:26:50.751476Z"
     },
     {
       "id": 3,
       "name": "Agent 3",
       "role": "Documentation",
       "status": "active",
-      "last_refresh": "2025-10-25T21:21:50.646636Z"
+      "last_refresh": "2025-10-25T21:26:50.752222Z"
     },
     {
       "id": 4,
       "name": "Agent 4",
       "role": "Data Processor",
       "status": "active",
-      "last_refresh": "2025-10-25T21:21:50.646942Z"
+      "last_refresh": "2025-10-25T21:26:50.752530Z"
     },
     {
       "id": 5,
       "name": "Agent 5",
       "role": "Quality Assurance",
       "status": "active",
-      "last_refresh": "2025-10-25T21:21:50.647280Z"
+      "last_refresh": "2025-10-25T21:26:50.752877Z"
     },
     {
       "id": 6,
       "name": "Agent 6",
       "role": "Model Validator",
       "status": "active",
-      "last_refresh": "2025-10-25T21:21:50.647617Z"
+      "last_refresh": "2025-10-25T21:26:50.753209Z"
     },
     {
       "id": 7,
       "name": "Agent 7",
       "role": "Performance Monitor",
       "status": "active",
-      "last_refresh": "2025-10-25T21:21:50.647944Z"
+      "last_refresh": "2025-10-25T21:26:50.753533Z"
     },
     {
       "id": 8,
       "name": "Agent 8",
       "role": "System Coordinator",
       "status": "active",
-      "last_refresh": "2025-10-25T21:21:50.648270Z"
+      "last_refresh": "2025-10-25T21:26:50.753860Z"
     },
     {
       "id": 9,
       "name": "Agent 9",
       "role": "Error Tracker",
       "status": "active",
-      "last_refresh": "2025-10-25T21:21:50.648639Z"
+      "last_refresh": "2025-10-25T21:26:50.754180Z"
     },
     {
       "id": 10,
       "name": "Agent 10",
       "role": "Training Manager",
       "status": "active",
-      "last_refresh": "2025-10-25T21:21:50.648945Z"
+      "last_refresh": "2025-10-25T21:26:50.754519Z"
     },
     {
       "id": 11,
       "name": "Agent 11",
       "role": "Training Executor",
       "status": "active",
-      "last_refresh": "2025-10-25T21:21:50.649270Z"
+      "last_refresh": "2025-10-25T21:26:50.754845Z"
     },
     {
       "id": 12,
       "name": "Agent 12",
       "role": "Research & Monitoring",
       "status": "active",
-      "last_refresh": "2025-10-25T21:21:50.649601Z"
+      "last_refresh": "2025-10-25T21:26:50.755169Z"
     },
     {
       "id": 13,
       "name": "Agent 13",
       "role": "Deployment Manager",
       "status": "active",
-      "last_refresh": "2025-10-25T21:21:50.649937Z"
+      "last_refresh": "2025-10-25T21:26:50.755489Z"
     },
     {
       "id": 14,
       "name": "Agent 14",
       "role": "Integration Tester",
       "status": "active",
-      "last_refresh": "2025-10-25T21:21:50.650253Z"
+      "last_refresh": "2025-10-25T21:26:50.755819Z"
     },
     {
       "id": 15,
       "name": "Agent 15",
       "role": "Daily Tracker",
       "status": "active",
-      "last_refresh": "2025-10-25T21:21:50.650589Z"
+      "last_refresh": "2025-10-25T21:26:50.756139Z"
     }
   ]
 }
