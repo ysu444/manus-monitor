@@ -1,8 +1,8 @@
 {
-  "timestamp": "2025-10-25T11:10:32.218620Z",
-  "events_total": 342,
-  "last_event": "DDP_BENCHMARK_4GPU_SUCCESS",
-  "last_timestamp": "2025-10-25T09:36:53Z",
+  "timestamp": "2025-10-25T11:20:33.475073Z",
+  "events_total": 343,
+  "last_event": "CONTEXT_KEEPER_INTEGRITY_CHECK",
+  "last_timestamp": "2025-10-25T11:12:55.419533Z",
   "gpu": {
     "count": 16,
     "avg_util": 0.0,
