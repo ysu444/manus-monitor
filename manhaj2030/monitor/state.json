@@ -1,11 +1,11 @@
 {
-  "timestamp": "2025-10-25T09:40:21.005553Z",
+  "timestamp": "2025-10-25T09:50:22.245412Z",
   "events_total": 342,
   "last_event": "DDP_BENCHMARK_4GPU_SUCCESS",
   "last_timestamp": "2025-10-25T09:36:53Z",
   "gpu": {
     "count": 16,
-    "avg_util": 6.19,
+    "avg_util": 6.12,
     "avg_mem_used": 571.69,
     "avg_mem_total": 16384.0
   },
