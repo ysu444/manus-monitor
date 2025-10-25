@@ -1,8 +1,8 @@
 {
-  "timestamp": "2025-10-25T11:40:35.988641Z",
-  "events_total": 343,
-  "last_event": "CONTEXT_KEEPER_INTEGRITY_CHECK",
-  "last_timestamp": "2025-10-25T11:12:55.419533Z",
+  "timestamp": "2025-10-25T11:50:37.245495Z",
+  "events_total": 344,
+  "last_event": "F5_TRAINING_COMPLETED",
+  "last_timestamp": "2025-10-25T11:50:09Z",
   "gpu": {
     "count": 16,
     "avg_util": 0.0,
@@ -10,9 +10,9 @@
     "avg_mem_total": 16384.0
   },
   "system": {
-    "cpu": 0.0,
+    "cpu": 0.1,
     "mem": 1.5,
-    "disk": 14.6,
+    "disk": 14.7,
     "overall": "green"
   },
   "active_inboxes": [
