@@ -1,16 +1,16 @@
 {
-  "timestamp": "2025-10-25T08:30:12.405900Z",
-  "events_total": 335,
-  "last_event": "F5_CHECKPOINT_BACKUP_SAVED",
-  "last_timestamp": "2025-10-25T08:29:31Z",
+  "timestamp": "2025-10-25T08:40:13.565827Z",
+  "events_total": 336,
+  "last_event": "F5_EPOCH1_COMPLETED",
+  "last_timestamp": "2025-10-25T08:30:40Z",
   "gpu": {
     "count": 16,
-    "avg_util": 6.12,
+    "avg_util": 6.19,
     "avg_mem_used": 554.31,
     "avg_mem_total": 16384.0
   },
   "system": {
-    "cpu": 1.0,
+    "cpu": 1.1,
     "mem": 1.6,
     "disk": 14.1,
     "overall": "green"
