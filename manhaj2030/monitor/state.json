@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-10-25T12:10:39.720193Z",
+  "timestamp": "2025-10-25T12:20:40.941779Z",
   "events_total": 345,
   "last_event": "F5_PHASE_COMPLETE",
   "last_timestamp": "2025-10-25T11:54:04Z",
@@ -10,7 +10,7 @@
     "avg_mem_total": 16384.0
   },
   "system": {
-    "cpu": 0.0,
+    "cpu": 0.1,
     "mem": 1.5,
     "disk": 14.7,
     "overall": "green"
