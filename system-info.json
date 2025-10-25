@@ -1,13 +1,13 @@
 {
-  "timestamp": "2025-10-25T09:05:01Z",
-  "timestamp_unix": 1761383101,
+  "timestamp": "2025-10-25T09:06:01Z",
+  "timestamp_unix": 1761383161,
   "hostname": "vultr",
-  "uptime_seconds": 117236,
-  "cpu_usage": 4.2,
+  "uptime_seconds": 117296,
+  "cpu_usage": 2.9,
   "memory": {
     "total_mb": 967140,
-    "used_mb": 10648,
-    "free_mb": 865700,
+    "used_mb": 10319,
+    "free_mb": 866017,
     "usage_percent": 1.1
   },
   "disk": {
