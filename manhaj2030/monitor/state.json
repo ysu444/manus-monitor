@@ -1,18 +1,18 @@
 {
-  "timestamp": "2025-10-25T10:10:24.709813Z",
+  "timestamp": "2025-10-25T10:20:25.965326Z",
   "events_total": 342,
   "last_event": "DDP_BENCHMARK_4GPU_SUCCESS",
   "last_timestamp": "2025-10-25T09:36:53Z",
   "gpu": {
     "count": 16,
-    "avg_util": 6.19,
-    "avg_mem_used": 571.69,
+    "avg_util": 0.0,
+    "avg_mem_used": 134.75,
     "avg_mem_total": 16384.0
   },
   "system": {
-    "cpu": 1.1,
-    "mem": 1.7,
-    "disk": 14.5,
+    "cpu": 0.0,
+    "mem": 1.5,
+    "disk": 14.6,
     "overall": "green"
   },
   "active_inboxes": [
