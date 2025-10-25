@@ -328,3 +328,4 @@
 {"timestamp":"2025-10-25T03:05:36Z","agent":12,"event":"f5_epoch1_checkpoint_saved","status":"success","eval_loss":0.0381,"details":"Phase F-5 Epoch 1 completed — checkpoint saved for future DDP continuation. Eval Loss: 0.0381"}
 {"timestamp": "2025-10-25T05:12:50.774832Z", "agent": 12, "event": "CONTEXT_KEEPER_INTEGRITY_CHECK", "result": "ok", "latest_snapshot": "context_snapshot_1761368093.json", "age_hours": 0.3, "timer_active": true}
 {"timestamp":"2025-10-25T08:03:50Z","agent":12,"event":"F5_TRAINING_LIVE_STATUS","status":"running","details":"F5 training running; ETA pinned from live log; file=training_f5_final_20251025_105914.log"}
+{"timestamp":"2025-10-25T08:09:09Z","agent":11,"event":"DDP_GPU_VALIDATION_PENDING","status":"warning","details":"DDP Refactor v1.0 validated functionally, but GPUs detected are virtual. Hardware benchmark deferred to physical GPU environment."}
