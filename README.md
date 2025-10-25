@@ -22,6 +22,153 @@ This repository provides **real-time monitoring data** for the Manhaj 2030 proje
 
 ---
 
+## 🚀 Quick Start for LLMs (Claude, GPT, etc.)
+
+### ⚠️ IMPORTANT: How to Avoid Stale Data
+
+**❌ WRONG WAY (Returns Cached Data):**
+```
+https://raw.githubusercontent.com/ysu444/manus-monitor/main/manifest.json
+```
+☝️ This URL uses GitHub CDN and may return data that is **5-60 minutes old**!
+
+**✅ CORRECT WAY (Always Fresh Data):**
+
+### Step 1: Read the Manifest (You Can Use /main/ Here)
+
+```
+https://raw.githubusercontent.com/ysu444/manus-monitor/main/manifest.json
+```
+
+The manifest itself can be slightly cached, but it contains the **commit SHA** which points to fresh data.
+
+### Step 2: Extract the Commit SHA
+
+The manifest looks like this:
+
+```json
+{
+  "generated_at": "2025-10-25T12:48:01Z",
+  "generated_at_unix": 1761395281,
+  "commit_sha": "5a6824b123abc...",
+  "commit_sha_short": "5a6824b",
+  "version": "4.0.0",
+  "description": "Manus Monitor - Real-time data with SHA-based URLs (zero CDN caching)",
+  
+  "direct_links": {
+    "raw_github_live": {
+      "description": "Use these links for real-time data (zero cache)",
+      "manifest": "https://raw.githubusercontent.com/ysu444/manus-monitor/main/manifest.json",
+      "state": "https://raw.githubusercontent.com/ysu444/manus-monitor/5a6824b/manhaj2030/monitor/state.json",
+      "agents_status": "https://raw.githubusercontent.com/ysu444/manus-monitor/5a6824b/manhaj2030/pmc/inbox/AGENTS_STATUS.json",
+      "pmc_events": "https://raw.githubusercontent.com/ysu444/manus-monitor/5a6824b/manhaj2030/pmc/memory/events.jsonl",
+      "pmc_unified": "https://raw.githubusercontent.com/ysu444/manus-monitor/5a6824b/manhaj2030/pmc/unified/pmc_unified_latest.md",
+      "scientific_closure": "https://raw.githubusercontent.com/ysu444/manus-monitor/5a6824b/manhaj2030/reports/scientific_closure_v1.md",
+      "realtime_state": "https://raw.githubusercontent.com/ysu444/manus-monitor/5a6824b/manhaj2030/monitor/realtime_state.json",
+      "system_info": "https://raw.githubusercontent.com/ysu444/manus-monitor/5a6824b/system-info.json",
+      "pm2_status": "https://raw.githubusercontent.com/ysu444/manus-monitor/5a6824b/pm2-status.json"
+    }
+  }
+}
+```
+
+### Step 3: Use the URLs from `direct_links.raw_github_live`
+
+**These URLs contain the commit SHA (e.g., `/5a6824b/`) instead of `/main/`**
+
+This is the key! Each commit has a unique SHA, so:
+- ✅ Every minute = new commit = new SHA = new URL
+- ✅ GitHub cannot cache (every URL is different!)
+- ✅ You always get fresh data (< 60 seconds old)
+
+---
+
+## 🎯 Example: Correct Usage
+
+**Query:** "What's the current system status?"
+
+**LLM Process:**
+
+```
+1. Read: https://raw.githubusercontent.com/ysu444/manus-monitor/main/manifest.json
+   → Get: commit_sha_short = "5a6824b"
+
+2. Use the SHA-based URL from manifest:
+   Read: https://raw.githubusercontent.com/ysu444/manus-monitor/5a6824b/manhaj2030/monitor/state.json
+   
+3. Analyze the data:
+   {
+     "timestamp": "2025-10-25T12:41:55.721017Z",
+     "events_total": 346,
+     "last_event": "F5_TRAINING_FULL_SUCCESS",
+     "system": {
+       "cpu": 0.0,
+       "mem": 1.5,
+       "disk": 14.7,
+       "overall": "green"
+     }
+   }
+
+4. Report: System is healthy! Last updated 7 minutes ago (fresh data ✅)
+```
+
+---
+
+## 📊 Available Data Files
+
+### Essential Files (Always Fresh with SHA-based URLs)
+
+| File | Size | Description | URL Pattern |
+|:-----|:-----|:------------|:------------|
+| **manifest.json** | ~2 KB | Master index with latest commit SHA | Use `/main/` first, then extract SHA |
+| **state.json** | ~1 KB | System state (GPU, CPU, Events, Agents) | Use SHA from manifest: `/{SHA}/manhaj2030/monitor/state.json` |
+| **AGENTS_STATUS.json** | ~2 KB | Status of all 15 active agents | Use SHA from manifest: `/{SHA}/manhaj2030/pmc/inbox/AGENTS_STATUS.json` |
+| **system-info.json** | ~500 B | CPU, Memory, Disk, Uptime | Use SHA from manifest: `/{SHA}/system-info.json` |
+| **pm2-status.json** | ~100 B | PM2 process status | Use SHA from manifest: `/{SHA}/pm2-status.json` |
+
+### Detailed Files (Read Selectively)
+
+| File | Size | Description | Reading Strategy |
+|:-----|:-----|:------------|:-----------------|
+| **events.jsonl** | ~30 KB | PMC event log (JSONL format) | **Read last 50 lines only** (most recent events) |
+| **scientific_closure_v1.md** | ~15 KB | Scientific closure report | Read summary sections first |
+| **realtime_state.json** | ~50 KB | File monitoring state | Search for specific files or read first 100 lines |
+| **pmc_unified_latest.md** | ~100 KB | Comprehensive PMC documentation | **Read table of contents first**, then specific sections |
+
+---
+
+## ⏰ Update Schedule
+
+| Component | Update Frequency | Actual Data Changes |
+|-----------|------------------|---------------------|
+| **Data on Server** | Every 10 minutes | `collective_state.json` updates every 10 minutes |
+| **Push to GitHub** | Every 1 minute | New commit with new SHA every minute |
+| **Data Freshness** | < 10 minutes | You'll see 10 identical commits before data changes |
+
+**Why 10 identical commits?**
+- The server updates data every **10 minutes**
+- But pushes to GitHub every **1 minute**
+- So you'll see the same data in 10 consecutive commits
+- This is **normal and by design**!
+
+---
+
+## 🧪 How to Verify Data is Fresh
+
+Check the `timestamp` field in `state.json`:
+
+```json
+{
+  "timestamp": "2025-10-25T12:41:55.721017Z",
+  ...
+}
+```
+
+**Fresh data:** Timestamp should be < 10 minutes from current time  
+**Stale data:** Timestamp is > 15 minutes old (something is wrong!)
+
+---
+
 ## 🖥️ Hardware Specifications (Verified 2025-10-25)
 
 ### Physical Infrastructure
@@ -110,134 +257,6 @@ This repository provides **real-time monitoring data** for the Manhaj 2030 proje
 
 ---
 
-## 🚀 Quick Start for LLMs (Claude, GPT, etc.)
-
-### ⚡ NEW: Zero-Cache Access (v4.0)
-
-**The Problem We Solved:**
-- GitHub Raw URLs use CDN caching (5-60 minutes delay)
-- LLMs were reading stale data
-
-**The Solution:**
-- **SHA-based URLs** - Each commit has a unique SHA
-- **Zero caching** - Every URL is unique, no CDN cache!
-- **Always fresh** - Data updated every minute with new SHA
-
----
-
-### 📖 How to Access Real-Time Data
-
-**Step 1: Read the manifest**
-
-```
-https://raw.githubusercontent.com/ysu444/manus-monitor/main/manifest.json
-```
-
-**What you get:**
-```json
-{
-  "generated_at": "2025-10-25T09:28:49Z",
-  "commit_sha": "b3397d2606182f3d19dd2263e5a899fc45ee12c7",
-  "commit_sha_short": "b3397d2",
-  "version": "4.0.0",
-  
-  "direct_links": {
-    "raw_github_live": {
-      "description": "Use these links for real-time data (zero cache)",
-      "state": "https://raw.githubusercontent.com/.../b3397d2/manhaj2030/monitor/state.json",
-      "agents_status": "https://raw.githubusercontent.com/.../b3397d2/manhaj2030/pmc/inbox/AGENTS_STATUS.json",
-      ...
-    }
-  }
-}
-```
-
----
-
-**Step 2: Extract the commit SHA**
-
-```json
-"commit_sha_short": "b3397d2"
-```
-
----
-
-**Step 3: Use the SHA-based URLs from `direct_links.raw_github_live`**
-
-```
-state: https://raw.githubusercontent.com/ysu444/manus-monitor/b3397d2/manhaj2030/monitor/state.json
-agents_status: https://raw.githubusercontent.com/ysu444/manus-monitor/b3397d2/manhaj2030/pmc/inbox/AGENTS_STATUS.json
-pmc_events: https://raw.githubusercontent.com/ysu444/manus-monitor/b3397d2/manhaj2030/pmc/memory/events.jsonl
-```
-
-**Why this works:**
-- ✅ Each SHA is unique to a specific commit
-- ✅ New commit every minute = new SHA = new URL
-- ✅ GitHub cannot cache (every URL is different!)
-- ✅ You always get the latest data
-
----
-
-### 🎯 Example Usage
-
-**Query:** "Check server health"
-
-**LLM Process:**
-```
-1. Read: https://raw.githubusercontent.com/ysu444/manus-monitor/main/manifest.json
-2. Extract: commit_sha = "b3397d2"
-3. Read: https://raw.githubusercontent.com/.../b3397d2/manhaj2030/monitor/state.json
-4. Analyze: Fresh data (timestamp: 09:20:18Z)
-5. Report: System healthy, 338 events, last event: DDP_REFACTOR_V1_GLOO_SUCCESS
-```
-
----
-
-## 📊 File Sizes and Reading Strategy
-
-### Small Files (< 5 KB) - Read Fully ✅
-
-| File | Size | Description | How to Access |
-|:-----|:-----|:------------|:--------------|
-| **manifest.json** | ~2 KB | Master index with SHA | Read from `main` branch first |
-| **system-info.json** | ~500 B | CPU, Memory, Disk, Uptime | Use SHA-based URL from manifest |
-| **pm2-status.json** | ~100 B | PM2 process status | Use SHA-based URL from manifest |
-| **state.json** | ~1 KB | System state (GPU, Events, Agents) | Use SHA-based URL from manifest |
-| **AGENTS_STATUS.json** | ~2 KB | Status of all 15 Agents | Use SHA-based URL from manifest |
-
-**Strategy:** Read these files completely. They provide maximum insight with minimal token usage.
-
----
-
-### Medium Files (5-50 KB) - Read Selectively ⚠️
-
-| File | Size | Description | Reading Strategy |
-|:-----|:-----|:------------|:-----------------|
-| **realtime_state.json** | ~50 KB | File monitoring state | Read first 100 lines or search for specific files |
-| **events.jsonl** | ~30 KB | PMC event log (JSONL) | **Read last 50 lines only** (most recent events) |
-| **scientific_closure_v1.md** | ~15 KB | Scientific closure report | Read summary sections first |
-
-**Strategy:** 
-- For **events.jsonl**: Always read **last 50 lines** (most recent events)
-- For **realtime_state.json**: Search for specific files or read first 100 lines
-- For **scientific_closure_v1.md**: Read executive summary and Gate status sections
-
----
-
-### Large Files (> 50 KB) - Read Strategically 🔴
-
-| File | Size | Description | Reading Strategy |
-|:-----|:-----|:------------|:-----------------|
-| **pmc_unified_latest.md** | ~100 KB | Comprehensive PMC report | **Read table of contents first**, then specific sections |
-
-**Strategy:**
-- Read **table of contents** or **first 200 lines**
-- Identify relevant sections
-- Read only those sections
-- Avoid reading the entire file unless specifically requested
-
----
-
 ## 🎯 Optimal Reading Patterns
 
 ### Pattern 1: Quick Health Check (< 5K tokens)
@@ -248,201 +267,108 @@ pmc_events: https://raw.githubusercontent.com/ysu444/manus-monitor/b3397d2/manha
 3. Read state.json (using SHA-based URL)
 ```
 
-**Total:** ~3 KB | **Tokens:** ~1,500 | **Time:** < 5 seconds | **Freshness:** < 60 seconds
+**Result:** System health, uptime, resource usage, recent events
 
 ---
 
-### Pattern 2: Project Progress Review (< 15K tokens)
+### Pattern 2: Agent Status Review (< 10K tokens)
 
 ```
 1. Read manifest.json (get latest SHA)
-2. Read state.json (current phase, events count)
-3. Read AGENTS_STATUS.json (agent activity)
-4. Read events.jsonl (LAST 50 LINES ONLY)
-5. Read scientific_closure_v1.md (summary sections)
+2. Read AGENTS_STATUS.json (using SHA-based URL)
+3. Read last 50 lines of events.jsonl (using SHA-based URL)
 ```
 
-**Total:** ~15 KB | **Tokens:** ~7,500 | **Time:** < 15 seconds | **Freshness:** < 60 seconds
+**Result:** All 15 agents' status, recent activities, latest events
 
 ---
 
-### Pattern 3: Deep Analysis (< 50K tokens)
+### Pattern 3: Deep Dive (< 30K tokens)
 
 ```
 1. Read manifest.json (get latest SHA)
-2. Read state.json (system state)
-3. Read scientific_closure_v1.md (full report)
-4. Read pmc_unified_latest.md (TOC + relevant sections)
-5. Read events.jsonl (last 100 lines)
+2. Read state.json (using SHA-based URL)
+3. Read AGENTS_STATUS.json (using SHA-based URL)
+4. Read last 100 lines of events.jsonl (using SHA-based URL)
+5. Read scientific_closure_v1.md summary sections (using SHA-based URL)
 ```
 
-**Total:** ~50 KB | **Tokens:** ~25,000 | **Time:** < 30 seconds | **Freshness:** < 60 seconds
+**Result:** Comprehensive system overview, scientific progress, detailed event history
 
 ---
 
-## 📁 File Descriptions
+### Pattern 4: Full Documentation (< 100K tokens)
 
-### System Monitoring
+```
+1. Read manifest.json (get latest SHA)
+2. Read pmc_unified_latest.md table of contents (using SHA-based URL)
+3. Read specific sections of interest
+4. Read scientific_closure_v1.md (using SHA-based URL)
+```
 
-**manifest.json** - Master index (START HERE!)
-- Current timestamp (Unix, ISO, Human-readable)
-- Commit SHA (for SHA-based URLs)
-- File metadata (size, last modified, exists)
-- Direct links with SHA-based URLs (zero cache!)
-
-**system-info.json** - System resources
-- CPU usage (%)
-- Memory (total, used, free, %)
-- Disk (total, used, available, %)
-- Uptime (seconds)
-
-**pm2-status.json** - Process manager
-- PM2 process list (if available)
-- Process status, CPU, memory
+**Result:** Complete project documentation, scientific closure status, all technical details
 
 ---
 
-### Project Monitoring
+## 🔧 Technical Implementation
 
-**state.json** - System state
-- Timestamp
-- Total events count
-- Last event name and timestamp
-- GPU metrics (count, utilization, memory)
-- System metrics (CPU, memory, disk, overall status)
-- Active agents list
+### How SHA-based URLs Work
 
-**realtime_state.json** - File monitoring
-- SHA256 checksums of monitored files
-- File paths, timestamps, sizes
-- Change detection
+**Traditional GitHub Raw URL:**
+```
+https://raw.githubusercontent.com/ysu444/manus-monitor/main/state.json
+                                                            ^^^^
+                                                            Branch name (cached!)
+```
 
-**AGENTS_STATUS.json** - Agent status
-- All 15 agents with:
-  - ID, name, role
-  - Status (active/inactive)
-  - Last refresh timestamp
+**SHA-based URL (v4.0):**
+```
+https://raw.githubusercontent.com/ysu444/manus-monitor/5a6824b/state.json
+                                                            ^^^^^^^
+                                                            Commit SHA (unique!)
+```
 
----
-
-### Project Data
-
-**events.jsonl** - Event log
-- JSONL format (one JSON object per line)
-- Events from all 15 agents
-- Timestamps, event types, metadata
-- **⚠️ Large file:** Read last 50-100 lines only
-
-**pmc_unified_latest.md** - Unified report
-- Comprehensive project report
-- Phase progress, Gate status
-- Agent activities, system health
-- **⚠️ Large file:** Read TOC first, then specific sections
-
-**scientific_closure_v1.md** - Scientific closure
-- DHVS 2025 compliance report
-- Gate A-E status and metrics
-- Model performance (F1, Precision, Recall, ECE, Brier)
-- Recommendations and next steps
-
-**training_metrics.json** - Training metrics (optional)
-- Model training metrics
-- May not always be present
+**Why this solves caching:**
+- Each commit has a **unique SHA**
+- New commit every minute = **new SHA** = **new URL**
+- GitHub CDN sees it as a **different resource** = **no cache hit**
+- Result: **Always fresh data!**
 
 ---
 
-## 🚦 Data Freshness Guidelines
+### Cron Job Configuration
 
-| Age | Status | Action |
-|:----|:-------|:-------|
-| < 2 minutes | ✅ Fresh | Proceed with analysis |
-| 2-5 minutes | ⚠️ Acceptable | Check if Cron is running |
-| > 5 minutes | ❌ Stale | Investigate server/Cron issues |
+The monitoring system runs on the server:
 
-**How to check freshness:**
-1. Read `manifest.json`
-2. Compare `generated_at` with current time
-3. If > 5 minutes, something is wrong
-
----
-
-## 🔧 Technical Details
-
-### Update Mechanism
-
-**Cron Job:**
 ```bash
-* * * * * /usr/local/bin/push_monitor_to_github.sh >> /var/log/manus-monitor-push.log 2>&1
+# /etc/crontab
+* * * * * root /srv/manhaj2030/monitor/monitor_upload.sh >> /srv/manhaj2030/pmc/memory/monitor_upload.log 2>&1
 ```
 
-**Update Process:**
-1. Collect system info (CPU, Memory, Disk)
-2. Collect PM2 status
-3. Copy manhaj2030 files
-4. Create Git commit #1 (data files)
-5. Generate manifest.json with SHA from commit #1
-6. Create Git commit #2 (manifest with SHA-based URLs)
-7. Push to GitHub
-
-**Result:**
-- Commit #1 contains: state.json, events.jsonl, etc.
-- Commit #2 contains: manifest.json with SHA pointing to Commit #1
-- SHA-based URLs in manifest point to Commit #1 (where data lives)
-- Zero caching because each URL is unique!
+**What it does:**
+1. Collects system data (CPU, RAM, GPU, Disk)
+2. Reads PMC data (events, agents, reports)
+3. Generates manifest.json with current commit SHA
+4. Commits and pushes to GitHub
+5. Creates new SHA → new URLs → zero cache!
 
 ---
 
-### File Mapping
+## 📞 Contact & Support
 
-| Source (Server) | Destination (GitHub) |
-|:----------------|:---------------------|
-| `/srv/manhaj2030/pmc/shared/collective_state.json` | `manhaj2030/monitor/state.json` |
-| `/srv/manhaj2030/pmc/memory/AGENTS_STATUS.json` | `manhaj2030/pmc/inbox/AGENTS_STATUS.json` |
-| `/srv/manhaj2030/pmc/memory/events.jsonl` | `manhaj2030/pmc/memory/events.jsonl` |
-| `/srv/manhaj2030/pmc/unified/pmc_unified_latest.md` | `manhaj2030/pmc/unified/pmc_unified_latest.md` |
-| `/srv/manhaj2030/reports/scientific_closure_v1.md` | `manhaj2030/reports/scientific_closure_v1.md` |
-
----
-
-## 📞 Contact & Roles
-
-**Project Owner:** Abu Khalid (أبو خالد)
-
-**AI Consultants:**
-- Claude (Anthropic) - Strategic advisor and code reviewer
-- Manus Agents (1-15) - Automated monitoring and reporting
-
-**Repository:** https://github.com/ysu444/manus-monitor
-
-**Server:** 45.32.106.139 (Vultr)
+**Project:** Manhaj 2030 - Islamic Hadith NER System  
+**Server:** 45.32.106.139 (Vultr)  
+**Repository:** https://github.com/ysu444/manus-monitor  
+**Version:** 4.0.0 (SHA-based URLs with zero caching)
 
 ---
 
 ## 📜 License
 
-This repository is for monitoring purposes only. All data is related to the Manhaj 2030 Islamic Hadith NER project.
+This monitoring system is part of the Manhaj 2030 project. All data is provided for research and monitoring purposes.
 
 ---
 
-## 🎉 Version History
-
-**v4.0.0 (2025-10-25)** - SHA-based URLs breakthrough!
-- ✅ Zero CDN caching
-- ✅ Always fresh data (< 60 seconds)
-- ✅ Two-commit strategy (data + manifest)
-- ✅ SHA-based URLs in manifest
-
-**v3.0.0 (2025-10-24)** - Cache-busting improvements
-- ✅ Timestamp parameters
-- ✅ GitHub Pages optimization
-- ⚠️ Still had 5-60 min caching issues
-
-**v2.0.0 (2025-10-24)** - Initial GitHub Pages setup
-- ✅ Automated updates every 1 minute
-- ✅ Comprehensive file coverage
-- ⚠️ CDN caching problems
-
----
-
-**🚀 Now with Zero Caching - Always Fresh Data! 🎊**
+**Last Updated:** 2025-10-25 15:50 (Riyadh Time)  
+**Status:** ✅ Operational - All systems green
 
