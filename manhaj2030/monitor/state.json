@@ -1,8 +1,8 @@
 {
-  "timestamp": "2025-10-25T05:09:47.617184Z",
-  "events_total": 328,
-  "last_event": "f5_epoch1_checkpoint_saved",
-  "last_timestamp": "2025-10-25T03:05:36Z",
+  "timestamp": "2025-10-25T05:19:48.873468Z",
+  "events_total": 329,
+  "last_event": "CONTEXT_KEEPER_INTEGRITY_CHECK",
+  "last_timestamp": "2025-10-25T05:12:50.774832Z",
   "gpu": {
     "count": 16,
     "avg_util": 0.0,
