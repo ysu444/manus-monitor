@@ -1,16 +1,16 @@
 {
-  "timestamp": "2025-10-25T14:22:08.116897Z",
+  "timestamp": "2025-10-25T14:32:09.373458Z",
   "events_total": 360,
   "last_event": "PHASE_F6_DDP_TRAINING_STARTED",
   "last_timestamp": "2025-10-25T13:02:08Z",
   "gpu": {
     "count": 16,
-    "avg_util": 6.12,
+    "avg_util": 6.19,
     "avg_mem_used": 888.12,
     "avg_mem_total": 16384.0
   },
   "system": {
-    "cpu": 1.1,
+    "cpu": 1.0,
     "mem": 1.7,
     "disk": 14.9,
     "overall": "green"
