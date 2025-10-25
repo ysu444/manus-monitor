@@ -1,17 +1,17 @@
 {
-  "timestamp": "2025-10-25T00:29:12.912391Z",
+  "timestamp": "2025-10-25T00:39:14.167107Z",
   "events_total": 327,
   "last_event": "HYBRID_METHODOLOGY_V2_CREATED",
   "last_timestamp": "2025-10-24T23:24:51Z",
   "gpu": {
     "count": 16,
-    "avg_util": 0.0,
-    "avg_mem_used": 134.75,
+    "avg_util": 6.19,
+    "avg_mem_used": 465.44,
     "avg_mem_total": 16384.0
   },
   "system": {
-    "cpu": 0.1,
-    "mem": 1.4,
+    "cpu": 2.2,
+    "mem": 1.7,
     "disk": 13.6,
     "overall": "green"
   },
