@@ -1,17 +1,17 @@
 {
-  "timestamp": "2025-10-25T09:00:16.075397Z",
+  "timestamp": "2025-10-25T09:10:17.244604Z",
   "events_total": 337,
   "last_event": "PHASE_F_FAST_TRACK_PLAN",
   "last_timestamp": "2025-10-25T08:40:45Z",
   "gpu": {
     "count": 16,
-    "avg_util": 6.12,
-    "avg_mem_used": 571.69,
+    "avg_util": 9.19,
+    "avg_mem_used": 1104.0,
     "avg_mem_total": 16384.0
   },
   "system": {
-    "cpu": 2.1,
-    "mem": 1.7,
+    "cpu": 3.4,
+    "mem": 2.3,
     "disk": 14.2,
     "overall": "green"
   },
