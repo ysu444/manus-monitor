@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-10-25T03:19:33.906905Z",
+  "timestamp": "2025-10-25T03:29:35.160951Z",
   "events_total": 328,
   "last_event": "f5_epoch1_checkpoint_saved",
   "last_timestamp": "2025-10-25T03:05:36Z",
@@ -12,7 +12,7 @@
   "system": {
     "cpu": 0.0,
     "mem": 1.5,
-    "disk": 13.7,
+    "disk": 13.8,
     "overall": "green"
   },
   "active_inboxes": [
