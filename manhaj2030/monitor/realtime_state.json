@@ -3439,6 +3439,11 @@
       "path": "/srv/manhaj2030/data/shared/narrators_unified_v6/narrators_unified_v6.json",
       "ts": "2025-10-25T00:42:50.411921",
       "size": 8115073
+    },
+    "66d88a80ee56e2313b27f201909e2f5239c3dcf81eb9756ac15fcf8ca5930c71": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-25T01:10:05.034325",
+      "size": 19306
     }
   }
 }
