@@ -3489,6 +3489,11 @@
       "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
       "ts": "2025-10-25T06:10:05.062939",
       "size": 18534
+    },
+    "5434d8c0f94bdb23ad9f66dea5cc0f92255caa33c516f3828f5f9157793f360a": {
+      "path": "/srv/manhaj2030/data/shared/pmc_dossier_latest.md",
+      "ts": "2025-10-25T07:10:04.211378",
+      "size": 18534
     }
   }
 }
