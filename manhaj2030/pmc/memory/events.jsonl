@@ -1148,3 +1148,13 @@
 {"timestamp": "2025-10-26T17:20:42Z", "agent": 5, "event": "ALERT_WATCHER_ERROR", "status": "error", "details": "process_new_records: AttributeError: 'int' object has no attribute 'get'"}
 {"timestamp": "2025-10-26T17:21:38Z", "agent": 5, "event": "ALERT_WATCHER_STARTED", "status": "success", "details": "Alert Watcher v1.3.3 started with Multi-line JSON Support"}
 {"timestamp": "2025-10-26T17:22:02Z", "agent": 5, "event": "ALERT_WATCHER_ERROR", "status": "error", "details": "process_new_records: AttributeError: 'int' object has no attribute 'get'"}
+{"timestamp": "2025-10-26T17:23:02Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
+{"timestamp": "2025-10-26T17:23:35Z", "agent": 5, "event": "ALERT_WATCHER_STARTED", "status": "success", "details": "Alert Watcher v1.3.4 started (Multi-line JSON Fixed)"}
+{"timestamp": "2025-10-26T17:23:41Z", "agent": 5, "event": "HIGH_RISK_ALERT", "status": "success", "details": "task=SIM-ALERT-TEST-001 risk=0.95 route=[2, 1, 5]"}
+{"timestamp": "2025-10-26T17:23:41Z", "agent": 5, "event": "HIGH_RISK_ALERT", "status": "success", "details": "task=SIM-ALERT-TEST-002 risk=0.95 route=[2, 1, 5]"}
+{"timestamp": "2025-10-26T17:23:41Z", "agent": 5, "event": "HIGH_RISK_ALERT", "status": "success", "details": "task=SIM-ALERT-FINAL-003 risk=0.97 route=[2, 1, 5]"}
+{"timestamp": "2025-10-26T17:23:41Z", "agent": 5, "event": "HIGH_RISK_ALERT", "status": "success", "details": "task=SIM-ALERT-V1.3.1-TEST risk=0.98 route=[2, 1, 5]"}
+{"timestamp": "2025-10-26T17:23:41Z", "agent": 5, "event": "HIGH_RISK_ALERT", "status": "success", "details": "task=FINAL-V1.3.3-TEST risk=0.99 route=[2, 1, 5]"}
+{"timestamp": "2025-10-26T17:23:41Z", "agent": 5, "event": "HIGH_RISK_ALERT", "status": "success", "details": "task=POST-FIX-TEST risk=0.92 route=[2, 1, 5]"}
+{"timestamp": "2025-10-26T17:23:41Z", "agent": 5, "event": "HIGH_RISK_ALERT", "status": "success", "details": "task=V1.3.4-TEST risk=0.94 route=[2, 1, 5]"}
+{"timestamp": "2025-10-26T17:23:41Z", "agent": 5, "event": "ALERT_WATCHER_SCAN", "status": "success", "details": "Processed 7 high-risk alert(s)"}
