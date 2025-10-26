@@ -2,20 +2,6 @@
   "timestamp": "2025-10-24T08:00:04Z",
   "agents": [
     {
-      "id": 14,
-      "name": "Agent 14",
-      "role": "Integration Tester",
-      "status": "active",
-      "last_refresh": "2025-10-26T07:37:01.913912Z"
-    },
-    {
-      "id": 15,
-      "name": "Agent 15",
-      "role": "Daily Tracker",
-      "status": "active",
-      "last_refresh": "2025-10-26T07:37:01.914388Z"
-    },
-    {
       "id": 1,
       "name": "Agent 1",
       "role": "PMC Logger",
@@ -105,6 +91,20 @@
       "role": "Deployment Manager",
       "status": "active",
       "last_refresh": "2025-10-26T07:42:02.019041Z"
+    },
+    {
+      "id": 14,
+      "name": "Agent 14",
+      "role": "Integration Tester",
+      "status": "active",
+      "last_refresh": "2025-10-26T07:42:02.019359Z"
+    },
+    {
+      "id": 15,
+      "name": "Agent 15",
+      "role": "Daily Tracker",
+      "status": "active",
+      "last_refresh": "2025-10-26T07:42:02.019651Z"
     }
   ]
 }
