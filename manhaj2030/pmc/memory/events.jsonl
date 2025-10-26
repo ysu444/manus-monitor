@@ -534,3 +534,4 @@
 {"timestamp": "2025-10-26T09:41:52.197059", "agent": 8, "event": "G6_INTERMEDIATE_CHECKPOINT_SAVED", "epoch": 1, "step": 1500, "path": "/srv/manhaj2030/models/g_phase_g6_v3_resumable/checkpoints/checkpoint-1_1500.pt"}
 {"timestamp":"2025-10-26T09:44:37Z","agent":12,"event":"CLAUDE_API_KEY_UPDATED","status":"success"}
 {"timestamp": "2025-10-26T09:45:00.543324Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
+{"timestamp":"2025-10-26T09:45:52Z","agent":12,"event":"HYBRID_AGENTS_FULLY_VERIFIED","status":"success","openai_model":"gpt-4o-mini","claude_model":"claude-3-haiku-20240307"}
