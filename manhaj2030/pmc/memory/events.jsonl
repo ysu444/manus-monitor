@@ -1206,3 +1206,7 @@
 {"timestamp": "2025-10-26T17:58:57Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
 {"timestamp": "2025-10-26T17:59:57Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
 {"timestamp": "2025-10-26T18:00:01.766584Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
+{"timestamp":"2025-10-26T18:00:48Z","agent":5,"event":"DASHBOARD_HEALTH_CHECK","status":"success","details":"Dashboard Health Check → All endpoints OK (200)."}
+{"timestamp":"2025-10-26T18:00:48Z","agent":5,"event":"DASHBOARD_HEALTH_CHECK","status":"success","details":"Dashboard Health Check → All endpoints OK (200)."}
+{"timestamp":"2025-10-26T18:00:48Z","agent":5,"event":"DASHBOARD_HEALTH_MONITOR_DEPLOYED","status":"success","details":"Health-Monitor Daemon v1 deployed: periodic HTTP checks + auto-restart + PMC logging every 10 minutes."}
+{"timestamp": "2025-10-26T18:00:57Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
