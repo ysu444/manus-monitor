@@ -1,17 +1,17 @@
 {
-  "timestamp": "2025-10-26T04:43:54.635327Z",
-  "events_total": 386,
-  "last_event": "DASHBOARD_WIDGETS_DEPLOYED",
-  "last_timestamp": "2025-10-26T04:40:37Z",
+  "timestamp": "2025-10-26T04:53:55.888640Z",
+  "events_total": 387,
+  "last_event": "G2_CRF_BALANCED_START",
+  "last_timestamp": "2025-10-26T04:44:01Z",
   "gpu": {
     "count": 16,
-    "avg_util": 0.0,
-    "avg_mem_used": 134.75,
+    "avg_util": 67.94,
+    "avg_mem_used": 5442.62,
     "avg_mem_total": 16384.0
   },
   "system": {
-    "cpu": 0.4,
-    "mem": 1.6,
+    "cpu": 21.7,
+    "mem": 5.8,
     "disk": 16.0,
     "overall": "green"
   },
