@@ -571,3 +571,24 @@
 {"timestamp": "2025-10-26T11:54:00Z", "agent": 12, "event": "AGENT_3_PING_SENT", "status": "info", "details": "Testing gpt-5-codex"}
 {"timestamp": "2025-10-26T11:54:01Z", "agent": 12, "event": "AGENT_3_PING_FAIL", "status": "error", "details": "FAIL: Error code: 404 - {'error': {'message': 'This mode"}
 {"timestamp": "2025-10-26T11:54:01Z", "agent": 12, "event": "AGENT_4_PING_SENT", "status": "info", "details": "Testing claude-sonnet-4-5"}
+{"timestamp": "2025-10-26T11:54:03Z", "agent": 12, "event": "AGENT_4_PING_ACK", "status": "success", "details": "claude-sonnet-4-5 responded (latency: 1935.51ms)"}
+{"timestamp": "2025-10-26T11:54:03Z", "agent": 12, "event": "AGENT_5_PING_SENT", "status": "info", "details": "Testing gpt-5-mini-2025-08-07"}
+{"timestamp": "2025-10-26T11:54:04Z", "agent": 12, "event": "AGENT_5_PING_FAIL", "status": "error", "details": "FAIL: Error code: 400 - {'error': {'message': \"Unsupport"}
+{"timestamp": "2025-10-26T11:54:04Z", "agent": 12, "event": "AGENT_6_PING_SENT", "status": "info", "details": "Testing orchestrator-pilot"}
+{"timestamp": "2025-10-26T11:54:04Z", "agent": 12, "event": "AGENT_6_PING_ACK", "status": "success", "details": "orchestrator-pilot OK"}
+{"timestamp": "2025-10-26T11:54:04Z", "agent": 12, "event": "AGENTS_PING_ACK_COMPLETED", "status": "success", "details": "3 OK, 3 FAIL, avg latency 1501.32ms"}
+{"timestamp": "2025-10-26T11:54:34Z", "agent": 12, "event": "AGENT_1_PING_SENT", "status": "info", "details": "Testing gpt-4.1-2025-04-14"}
+{"timestamp": "2025-10-26T11:54:36Z", "agent": 12, "event": "AGENT_1_PING_ACK", "status": "success", "details": "gpt-4.1-2025-04-14 responded (latency: 1343.24ms)"}
+{"timestamp": "2025-10-26T11:54:36Z", "agent": 12, "event": "AGENT_2_PING_SENT", "status": "info", "details": "Testing claude-opus-4-1-20250805"}
+{"timestamp": "2025-10-26T11:54:39Z", "agent": 12, "event": "AGENT_2_PING_ACK", "status": "success", "details": "claude-opus-4-1-20250805 responded (latency: 3253.35ms)"}
+{"timestamp": "2025-10-26T11:54:39Z", "agent": 12, "event": "AGENT_3_PING_SENT", "status": "info", "details": "Testing gpt-4.1-mini-2025-04-14"}
+{"timestamp": "2025-10-26T11:54:40Z", "agent": 12, "event": "AGENT_3_PING_ACK", "status": "success", "details": "gpt-4.1-mini-2025-04-14 responded (latency: 449.54ms)"}
+{"timestamp": "2025-10-26T11:54:40Z", "agent": 12, "event": "AGENT_4_PING_SENT", "status": "info", "details": "Testing claude-sonnet-4-5"}
+{"timestamp": "2025-10-26T11:54:42Z", "agent": 12, "event": "AGENT_4_PING_ACK", "status": "success", "details": "claude-sonnet-4-5 responded (latency: 2213.46ms)"}
+{"timestamp": "2025-10-26T11:54:42Z", "agent": 12, "event": "AGENT_5_PING_SENT", "status": "info", "details": "Testing gpt-4o-mini"}
+{"timestamp": "2025-10-26T11:54:43Z", "agent": 12, "event": "AGENT_5_PING_ACK", "status": "success", "details": "gpt-4o-mini responded (latency: 521.79ms)"}
+{"timestamp": "2025-10-26T11:54:43Z", "agent": 12, "event": "AGENT_6_PING_SENT", "status": "info", "details": "Testing orchestrator-pilot"}
+{"timestamp": "2025-10-26T11:54:43Z", "agent": 12, "event": "AGENT_6_PING_ACK", "status": "success", "details": "orchestrator-pilot OK"}
+{"timestamp": "2025-10-26T11:54:43Z", "agent": 12, "event": "AGENTS_PING_ACK_COMPLETED", "status": "success", "details": "6 OK, 0 FAIL, avg latency 1296.9ms"}
+{"timestamp":"2025-10-26T11:54:43Z","agent":12,"event":"REGISTRY_MODELS_UPDATED","status":"success"}
+{"timestamp": "2025-10-26T11:55:00.512021Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
