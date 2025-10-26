@@ -523,3 +523,5 @@
 {"timestamp": "2025-10-26T09:15:00.509745Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
 {"timestamp": "2025-10-26T09:20:00.555161Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
 {"timestamp": "2025-10-26T09:22:54.402144", "agent": 8, "event": "G6_INTERMEDIATE_CHECKPOINT_SAVED", "epoch": 1, "step": 1000, "path": "/srv/manhaj2030/models/g_phase_g6_v3_resumable/checkpoints/checkpoint-1_1000.pt"}
+{"timestamp":"2025-10-26T09:24:33Z","event":"ORCHESTRATOR_PILOT_STARTED","status":"success","mode":"evaluation_only","api":"/pilot-api/","ws":"/pilot-ws/","no_conflict":true}
+{"timestamp": "2025-10-26T09:25:00.567422Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
