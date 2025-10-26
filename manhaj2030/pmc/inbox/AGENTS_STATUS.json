@@ -1,110 +1,41 @@
 {
-  "timestamp": "2025-10-24T08:00:04Z",
-  "agents": [
-    {
-      "id": 1,
-      "name": "Agent 1",
-      "role": "PMC Logger",
-      "status": "active",
-      "last_refresh": "2025-10-26T12:22:48.252308Z"
+  "agents": {
+    "1": {
+      "last_ping": 1761481430.316189,
+      "reply": "no-response",
+      "role": "executive",
+      "model": "gpt-5-2025-08-07"
     },
-    {
-      "id": 2,
-      "name": "Agent 2",
-      "role": "Archiver",
-      "status": "active",
-      "last_refresh": "2025-10-26T12:22:48.252668Z"
+    "2": {
+      "last_ping": 1761481430.407112,
+      "reply": "no-response",
+      "role": "architect",
+      "model": "claude-opus-4-1-20250805"
     },
-    {
-      "id": 3,
-      "name": "Agent 3",
-      "role": "Documentation",
-      "status": "active",
-      "last_refresh": "2025-10-26T12:22:48.253131Z"
+    "3": {
+      "last_ping": 1761481430.497893,
+      "reply": "no-response",
+      "role": "developer",
+      "model": "gpt-5-codex"
     },
-    {
-      "id": 4,
-      "name": "Agent 4",
-      "role": "Data Processor",
-      "status": "active",
-      "last_refresh": "2025-10-26T12:22:48.253739Z"
+    "4": {
+      "last_ping": 1761481430.589209,
+      "reply": "no-response",
+      "role": "reviewer",
+      "model": "claude-sonnet-4-5"
     },
-    {
-      "id": 5,
-      "name": "Agent 5",
-      "role": "Quality Assurance",
-      "status": "active",
-      "last_refresh": "2025-10-26T12:22:48.254060Z"
+    "5": {
+      "last_ping": 1761481430.67952,
+      "reply": "no-response",
+      "role": "ops",
+      "model": "gpt-4o-mini"
     },
-    {
-      "id": 6,
-      "name": "Agent 6",
-      "role": "Model Validator",
-      "status": "active",
-      "last_refresh": "2025-10-26T12:22:48.254539Z"
-    },
-    {
-      "id": 7,
-      "name": "Agent 7",
-      "role": "Performance Monitor",
-      "status": "active",
-      "last_refresh": "2025-10-26T12:22:48.254876Z"
-    },
-    {
-      "id": 8,
-      "name": "Agent 8",
-      "role": "System Coordinator",
-      "status": "active",
-      "last_refresh": "2025-10-26T12:22:48.255207Z"
-    },
-    {
-      "id": 9,
-      "name": "Agent 9",
-      "role": "Error Tracker",
-      "status": "active",
-      "last_refresh": "2025-10-26T12:22:48.255585Z"
-    },
-    {
-      "id": 10,
-      "name": "Agent 10",
-      "role": "Training Manager",
-      "status": "active",
-      "last_refresh": "2025-10-26T12:22:48.255920Z"
-    },
-    {
-      "id": 11,
-      "name": "Agent 11",
-      "role": "Training Executor",
-      "status": "active",
-      "last_refresh": "2025-10-26T12:22:48.256250Z"
-    },
-    {
-      "id": 12,
-      "name": "Agent 12",
-      "role": "Research & Monitoring",
-      "status": "active",
-      "last_refresh": "2025-10-26T12:22:48.256604Z"
-    },
-    {
-      "id": 13,
-      "name": "Agent 13",
-      "role": "Deployment Manager",
-      "status": "active",
-      "last_refresh": "2025-10-26T12:22:48.256924Z"
-    },
-    {
-      "id": 14,
-      "name": "Agent 14",
-      "role": "Integration Tester",
-      "status": "active",
-      "last_refresh": "2025-10-26T12:22:48.257276Z"
-    },
-    {
-      "id": 15,
-      "name": "Agent 15",
-      "role": "Daily Tracker",
-      "status": "active",
-      "last_refresh": "2025-10-26T12:22:48.257632Z"
+    "6": {
+      "last_ping": 1761481430.770684,
+      "reply": "no-response",
+      "role": "controller",
+      "model": "orchestrator-pilot"
     }
-  ]
+  },
+  "last_check": null
 }
