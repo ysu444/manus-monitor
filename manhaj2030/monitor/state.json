@@ -1,17 +1,17 @@
 {
-  "timestamp": "2025-10-26T07:54:18.536620Z",
-  "events_total": 450,
-  "last_event": "G6_V2_RESTART_GATHER_FIX",
-  "last_timestamp": "2025-10-26T07:52:25",
+  "timestamp": "2025-10-26T08:04:19.796962Z",
+  "events_total": 452,
+  "last_event": "BUDGET_GUARD_TICK",
+  "last_timestamp": "2025-10-26T08:00:00.513325Z",
   "gpu": {
     "count": 16,
-    "avg_util": 53.94,
-    "avg_mem_used": 1843.62,
+    "avg_util": 0.0,
+    "avg_mem_used": 134.75,
     "avg_mem_total": 16384.0
   },
   "system": {
-    "cpu": 20.3,
-    "mem": 5.5,
+    "cpu": 0.1,
+    "mem": 1.6,
     "disk": 16.3,
     "overall": "green"
   },
