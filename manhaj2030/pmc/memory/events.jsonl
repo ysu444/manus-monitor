@@ -424,3 +424,4 @@
 {"timestamp":"2025-10-26T06:31:44","agent":8,"event":"G6_V2_RESTART_WITH_SPLIT","status":"running","details":"G6 v2 RESTARTED with 90/10 split: Train=ner_v6_cleaned_train.jsonl (13,854), Eval=ner_v6_cleaned_eval.jsonl (1,540)"}
 {"timestamp":"2025-10-26T06:32:42Z","agent":9,"event":"GRAFANA_REFRESH_BUTTONS_ADDED","status":"success"}
 {"timestamp": "2025-10-26T06:35:00.596218Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
+{"timestamp":"2025-10-26T06:36:57Z","agent":15,"event":"BRANDING_SNAPSHOT_PDF_SETUP","status":"success"}
