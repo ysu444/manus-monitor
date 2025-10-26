@@ -449,3 +449,4 @@
 {"timestamp":"2025-10-26T07:52:20","agent":8,"event":"G6_V2_GATHER_FIX_APPLIED","status":"fixed","details":"G6 v2 GATHER FIX APPLIED: Replaced dist.gather() with dist.all_gather_object() to support different tensor sizes across ranks. Prevents 'Connection reset by peer' error during evaluation."}
 {"timestamp":"2025-10-26T07:52:25","agent":8,"event":"G6_V2_RESTART_GATHER_FIX","status":"running","details":"G6 v2 RESTARTED with gather fix: all_gather_object() implementation"}
 {"timestamp": "2025-10-26T07:55:00.325812Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
+{"timestamp": "2025-10-26T08:00:00.513325Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
