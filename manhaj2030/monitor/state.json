@@ -1,11 +1,11 @@
 {
-  "timestamp": "2025-10-26T16:57:39.111779Z",
-  "events_total": 1003,
-  "last_event": "ALERT_WATCHER_ERROR",
-  "last_timestamp": "2025-10-26T16:57:38Z",
+  "timestamp": "2025-10-26T17:07:40.338670Z",
+  "events_total": 1132,
+  "last_event": "GATE_E2_GPU_GUIDELINES_INTEGRATED",
+  "last_timestamp": "2025-10-26T17:06:43Z",
   "gpu": {
     "count": 16,
-    "avg_util": 6.12,
+    "avg_util": 6.19,
     "avg_mem_used": 888.75,
     "avg_mem_total": 16384.0
   },
