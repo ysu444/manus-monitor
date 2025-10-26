@@ -1,16 +1,16 @@
 {
-  "timestamp": "2025-10-26T17:17:41.570403Z",
-  "events_total": 1138,
-  "last_event": "ALERT_WATCHER_STARTED",
-  "last_timestamp": "2025-10-26T17:16:46Z",
+  "timestamp": "2025-10-26T17:27:42.822044Z",
+  "events_total": 1165,
+  "last_event": "ALERT_WATCHER_IDLE_RESET",
+  "last_timestamp": "2025-10-26T17:27:42Z",
   "gpu": {
     "count": 16,
-    "avg_util": 6.19,
+    "avg_util": 6.06,
     "avg_mem_used": 888.75,
     "avg_mem_total": 16384.0
   },
   "system": {
-    "cpu": 1.4,
+    "cpu": 1.2,
     "mem": 1.9,
     "disk": 17.2,
     "overall": "green"
