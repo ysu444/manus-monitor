@@ -596,3 +596,4 @@
 {"timestamp": "2025-10-26T12:05:00.511250Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
 {"timestamp": "2025-10-26T12:10:00.512750Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
 {"timestamp": "2025-10-26T12:15:00.510311Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
+{"timestamp":"2025-10-26T12:16:41Z","agent":12,"event":"REGISTRY_GPT5_UPDATED","status":"success"}
