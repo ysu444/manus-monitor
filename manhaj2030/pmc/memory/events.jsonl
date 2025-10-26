@@ -560,3 +560,5 @@
 {"timestamp": "2025-10-26T11:30:00.264112Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
 {"timestamp": "2025-10-26T11:35:00.514552Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
 {"timestamp": "2025-10-26T11:40:00.510348Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
+{"timestamp": "2025-10-26T11:41:44Z", "agent": 12, "event": "AGENTS_AUTOREG_STARTED", "status": "success", "details": "AutoRegistry service started"}
+{"timestamp":"2025-10-26T11:41:46Z","agent":12,"event":"AGENTS_REGISTRY_V41_INITIALIZED","status":"success","agents_count":6}
