@@ -608,3 +608,4 @@
 {"timestamp": "2025-10-26T12:25:48Z", "source": "orchestrator-pilot", "event": "PING_ROLE_AGENT_5", "mode": "pilot", "role": "ops", "model": "gpt-4o-mini"}
 {"timestamp": "2025-10-26T12:25:48Z", "source": "orchestrator-pilot", "event": "PING_ROLE_AGENT_6", "mode": "pilot", "role": "controller", "model": "orchestrator-pilot"}
 {"timestamp":"2025-10-26T12:25:48Z","agent":12,"event":"PING_ROLE_ALL_COMPLETED","status":"success","agents_count":6}
+{"timestamp": "2025-10-26T12:30:00.261400Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
