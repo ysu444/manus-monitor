@@ -1,17 +1,17 @@
 {
-  "timestamp": "2025-10-26T06:34:08.456545Z",
-  "events_total": 425,
-  "last_event": "GRAFANA_REFRESH_BUTTONS_ADDED",
-  "last_timestamp": "2025-10-26T06:32:42Z",
+  "timestamp": "2025-10-26T06:44:09.753411Z",
+  "events_total": 428,
+  "last_event": "BUDGET_GUARD_TICK",
+  "last_timestamp": "2025-10-26T06:40:00.260856Z",
   "gpu": {
     "count": 16,
-    "avg_util": 38.75,
+    "avg_util": 51.12,
     "avg_mem_used": 1843.0,
     "avg_mem_total": 16384.0
   },
   "system": {
-    "cpu": 17.0,
-    "mem": 5.5,
+    "cpu": 21.0,
+    "mem": 5.7,
     "disk": 16.2,
     "overall": "green"
   },
