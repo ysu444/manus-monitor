@@ -430,3 +430,6 @@
 {"timestamp": "2025-10-26T06:50:00.575172Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
 {"timestamp": "2025-10-26T06:55:00.552442Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
 {"timestamp": "2025-10-26T07:00:00.571684Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
+{"timestamp":"2025-10-26T07:04:21Z","agent":17,"event":"PHASE_F_LIVE_SNAPSHOT","status":"success","files":{"md":"/srv/manhaj2030/reports/live/phase_f_snapshot_2025-10-26T07-04-21Z.md","json":"/srv/manhaj2030/reports/live/phase_f_snapshot_2025-10-26T07-04-21Z.json"}}
+{"timestamp":"2025-10-26T07:04:29Z","agent":17,"event":"PHASE_F_LIVE_SNAPSHOT","status":"success","files":{"md":"/srv/manhaj2030/reports/live/phase_f_snapshot_2025-10-26T07-04-29Z.md","json":"/srv/manhaj2030/reports/live/phase_f_snapshot_2025-10-26T07-04-29Z.json"}}
+{"timestamp": "2025-10-26T07:05:00.561850Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
