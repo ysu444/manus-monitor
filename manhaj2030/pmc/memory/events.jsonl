@@ -1394,3 +1394,5 @@
 {"timestamp": "2025-10-26T20:15:06Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
 {"timestamp": "2025-10-26T20:16:06Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
 {"timestamp": "2025-10-26T20:17:06Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
+{"timestamp":"2025-10-26T20:18:05Z","agent":5,"event":"CHAT_C7_SEARCH_DEPLOYED","status":"success","details":"Phase C-7 deployed: conversations search + reindex + resume-session integration (timeline + chat)."}
+{"timestamp": "2025-10-26T20:18:06Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
