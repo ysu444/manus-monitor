@@ -397,3 +397,5 @@
 {"timestamp":"2025-10-26T05:41:57Z","agent":8,"event":"G4_DATA_CLEANING_COMPLETE","status":"success","details":"Phase G-4 Data Cleaning COMPLETE: Processed 15394/15394 examples. Fixed 4686 B→B, 1822 O→I, 1868 common words, 1060 numbers. Total 19128 label changes.","metrics":{total_examples: 15394, examples_processed: 15394, examples_removed: 0, b2b_fixes: 4686, o2i_fixes: 1822, common_word_fixes: 1868, number_entity_removals: 1060, single_char_removals: 2030, subword_fixes: 10902, density_violations: 0, max_entity_violations: 590, total_label_changes: 19128}}
 {"timestamp":"2025-10-26T05:46:55Z","agent":8,"event":"G5_RETRAIN_CLEAN_START","status":"running","details":"Phase G-5 retraining on cleaned data (v6_cleaned); 3 epochs, 16×GPU Gloo, no oversampling"}
 {"timestamp": "2025-10-26T05:47:15.020399Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
+{"timestamp": "2025-10-26T05:49:46.103799Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
+{"timestamp": "2025-10-26T05:50:00.255773Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
