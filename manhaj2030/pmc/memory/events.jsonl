@@ -1304,3 +1304,5 @@
 {"timestamp": "2025-10-26T19:10:00.261574Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
 {"timestamp": "2025-10-26T19:10:02Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
 {"timestamp":"2025-10-26T19:10:55Z","agent":5,"event":"DASHBOARD_HEALTH_CHECK","status":"failure","details":"Dashboard Health Check FAILED → Trigger restart for manhaj-dashboard.service"}
+{"timestamp": "2025-10-26T19:11:02Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
+{"timestamp":"2025-10-26T19:11:40Z","agent":12,"event":"LESSONS_LEARNED_CREATED","status":"success","details":"Created comprehensive NER training lessons document at /srv/manhaj2030/docs/lessons/Manhaj2030_NER_Training_RunPod_Lessons.md (17KB)"}
