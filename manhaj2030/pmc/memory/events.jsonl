@@ -457,3 +457,11 @@
 {"timestamp": "2025-10-26T08:20:24.351508Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
 {"timestamp": "2025-10-26T08:26:35.832547Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
 {"timestamp": "2025-10-26T08:30:00.513130Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
+{"timestamp": "2025-10-26T08:31:33.496739", "agent": 8, "event": "G6_INTERMEDIATE_CHECKPOINT_SAVED", "epoch": 1, "step": 5, "path": "/tmp/g6_v2_smoke/checkpoints/checkpoint-1_5.pt"}
+{"timestamp": "2025-10-26T08:31:37.037652", "agent": 8, "event": "G6_INTERMEDIATE_CHECKPOINT_SAVED", "epoch": 1, "step": 10, "path": "/tmp/g6_v2_smoke/checkpoints/checkpoint-1_10.pt"}
+{"timestamp": "2025-10-26T08:31:40.601439", "agent": 8, "event": "G6_INTERMEDIATE_CHECKPOINT_SAVED", "epoch": 1, "step": 15, "path": "/tmp/g6_v2_smoke/checkpoints/checkpoint-1_15.pt"}
+{"timestamp": "2025-10-26T08:31:44.235085", "agent": 8, "event": "G6_INTERMEDIATE_CHECKPOINT_SAVED", "epoch": 1, "step": 20, "path": "/tmp/g6_v2_smoke/checkpoints/checkpoint-1_20.pt"}
+{"timestamp": "2025-10-26T08:31:47.822637", "agent": 8, "event": "G6_INTERMEDIATE_CHECKPOINT_SAVED", "epoch": 1, "step": 25, "path": "/tmp/g6_v2_smoke/checkpoints/checkpoint-1_25.pt"}
+{"timestamp": "2025-10-26T08:31:51.403159", "agent": 8, "event": "G6_INTERMEDIATE_CHECKPOINT_SAVED", "epoch": 1, "step": 30, "path": "/tmp/g6_v2_smoke/checkpoints/checkpoint-1_30.pt"}
+{"timestamp": "2025-10-26T08:31:54.973175", "agent": 8, "event": "G6_INTERMEDIATE_CHECKPOINT_SAVED", "epoch": 1, "step": 35, "path": "/tmp/g6_v2_smoke/checkpoints/checkpoint-1_35.pt"}
+{"timestamp": "2025-10-26T08:31:58.562874", "agent": 8, "event": "G6_INTERMEDIATE_CHECKPOINT_SAVED", "epoch": 1, "step": 40, "path": "/tmp/g6_v2_smoke/checkpoints/checkpoint-1_40.pt"}
