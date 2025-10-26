@@ -362,3 +362,4 @@
 {"timestamp": "2025-10-25T18:26:06Z", "agent": "Agent8", "event": "PHASE_F6_DDP_TRAINING_COMPLETED", "status": "success", "details": "Phase F-6 DDP training completed successfully. Final loss: 0.0736"}
 {"timestamp":"2025-10-25T18:26:07Z","agent":"Agent8","event":"PHASE_F6_SINGLE_GPU_COMPLETED","status":"success","exit_code":0}
 {"timestamp": "2025-10-25T23:12:58.472513Z", "agent": 12, "event": "CONTEXT_KEEPER_INTEGRITY_CHECK", "result": "ok", "latest_snapshot": "context_snapshot_1761432911.json", "age_hours": 0.3, "timer_active": true}
+{"timestamp":"2025-10-26T03:00:29Z","agent":11,"event":"GPU_REENABLE_FULL_16","status":"success","details":"Phase G-0 GPU Re-Enablement completed; all 16 GPUs activated and verified (16×NVIDIA A16-16Q, 252.8GB total, CUDA 12.3, PyTorch 2.6.0, NCCL 2.27.5)."}
