@@ -402,3 +402,5 @@
 {"timestamp":"2025-10-26T05:52:41Z","agent":14,"event":"MONITORING_HEALTH_AUDIT","status":"executed"}
 {"timestamp": "2025-10-26T05:55:00.235256Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
 {"timestamp":"2025-10-26T05:55:10Z","agent":8,"event":"G5_BASELINE_COMPLETE","status":"completed","details":"Phase G-5 Baseline COMPLETE: Epoch 1 completed with 99% accuracy on O, 0% on entities. Clean data (v6) still shows severe class imbalance (95.6% O). Saved as baseline for comparison.","metrics":{"eval_accuracy":0.99,"b_per_f1":0.0,"i_per_f1":0.0,"avg_entity_f1":0.0}}
+{"timestamp":"2025-10-26T05:57:17Z","agent":8,"event":"G6_SCRIPT_CREATED","status":"ready","details":"Phase G-6 Script CREATED: train_ner_phase_g6_hybrid.py with Hybrid Balancing (undersample O 0.8 + oversample entities 3.0), Focal Loss v2 (ENS alpha), Base Freezing (1 epoch), configurable alpha_mode (inverse/ens/balanced)"}
+{"timestamp":"2025-10-26T05:57:39Z","agent":7,"event":"HTTPS_PROXY_FIX","status":"success"}
