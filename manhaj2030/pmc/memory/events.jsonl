@@ -371,3 +371,4 @@
 {"timestamp": "2025-10-26T03:17:30Z", "agent": "Agent8", "event": "PHASE_F6_DDP_TRAINING_STARTED", "status": "success", "details": "Phase F-6 DDP training started with 16 GPUs, 5 epochs"}
 {"timestamp": "2025-10-26T03:17:43Z", "agent": "Agent8", "event": "PHASE_F6_DDP_TRAINING_FAILED", "status": "error", "details": "Phase F-6 DDP training failed: No columns in the dataset match the model's forward method signature: (inputs, kwargs, label, label_ids). The following columns have been ignored: [token_type_ids, labels, attention_mask, input_ids]. Please check the dataset and model. You may need to set `remove_unused_columns=False` in `TrainingArguments`."}
 {"timestamp":"2025-10-26T03:17:47Z","agent":"Agent8","event":"PHASE_G_16GPU_DDP_COMPLETED","status":"failed","exit_code":1}
+{"timestamp": "2025-10-26T03:29:50Z", "agent": "Agent8", "event": "PHASE_F6_DDP_TRAINING_STARTED", "status": "success", "details": "Phase F-6 DDP training started with 16 GPUs, 5 epochs"}
