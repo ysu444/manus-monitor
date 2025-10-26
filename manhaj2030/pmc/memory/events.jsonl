@@ -686,3 +686,4 @@
 {"timestamp": "2025-10-26T16:35:00.388295Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
 {"timestamp":"2025-10-26T16:38:14Z","agent":5,"event":"DECISION_PATHS_DASHBOARD_V1_1_PATCHED","status":"success","details":"Decision Paths Dashboard v1.1 Patch applied — Added interactive sparklines + task-type statistics (Pilot-Only)."}
 {"timestamp": "2025-10-26T16:40:00.511159Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
+{"timestamp":"2025-10-26T16:43:28Z","agent":5,"event":"DECISION_PATHS_DASHBOARD_V1_2_PATCHED","status":"success","details":"Decision Paths Dashboard upgraded to v1.2: analytics + export (CSV/JSON) + risk alerts (≥0.85). Pilot-Only."}
