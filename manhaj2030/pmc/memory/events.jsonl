@@ -620,3 +620,8 @@
 {"timestamp":"2025-10-26T12:51:19Z","agent":12,"event":"DECISION_ROUTER_V1_DEPLOYED","status":"success","details":"decision_router.py v1 enhanced deployed on 127.0.0.1:8182 (pilot-readonly); Agent 2 role updated to strategic_advisor; rules active; queue wired."}
 {"timestamp": "2025-10-26T12:55:00.512099Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
 {"timestamp": "2025-10-26T13:00:00.261982Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
+{"timestamp": "2025-10-26T13:03:34Z", "agent": 12, "event": "DECISION_ROUTED", "status": "success", "details": "id=INT-TEST-001 consult=True route=['2', '1', '5']"}
+{"timestamp": "2025-10-26T13:03:34Z", "source": "orchestrator-pilot", "event": "ROUTER_SUCCESS", "mode": "pilot", "task_id": "INT-TEST-001", "consult": true, "route": ["2", "1", "5"]}
+{"timestamp": "2025-10-26T13:03:34Z", "agent": 12, "event": "DECISION_ROUTED", "status": "success", "details": "id=INT-TEST-002 consult=False route=['1', '3', '4', '5']"}
+{"timestamp": "2025-10-26T13:03:34Z", "source": "orchestrator-pilot", "event": "ROUTER_SUCCESS", "mode": "pilot", "task_id": "INT-TEST-002", "consult": false, "route": ["1", "3", "4", "5"]}
+{"timestamp":"2025-10-26T13:03:34Z","agent":12,"event":"ORCH_ROUTER_INTEGRATION_COMPLETE","status":"success","details":"Orchestrator 8181 successfully integrated with Decision Router 8182; /task/submit endpoint active; all tasks now route through decision awareness layer."}
