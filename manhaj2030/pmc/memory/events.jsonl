@@ -512,3 +512,4 @@
 {"timestamp":"2025-10-26T08:51:17Z","event":"FOUNDATIONAL_REPORTS_IMPORTED","version":"v4.1-Consolidated-Final","status":"success"}
 {"timestamp": "2025-10-26T08:55:00.514358Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
 {"timestamp": "2025-10-26T09:00:00.538664Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
+{"timestamp": "2025-10-26T09:03:57.575305", "agent": 8, "event": "G6_INTERMEDIATE_CHECKPOINT_SAVED", "epoch": 1, "step": 500, "path": "/srv/manhaj2030/models/g_phase_g6_v3_resumable/checkpoints/checkpoint-1_500.pt"}
