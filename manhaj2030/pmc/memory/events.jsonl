@@ -684,3 +684,4 @@
 {"timestamp":"2025-10-26T16:30:24Z","agent":9,"event":"FINAL_REPORT_CHATGPT_PRO","status":"complete","tests":14,"verdict":"single_gpu_only","confidence":0.98}
 {"timestamp":"2025-10-26T16:33:55Z","agent":5,"event":"DECISION_PATHS_DASHBOARD_V1_DEPLOYED","status":"success","details":"Decision Paths Dashboard v1 (Pilot-Only) launched on :8082; reads PMC/outbox dispatch + router/agents status; read-only."}
 {"timestamp": "2025-10-26T16:35:00.388295Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
+{"timestamp":"2025-10-26T16:38:14Z","agent":5,"event":"DECISION_PATHS_DASHBOARD_V1_1_PATCHED","status":"success","details":"Decision Paths Dashboard v1.1 Patch applied — Added interactive sparklines + task-type statistics (Pilot-Only)."}
