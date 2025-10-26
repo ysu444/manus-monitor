@@ -418,3 +418,4 @@
 {"timestamp":"2025-10-26T06:21:46","agent":8,"event":"G6_V2_RESTART_AFTER_FIX","status":"running","details":"G6 v2 RESTARTED (eval fixed): CRF NLL, hybrid token-aware, 16×GPU, epochs=4"}
 {"timestamp": "2025-10-26T06:25:00.611425Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
 {"timestamp":"2025-10-26T06:26:50Z","agent":9,"event":"EXEC_SUMMARY_PANEL_ADDED","status":"success"}
+{"timestamp":"2025-10-26T06:27:11","agent":8,"event":"G6_V2_ALIGNED_LABELS_FIX","status":"running","details":"G6 v2 FINAL RESTART: Fixed aligned_labels support in eval dataset. Now supports labels_corrected, labels, and aligned_labels fields."}
