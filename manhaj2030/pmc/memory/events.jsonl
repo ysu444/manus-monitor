@@ -1183,3 +1183,4 @@
 {"timestamp": "2025-10-26T17:40:56Z", "agent": 5, "event": "HIGH_RISK_ALERT", "status": "success", "details": "task=V1.3.4-TEST risk=0.94 route=[2, 1, 5]"}
 {"timestamp": "2025-10-26T17:40:56Z", "agent": 5, "event": "HIGH_RISK_ALERT", "status": "success", "details": "task=FINAL-E2E-TEST risk=0.96 route=[2, 1, 5]"}
 {"timestamp": "2025-10-26T17:40:56Z", "agent": 5, "event": "ALERT_WATCHER_SCAN", "status": "success", "details": "Processed 8 high-risk alert(s)"}
+{"timestamp": "2025-10-26T17:41:56Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
