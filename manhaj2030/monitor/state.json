@@ -1,18 +1,18 @@
 {
-  "timestamp": "2025-10-26T04:13:50.933071Z",
-  "events_total": 383,
-  "last_event": "PHASE_G_EVALUATION_COMPLETED",
-  "last_timestamp": "2025-10-26T04:08:06Z",
+  "timestamp": "2025-10-26T04:23:52.107865Z",
+  "events_total": 384,
+  "last_event": "PHASE_G1_FOCAL_TRAINING_STARTED",
+  "last_timestamp": "2025-10-26T04:16:03Z",
   "gpu": {
     "count": 16,
-    "avg_util": 0.0,
-    "avg_mem_used": 134.75,
+    "avg_util": 91.38,
+    "avg_mem_used": 11540.94,
     "avg_mem_total": 16384.0
   },
   "system": {
-    "cpu": 0.1,
-    "mem": 1.6,
-    "disk": 15.7,
+    "cpu": 13.1,
+    "mem": 6.5,
+    "disk": 15.8,
     "overall": "green"
   },
   "active_inboxes": [
