@@ -411,3 +411,6 @@
 {"timestamp": "2025-10-26T06:10:00.259592Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
 {"timestamp": "2025-10-26T06:15:00.255178Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
 {"timestamp":"2025-10-26T06:15:38","agent":8,"event":"G6_HYBRID_TRAIN_START_V2","status":"running","details":"G6 v2 (clean rebuild) started: CRF NLL, hybrid token-aware (min_entity_ratio=0.15), 16×GPU, epochs=4, bs=16"}
+{"timestamp":"2025-10-26T06:19:57Z","agent":6,"event":"PROMETHEUS_EXPORTERS_DEPLOYED","status":"success","exporters":["node_exporter","phase_f_metrics"]}
+{"timestamp":"2025-10-26T06:19:58","agent":8,"event":"G6_V2_STOP_FOR_EVAL_FIX","status":"stopped","details":"G6 v2 stopped for eval_loader fix: eval samples=0 detected, need to fix DistributedSampler and metric aggregation"}
+{"timestamp": "2025-10-26T06:20:00.163342Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
