@@ -1,8 +1,8 @@
 {
-  "timestamp": "2025-10-26T12:27:05.880667Z",
-  "events_total": 610,
-  "last_event": "PING_ROLE_ALL_COMPLETED",
-  "last_timestamp": "2025-10-26T12:25:48Z",
+  "timestamp": "2025-10-26T12:37:07.136057Z",
+  "events_total": 612,
+  "last_event": "BUDGET_GUARD_TICK",
+  "last_timestamp": "2025-10-26T12:35:00.513218Z",
   "gpu": {
     "count": 16,
     "avg_util": 0.0,
