@@ -505,3 +505,4 @@
 {"timestamp": "2025-10-26T08:34:15.697730", "agent": 8, "event": "G6_INTERMEDIATE_CHECKPOINT_SAVED", "epoch": 1, "step": 230, "path": "/tmp/g6_v2_smoke/checkpoints/checkpoint-1_230.pt"}
 {"timestamp": "2025-10-26T08:34:19.298277", "agent": 8, "event": "G6_INTERMEDIATE_CHECKPOINT_SAVED", "epoch": 1, "step": 235, "path": "/tmp/g6_v2_smoke/checkpoints/checkpoint-1_235.pt"}
 {"timestamp": "2025-10-26T08:35:01.951494Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
+{"timestamp": "2025-10-26T08:40:00.514511Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
