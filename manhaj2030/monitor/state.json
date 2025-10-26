@@ -1,8 +1,8 @@
 {
-  "timestamp": "2025-10-26T03:03:42.396166Z",
-  "events_total": 366,
-  "last_event": "PHASE_F6_TRAINING_COMPLETED_SUCCESSFULLY",
-  "last_timestamp": "2025-10-26T03:01:32Z",
+  "timestamp": "2025-10-26T03:13:43.654050Z",
+  "events_total": 367,
+  "last_event": "G16_DDP_CONNECTIVITY_GLOO",
+  "last_timestamp": "2025-10-26T03:07:29Z",
   "gpu": {
     "count": 16,
     "avg_util": 0.0,
@@ -10,7 +10,7 @@
     "avg_mem_total": 16384.0
   },
   "system": {
-    "cpu": 0.2,
+    "cpu": 0.0,
     "mem": 1.6,
     "disk": 15.6,
     "overall": "green"
