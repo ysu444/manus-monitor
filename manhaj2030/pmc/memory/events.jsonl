@@ -506,3 +506,5 @@
 {"timestamp": "2025-10-26T08:34:19.298277", "agent": 8, "event": "G6_INTERMEDIATE_CHECKPOINT_SAVED", "epoch": 1, "step": 235, "path": "/tmp/g6_v2_smoke/checkpoints/checkpoint-1_235.pt"}
 {"timestamp": "2025-10-26T08:35:01.951494Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
 {"timestamp": "2025-10-26T08:40:00.514511Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
+{"timestamp":"2025-10-26T08:44:44Z","agent":8,"event":"G6_V3_TRAINING_START","status":"running","details":"16×GPU Gloo | Hybrid Balancing (min_entity_ratio 0.15) | CRF NLL | Checkpoint Freq 500 | FreezeBase 1"}
+{"timestamp": "2025-10-26T08:45:00.511150Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
