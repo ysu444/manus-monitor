@@ -414,3 +414,5 @@
 {"timestamp":"2025-10-26T06:19:57Z","agent":6,"event":"PROMETHEUS_EXPORTERS_DEPLOYED","status":"success","exporters":["node_exporter","phase_f_metrics"]}
 {"timestamp":"2025-10-26T06:19:58","agent":8,"event":"G6_V2_STOP_FOR_EVAL_FIX","status":"stopped","details":"G6 v2 stopped for eval_loader fix: eval samples=0 detected, need to fix DistributedSampler and metric aggregation"}
 {"timestamp": "2025-10-26T06:20:00.163342Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
+{"timestamp":"2025-10-26T06:21:41","agent":8,"event":"G6_V2_EVAL_FIX_APPLIED","status":"fixed","details":"G6 v2 eval_loader FIXED: Added distributed gathering - all ranks evaluate, results gathered on rank0. Added log message for eval samples count."}
+{"timestamp":"2025-10-26T06:21:46","agent":8,"event":"G6_V2_RESTART_AFTER_FIX","status":"running","details":"G6 v2 RESTARTED (eval fixed): CRF NLL, hybrid token-aware, 16×GPU, epochs=4"}
