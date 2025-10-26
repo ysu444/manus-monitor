@@ -1,17 +1,17 @@
 {
-  "timestamp": "2025-10-26T05:23:59.581947Z",
-  "events_total": 392,
-  "last_event": "API_GATEWAY_8093_READY",
-  "last_timestamp": "2025-10-26T05:17:35Z",
+  "timestamp": "2025-10-26T05:34:00.848612Z",
+  "events_total": 395,
+  "last_event": "G3_DATA_AUDIT_COMPLETE",
+  "last_timestamp": "2025-10-26T05:33:27Z",
   "gpu": {
     "count": 16,
-    "avg_util": 67.81,
+    "avg_util": 67.0,
     "avg_mem_used": 5450.62,
     "avg_mem_total": 16384.0
   },
   "system": {
-    "cpu": 24.2,
-    "mem": 5.9,
+    "cpu": 21.8,
+    "mem": 6.1,
     "disk": 16.0,
     "overall": "green"
   },
