@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-10-26T00:13:21.228253Z",
+  "timestamp": "2025-10-26T00:23:22.405835Z",
   "events_total": 364,
   "last_event": "CONTEXT_KEEPER_INTEGRITY_CHECK",
   "last_timestamp": "2025-10-25T23:12:58.472513Z",
@@ -10,7 +10,7 @@
     "avg_mem_total": 16384.0
   },
   "system": {
-    "cpu": 0.0,
+    "cpu": 0.1,
     "mem": 1.5,
     "disk": 15.5,
     "overall": "green"
