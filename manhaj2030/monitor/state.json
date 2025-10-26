@@ -1,8 +1,8 @@
 {
-  "timestamp": "2025-10-26T03:13:43.654050Z",
-  "events_total": 367,
-  "last_event": "G16_DDP_CONNECTIVITY_GLOO",
-  "last_timestamp": "2025-10-26T03:07:29Z",
+  "timestamp": "2025-10-26T03:23:44.880489Z",
+  "events_total": 373,
+  "last_event": "PHASE_G_16GPU_DDP_COMPLETED",
+  "last_timestamp": "2025-10-26T03:17:47Z",
   "gpu": {
     "count": 16,
     "avg_util": 0.0,
@@ -10,9 +10,9 @@
     "avg_mem_total": 16384.0
   },
   "system": {
-    "cpu": 0.0,
+    "cpu": 0.1,
     "mem": 1.6,
-    "disk": 15.6,
+    "disk": 15.7,
     "overall": "green"
   },
   "active_inboxes": [
