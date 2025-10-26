@@ -1346,3 +1346,5 @@
 {"timestamp":"2025-10-26T19:40:59Z","agent":5,"event":"DASHBOARD_HEALTH_CHECK","status":"success","details":"Dashboard Health Check → All endpoints OK (200)."}
 {"timestamp": "2025-10-26T19:41:04Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
 {"timestamp": "2025-10-26T19:42:04Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
+{"timestamp": "2025-10-26T19:43:04Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
+{"timestamp":"2025-10-26T19:43:52Z","agent":5,"event":"CHAT_C4_STOPPED_FOR_REVIEW","status":"paused","details":"Phase C-4 (UI Integration & Real LLM Keys) paused after syntax errors from regex patch attempts — manual review required."}
