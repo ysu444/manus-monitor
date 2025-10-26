@@ -980,3 +980,35 @@
 {"timestamp": "2025-10-26T16:56:56Z", "agent": 5, "event": "ALERT_WATCHER_ERROR", "status": "error", "details": "OSError: telling position disabled by next() call"}
 {"timestamp": "2025-10-26T16:56:58Z", "agent": 5, "event": "ALERT_WATCHER_ERROR", "status": "error", "details": "OSError: telling position disabled by next() call"}
 {"timestamp": "2025-10-26T16:57:00Z", "agent": 5, "event": "ALERT_WATCHER_ERROR", "status": "error", "details": "OSError: telling position disabled by next() call"}
+{"timestamp": "2025-10-26T16:57:02Z", "agent": 5, "event": "ALERT_WATCHER_ERROR", "status": "error", "details": "OSError: telling position disabled by next() call"}
+{"timestamp": "2025-10-26T16:57:04Z", "agent": 5, "event": "ALERT_WATCHER_ERROR", "status": "error", "details": "OSError: telling position disabled by next() call"}
+{"timestamp": "2025-10-26T16:57:06Z", "agent": 5, "event": "ALERT_WATCHER_ERROR", "status": "error", "details": "OSError: telling position disabled by next() call"}
+{"timestamp": "2025-10-26T16:57:08Z", "agent": 5, "event": "ALERT_WATCHER_ERROR", "status": "error", "details": "OSError: telling position disabled by next() call"}
+{"timestamp": "2025-10-26T16:57:10Z", "agent": 5, "event": "ALERT_WATCHER_ERROR", "status": "error", "details": "OSError: telling position disabled by next() call"}
+{"timestamp": "2025-10-26T16:57:12Z", "agent": 5, "event": "ALERT_WATCHER_ERROR", "status": "error", "details": "OSError: telling position disabled by next() call"}
+{"timestamp": "2025-10-26T16:57:14Z", "agent": 5, "event": "ALERT_WATCHER_ERROR", "status": "error", "details": "OSError: telling position disabled by next() call"}
+{"timestamp": "2025-10-26T16:57:16Z", "agent": 5, "event": "ALERT_WATCHER_ERROR", "status": "error", "details": "OSError: telling position disabled by next() call"}
+{"timestamp": "2025-10-26T16:57:18Z", "agent": 5, "event": "ALERT_WATCHER_ERROR", "status": "error", "details": "OSError: telling position disabled by next() call"}
+{"timestamp": "2025-10-26T16:57:20.904990", "agent": 8, "event": "G6_V2_EPOCH_COMPLETE", "epoch": 3, "train_loss": 13.3591721133714, "eval_accuracy": 0.9718231417403232, "b_per_f1": 0.6535362578334826, "i_per_f1": 0.5962599632127529, "avg_entity_f1": 0.6248981105231177}
+{"timestamp": "2025-10-26T16:57:20Z", "agent": 5, "event": "ALERT_WATCHER_ERROR", "status": "error", "details": "OSError: telling position disabled by next() call"}
+{"timestamp": "2025-10-26T16:57:22Z", "agent": 5, "event": "ALERT_WATCHER_ERROR", "status": "error", "details": "OSError: telling position disabled by next() call"}
+{"timestamp": "2025-10-26T16:57:23.600727", "agent": 8, "event": "G6_INTERMEDIATE_CHECKPOINT_SAVED", "epoch": 3, "step": 0, "path": "/srv/manhaj2030/models/g_phase_g6_v3_single_gpu_final/checkpoints/checkpoint-3_0.pt"}
+{"timestamp": "2025-10-26T16:57:24Z", "agent": 5, "event": "ALERT_WATCHER_ERROR", "status": "error", "details": "OSError: telling position disabled by next() call"}
+{"timestamp": "2025-10-26T16:57:26Z", "agent": 5, "event": "ALERT_WATCHER_ERROR", "status": "error", "details": "OSError: telling position disabled by next() call"}
+{"timestamp": "2025-10-26T16:57:28Z", "agent": 5, "event": "ALERT_WATCHER_ERROR", "status": "error", "details": "OSError: telling position disabled by next() call"}
+{"timestamp": "2025-10-26T16:57:30Z", "agent": 5, "event": "ALERT_WATCHER_ERROR", "status": "error", "details": "OSError: telling position disabled by next() call"}
+{"timestamp": "2025-10-26T16:57:32Z", "agent": 5, "event": "ALERT_WATCHER_ERROR", "status": "error", "details": "OSError: telling position disabled by next() call"}
+{"timestamp": "2025-10-26T16:57:34Z", "agent": 5, "event": "ALERT_WATCHER_ERROR", "status": "error", "details": "OSError: telling position disabled by next() call"}
+{"timestamp": "2025-10-26T16:57:36Z", "agent": 5, "event": "ALERT_WATCHER_ERROR", "status": "error", "details": "OSError: telling position disabled by next() call"}
+{"timestamp": "2025-10-26T16:57:38Z", "agent": 5, "event": "ALERT_WATCHER_ERROR", "status": "error", "details": "OSError: telling position disabled by next() call"}
+{"timestamp": "2025-10-26T16:57:40Z", "agent": 5, "event": "ALERT_WATCHER_ERROR", "status": "error", "details": "OSError: telling position disabled by next() call"}
+{"timestamp": "2025-10-26T16:57:42Z", "agent": 5, "event": "ALERT_WATCHER_ERROR", "status": "error", "details": "OSError: telling position disabled by next() call"}
+{"timestamp": "2025-10-26T16:57:44Z", "agent": 5, "event": "ALERT_WATCHER_ERROR", "status": "error", "details": "OSError: telling position disabled by next() call"}
+{"timestamp": "2025-10-26T16:57:46Z", "agent": 5, "event": "ALERT_WATCHER_ERROR", "status": "error", "details": "OSError: telling position disabled by next() call"}
+{"timestamp": "2025-10-26T16:57:48Z", "agent": 5, "event": "ALERT_WATCHER_ERROR", "status": "error", "details": "OSError: telling position disabled by next() call"}
+{"timestamp": "2025-10-26T16:57:50Z", "agent": 5, "event": "ALERT_WATCHER_ERROR", "status": "error", "details": "OSError: telling position disabled by next() call"}
+{"timestamp": "2025-10-26T16:57:52Z", "agent": 5, "event": "ALERT_WATCHER_ERROR", "status": "error", "details": "OSError: telling position disabled by next() call"}
+{"timestamp": "2025-10-26T16:57:54Z", "agent": 5, "event": "ALERT_WATCHER_ERROR", "status": "error", "details": "OSError: telling position disabled by next() call"}
+{"timestamp": "2025-10-26T16:57:56Z", "agent": 5, "event": "ALERT_WATCHER_ERROR", "status": "error", "details": "OSError: telling position disabled by next() call"}
+{"timestamp": "2025-10-26T16:57:58Z", "agent": 5, "event": "ALERT_WATCHER_ERROR", "status": "error", "details": "OSError: telling position disabled by next() call"}
+{"timestamp": "2025-10-26T16:58:00Z", "agent": 5, "event": "ALERT_WATCHER_ERROR", "status": "error", "details": "OSError: telling position disabled by next() call"}

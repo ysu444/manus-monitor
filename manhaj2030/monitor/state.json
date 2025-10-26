@@ -1,8 +1,8 @@
 {
-  "timestamp": "2025-10-26T16:47:37.859087Z",
-  "events_total": 698,
+  "timestamp": "2025-10-26T16:57:39.111779Z",
+  "events_total": 1003,
   "last_event": "ALERT_WATCHER_ERROR",
-  "last_timestamp": "2025-10-26T16:47:36Z",
+  "last_timestamp": "2025-10-26T16:57:38Z",
   "gpu": {
     "count": 16,
     "avg_util": 6.12,
@@ -11,8 +11,8 @@
   },
   "system": {
     "cpu": 1.1,
-    "mem": 1.9,
-    "disk": 17.1,
+    "mem": 1.8,
+    "disk": 17.2,
     "overall": "green"
   },
   "active_inboxes": [
