@@ -1285,3 +1285,5 @@
 {"timestamp": "2025-10-26T18:55:01Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
 {"timestamp": "2025-10-26T18:56:01Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
 {"timestamp": "2025-10-26T18:57:01Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
+{"timestamp": "2025-10-26T18:58:01Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
+{"timestamp":"2025-10-26T18:58:41Z","agent":5,"event":"CHAT_C2_STREAMING_DEPLOYED","status":"success","details":"Phase C-2 deployed: SSE streaming + chat UI + tokens. Session=929e5fda35914097b596cefb7f0bc6ce."}
