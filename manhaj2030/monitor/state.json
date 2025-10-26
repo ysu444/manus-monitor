@@ -1,8 +1,8 @@
 {
-  "timestamp": "2025-10-26T17:07:40.338670Z",
-  "events_total": 1132,
-  "last_event": "GATE_E2_GPU_GUIDELINES_INTEGRATED",
-  "last_timestamp": "2025-10-26T17:06:43Z",
+  "timestamp": "2025-10-26T17:17:41.570403Z",
+  "events_total": 1138,
+  "last_event": "ALERT_WATCHER_STARTED",
+  "last_timestamp": "2025-10-26T17:16:46Z",
   "gpu": {
     "count": 16,
     "avg_util": 6.19,
@@ -10,8 +10,8 @@
     "avg_mem_total": 16384.0
   },
   "system": {
-    "cpu": 1.1,
-    "mem": 1.8,
+    "cpu": 1.4,
+    "mem": 1.9,
     "disk": 17.2,
     "overall": "green"
   },
