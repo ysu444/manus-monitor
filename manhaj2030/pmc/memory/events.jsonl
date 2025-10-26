@@ -385,3 +385,4 @@
 {"timestamp":"2025-10-26T04:38:02Z","agent":8,"event":"PHASE_G1_FOCAL_EVALUATION_COMPLETED","status":"success","metrics":{"precision":0.9734,"recall":0.9191,"f1":0.9451,"b_per_f1":0.0187,"i_per_f1":0.0000}}
 {"timestamp":"2025-10-26T04:40:37Z","agent":9,"event":"DASHBOARD_WIDGETS_DEPLOYED","status":"success"}
 {"timestamp":"2025-10-26T04:44:01Z","agent":8,"event":"G2_CRF_BALANCED_START","status":"running","details":"Phase G-2 (CRF+Balanced) launched on 16×GPU Gloo; log=/srv/manhaj2030/logs/phase_g2_crf_16gpu_20251026_044355.log"}
+{"timestamp":"2025-10-26T04:58:26Z","agent":12,"event":"GRAPH_VIEWER_INTEGRATION_COMPLETE","status":"success","components":["GraphViewer.jsx","graph_query_api.py","nginx_proxy"],"details":"Agent 12 completed Graph Viewer Integration (fallback for Agent 10): Cytoscape component created, Graph Engine API extended with /narrators endpoint, Dashboard v3 updated, nginx proxy configured."}
