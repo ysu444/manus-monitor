@@ -1,17 +1,17 @@
 {
-  "timestamp": "2025-10-26T04:53:55.888640Z",
-  "events_total": 387,
-  "last_event": "G2_CRF_BALANCED_START",
-  "last_timestamp": "2025-10-26T04:44:01Z",
+  "timestamp": "2025-10-26T05:03:57.080614Z",
+  "events_total": 388,
+  "last_event": "GRAPH_VIEWER_INTEGRATION_COMPLETE",
+  "last_timestamp": "2025-10-26T04:58:26Z",
   "gpu": {
     "count": 16,
-    "avg_util": 67.94,
+    "avg_util": 74.38,
     "avg_mem_used": 5442.62,
     "avg_mem_total": 16384.0
   },
   "system": {
-    "cpu": 21.7,
-    "mem": 5.8,
+    "cpu": 18.1,
+    "mem": 6.3,
     "disk": 16.0,
     "overall": "green"
   },
