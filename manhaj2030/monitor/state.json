@@ -1,18 +1,18 @@
 {
-  "timestamp": "2025-10-26T05:34:00.848612Z",
-  "events_total": 395,
-  "last_event": "G3_DATA_AUDIT_COMPLETE",
-  "last_timestamp": "2025-10-26T05:33:27Z",
+  "timestamp": "2025-10-26T05:44:02.114595Z",
+  "events_total": 397,
+  "last_event": null,
+  "last_timestamp": null,
   "gpu": {
     "count": 16,
-    "avg_util": 67.0,
+    "avg_util": 66.94,
     "avg_mem_used": 5450.62,
     "avg_mem_total": 16384.0
   },
   "system": {
-    "cpu": 21.8,
-    "mem": 6.1,
-    "disk": 16.0,
+    "cpu": 21.1,
+    "mem": 6.2,
+    "disk": 16.1,
     "overall": "green"
   },
   "active_inboxes": [
