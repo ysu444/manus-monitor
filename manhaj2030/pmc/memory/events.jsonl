@@ -1378,3 +1378,5 @@
 {"timestamp": "2025-10-26T20:04:05Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
 {"timestamp": "2025-10-26T20:05:00.260239Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
 {"timestamp": "2025-10-26T20:05:06Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
+{"timestamp": "2025-10-26T20:06:06Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
+{"timestamp":"2025-10-26T20:06:37Z","agent":5,"event":"CHAT_C6_MEMORY_ENGINE_DEPLOYED","status":"success","details":"Phase C-6 deployed: sidecar Memory API (:8083) + timeline.html + backup & context endpoints (non-invasive)."}
