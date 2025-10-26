@@ -1,8 +1,8 @@
 {
-  "timestamp": "2025-10-26T15:27:27.930158Z",
-  "events_total": 664,
-  "last_event": "BUDGET_GUARD_TICK",
-  "last_timestamp": "2025-10-26T15:25:00.513132Z",
+  "timestamp": "2025-10-26T15:37:29.142441Z",
+  "events_total": 669,
+  "last_event": "DECISION_PATHS_GUIDE_V1_CREATED",
+  "last_timestamp": "2025-10-26T15:36:15Z",
   "gpu": {
     "count": 16,
     "avg_util": 5.56,
