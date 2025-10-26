@@ -1,17 +1,17 @@
 {
-  "timestamp": "2025-10-26T09:06:41.056627Z",
-  "events_total": 517,
-  "last_event": "KNOWLEDGE_DIFF_REPORT_GENERATED",
-  "last_timestamp": "2025-10-26T09:06:16Z",
+  "timestamp": "2025-10-26T09:16:42.334090Z",
+  "events_total": 523,
+  "last_event": "BUDGET_GUARD_TICK",
+  "last_timestamp": "2025-10-26T09:15:00.509745Z",
   "gpu": {
     "count": 16,
-    "avg_util": 38.69,
+    "avg_util": 39.06,
     "avg_mem_used": 1866.0,
     "avg_mem_total": 16384.0
   },
   "system": {
-    "cpu": 17.1,
-    "mem": 6.4,
+    "cpu": 16.8,
+    "mem": 6.5,
     "disk": 16.5,
     "overall": "green"
   },
