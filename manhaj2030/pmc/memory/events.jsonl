@@ -1127,3 +1127,4 @@
 {"timestamp": "2025-10-26T17:01:43Z", "agent": 5, "event": "ALERT_WATCHER_ERROR", "status": "error", "details": "OSError: telling position disabled by next() call"}
 {"timestamp": "2025-10-26T17:01:45Z", "agent": 5, "event": "ALERT_WATCHER_ERROR", "status": "error", "details": "OSError: telling position disabled by next() call"}
 {"timestamp": "2025-10-26T17:01:47Z", "agent": 5, "event": "ALERT_WATCHER_ERROR", "status": "error", "details": "OSError: telling position disabled by next() call"}
+{"timestamp": "2025-10-26T17:05:00.516729Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
