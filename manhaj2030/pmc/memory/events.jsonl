@@ -1281,3 +1281,5 @@
 {"timestamp":"2025-10-26T18:52:02Z","agent":5,"event":"CHAT_C1_CORE_DEPLOYED","status":"success","details":"Phase C-1 deployed: sessions + memory + basic chat API. Test session=e91f4fba3c7c45fd8405c7f92e9fba5a."}
 {"timestamp": "2025-10-26T18:53:01Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
 {"timestamp": "2025-10-26T18:54:01Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
+{"timestamp": "2025-10-26T18:55:00.514083Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
+{"timestamp": "2025-10-26T18:55:01Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
