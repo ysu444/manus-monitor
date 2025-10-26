@@ -1,8 +1,8 @@
 {
-  "timestamp": "2025-10-26T03:23:44.880489Z",
-  "events_total": 373,
+  "timestamp": "2025-10-26T03:33:46.132627Z",
+  "events_total": 376,
   "last_event": "PHASE_G_16GPU_DDP_COMPLETED",
-  "last_timestamp": "2025-10-26T03:17:47Z",
+  "last_timestamp": "2025-10-26T03:30:26Z",
   "gpu": {
     "count": 16,
     "avg_util": 0.0,
@@ -10,8 +10,8 @@
     "avg_mem_total": 16384.0
   },
   "system": {
-    "cpu": 0.1,
-    "mem": 1.6,
+    "cpu": 13.6,
+    "mem": 2.3,
     "disk": 15.7,
     "overall": "green"
   },
