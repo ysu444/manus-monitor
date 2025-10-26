@@ -1,8 +1,8 @@
 {
-  "timestamp": "2025-10-26T12:17:04.621849Z",
-  "events_total": 599,
-  "last_event": "REGISTRY_GPT5_UPDATED",
-  "last_timestamp": "2025-10-26T12:16:41Z",
+  "timestamp": "2025-10-26T12:27:05.880667Z",
+  "events_total": 610,
+  "last_event": "PING_ROLE_ALL_COMPLETED",
+  "last_timestamp": "2025-10-26T12:25:48Z",
   "gpu": {
     "count": 16,
     "avg_util": 0.0,
@@ -10,7 +10,7 @@
     "avg_mem_total": 16384.0
   },
   "system": {
-    "cpu": 0.0,
+    "cpu": 0.1,
     "mem": 1.6,
     "disk": 16.6,
     "overall": "green"
