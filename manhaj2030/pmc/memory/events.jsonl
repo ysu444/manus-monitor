@@ -407,3 +407,4 @@
 {"timestamp":"2025-10-26T05:59:13Z","agent":8,"event":"G6_HYBRID_TRAIN_START","status":"running","details":"Phase G-6 Hybrid Training STARTED: 4 epochs, 16×GPU Gloo, undersample_o=0.8, oversample_entities=3.0, Focal Loss v2 (ENS), freeze_base_epochs=1, lr=2e-5. Target: B-PER≥55%, I-PER≥45%, Macro F1≥0.70"}
 {"timestamp": "2025-10-26T06:00:00.260165Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
 {"timestamp": "2025-10-26T06:05:00.259050Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
+{"timestamp":"2025-10-26T06:05:49Z","agent":9,"event":"GRAFANA_ULTIMATE_OBSERVABILITY_DEPLOYED","status":"success"}
