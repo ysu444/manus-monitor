@@ -1168,3 +1168,5 @@
 {"timestamp": "2025-10-26T17:30:00.515515Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
 {"timestamp": "2025-10-26T17:30:42Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
 {"timestamp": "2025-10-26T17:30:49Z", "agent": 12, "event": "AGENTS_AUTOREG_STARTED", "status": "success", "details": "AutoRegistry service started"}
+{"timestamp": "2025-10-26T17:31:39Z", "agent": 12, "event": "AGENTS_AUTOREG_STARTED", "status": "success", "details": "AutoRegistry service started"}
+{"timestamp":"2025-10-26T17:31:44Z","agent":5,"event":"DASHBOARD_V1_3_2_DEPLOY_FAILED","status":"error","details":"Port 8082 still occupied after cleanup"}
