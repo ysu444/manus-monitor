@@ -390,3 +390,5 @@
 {"timestamp": "2025-10-26T05:12:59.436404Z", "agent": 12, "event": "CONTEXT_KEEPER_INTEGRITY_CHECK", "result": "ok", "latest_snapshot": "context_snapshot_1761454515.json", "age_hours": 0.3, "timer_active": true}
 {"timestamp":"2025-10-26T05:15:25Z","agent":7,"event":"API_GATEWAY_8081_READY","status":"success"}
 {"timestamp":"2025-10-26T05:17:35Z","agent":7,"event":"API_GATEWAY_8093_READY","status":"success"}
+{"timestamp":"2025-10-26T05:26:22Z","agent":13,"event":"SECURITY_HARDENING_COMPLETE","status":"success","components":["security_headers","rate_limiting","fail2ban"]}
+{"timestamp":"2025-10-26T05:26:27Z","agent":8,"event":"G2_EPOCH1_COMPLETE","status":"poor_entity_performance","details":"Phase G-2 Epoch 1 completed: Eval Acc=93.06%, Entity F1=0.84% (B-PER: 1.69%, I-PER: 0.00%). CRF+Balanced sampling did not solve entity recognition issue.","metrics":{"eval_acc":0.9306,"entity_f1":0.0084,"b_per_f1":0.0169,"i_per_f1":0.0}}
