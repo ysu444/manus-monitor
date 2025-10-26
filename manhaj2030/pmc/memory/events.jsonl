@@ -530,3 +530,5 @@
 {"timestamp":"2025-10-26T09:33:02Z","agent":7,"event":"PILOT_API_HEALTH_STATUS_CHECK","status":"executed"}
 {"timestamp": "2025-10-26T09:35:00.555426Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
 {"timestamp": "2025-10-26T09:40:00.510937Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
+{"timestamp":"2025-10-26T09:41:10Z","agent":12,"event":"HYBRID_AGENTS_PILOT_INITIALIZED","status":"success","agents_active":1,"agents_total":19}
+{"timestamp": "2025-10-26T09:41:52.197059", "agent": 8, "event": "G6_INTERMEDIATE_CHECKPOINT_SAVED", "epoch": 1, "step": 1500, "path": "/srv/manhaj2030/models/g_phase_g6_v3_resumable/checkpoints/checkpoint-1_1500.pt"}
