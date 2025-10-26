@@ -1137,3 +1137,10 @@
 {"timestamp": "2025-10-26T17:16:01Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
 {"timestamp": "2025-10-26T17:16:46Z", "agent": 5, "event": "ALERT_WATCHER_STARTED", "status": "success", "details": "Alert Watcher v1.3.1 started with Smart Polling"}
 {"timestamp": "2025-10-26T17:18:11Z", "agent": 5, "event": "ALERT_WATCHER_STARTED", "status": "success", "details": "Alert Watcher v1.3.2 started with Debug Logging"}
+{"timestamp": "2025-10-26T17:19:26Z", "agent": 5, "event": "ALERT_WATCHER_STARTED", "status": "success", "details": "Alert Watcher v1.3.3 started with Multi-line JSON Support"}
+{"timestamp": "2025-10-26T17:19:26Z", "agent": 5, "event": "HIGH_RISK_ALERT", "status": "success", "details": "task=SIM-ALERT-TEST-001 risk=0.95 route=[2, 1, 5]"}
+{"timestamp": "2025-10-26T17:19:26Z", "agent": 5, "event": "HIGH_RISK_ALERT", "status": "success", "details": "task=SIM-ALERT-TEST-002 risk=0.95 route=[2, 1, 5]"}
+{"timestamp": "2025-10-26T17:19:26Z", "agent": 5, "event": "HIGH_RISK_ALERT", "status": "success", "details": "task=SIM-ALERT-FINAL-003 risk=0.97 route=[2, 1, 5]"}
+{"timestamp": "2025-10-26T17:19:26Z", "agent": 5, "event": "HIGH_RISK_ALERT", "status": "success", "details": "task=SIM-ALERT-V1.3.1-TEST risk=0.98 route=[2, 1, 5]"}
+{"timestamp": "2025-10-26T17:19:26Z", "agent": 5, "event": "ALERT_WATCHER_SCAN", "status": "success", "details": "Processed 4 high-risk alert(s)"}
+{"timestamp": "2025-10-26T17:20:00.381487Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
