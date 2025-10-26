@@ -1,38 +1,38 @@
 {
   "agents": {
     "1": {
-      "last_ping": 1761481430.316189,
-      "reply": "no-response",
+      "last_ping": 1761481548.02468,
+      "reply": "I am Agent 1, Executive role, using gpt-5-2025-08-07. Ready for strategic decisions.",
       "role": "executive",
       "model": "gpt-5-2025-08-07"
     },
     "2": {
-      "last_ping": 1761481430.407112,
-      "reply": "no-response",
+      "last_ping": 1761481548.118044,
+      "reply": "I am Agent 2, Architect role, using claude-opus-4-1-20250805. Ready for system design.",
       "role": "architect",
       "model": "claude-opus-4-1-20250805"
     },
     "3": {
-      "last_ping": 1761481430.497893,
-      "reply": "no-response",
+      "last_ping": 1761481548.213699,
+      "reply": "I am Agent 3, Developer role, using gpt-5-codex. Ready for code generation.",
       "role": "developer",
       "model": "gpt-5-codex"
     },
     "4": {
-      "last_ping": 1761481430.589209,
-      "reply": "no-response",
+      "last_ping": 1761481548.307751,
+      "reply": "I am Agent 4, Reviewer role, using claude-sonnet-4-5. Ready for code review.",
       "role": "reviewer",
       "model": "claude-sonnet-4-5"
     },
     "5": {
-      "last_ping": 1761481430.67952,
-      "reply": "no-response",
+      "last_ping": 1761481548.402048,
+      "reply": "I am Agent 5, Operations role, using gpt-4o-mini. Ready for operational tasks.",
       "role": "ops",
       "model": "gpt-4o-mini"
     },
     "6": {
-      "last_ping": 1761481430.770684,
-      "reply": "no-response",
+      "last_ping": 1761481548.49647,
+      "reply": "I am Agent 6, Controller role (Orchestrator Pilot). Ready to coordinate.",
       "role": "controller",
       "model": "orchestrator-pilot"
     }

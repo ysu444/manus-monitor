@@ -600,3 +600,11 @@
 {"timestamp": "2025-10-26T12:20:01.762537Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
 {"timestamp":"2025-10-26T12:23:50Z","agent":12,"event":"PING_ROLE_ALL_COMPLETED","status":"success"}
 {"timestamp": "2025-10-26T12:25:00.509843Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
+{"timestamp": "2025-10-26T12:25:27Z", "source": "orchestrator-pilot", "event": "PING_ROLE_AGENT_1", "mode": "pilot", "role": "executive", "model": "gpt-5-2025-08-07"}
+{"timestamp": "2025-10-26T12:25:47Z", "source": "orchestrator-pilot", "event": "PING_ROLE_AGENT_1", "mode": "pilot", "role": "executive", "model": "gpt-5-2025-08-07"}
+{"timestamp": "2025-10-26T12:25:48Z", "source": "orchestrator-pilot", "event": "PING_ROLE_AGENT_2", "mode": "pilot", "role": "architect", "model": "claude-opus-4-1-20250805"}
+{"timestamp": "2025-10-26T12:25:48Z", "source": "orchestrator-pilot", "event": "PING_ROLE_AGENT_3", "mode": "pilot", "role": "developer", "model": "gpt-5-codex"}
+{"timestamp": "2025-10-26T12:25:48Z", "source": "orchestrator-pilot", "event": "PING_ROLE_AGENT_4", "mode": "pilot", "role": "reviewer", "model": "claude-sonnet-4-5"}
+{"timestamp": "2025-10-26T12:25:48Z", "source": "orchestrator-pilot", "event": "PING_ROLE_AGENT_5", "mode": "pilot", "role": "ops", "model": "gpt-4o-mini"}
+{"timestamp": "2025-10-26T12:25:48Z", "source": "orchestrator-pilot", "event": "PING_ROLE_AGENT_6", "mode": "pilot", "role": "controller", "model": "orchestrator-pilot"}
+{"timestamp":"2025-10-26T12:25:48Z","agent":12,"event":"PING_ROLE_ALL_COMPLETED","status":"success","agents_count":6}
