@@ -1160,3 +1160,4 @@
 {"timestamp": "2025-10-26T17:23:41Z", "agent": 5, "event": "ALERT_WATCHER_SCAN", "status": "success", "details": "Processed 7 high-risk alert(s)"}
 {"timestamp": "2025-10-26T17:24:42Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
 {"timestamp": "2025-10-26T17:25:00.514548Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
+{"timestamp": "2025-10-26T17:25:42Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
