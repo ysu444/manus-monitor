@@ -564,3 +564,10 @@
 {"timestamp":"2025-10-26T11:41:46Z","agent":12,"event":"AGENTS_REGISTRY_V41_INITIALIZED","status":"success","agents_count":6}
 {"timestamp": "2025-10-26T11:45:00.514487Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
 {"timestamp": "2025-10-26T11:50:01.262816Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
+{"timestamp": "2025-10-26T11:53:56Z", "agent": 12, "event": "AGENT_1_PING_SENT", "status": "info", "details": "Testing gpt-5-pro-2025-10-06"}
+{"timestamp": "2025-10-26T11:53:58Z", "agent": 12, "event": "AGENT_1_PING_FAIL", "status": "error", "details": "FAIL: Error code: 404 - {'error': {'message': 'This mode"}
+{"timestamp": "2025-10-26T11:53:58Z", "agent": 12, "event": "AGENT_2_PING_SENT", "status": "info", "details": "Testing claude-opus-4-1-20250805"}
+{"timestamp": "2025-10-26T11:54:00Z", "agent": 12, "event": "AGENT_2_PING_ACK", "status": "success", "details": "claude-opus-4-1-20250805 responded (latency: 2568.45ms)"}
+{"timestamp": "2025-10-26T11:54:00Z", "agent": 12, "event": "AGENT_3_PING_SENT", "status": "info", "details": "Testing gpt-5-codex"}
+{"timestamp": "2025-10-26T11:54:01Z", "agent": 12, "event": "AGENT_3_PING_FAIL", "status": "error", "details": "FAIL: Error code: 404 - {'error': {'message': 'This mode"}
+{"timestamp": "2025-10-26T11:54:01Z", "agent": 12, "event": "AGENT_4_PING_SENT", "status": "info", "details": "Testing claude-sonnet-4-5"}
