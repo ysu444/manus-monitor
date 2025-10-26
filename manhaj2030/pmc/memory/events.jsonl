@@ -499,3 +499,9 @@
 {"timestamp": "2025-10-26T08:33:54.114830", "agent": 8, "event": "G6_INTERMEDIATE_CHECKPOINT_SAVED", "epoch": 1, "step": 200, "path": "/tmp/g6_v2_smoke/checkpoints/checkpoint-1_200.pt"}
 {"timestamp": "2025-10-26T08:33:57.675642", "agent": 8, "event": "G6_INTERMEDIATE_CHECKPOINT_SAVED", "epoch": 1, "step": 205, "path": "/tmp/g6_v2_smoke/checkpoints/checkpoint-1_205.pt"}
 {"timestamp": "2025-10-26T08:34:01.232720", "agent": 8, "event": "G6_INTERMEDIATE_CHECKPOINT_SAVED", "epoch": 1, "step": 210, "path": "/tmp/g6_v2_smoke/checkpoints/checkpoint-1_210.pt"}
+{"timestamp": "2025-10-26T08:34:04.802246", "agent": 8, "event": "G6_INTERMEDIATE_CHECKPOINT_SAVED", "epoch": 1, "step": 215, "path": "/tmp/g6_v2_smoke/checkpoints/checkpoint-1_215.pt"}
+{"timestamp": "2025-10-26T08:34:08.496967", "agent": 8, "event": "G6_INTERMEDIATE_CHECKPOINT_SAVED", "epoch": 1, "step": 220, "path": "/tmp/g6_v2_smoke/checkpoints/checkpoint-1_220.pt"}
+{"timestamp": "2025-10-26T08:34:12.098278", "agent": 8, "event": "G6_INTERMEDIATE_CHECKPOINT_SAVED", "epoch": 1, "step": 225, "path": "/tmp/g6_v2_smoke/checkpoints/checkpoint-1_225.pt"}
+{"timestamp": "2025-10-26T08:34:15.697730", "agent": 8, "event": "G6_INTERMEDIATE_CHECKPOINT_SAVED", "epoch": 1, "step": 230, "path": "/tmp/g6_v2_smoke/checkpoints/checkpoint-1_230.pt"}
+{"timestamp": "2025-10-26T08:34:19.298277", "agent": 8, "event": "G6_INTERMEDIATE_CHECKPOINT_SAVED", "epoch": 1, "step": 235, "path": "/tmp/g6_v2_smoke/checkpoints/checkpoint-1_235.pt"}
+{"timestamp": "2025-10-26T08:35:01.951494Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
