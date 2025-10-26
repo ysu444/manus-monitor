@@ -1,11 +1,11 @@
 {
-  "timestamp": "2025-10-26T16:37:36.653015Z",
-  "events_total": 686,
-  "last_event": "BUDGET_GUARD_TICK",
-  "last_timestamp": "2025-10-26T16:35:00.388295Z",
+  "timestamp": "2025-10-26T16:47:37.859087Z",
+  "events_total": 698,
+  "last_event": "ALERT_WATCHER_ERROR",
+  "last_timestamp": "2025-10-26T16:47:36Z",
   "gpu": {
     "count": 16,
-    "avg_util": 5.62,
+    "avg_util": 6.12,
     "avg_mem_used": 888.75,
     "avg_mem_total": 16384.0
   },
