@@ -1,18 +1,18 @@
 {
-  "timestamp": "2025-10-26T14:17:19.387656Z",
-  "events_total": 644,
+  "timestamp": "2025-10-26T14:27:20.553839Z",
+  "events_total": 646,
   "last_event": "BUDGET_GUARD_TICK",
-  "last_timestamp": "2025-10-26T14:15:00.513661Z",
+  "last_timestamp": "2025-10-26T14:25:00.514085Z",
   "gpu": {
     "count": 16,
-    "avg_util": 5.06,
-    "avg_mem_used": 250.25,
+    "avg_util": 18.56,
+    "avg_mem_used": 948.75,
     "avg_mem_total": 16384.0
   },
   "system": {
-    "cpu": 1.2,
-    "mem": 1.8,
-    "disk": 16.7,
+    "cpu": 6.9,
+    "mem": 2.8,
+    "disk": 16.8,
     "overall": "green"
   },
   "active_inboxes": [
