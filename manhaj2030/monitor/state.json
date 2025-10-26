@@ -1,16 +1,16 @@
 {
-  "timestamp": "2025-10-26T07:24:14.798149Z",
-  "events_total": 441,
-  "last_event": "GRAFANA_V41_STAGING_DEPLOYED",
-  "last_timestamp": "2025-10-26T07:23:59Z",
+  "timestamp": "2025-10-26T07:34:16.036523Z",
+  "events_total": 444,
+  "last_event": "PILOT_DASHBOARD_AUTOREFRESH_5M",
+  "last_timestamp": "2025-10-26T07:32:16Z",
   "gpu": {
     "count": 16,
-    "avg_util": 41.12,
+    "avg_util": 49.38,
     "avg_mem_used": 1843.0,
     "avg_mem_total": 16384.0
   },
   "system": {
-    "cpu": 18.2,
+    "cpu": 20.8,
     "mem": 5.8,
     "disk": 16.3,
     "overall": "green"
