@@ -3490,3 +3490,5 @@
 {"timestamp": "2025-10-27T20:57:46Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
 {"timestamp": "2025-10-27T20:58:26.845066+00:00", "agent": "TG_EXEC_AGENT", "event": "QUESTION_ANSWERED", "status": "success", "details": "Q='متى انتهى اخر تدريب؟' | A='# 📊 تحليل آخر عمليات التدريب\n\n## 🔍 التحليل المطلوب'"}
 {"timestamp": "2025-10-27T20:58:46Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
+{"timestamp": "2025-10-27T20:59:46Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
+{"timestamp": "2025-10-27T21:00:00.514208Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
