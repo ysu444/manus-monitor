@@ -3255,3 +3255,4 @@
 {"timestamp": "2025-10-27T18:25:25.158189+00:00", "agent": "TG_EXEC_AGENT", "event": "CMD_EXECUTED", "status": "success", "details": "NL='مساعده' | CMD='bash' | rc=0"}
 {"timestamp": "2025-10-27T18:25:36Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
 {"timestamp": "2025-10-27T18:26:36Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
+{"timestamp": "2025-10-27T18:27:36Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
