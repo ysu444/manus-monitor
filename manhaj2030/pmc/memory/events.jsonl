@@ -3439,3 +3439,4 @@
 {"timestamp": "2025-10-27T20:29:06.056923+00:00", "agent": "TG_EXEC_AGENT", "event": "CMD_EXECUTED", "status": "success", "details": "NL='nvidia-smi' | CMD='bash' | LEVEL=unknown | rc=0"}
 {"timestamp": "2025-10-27T20:29:44Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
 {"timestamp": "2025-10-27T20:30:01.426228Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
+{"timestamp": "2025-10-27T20:30:44Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
