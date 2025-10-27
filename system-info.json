@@ -1,7 +1,7 @@
 {
-  "timestamp": "2025-10-27T11:13:01Z",
-  "cpu_usage_percent": 2.8,
+  "timestamp": "2025-10-27T11:14:01Z",
+  "cpu_usage_percent": 2.2,
   "memory_usage_percent": 0.8,
   "disk_usage_percent": 19,
-  "uptime_seconds": 297716
+  "uptime_seconds": 297776
 }
