@@ -3647,3 +3647,4 @@
 {"timestamp": "2025-10-27T22:39:46.673783+00:00", "agent": "TG_EXEC_AGENT", "event": "CMD_EXECUTED", "status": "success", "details": "NL='اختبار' | CMD='bash' | LEVEL=unknown | rc=0"}
 {"timestamp": "2025-10-27T22:39:53Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
 {"timestamp": "2025-10-27T22:40:00.512661Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
+{"timestamp": "2025-10-27T22:40:53Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
