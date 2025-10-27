@@ -1806,3 +1806,4 @@
 {"timestamp":"2025-10-27T01:24:56Z","agent":12,"event":"C8_3_INTELLIGENCE_SYNC_DEPLOYED","status":"deployed","details":"Sync daemon every 10 min; unified log + daily report + memory injection."}
 {"timestamp": "2025-10-27T01:24:57.022308+00:00", "agent": 12, "event": "C8_3_SYNC_TICK", "status": "success", "details": "Merged 0 tasks | report: /srv/manhaj2030/reports/manus_stats_2025-10-27.md"}
 {"timestamp": "2025-10-27T01:25:00.263052Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
+{"timestamp": "2025-10-27T01:25:27Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
