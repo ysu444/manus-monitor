@@ -2459,3 +2459,5 @@
 {"timestamp": "2025-10-27T09:00:58Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
 {"timestamp":"2025-10-27T09:01:55Z","agent":5,"event":"DASHBOARD_HEALTH_CHECK","status":"success","details":"Dashboard Health Check → All endpoints OK (200)."}
 {"timestamp": "2025-10-27T09:01:58Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
+{"timestamp": "2025-10-27T09:02:20.363852Z", "agent": "HealthDaemon", "event": "AUTOTEST_RESULT", "task_id": "hbWgQCeuXagUKka4ft8QbA", "status": "running"}
+{"timestamp": "2025-10-27T09:02:58Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
