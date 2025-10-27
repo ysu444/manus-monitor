@@ -3733,3 +3733,10 @@
 {"timestamp": "2025-10-27T23:23:26.644212+00:00", "agent": "TG_EXEC_AGENT", "event": "CLAUDE_SMART", "status": "success", "details": "Type=answer | Tokens=1205"}
 {"timestamp": "2025-10-27T23:23:51.428734+00:00", "agent": "TG_EXEC_AGENT", "event": "CLAUDE_SMART", "status": "success", "details": "Type=answer | Tokens=1148"}
 {"timestamp": "2025-10-27T23:23:56Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
+{"timestamp": "2025-10-27T23:24:42.188418+00:00", "agent": "TG_EXEC_AGENT", "event": "CLAUDE_SMART", "status": "success", "details": "Type=command_proposal | Tokens=1103"}
+{"timestamp": "2025-10-27T23:24:43Z", "agent": "SAFE_EXEC_V3", "level": "safe", "command": "find /var/log /opt /home -name '*pmc*.log' -o -name 'performance*.log' 2>/dev/null | head -20", "status": "proposed_by_claude", "user_id": "5892534284", "thinking": "المستخدم يسأل عن المسار الفعلي لملفات اللوج الخاصة بـ PMC (Performance Monitoring Component). هذا طلب استعلام يحتاج أمر للبحث عن الملفات", "risk_level": "safe"}
+{"timestamp": "2025-10-27T23:24:52Z", "agent": "SAFE_EXEC_V3", "level": "safe", "command": "find /var/log /opt /home -name '*pmc*.log' -o -name 'performance*.log' 2>/dev/null | head -20", "status": "MANUAL_APPROVED_EXEC", "user_id": "5892534284"}
+{"timestamp": "2025-10-27T23:24:53Z", "agent": "SAFE_EXEC_V3", "level": "safe", "command": "find /var/log /opt /home -name '*pmc*.log' -o -name 'performance*.log' 2>/dev/null | head -20", "status": "executed", "user_id": "5892534284", "output": "no output", "exit_code": 0, "output_length": 9, "sent_as_file": false}
+{"timestamp": "2025-10-27T23:24:53.418657+00:00", "agent": "TG_EXEC_AGENT", "event": "EXEC_SUCCESS", "status": "success", "details": "cmd='find /var/log /opt /home -name '*pmc*.log' -o -nam' | exit=0 | len=9"}
+{"timestamp": "2025-10-27T23:24:56Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
+{"timestamp": "2025-10-27T23:25:00.512119Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
