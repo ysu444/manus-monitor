@@ -3766,3 +3766,7 @@
 {"timestamp":"2025-10-27T23:32:57Z","agent":5,"event":"DASHBOARD_HEALTH_CHECK","status":"success","details":"Dashboard Health Check → All endpoints OK (200)."}
 {"timestamp": "2025-10-27T23:33:45.146586+00:00", "agent": "TG_EXEC_AGENT", "event": "CLAUDE_SMART", "status": "success", "details": "Type=answer | Tokens=1333"}
 {"timestamp": "2025-10-27T23:33:57Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
+{"timestamp": "2025-10-27T23:34:10.837638+00:00", "agent": "TG_EXEC_AGENT", "event": "CLAUDE_SMART", "status": "success", "details": "Type=answer | Tokens=1300"}
+{"timestamp": "2025-10-27T23:34:43.760870+00:00", "agent": "TG_EXEC_AGENT", "event": "CLAUDE_SMART", "status": "success", "details": "Type=answer | Tokens=1314"}
+{"timestamp": "2025-10-27T23:34:57Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
+{"timestamp": "2025-10-27T23:35:00.510628Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
