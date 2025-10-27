@@ -3746,3 +3746,6 @@
 {"timestamp": "2025-10-27T23:26:56Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
 {"timestamp": "2025-10-27T23:27:17.113638+00:00", "agent": "TG_EXEC_AGENT", "event": "CLAUDE_SMART", "status": "success", "details": "Type=answer | Tokens=1326"}
 {"timestamp": "2025-10-27T23:27:56Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
+{"timestamp": "2025-10-27T23:28:51.521618+00:00", "agent": "TG_EXEC_AGENT", "event": "CLAUDE_SMART", "status": "success", "details": "Type=command_proposal | Tokens=1118"}
+{"timestamp": "2025-10-27T23:28:52Z", "agent": "SAFE_EXEC_V3", "level": "safe", "command": "sudo find / -type f -name '*pmc*.log' 2>/dev/null | head -20", "status": "proposed_by_claude", "user_id": "5892534284", "thinking": "المستخدم يريد البحث عن ملفات لوج PMC باستخدام صلاحيات sudo للوصول لجميع المجلدات المحمية", "risk_level": "safe"}
+{"timestamp": "2025-10-27T23:28:56Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
