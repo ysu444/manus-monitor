@@ -2822,3 +2822,5 @@
 {"timestamp": "2025-10-27T13:11:15Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
 {"timestamp":"2025-10-27T13:12:06Z","agent":5,"event":"DASHBOARD_HEALTH_CHECK","status":"success","details":"Dashboard Health Check → All endpoints OK (200)."}
 {"timestamp": "2025-10-27T13:12:15Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
+{"timestamp":"2025-10-27T13:13:05Z","agent":"Agent-Operations","event":"RUNPOD_LOGIN_BLOCKED","status":"success","operator":"root","details":"Quarantined suspicious RunPod login scripts: 1 files. Quarantine path: /srv/manhaj2030/quarantine/runpod_login_2025-10-27_16-12-1761570736","quarantine_dir":"/srv/manhaj2030/quarantine/runpod_login_2025-10-27_16-12-1761570736"}
+{"timestamp": "2025-10-27T13:13:15Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
