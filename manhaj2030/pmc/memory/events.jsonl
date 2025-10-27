@@ -1837,3 +1837,6 @@
 {"timestamp": "2025-10-27T01:43:28Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
 {"timestamp": "2025-10-27T01:44:28Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
 {"timestamp": "2025-10-27T01:45:00.513149Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
+{"timestamp": "2025-10-27T01:45:28Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
+{"timestamp": "2025-10-27T01:45:31.767491+00:00", "agent": 12, "event": "C8_3_SYNC_TICK", "status": "success", "details": "Merged 0 tasks | report: /srv/manhaj2030/reports/manus_stats_2025-10-27.md"}
+{"timestamp": "2025-10-27T01:45:34.862379Z", "agent_id": 12, "phase": "C8_4_MANUS_INSIGHTS_DASHBOARD_FIXED", "action": "DEPLOYMENT_COMPLETE", "status": "success", "details": {"fixes_applied": ["Corrected Manus API header (API_KEY instead of Authorization)", "Fixed method placement in class H", "Added proper error handling", "Created unified task log with real/sample data"], "api_endpoints": ["/api/manus/insights", "/api/manus/report"], "dashboard_page": "/manus_insights.html", "access_url": "http://45.32.106.139:8082/manus_insights.html"}}
