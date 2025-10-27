@@ -3565,3 +3565,5 @@
 {"timestamp": "2025-10-27T21:47:41.421906+00:00", "agent": "TG_EXEC_AGENT", "event": "CMD_EXECUTED", "status": "success", "details": "NL='متابعه التدريب' | CMD='bash' | LEVEL=unknown | rc=0"}
 {"timestamp": "2025-10-27T21:47:50Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
 {"timestamp": "2025-10-27T21:48:50Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
+{"timestamp": "2025-10-27T21:49:50Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
+{"timestamp": "2025-10-27T21:50:02.014149Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
