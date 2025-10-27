@@ -3666,3 +3666,5 @@
 {"timestamp": "2025-10-27T22:51:54Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
 {"timestamp":"2025-10-27T22:52:54Z","agent":5,"event":"DASHBOARD_HEALTH_CHECK","status":"success","details":"Dashboard Health Check → All endpoints OK (200)."}
 {"timestamp": "2025-10-27T22:52:54Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
+{"timestamp": "2025-10-27T22:53:54Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
+{"timestamp": "2025-10-27T22:53:59.932489+00:00", "agent": "TG_EXEC_AGENT", "event": "CLAUDE_SMART", "status": "success", "details": "Type=answer | Tokens=1349"}
