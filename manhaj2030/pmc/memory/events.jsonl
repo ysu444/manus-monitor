@@ -2683,3 +2683,11 @@
 {"timestamp": "2025-10-27T11:40:00.133259Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
 {"timestamp": "2025-10-27T11:40:08Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
 {"timestamp": "2025-10-27T11:41:08Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
+{"timestamp":"2025-10-27T11:42:02Z","agent":5,"event":"DASHBOARD_HEALTH_CHECK","status":"success","details":"Dashboard Health Check → All endpoints OK (200)."}
+{"timestamp": "2025-10-27T11:42:03.971444Z", "agent": "HealthProbe", "event": "TRAINING_HEALTH_CHECK", "status": "failed", "source_ip": "127.0.0.1", "note": "Manus health probe request"}
+{"timestamp": "2025-10-27T11:42:09Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
+{"timestamp": "2025-10-27T11:42:29.861490Z", "agent": "HealthProbe", "event": "TRAINING_HEALTH_CHECK", "status": "failed", "source_ip": "127.0.0.1", "note": "Manus health probe request"}
+{"timestamp": "2025-10-27T11:42:29.878345Z", "agent": "HealthProbe", "event": "TRAINING_SIGNAL", "status": "running", "source_ip": "127.0.0.1", "note": "Manus reported training started"}
+{"timestamp": "2025-10-27T11:42:29.878389Z", "agent": "HealthProbe", "event": "RESOURCE_MONITOR", "status": "started", "source_ip": "local", "note": "Resource monitor initiated"}
+{"timestamp": "2025-10-27T11:42:44.970829Z", "agent": "HealthProbe", "event": "TRAINING_SIGNAL", "status": "completed", "source_ip": "127.0.0.1", "note": "Manus reported training completed"}
+{"timestamp": "2025-10-27T11:42:52.206704Z", "agent": "HealthProbe", "event": "RESOURCE_MONITOR", "status": "stopped", "source_ip": "local", "note": "Monitor loop ended"}
