@@ -1948,3 +1948,6 @@
 {"timestamp":"2025-10-27T02:57:08Z","agent":12,"event":"C8_6_HEALTH_AUTOTEST_DEPLOYED","status":"deployed","details":"Daemon creates Manus health tasks every 6h and logs results in PMC."}
 {"timestamp": "2025-10-27T02:57:33Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
 {"timestamp": "2025-10-27T02:58:33Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
+{"timestamp": "2025-10-27T02:59:10.009680Z", "agent": "HealthDaemon", "event": "AUTOTEST_RESULT", "task_id": "FmVeWNMnqA4PsRDX8moRBj", "status": "completed"}
+{"timestamp": "2025-10-27T02:59:33Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
+{"timestamp": "2025-10-27T03:00:00.263337Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
