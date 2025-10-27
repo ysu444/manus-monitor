@@ -2477,3 +2477,5 @@
 {"timestamp": "2025-10-27T09:12:59Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
 {"timestamp": "2025-10-27T09:13:06.336832+00:00", "agent": 12, "event": "C8_3_SYNC_TICK", "status": "success", "details": "Merged 0 tasks | report: /srv/manhaj2030/reports/manus_stats_2025-10-27.md"}
 {"timestamp": "2025-10-27T09:13:59Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
+{"timestamp": "2025-10-27T09:14:59Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
+{"timestamp": "2025-10-27T09:15:00.515419Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
