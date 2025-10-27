@@ -3444,3 +3444,9 @@
 {"timestamp":"2025-10-27T20:32:40Z","agent":5,"event":"DASHBOARD_HEALTH_CHECK","status":"success","details":"Dashboard Health Check → All endpoints OK (200)."}
 {"timestamp": "2025-10-27T20:32:44Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
 {"timestamp": "2025-10-27T20:33:45Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
+{"timestamp": "2025-10-27T20:34:30.694164+00:00", "agent": "TG_EXEC_AGENT", "event": "CLAUDE_REWRITE", "status": "success", "details": "NL='ماهي حاله الجي بي يو' | CMD='bash'"}
+{"timestamp": "2025-10-27T20:34:30Z", "agent": "SAFE_EXEC_V3", "level": "unknown", "command": "bash", "status": "received", "user_id": "5892534284"}
+{"timestamp": "2025-10-27T20:34:30Z", "agent": "SAFE_EXEC_V3", "level": "unknown", "command": "bash", "status": "executed", "user_id": "5892534284"}
+{"timestamp": "2025-10-27T20:34:30.933830+00:00", "agent": "TG_EXEC_AGENT", "event": "CMD_EXECUTED", "status": "success", "details": "NL='ماهي حاله الجي بي يو' | CMD='bash' | LEVEL=unknown | rc=0"}
+{"timestamp": "2025-10-27T20:34:45Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
+{"timestamp": "2025-10-27T20:35:00.519185Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
