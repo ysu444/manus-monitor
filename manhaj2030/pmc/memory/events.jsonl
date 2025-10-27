@@ -3281,3 +3281,8 @@
 {"timestamp": "2025-10-27T18:45:00.509904Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
 {"timestamp": "2025-10-27T18:45:37Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
 {"timestamp": "2025-10-27T18:46:37Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
+{"timestamp": "2025-10-27T18:47:35.496762+00:00", "agent": "TG_EXEC_AGENT", "event": "CLAUDE_REWRITE", "status": "success", "details": "NL='هل صار اليوم تدريب خارجي للنموذج وتم تحميله بالسير' | CMD='bash'"}
+{"timestamp": "2025-10-27T18:47:35Z", "agent": "SAFE_EXEC_V3", "level": "unknown", "command": "bash", "status": "received", "user_id": "5892534284"}
+{"timestamp": "2025-10-27T18:47:35Z", "agent": "SAFE_EXEC_V3", "level": "unknown", "command": "bash", "status": "executed", "user_id": "5892534284"}
+{"timestamp": "2025-10-27T18:47:35.740751+00:00", "agent": "TG_EXEC_AGENT", "event": "CMD_EXECUTED", "status": "success", "details": "NL='هل صار اليوم تدريب خارجي للنموذج وتم تحميله بالسيرفر ووش نتيجته' | CMD='bash' | LEVEL=unknown | rc=0"}
+{"timestamp": "2025-10-27T18:47:37Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
