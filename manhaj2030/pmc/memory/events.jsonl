@@ -1770,3 +1770,4 @@
 {"timestamp": "2025-10-27T00:59:25Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
 {"timestamp":"2025-10-27T00:59:48Z","agent":12,"event":"C8_1_MANUS_LINK_PILOT_COMPLETE","status":"success","details":"Full deployment complete. Gateway tested with 8 credits. Webhook running on port 8093. Report: /srv/manhaj2030/reports/MANUS_LINK_PILOT_C8_1_REPORT.md"}
 {"timestamp": "2025-10-27T01:00:00.267221Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
+{"timestamp": "2025-10-27T01:00:25Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
