@@ -3558,3 +3558,9 @@
 {"timestamp": "2025-10-27T21:45:00.512295Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
 {"timestamp": "2025-10-27T21:45:49Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
 {"timestamp": "2025-10-27T21:46:50Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
+{"timestamp": "2025-10-27T21:47:04.617524+00:00", "agent": "TG_EXEC_AGENT", "event": "CLAUDE_ADVANCED", "status": "success", "details": "Q='هلا كيفك' | Tokens=2840"}
+{"timestamp": "2025-10-27T21:47:41.190614+00:00", "agent": "TG_EXEC_AGENT", "event": "CLAUDE_REWRITE", "status": "success", "details": "NL='متابعه التدريب' | CMD='bash'"}
+{"timestamp": "2025-10-27T21:47:41Z", "agent": "SAFE_EXEC_V3", "level": "unknown", "command": "bash", "status": "received", "user_id": "5892534284"}
+{"timestamp": "2025-10-27T21:47:41Z", "agent": "SAFE_EXEC_V3", "level": "unknown", "command": "bash", "status": "executed", "user_id": "5892534284"}
+{"timestamp": "2025-10-27T21:47:41.421906+00:00", "agent": "TG_EXEC_AGENT", "event": "CMD_EXECUTED", "status": "success", "details": "NL='متابعه التدريب' | CMD='bash' | LEVEL=unknown | rc=0"}
+{"timestamp": "2025-10-27T21:47:50Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
