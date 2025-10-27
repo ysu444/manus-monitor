@@ -1916,3 +1916,4 @@
 {"timestamp": "2025-10-27T02:34:55.062066Z", "agent": "ManusGateway", "event": "CLOUD_TASK_completed", "task_id": "gssdCGWN3J65Nqh8zdewqy", "status": "completed"}
 {"timestamp": "2025-10-27T02:35:00.184182Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
 {"timestamp": "2025-10-27T02:35:32Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
+{"timestamp": "2025-10-27T02:36:32Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
