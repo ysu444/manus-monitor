@@ -3840,3 +3840,5 @@
 {"timestamp": "2025-10-28T00:09:46.827879+00:00", "agent": "TG_EXEC_AGENT", "event": "EXEC_SUCCESS", "status": "success", "details": "cmd='find /root -type f \\( -name '*.log' -o -name 'trai' | exit=0 | len=1384"}
 {"timestamp": "2025-10-28T00:09:59Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
 {"timestamp": "2025-10-28T00:10:00.510813Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
+{"timestamp": "2025-10-28T00:10:43.374532+00:00", "agent": "TG_EXEC_AGENT", "event": "CLAUDE_SMART", "status": "success", "details": "Type=answer | Tokens=2660"}
+{"timestamp": "2025-10-28T00:10:59Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
