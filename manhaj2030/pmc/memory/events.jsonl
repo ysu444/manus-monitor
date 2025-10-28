@@ -3944,3 +3944,8 @@
 {"timestamp":"2025-10-28T01:03:06Z","agent":5,"event":"DASHBOARD_HEALTH_CHECK","status":"success","details":"Dashboard Health Check → All endpoints OK (200)."}
 {"timestamp": "2025-10-28T01:03:57.656286+00:00", "agent": "TG_EXEC_AGENT", "event": "CLAUDE_SMART", "status": "success", "details": "Type=command_proposal | Tokens=2218"}
 {"timestamp": "2025-10-28T01:03:58Z", "agent": "SAFE_EXEC_V3", "level": "safe", "command": "grep -i 'runpod' /root/ATLAS_REAL/logs/*.log --include='*.log' -r | tail -100", "status": "proposed_by_claude", "user_id": "5892534284", "thinking": "المدير يسأل عن نشاط Runpod خلال 48 ساعة. أحتاج فحص اللوقات والأحداث المتعلقة بـ Runpod في آخر يومين", "risk_level": "safe"}
+{"timestamp": "2025-10-28T01:04:03Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
+{"timestamp": "2025-10-28T01:04:12Z", "agent": "SAFE_EXEC_V3", "level": "safe", "command": "grep -i 'runpod' /root/ATLAS_REAL/logs/*.log --include='*.log' -r | tail -100", "status": "MANUAL_APPROVED_EXEC", "user_id": "5892534284"}
+{"timestamp": "2025-10-28T01:04:12Z", "agent": "SAFE_EXEC_V3", "level": "safe", "command": "grep -i 'runpod' /root/ATLAS_REAL/logs/*.log --include='*.log' -r | tail -100", "status": "executed", "user_id": "5892534284", "output": "grep: /root/ATLAS_REAL/logs/*.log: No such file or directory", "exit_code": 0, "output_length": 60, "sent_as_file": false}
+{"timestamp": "2025-10-28T01:04:13.021646+00:00", "agent": "TG_EXEC_AGENT", "event": "EXEC_SUCCESS", "status": "success", "details": "cmd='grep -i 'runpod' /root/ATLAS_REAL/logs/*.log --inc' | exit=0 | len=60"}
+{"timestamp": "2025-10-28T01:05:00.513715Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
