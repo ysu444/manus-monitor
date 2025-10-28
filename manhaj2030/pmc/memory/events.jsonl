@@ -3810,3 +3810,6 @@
 {"timestamp": "2025-10-28T00:00:49Z", "agent": "SAFE_EXEC_V3", "level": "safe", "command": "find /root/PMC -type f -name '*.md' -mtime -2 -exec grep -l -i 'runpod\\|training\\|تدريب' {} \\; | head -20 && echo '---' && find /root/PMC -type f -name '*.md' -mtime -2 -exec grep -Hi 'runpod\\|trainin", "status": "executed", "user_id": "5892534284", "output": "---", "exit_code": 0, "output_length": 3, "sent_as_file": false}
 {"timestamp": "2025-10-28T00:00:49.141812+00:00", "agent": "TG_EXEC_AGENT", "event": "EXEC_SUCCESS", "status": "success", "details": "cmd='find /root/PMC -type f -name '*.md' -mtime -2 -exe' | exit=0 | len=3"}
 {"timestamp": "2025-10-28T00:00:59Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
+{"timestamp": "2025-10-28T00:01:18.836556+00:00", "agent": "TG_EXEC_AGENT", "event": "CLAUDE_SMART", "status": "success", "details": "Type=answer | Tokens=2561"}
+{"timestamp": "2025-10-28T00:01:56.943194+00:00", "agent": "TG_EXEC_AGENT", "event": "CLAUDE_SMART", "status": "success", "details": "Type=answer | Tokens=2301"}
+{"timestamp": "2025-10-28T00:01:59Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
