@@ -3901,3 +3901,5 @@
 {"timestamp": "2025-10-28T00:33:24.994662+00:00", "agent": "TG_EXEC_AGENT", "event": "CLAUDE_SMART", "status": "success", "details": "Type=command_proposal | Tokens=2172"}
 {"timestamp": "2025-10-28T00:33:25Z", "agent": "SAFE_EXEC_V3", "level": "safe", "command": "grep -r -i 'runpod' ~/pmc/ --include='*.md' | tail -100", "status": "proposed_by_claude", "user_id": "5892534284", "thinking": "المدير يطلب معلومات عن Runpod خلال 48 ساعة وقال 'بتلقاها في pmc'. أحتاج البحث في ملفات PMC عن كلمة Runpod أو runpod خلال آخر يومين", "risk_level": "safe"}
 {"timestamp": "2025-10-28T00:34:01Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
+{"timestamp": "2025-10-28T00:35:00.529931Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
+{"timestamp": "2025-10-28T00:35:01Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
