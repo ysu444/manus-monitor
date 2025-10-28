@@ -3822,3 +3822,8 @@
 {"timestamp":"2025-10-28T00:03:00Z","agent":5,"event":"DASHBOARD_HEALTH_CHECK","status":"success","details":"Dashboard Health Check → All endpoints OK (200)."}
 {"timestamp": "2025-10-28T00:03:20.251195+00:00", "agent": "TG_EXEC_AGENT", "event": "CLAUDE_SMART", "status": "success", "details": "Type=answer | Tokens=2586"}
 {"timestamp": "2025-10-28T00:03:59Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
+{"timestamp": "2025-10-28T00:04:09.060158+00:00", "agent": "TG_EXEC_AGENT", "event": "CLAUDE_SMART", "status": "success", "details": "Type=command_proposal | Tokens=2146"}
+{"timestamp": "2025-10-28T00:04:09Z", "agent": "SAFE_EXEC_V3", "level": "danger", "command": "systemctl status semantic-api validation-api dashboard query-router", "status": "proposed_by_claude", "user_id": "5892534284", "thinking": "المدير يطلب حل المشاكل المكتشفة. من السياق، أرى 4 خدمات API معطلة (404/connection errors): Semantic API, Validation API, Dashboard, Query Router. أحتاج أولاً التأكد من حالة هذه الخدمات وإعادة تشغيلها ", "risk_level": "safe"}
+{"timestamp": "2025-10-28T00:04:57Z", "agent": "SAFE_EXEC_V3", "level": "danger", "command": "systemctl status semantic-api validation-api dashboard query-router", "status": "modified_by_user", "user_id": "5892534284"}
+{"timestamp": "2025-10-28T00:04:59Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
+{"timestamp": "2025-10-28T00:05:00.126387Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
