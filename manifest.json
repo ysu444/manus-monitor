@@ -1,8 +1,8 @@
 {
-  "generated_at": "2025-10-28T22:41:01Z",
-  "generated_at_unix": 1761691261,
-  "commit_sha": "ed9f5bc3354693cc54790003fc0ee06030e72a2b",
-  "commit_sha_short": "ed9f5bc3",
+  "generated_at": "2025-10-28T22:42:01Z",
+  "generated_at_unix": 1761691321,
+  "commit_sha": "59af12ad08ff2e770ea754c1838e58fd06d110a3",
+  "commit_sha_short": "59af12ad",
   "version": "4.0.0",
   "description": "Manus Monitor - Real-time data with SHA-based URLs (zero CDN caching)",
   
@@ -10,19 +10,19 @@
     "raw_github_live": {
       "description": "Use these links for real-time data (zero cache)",
       "manifest": "https://raw.githubusercontent.com/ysu444/manus-monitor/main/manifest.json",
-      "state": "https://raw.githubusercontent.com/ysu444/manus-monitor/ed9f5bc3354693cc54790003fc0ee06030e72a2b/manhaj2030/monitor/state.json",
-      "agents_status": "https://raw.githubusercontent.com/ysu444/manus-monitor/ed9f5bc3354693cc54790003fc0ee06030e72a2b/manhaj2030/pmc/inbox/AGENTS_STATUS.json",
-      "pmc_events": "https://raw.githubusercontent.com/ysu444/manus-monitor/ed9f5bc3354693cc54790003fc0ee06030e72a2b/manhaj2030/pmc/memory/events.jsonl",
-      "pmc_unified": "https://raw.githubusercontent.com/ysu444/manus-monitor/ed9f5bc3354693cc54790003fc0ee06030e72a2b/manhaj2030/pmc/unified/pmc_unified_latest.md",
-      "scientific_closure": "https://raw.githubusercontent.com/ysu444/manus-monitor/ed9f5bc3354693cc54790003fc0ee06030e72a2b/manhaj2030/reports/scientific_closure_v1.md",
-      "training_metrics": "https://raw.githubusercontent.com/ysu444/manus-monitor/ed9f5bc3354693cc54790003fc0ee06030e72a2b/manhaj2030/reports/training_metrics.json",
-      "system_info": "https://raw.githubusercontent.com/ysu444/manus-monitor/ed9f5bc3354693cc54790003fc0ee06030e72a2b/system-info.json",
-      "pm2_status": "https://raw.githubusercontent.com/ysu444/manus-monitor/ed9f5bc3354693cc54790003fc0ee06030e72a2b/pm2-status.json"
+      "state": "https://raw.githubusercontent.com/ysu444/manus-monitor/59af12ad08ff2e770ea754c1838e58fd06d110a3/manhaj2030/monitor/state.json",
+      "agents_status": "https://raw.githubusercontent.com/ysu444/manus-monitor/59af12ad08ff2e770ea754c1838e58fd06d110a3/manhaj2030/pmc/inbox/AGENTS_STATUS.json",
+      "pmc_events": "https://raw.githubusercontent.com/ysu444/manus-monitor/59af12ad08ff2e770ea754c1838e58fd06d110a3/manhaj2030/pmc/memory/events.jsonl",
+      "pmc_unified": "https://raw.githubusercontent.com/ysu444/manus-monitor/59af12ad08ff2e770ea754c1838e58fd06d110a3/manhaj2030/pmc/unified/pmc_unified_latest.md",
+      "scientific_closure": "https://raw.githubusercontent.com/ysu444/manus-monitor/59af12ad08ff2e770ea754c1838e58fd06d110a3/manhaj2030/reports/scientific_closure_v1.md",
+      "training_metrics": "https://raw.githubusercontent.com/ysu444/manus-monitor/59af12ad08ff2e770ea754c1838e58fd06d110a3/manhaj2030/reports/training_metrics.json",
+      "system_info": "https://raw.githubusercontent.com/ysu444/manus-monitor/59af12ad08ff2e770ea754c1838e58fd06d110a3/system-info.json",
+      "pm2_status": "https://raw.githubusercontent.com/ysu444/manus-monitor/59af12ad08ff2e770ea754c1838e58fd06d110a3/pm2-status.json"
     },
     "github_pages": {
       "description": "Fallback links (may have cache)",
-      "manifest": "https://ysu444.github.io/manus-monitor/manifest.json?t=1761691261",
-      "state": "https://ysu444.github.io/manus-monitor/manhaj2030/monitor/state.json?t=1761691261"
+      "manifest": "https://ysu444.github.io/manus-monitor/manifest.json?t=1761691321",
+      "state": "https://ysu444.github.io/manus-monitor/manhaj2030/monitor/state.json?t=1761691321"
     }
   },
   
@@ -35,15 +35,15 @@
   },
   
   "files": {
-    "manifest": {"exists":true,"size_bytes":0,"last_modified":"2025-10-28T22:41:01Z"},
-    "system_info": {"exists":true,"size_bytes":157,"last_modified":"2025-10-28T22:41:01Z"},
-    "pm2_status": {"exists":true,"size_bytes":3,"last_modified":"2025-10-28T22:41:01Z"},
-    "state": {"exists":true,"size_bytes":678,"last_modified":"2025-10-28T22:41:01Z"},
+    "manifest": {"exists":true,"size_bytes":0,"last_modified":"2025-10-28T22:42:01Z"},
+    "system_info": {"exists":true,"size_bytes":157,"last_modified":"2025-10-28T22:42:01Z"},
+    "pm2_status": {"exists":true,"size_bytes":3,"last_modified":"2025-10-28T22:42:01Z"},
+    "state": {"exists":true,"size_bytes":678,"last_modified":"2025-10-28T22:42:01Z"},
     "realtime_state": {"exists":true,"size_bytes":153593,"last_modified":"2025-10-25T09:27:01Z"},
-    "agents_status": {"exists":true,"size_bytes":1323,"last_modified":"2025-10-28T22:41:01Z"},
-    "pmc_events": {"exists":true,"size_bytes":911891,"last_modified":"2025-10-28T22:41:01Z"},
-    "pmc_unified": {"exists":true,"size_bytes":16269,"last_modified":"2025-10-28T22:41:01Z"},
-    "scientific_closure": {"exists":true,"size_bytes":1861,"last_modified":"2025-10-28T22:41:01Z"},
+    "agents_status": {"exists":true,"size_bytes":1323,"last_modified":"2025-10-28T22:42:01Z"},
+    "pmc_events": {"exists":true,"size_bytes":912051,"last_modified":"2025-10-28T22:42:01Z"},
+    "pmc_unified": {"exists":true,"size_bytes":16269,"last_modified":"2025-10-28T22:42:01Z"},
+    "scientific_closure": {"exists":true,"size_bytes":1861,"last_modified":"2025-10-28T22:42:01Z"},
     "training_metrics": {"exists":false,"size_bytes":0,"last_modified":null}
   }
 }
