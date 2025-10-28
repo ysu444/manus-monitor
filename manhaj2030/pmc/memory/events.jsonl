@@ -3820,3 +3820,5 @@
 {"timestamp": "2025-10-28T00:02:50.505644+00:00", "agent": "TG_EXEC_AGENT", "event": "EXEC_SUCCESS", "status": "success", "details": "cmd='find /root/PMC -type f -name '*.md' -mtime -2 -exe' | exit=1 | len=44"}
 {"timestamp": "2025-10-28T00:02:59Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
 {"timestamp":"2025-10-28T00:03:00Z","agent":5,"event":"DASHBOARD_HEALTH_CHECK","status":"success","details":"Dashboard Health Check → All endpoints OK (200)."}
+{"timestamp": "2025-10-28T00:03:20.251195+00:00", "agent": "TG_EXEC_AGENT", "event": "CLAUDE_SMART", "status": "success", "details": "Type=answer | Tokens=2586"}
+{"timestamp": "2025-10-28T00:03:59Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
