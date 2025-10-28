@@ -3883,3 +3883,10 @@
 {"timestamp": "2025-10-28T00:27:00Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
 {"timestamp": "2025-10-28T00:27:41.167211+00:00", "agent": "TG_EXEC_AGENT", "event": "CLAUDE_SMART", "status": "success", "details": "Type=answer | Tokens=2183"}
 {"timestamp": "2025-10-28T00:28:00Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
+{"timestamp": "2025-10-28T00:28:16.841146+00:00", "agent": "TG_EXEC_AGENT", "event": "CLAUDE_SMART", "status": "success", "details": "Type=command_proposal | Tokens=2070"}
+{"timestamp": "2025-10-28T00:28:17Z", "agent": "SAFE_EXEC_V3", "level": "safe", "command": "grep -r '3' /workspace --include='*.log' --include='*.txt' --include='*.json' 2>/dev/null | head -50", "status": "proposed_by_claude", "user_id": "5892534284", "thinking": "المدير يطلب البحث في مجلد workspace عن رقم 3 (استكمالاً للمحادثة السابقة). أحتاج لأمر بحث دقيق في /workspace", "risk_level": "safe"}
+{"timestamp": "2025-10-28T00:28:25Z", "agent": "SAFE_EXEC_V3", "level": "safe", "command": "grep -r '3' /workspace --include='*.log' --include='*.txt' --include='*.json' 2>/dev/null | head -50", "status": "MANUAL_APPROVED_EXEC", "user_id": "5892534284"}
+{"timestamp": "2025-10-28T00:28:26Z", "agent": "SAFE_EXEC_V3", "level": "safe", "command": "grep -r '3' /workspace --include='*.log' --include='*.txt' --include='*.json' 2>/dev/null | head -50", "status": "executed", "user_id": "5892534284", "output": "no output", "exit_code": 0, "output_length": 9, "sent_as_file": false}
+{"timestamp": "2025-10-28T00:28:26.572073+00:00", "agent": "TG_EXEC_AGENT", "event": "EXEC_SUCCESS", "status": "success", "details": "cmd='grep -r '3' /workspace --include='*.log' --include' | exit=0 | len=9"}
+{"timestamp": "2025-10-28T00:28:52.766943+00:00", "agent": "TG_EXEC_AGENT", "event": "CLAUDE_SMART", "status": "success", "details": "Type=answer | Tokens=2446"}
+{"timestamp": "2025-10-28T00:29:00Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
