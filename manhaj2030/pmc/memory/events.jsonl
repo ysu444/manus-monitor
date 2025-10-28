@@ -5673,3 +5673,6 @@
 {"timestamp": "2025-10-28T23:01:34Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
 {"timestamp": "2025-10-28T23:02:34Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
 {"timestamp": "2025-10-28T23:03:34Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
+{"timestamp": "2025-10-28T23:04:34Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
+{"timestamp":"2025-10-28T23:04:40Z","agent":5,"event":"DASHBOARD_HEALTH_CHECK","status":"success","details":"Dashboard Health Check → All endpoints OK (200)."}
+{"timestamp": "2025-10-28T23:05:00.513990Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
