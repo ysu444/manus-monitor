@@ -3850,3 +3850,5 @@
 {"timestamp": "2025-10-28T00:12:11.050852+00:00", "agent": "TG_EXEC_AGENT", "event": "EXEC_SUCCESS", "status": "success", "details": "cmd='find /root /data -type f \\( -name '*runpod*' -o -n' | exit=0 | len=9"}
 {"timestamp": "2025-10-28T00:12:59Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
 {"timestamp":"2025-10-28T00:13:01Z","agent":5,"event":"DASHBOARD_HEALTH_CHECK","status":"success","details":"Dashboard Health Check → All endpoints OK (200)."}
+{"timestamp": "2025-10-28T00:13:34.489036+00:00", "agent": "TG_EXEC_AGENT", "event": "CLAUDE_SMART", "status": "success", "details": "Type=answer | Tokens=2580"}
+{"timestamp": "2025-10-28T00:13:59Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
