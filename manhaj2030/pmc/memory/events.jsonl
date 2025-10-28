@@ -3950,3 +3950,4 @@
 {"timestamp": "2025-10-28T01:04:13.021646+00:00", "agent": "TG_EXEC_AGENT", "event": "EXEC_SUCCESS", "status": "success", "details": "cmd='grep -i 'runpod' /root/ATLAS_REAL/logs/*.log --inc' | exit=0 | len=60"}
 {"timestamp": "2025-10-28T01:05:00.513715Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
 {"timestamp": "2025-10-28T01:05:03Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
+{"timestamp": "2025-10-28T01:06:03Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
