@@ -6259,3 +6259,4 @@
 {"timestamp": "2025-10-29T06:30:04Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
 {"timestamp": "2025-10-29T06:31:04Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
 {"timestamp": "2025-10-29T06:32:05Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
+{"timestamp": "2025-10-29T06:33:05Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
