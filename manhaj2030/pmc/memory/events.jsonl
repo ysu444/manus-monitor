@@ -6478,3 +6478,4 @@
 {"timestamp": "2025-10-29T09:19:16Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
 {"timestamp": "2025-10-29T09:20:00.129481Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
 {"timestamp": "2025-10-29T09:20:16Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
+{"timestamp": "2025-10-29T09:21:16Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
