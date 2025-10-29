@@ -6626,3 +6626,5 @@
 {"timestamp": "2025-10-29T11:12:24Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
 {"timestamp": "2025-10-29T11:13:09.423024Z", "agent": 12, "event": "CONTEXT_KEEPER_INTEGRITY_CHECK", "result": "ok", "latest_snapshot": "context_snapshot_1761735368.json", "age_hours": 0.28, "timer_active": true}
 {"timestamp": "2025-10-29T11:13:24Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
+{"timestamp": "2025-10-29T11:14:24Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
+{"timestamp": "2025-10-29T11:15:00.240820Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
