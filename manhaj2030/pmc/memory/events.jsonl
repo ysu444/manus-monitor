@@ -5876,3 +5876,5 @@
 {"timestamp": "2025-10-29T01:36:44Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
 {"timestamp": "2025-10-29T01:37:44Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
 {"timestamp": "2025-10-29T01:38:44Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
+{"timestamp": "2025-10-29T01:39:44Z", "agent": 5, "event": "ALERT_WATCHER_IDLE_RESET", "status": "info", "details": "No changes for 60.0s, resetting position"}
+{"timestamp": "2025-10-29T01:40:00.515984Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
