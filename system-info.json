@@ -1,7 +1,7 @@
 {
-  "timestamp": "2025-10-29T13:09:01Z",
-  "cpu_usage_percent": 1.9,
-  "memory_usage_percent": 2.4,
-  "disk_usage_percent": 39,
-  "uptime_seconds": 477476
+  "hostname": "vultr",
+  "uptime": "up 6 days, 6 hours, 7 minutes",
+  "timestamp": "2025-11-04T19:40:52Z",
+  "disk_usage": "85%",
+  "memory_usage": "9.0Gi/944Gi"
 }

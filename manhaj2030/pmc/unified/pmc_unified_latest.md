@@ -1,405 +1,427 @@
-# تقرير موحّد – 2025-10-29 12:36 UTC
+# تقرير موحّد – 2025-11-02 10:10 UTC
 
-**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/narrators_unified_v6/narrators_unified_v6.json` (size=8147220B, sha256=ed4db5465ab4…)
+**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/pmc_dossier_latest.md` (size=18863B, sha256=1c62001eb387…)
 
 ---
 
-# تقرير موحّد – 2025-10-29 12:36 UTC
+# تقرير موحّد – 2025-11-02 09:54 UTC
 
-**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/narrators_unified_v6/narrators_unified_v6.json` (size=5419008B, sha256=1f774cf56067…)
+**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/labeled_hadiths_v3.json` (size=4469460B, sha256=f497fa27d2f2…)
 
 ---
 
-# تقرير موحّد – 2025-10-29 12:36 UTC
+# تقرير موحّد – 2025-11-02 09:54 UTC
 
-**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/narrators_unified_v6/narrators_unified_v6.json` (size=4384789B, sha256=a2f779cc5fb7…)
+**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/labeled_hadiths_v3.json` (size=1458110B, sha256=8792bbc45fd8…)
 
 ---
 
-# تقرير موحّد – 2025-10-29 12:36 UTC
+# تقرير موحّد – 2025-11-02 09:54 UTC
 
-**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/narrators_unified_v6/narrators_unified_v6.json` (size=2506619B, sha256=ac9796808956…)
+**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/labeled_hadiths_v3.json` (size=17119B, sha256=0f47869424e1…)
 
 ---
 
-# تقرير موحّد – 2025-10-29 12:36 UTC
+# تقرير موحّد – 2025-11-02 09:10 UTC
 
-**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/narrators_unified_v6/narrators_unified_v6.json` (size=1693079B, sha256=f74d9d458cfd…)
+**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/pmc_dossier_latest.md` (size=18750B, sha256=50f0e1e795d8…)
 
 ---
 
-# تقرير موحّد – 2025-10-29 12:36 UTC
+# تقرير موحّد – 2025-11-02 09:10 UTC
 
-**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/narrators_unified_v6/narrators_unified_v6.json` (size=1065965B, sha256=8916c71ce108…)
+**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/pmc_dossier_latest.md` (size=8192B, sha256=ab0f0008ecf8…)
 
 ---
 
-# تقرير موحّد – 2025-10-29 12:36 UTC
+# تقرير موحّد – 2025-11-02 08:10 UTC
 
-**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/narrators_unified_v6/narrators_unified_v6.json` (size=544842B, sha256=6d2f24525943…)
+**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/pmc_dossier_latest.md` (size=18760B, sha256=6f417575df94…)
 
 ---
 
-# تقرير موحّد – 2025-10-29 12:36 UTC
+# تقرير موحّد – 2025-11-02 07:10 UTC
 
-**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/narrators_unified_v6/narrators_unified_v6.json` (size=138632B, sha256=5abe9ac07e1e…)
+**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/pmc_dossier_latest.md` (size=18760B, sha256=d6ebb2ef741e…)
 
 ---
 
-# تقرير موحّد – 2025-10-29 12:10 UTC
+# تقرير موحّد – 2025-11-02 06:10 UTC
 
-**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/pmc_dossier_latest.md` (size=18153B, sha256=efe648d876d9…)
+**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/pmc_dossier_latest.md` (size=18759B, sha256=eb912148e5ba…)
 
 ---
 
-# تقرير موحّد – 2025-10-29 11:10 UTC
+# تقرير موحّد – 2025-11-02 05:10 UTC
 
-**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/pmc_dossier_latest.md` (size=18153B, sha256=b38125433305…)
+**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/pmc_dossier_latest.md` (size=18760B, sha256=681656005999…)
 
 ---
 
-# تقرير موحّد – 2025-10-29 10:10 UTC
+# تقرير موحّد – 2025-11-02 04:10 UTC
 
-**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/pmc_dossier_latest.md` (size=18484B, sha256=aa301b658424…)
+**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/pmc_dossier_latest.md` (size=19047B, sha256=538889534d15…)
 
 ---
 
-# تقرير موحّد – 2025-10-29 09:59 UTC
+# تقرير موحّد – 2025-11-02 03:55 UTC
 
-**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/labeled_hadiths_v3.json` (size=4814840B, sha256=51dd56348979…)
+**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/labeled_hadiths_v3.json` (size=5704764B, sha256=91759fcc6598…)
 
 ---
 
-# تقرير موحّد – 2025-10-29 09:59 UTC
+# تقرير موحّد – 2025-11-02 03:55 UTC
 
-**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/labeled_hadiths_v3.json` (size=2468051B, sha256=9bdba82bfd35…)
+**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/labeled_hadiths_v3.json` (size=2843515B, sha256=2a4025de69d2…)
 
 ---
 
-# تقرير موحّد – 2025-10-29 09:59 UTC
+# تقرير موحّد – 2025-11-02 03:55 UTC
 
-**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/labeled_hadiths_v3.json` (size=1030194B, sha256=2bd7649b61e4…)
+**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/labeled_hadiths_v3.json` (size=1193871B, sha256=c2734699217a…)
 
 ---
 
-# تقرير موحّد – 2025-10-29 09:59 UTC
+# تقرير موحّد – 2025-11-02 03:55 UTC
 
-**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/labeled_hadiths_v3.json` (size=32117B, sha256=758fa7c172a3…)
+**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/labeled_hadiths_v3.json` (size=25150B, sha256=240a8de2bf4e…)
 
 ---
 
-# تقرير موحّد – 2025-10-29 09:10 UTC
+# تقرير موحّد – 2025-11-02 03:10 UTC
 
-**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/pmc_dossier_latest.md` (size=18107B, sha256=dcdfc97dc994…)
+**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/pmc_dossier_latest.md` (size=18750B, sha256=c6cd1cb3d3eb…)
 
 ---
 
-# تقرير موحّد – 2025-10-29 08:10 UTC
+# تقرير موحّد – 2025-11-02 02:10 UTC
 
-**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/pmc_dossier_latest.md` (size=18153B, sha256=b2b4f8f6de47…)
+**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/pmc_dossier_latest.md` (size=18800B, sha256=b856f4e4a020…)
 
 ---
 
-# تقرير موحّد – 2025-10-29 07:10 UTC
+# تقرير موحّد – 2025-11-02 02:10 UTC
 
-**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/pmc_dossier_latest.md` (size=18164B, sha256=8d3cfaae462a…)
+**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/pmc_dossier_latest.md` (size=4096B, sha256=8a5c416e4f94…)
 
 ---
 
-# تقرير موحّد – 2025-10-29 06:10 UTC
+# تقرير موحّد – 2025-11-02 01:10 UTC
 
-**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/pmc_dossier_latest.md` (size=18156B, sha256=90466bed01ba…)
+**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/pmc_dossier_latest.md` (size=19015B, sha256=26047cd4cbf2…)
 
 ---
 
-# تقرير موحّد – 2025-10-29 05:10 UTC
+# تقرير موحّد – 2025-11-02 00:45 UTC
 
-**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/pmc_dossier_latest.md` (size=18156B, sha256=4df1e8231aec…)
+**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/narrators_unified_v6/narrators_unified_v6.json` (size=7919589B, sha256=0e501b103a7b…)
 
 ---
 
-# تقرير موحّد – 2025-10-29 04:10 UTC
+# تقرير موحّد – 2025-11-02 00:45 UTC
 
-**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/pmc_dossier_latest.md` (size=18370B, sha256=7c0bb5019ce0…)
+**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/narrators_unified_v6/narrators_unified_v6.json` (size=6423619B, sha256=b322e476a590…)
 
 ---
 
-# تقرير موحّد – 2025-10-29 03:51 UTC
+# تقرير موحّد – 2025-11-02 00:45 UTC
 
-**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/labeled_hadiths_v3.json` (size=4223049B, sha256=1c7e8c769dc3…)
+**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/narrators_unified_v6/narrators_unified_v6.json` (size=5124265B, sha256=5a7a0565e52e…)
 
 ---
 
-# تقرير موحّد – 2025-10-29 03:51 UTC
+# تقرير موحّد – 2025-11-02 00:45 UTC
 
-**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/labeled_hadiths_v3.json` (size=2228069B, sha256=01d2d723e4cb…)
+**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/narrators_unified_v6/narrators_unified_v6.json` (size=3993932B, sha256=6bb8d53e898b…)
 
 ---
 
-# تقرير موحّد – 2025-10-29 03:51 UTC
+# تقرير موحّد – 2025-11-02 00:45 UTC
 
-**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/labeled_hadiths_v3.json` (size=940869B, sha256=751a156ab719…)
+**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/narrators_unified_v6/narrators_unified_v6.json` (size=7585608B, sha256=20e1f75563d1…)
 
 ---
 
-# تقرير موحّد – 2025-10-29 03:51 UTC
+# تقرير موحّد – 2025-11-02 00:45 UTC
 
-**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/labeled_hadiths_v3.json` (size=49411B, sha256=a92f4a76e2ab…)
+**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/narrators_unified_v6/narrators_unified_v6.json` (size=6146096B, sha256=f2eeef25dc88…)
 
 ---
 
-# تقرير موحّد – 2025-10-29 03:10 UTC
+# تقرير موحّد – 2025-11-02 00:45 UTC
 
-**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/pmc_dossier_latest.md` (size=18158B, sha256=8b5865d278d9…)
+**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/narrators_unified_v6/narrators_unified_v6.json` (size=4945298B, sha256=8a58c05f3bbc…)
 
 ---
 
-# تقرير موحّد – 2025-10-29 02:10 UTC
+# تقرير موحّد – 2025-11-02 00:45 UTC
 
-**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/pmc_dossier_latest.md` (size=18156B, sha256=2927005ffeb9…)
+**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/narrators_unified_v6/narrators_unified_v6.json` (size=3164462B, sha256=269480509304…)
 
 ---
 
-# تقرير موحّد – 2025-10-29 01:10 UTC
+# تقرير موحّد – 2025-11-02 00:45 UTC
 
-**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/pmc_dossier_latest.md` (size=18842B, sha256=3b86743d72d5…)
+**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/narrators_unified_v6/narrators_unified_v6.json` (size=2156763B, sha256=b8e081577f15…)
 
 ---
 
-# تقرير موحّد – 2025-10-29 00:42 UTC
+# تقرير موحّد – 2025-11-02 00:45 UTC
 
-**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/narrators_unified_v6/narrators_unified_v6.json` (size=7968512B, sha256=a47ace8d059f…)
+**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/narrators_unified_v6/narrators_unified_v6.json` (size=1195983B, sha256=439c7afe1add…)
 
 ---
 
-# تقرير موحّد – 2025-10-29 00:42 UTC
+# تقرير موحّد – 2025-11-02 00:45 UTC
 
-**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/narrators_unified_v6/narrators_unified_v6.json` (size=5876837B, sha256=7dddb6dd389e…)
+**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/narrators_unified_v6/narrators_unified_v6.json` (size=716360B, sha256=086649312b86…)
 
 ---
 
-# تقرير موحّد – 2025-10-29 00:42 UTC
+# تقرير موحّد – 2025-11-02 00:45 UTC
 
-**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/narrators_unified_v6/narrators_unified_v6.json` (size=3362816B, sha256=86bf217e22b1…)
+**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/narrators_unified_v6/narrators_unified_v6.json` (size=244045B, sha256=1a54f8ea5edf…)
 
 ---
 
-# تقرير موحّد – 2025-10-29 00:42 UTC
+# تقرير موحّد – 2025-11-02 00:10 UTC
 
-**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/narrators_unified_v6/narrators_unified_v6.json` (size=7952175B, sha256=e70f3594645a…)
+**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/pmc_dossier_latest.md` (size=19087B, sha256=0844d4dbae9f…)
 
 ---
 
-# تقرير موحّد – 2025-10-29 00:42 UTC
+# تقرير موحّد – 2025-11-01 23:10 UTC
 
-**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/narrators_unified_v6/narrators_unified_v6.json` (size=5787735B, sha256=41dc48e5f0f6…)
+**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/pmc_dossier_latest.md` (size=19036B, sha256=0ea0ef675697…)
 
 ---
 
-# تقرير موحّد – 2025-10-29 00:42 UTC
+# تقرير موحّد – 2025-11-01 22:10 UTC
 
-**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/narrators_unified_v6/narrators_unified_v6.json` (size=4164621B, sha256=c60ea9f47bbe…)
+**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/pmc_dossier_latest.md` (size=19231B, sha256=b96f362bad34…)
 
 ---
 
-# تقرير موحّد – 2025-10-29 00:42 UTC
+# تقرير موحّد – 2025-11-01 21:55 UTC
 
-**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/narrators_unified_v6/narrators_unified_v6.json` (size=2936972B, sha256=23ca8e56566d…)
+**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/labeled_hadiths_v3.json` (size=5748786B, sha256=b08e3cafd0c3…)
 
 ---
 
-# تقرير موحّد – 2025-10-29 00:42 UTC
+# تقرير موحّد – 2025-11-01 21:55 UTC
 
-**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/narrators_unified_v6/narrators_unified_v6.json` (size=1717553B, sha256=eceb29ccffd8…)
+**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/labeled_hadiths_v3.json` (size=2875977B, sha256=ad636273cf8c…)
 
 ---
 
-# تقرير موحّد – 2025-10-29 00:42 UTC
+# تقرير موحّد – 2025-11-01 21:55 UTC
 
-**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/narrators_unified_v6/narrators_unified_v6.json` (size=1212365B, sha256=10cf5dfe78b7…)
+**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/labeled_hadiths_v3.json` (size=1113974B, sha256=4323d1fc5b1d…)
 
 ---
 
-# تقرير موحّد – 2025-10-29 00:42 UTC
+# تقرير موحّد – 2025-11-01 21:55 UTC
 
-**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/narrators_unified_v6/narrators_unified_v6.json` (size=723849B, sha256=0565f0eba24a…)
+**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/labeled_hadiths_v3.json` (size=25153B, sha256=faf79c94ec26…)
 
 ---
 
-# تقرير موحّد – 2025-10-29 00:10 UTC
+# تقرير موحّد – 2025-11-01 21:10 UTC
 
-**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/pmc_dossier_latest.md` (size=18156B, sha256=e4bcf6402562…)
+**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/pmc_dossier_latest.md` (size=18934B, sha256=083439956ce6…)
 
 ---
 
-# تقرير موحّد – 2025-10-28 23:10 UTC
+# تقرير موحّد – 2025-11-01 20:10 UTC
 
-**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/pmc_dossier_latest.md` (size=18247B, sha256=e1c8dde9dcd1…)
+**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/pmc_dossier_latest.md` (size=18800B, sha256=77c5c1feed8f…)
 
 ---
 
-# تقرير موحّد – 2025-10-28 22:10 UTC
+# تقرير موحّد – 2025-11-01 19:10 UTC
 
-**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/pmc_dossier_latest.md` (size=18269B, sha256=306c7d5825d5…)
+**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/pmc_dossier_latest.md` (size=18677B, sha256=3f4b1a1908e9…)
 
 ---
 
-# تقرير موحّد – 2025-10-28 21:58 UTC
+# تقرير موحّد – 2025-11-01 18:10 UTC
 
-**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/labeled_hadiths_v3.json` (size=2883392B, sha256=a9999137f275…)
+**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/pmc_dossier_latest.md` (size=18677B, sha256=0672129c6bbd…)
 
 ---
 
-# تقرير موحّد – 2025-10-28 21:58 UTC
+# تقرير موحّد – 2025-11-01 17:10 UTC
 
-**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/labeled_hadiths_v3.json` (size=941186B, sha256=9d3bc96ad2e9…)
+**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/pmc_dossier_latest.md` (size=18708B, sha256=d419b79d19df…)
 
 ---
 
-# تقرير موحّد – 2025-10-28 21:58 UTC
+# تقرير موحّد – 2025-11-01 16:10 UTC
 
-**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/labeled_hadiths_v3.json` (size=32123B, sha256=5dd92d200da7…)
+**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/pmc_dossier_latest.md` (size=19230B, sha256=756be8f71850…)
 
 ---
 
-# تقرير موحّد – 2025-10-28 21:10 UTC
+# تقرير موحّد – 2025-11-01 16:02 UTC
 
-**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/pmc_dossier_latest.md` (size=18066B, sha256=a0330f060120…)
+**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/labeled_hadiths_v3.json` (size=5749153B, sha256=b2ade5b1724f…)
 
 ---
 
-# تقرير موحّد – 2025-10-28 20:10 UTC
+# تقرير موحّد – 2025-11-01 16:02 UTC
 
-**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/pmc_dossier_latest.md` (size=18156B, sha256=33ecfdba70cf…)
+**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/labeled_hadiths_v3.json` (size=3164139B, sha256=39cdf215132b…)
 
 ---
 
-# تقرير موحّد – 2025-10-28 19:10 UTC
+# تقرير موحّد – 2025-11-01 16:02 UTC
 
-**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/pmc_dossier_latest.md` (size=18156B, sha256=173960734401…)
+**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/labeled_hadiths_v3.json` (size=1823064B, sha256=65f2306a2f87…)
 
 ---
 
-# تقرير موحّد – 2025-10-28 18:10 UTC
+# تقرير موحّد – 2025-11-01 16:02 UTC
 
-**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/pmc_dossier_latest.md` (size=18156B, sha256=0cb105b3cbfa…)
+**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/labeled_hadiths_v3.json` (size=841405B, sha256=593a6299e4a5…)
 
 ---
 
-# تقرير موحّد – 2025-10-28 17:10 UTC
+# تقرير موحّد – 2025-11-01 16:02 UTC
 
-**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/pmc_dossier_latest.md` (size=18156B, sha256=d88e206b6247…)
+**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/labeled_hadiths_v3.json` (size=17119B, sha256=e385aaae438e…)
 
 ---
 
-# تقرير موحّد – 2025-10-28 16:11 UTC
+# تقرير موحّد – 2025-11-01 15:10 UTC
 
-**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/labeled_hadiths_v3.json` (size=4953770B, sha256=72d4be5614e4…)
+**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/pmc_dossier_latest.md` (size=18822B, sha256=8324f86349e3…)
 
 ---
 
-# تقرير موحّد – 2025-10-28 16:11 UTC
+# تقرير موحّد – 2025-11-01 14:10 UTC
 
-**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/labeled_hadiths_v3.json` (size=2432768B, sha256=032ba464f5e0…)
+**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/pmc_dossier_latest.md` (size=18759B, sha256=acdbdf4e6041…)
 
 ---
 
-# تقرير موحّد – 2025-10-28 16:11 UTC
+# تقرير موحّد – 2025-11-01 13:10 UTC
 
-**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/labeled_hadiths_v3.json` (size=941290B, sha256=3c7b03bd18f3…)
+**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/pmc_dossier_latest.md` (size=18758B, sha256=4cfaa27b8cee…)
 
 ---
 
-# تقرير موحّد – 2025-10-28 16:11 UTC
+# تقرير موحّد – 2025-11-01 12:10 UTC
 
-**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/labeled_hadiths_v3.json` (size=25129B, sha256=71df2ce0d771…)
+**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/pmc_dossier_latest.md` (size=18758B, sha256=49f362e1c64e…)
 
 ---
 
-# تقرير موحّد – 2025-10-28 16:10 UTC
+# تقرير موحّد – 2025-11-01 11:10 UTC
 
-**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/pmc_dossier_latest.md` (size=18156B, sha256=7194a027957c…)
+**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/pmc_dossier_latest.md` (size=18667B, sha256=dc0bc8b331b0…)
 
 ---
 
-# تقرير موحّد – 2025-10-28 15:10 UTC
+# تقرير موحّد – 2025-11-01 10:10 UTC
 
-**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/pmc_dossier_latest.md` (size=18066B, sha256=38115b981855…)
+**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/pmc_dossier_latest.md` (size=19037B, sha256=41c63db407d5…)
 
 ---
 
-# تقرير موحّد – 2025-10-28 14:10 UTC
+# تقرير موحّد – 2025-11-01 10:01 UTC
 
-**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/pmc_dossier_latest.md` (size=18248B, sha256=374565734893…)
+**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/labeled_hadiths_v3.json` (size=5748315B, sha256=e9d83ee785b6…)
 
 ---
 
-# تقرير موحّد – 2025-10-28 13:10 UTC
+# تقرير موحّد – 2025-11-01 10:01 UTC
 
-**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/pmc_dossier_latest.md` (size=18207B, sha256=e5f8fb1c0613…)
+**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/labeled_hadiths_v3.json` (size=2794481B, sha256=aa43b5cd4ab4…)
 
 ---
 
-# تقرير موحّد – 2025-10-28 12:36 UTC
+# تقرير موحّد – 2025-11-01 10:01 UTC
 
-**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/narrators_unified_v6/narrators_unified_v6.json` (size=6154281B, sha256=8719e121fb77…)
+**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/labeled_hadiths_v3.json` (size=1084890B, sha256=d2ce5572446e…)
 
 ---
 
-# تقرير موحّد – 2025-10-28 12:36 UTC
+# تقرير موحّد – 2025-11-01 10:01 UTC
 
-**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/narrators_unified_v6/narrators_unified_v6.json` (size=4994143B, sha256=93816552de87…)
+**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/labeled_hadiths_v3.json` (size=32097B, sha256=1bfbbc79a8fb…)
 
 ---
 
-# تقرير موحّد – 2025-10-28 12:36 UTC
+# تقرير موحّد – 2025-11-01 09:10 UTC
 
-**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/narrators_unified_v6/narrators_unified_v6.json` (size=4018438B, sha256=e85713bedcf2…)
+**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/pmc_dossier_latest.md` (size=18740B, sha256=525dcd16eba2…)
 
 ---
 
-# تقرير موحّد – 2025-10-28 12:36 UTC
+# تقرير موحّد – 2025-11-01 08:10 UTC
 
-**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/narrators_unified_v6/narrators_unified_v6.json` (size=3180412B, sha256=9a01fff9a06b…)
+**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/pmc_dossier_latest.md` (size=18790B, sha256=97332a96a134…)
 
 ---
 
-# تقرير موحّد – 2025-10-28 12:36 UTC
+# تقرير موحّد – 2025-11-01 07:10 UTC
 
-**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/narrators_unified_v6/narrators_unified_v6.json` (size=2197602B, sha256=1c3f08b5cf58…)
+**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/pmc_dossier_latest.md` (size=18790B, sha256=b88f494a2148…)
 
 ---
 
-# تقرير موحّد – 2025-10-28 12:36 UTC
+# تقرير موحّد – 2025-11-01 06:10 UTC
 
-**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/narrators_unified_v6/narrators_unified_v6.json` (size=1310278B, sha256=08e65f1fc3e3…)
+**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/pmc_dossier_latest.md` (size=18667B, sha256=bd481384e646…)
 
 ---
 
-# تقرير موحّد – 2025-10-28 12:36 UTC
+# تقرير موحّد – 2025-11-01 05:10 UTC
 
-**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/narrators_unified_v6/narrators_unified_v6.json` (size=683709B, sha256=b5029c091bd0…)
+**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/pmc_dossier_latest.md` (size=18667B, sha256=4a853af545be…)
 
 ---
 
-# تقرير موحّد – 2025-10-28 12:36 UTC
+# تقرير موحّد – 2025-11-01 04:10 UTC
 
-**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/narrators_unified_v6/narrators_unified_v6.json` (size=154874B, sha256=759743e8c4b8…)
+**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/pmc_dossier_latest.md` (size=18944B, sha256=92159357b36f…)
 
 ---
 
-# تقرير موحّد – 2025-10-28 12:10 UTC
+# تقرير موحّد – 2025-11-01 03:57 UTC
 
-**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/pmc_dossier_latest.md` (size=18156B, sha256=bbb6c23ec805…)
+**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/labeled_hadiths_v3.json` (size=4291787B, sha256=0b4d4f876fc7…)
 
 ---
 
-# تقرير موحّد – 2025-10-28 11:10 UTC
+# تقرير موحّد – 2025-11-01 03:57 UTC
 
-**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/pmc_dossier_latest.md` (size=18156B, sha256=230de01cebb2…)
+**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/labeled_hadiths_v3.json` (size=1277434B, sha256=db2c8e8aa22c…)
 
 ---
 
-# تقرير موحّد – 2025-10-28 10:10 UTC
+# تقرير موحّد – 2025-11-01 03:57 UTC
 
-**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/pmc_dossier_latest.md` (size=18371B, sha256=a059f5390518…)
+**آخر تحديث لحظي:** 📥 Real-time: رُصد ملف جديد وتمت مزامنته: `/data/shared/labeled_hadiths_v3.json` (size=25162B, sha256=1b2cb923fb9d…)
+---
+# تقرير موحّد – 2025-11-02 09:11 UTC
+**آخر تحديث لحظي:** ✅ F8 NER Model Status Verified - Production Baseline v6.1 Established
+
+## F8_RETRAIN_STATUS_VERIFIED
+
+**Status:** No retrain job detected; current model is stable and exceeds all Gate thresholds (F1=97.28%).
+
+**Model Integrity:**
+- SHA256: df052b26e77e255159283cadeb73f63fcb52c5d2b679584c674d6f70b180a6f5
+- Size: 414 MB
+- Last Modified: 2025-11-02 03:24:24 +0300
+
+**Performance Metrics:**
+- F1 Score: 97.28% (Gate: ≥85%) ✅ +12.28%
+- Precision: 96.57% (Gate: ≥80%) ✅ +16.57%
+- Recall: 98.01% (Gate: ≥80%) ✅ +18.01%
+
+**Recommendation:** Accept as Production Baseline v6.1 and proceed to Phase I-3 (Ensemble Integration).
+
+**Full Report:** /srv/manhaj2030/pmc/F8_RETRAIN_STATUS_VERIFIED.md
+
