@@ -1,19 +1,19 @@
 {
-  "timestamp": "2025-10-26T17:27:42.822044Z",
-  "events_total": 1165,
-  "last_event": "ALERT_WATCHER_IDLE_RESET",
-  "last_timestamp": "2025-10-26T17:27:42Z",
+  "timestamp": "2025-11-04T20:09:59.145351Z",
+  "events_total": 20450,
+  "last_event": "GITHUB_MONITOR_UPDATED",
+  "last_timestamp": "2025-11-04T20:09:07Z",
   "gpu": {
     "count": 16,
-    "avg_util": 6.06,
-    "avg_mem_used": 888.75,
+    "avg_util": 0.0,
+    "avg_mem_used": 64.12,
     "avg_mem_total": 16384.0
   },
   "system": {
-    "cpu": 1.2,
-    "mem": 1.9,
-    "disk": 17.2,
-    "overall": "green"
+    "cpu": 1.0,
+    "mem": 1.6,
+    "disk": 84.4,
+    "overall": "yellow"
   },
   "active_inboxes": [
     "agent_1",
