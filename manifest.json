@@ -1,41 +1,11 @@
 {
-  "generated_at": "2025-11-04T20:56:04Z",
-  "generated_at_unix": 1762289764,
-  "commit_sha": "7b8405fe80d772e7e51428eec796e53e8d236044",
-  "commit_sha_short": "7b8405fe",
   "version": "4.0.0",
-  "description": "Manus Monitor - Real-time data with SHA-based URLs (zero CDN caching)",
-  
-  "direct_links": {
-    "raw_github_live": {
-      "description": "Use these links for real-time data (zero cache)",
-      "manifest": "https://raw.githubusercontent.com/ysu444/manus-monitor/main/manifest.json",
-      "state": "https://raw.githubusercontent.com/ysu444/manus-monitor/7b8405fe/manhaj2030/monitor/state.json",
-      "agents_status": "https://raw.githubusercontent.com/ysu444/manus-monitor/7b8405fe/manhaj2030/pmc/inbox/AGENTS_STATUS.json",
-      "pmc_events": "https://raw.githubusercontent.com/ysu444/manus-monitor/7b8405fe/manhaj2030/pmc/memory/events.jsonl",
-      "pmc_unified": "https://raw.githubusercontent.com/ysu444/manus-monitor/7b8405fe/manhaj2030/pmc/unified/pmc_unified_latest.md",
-      "scientific_closure": "https://raw.githubusercontent.com/ysu444/manus-monitor/7b8405fe/manhaj2030/reports/scientific_closure_v1.md",
-      "training_metrics": "https://raw.githubusercontent.com/ysu444/manus-monitor/7b8405fe/manhaj2030/reports/training_metrics.json",
-      "system_info": "https://raw.githubusercontent.com/ysu444/manus-monitor/7b8405fe/system-info.json",
-      "pm2_status": "https://raw.githubusercontent.com/ysu444/manus-monitor/7b8405fe/pm2-status.json"
-    },
-    "github_pages": {
-      "description": "Fallback links (may have cache)",
-      "manifest": "https://ysu444.github.io/manus-monitor/manifest.json?t=1762289764",
-      "state": "https://ysu444.github.io/manus-monitor/manhaj2030/monitor/state.json?t=1762289764"
-    }
-  },
-  
-  "usage_instructions": {
-    "step_1": "Read this manifest.json from main branch",
-    "step_2": "Extract commit_sha_short from manifest",
-    "step_3": "Use SHA-based URLs to get real-time data (bypasses CDN cache)",
-    "note": "SHA-based URLs always point to the exact commit, ensuring zero cache issues"
-  },
-  
-  "cache_info": {
-    "manifest_cache": "Updates immediately (main branch)",
-    "data_files_cache": "Zero cache (SHA-based URLs)",
-    "github_pages_cache": "May have 5-10 min delay (use raw_github_live instead)"
+  "generated_at": "2025-11-04T20:56:56Z",
+  "commit_sha": "937d4d15",
+  "description": "Manhaj2030 Monitor - Auto-updated every minute",
+  "urls": {
+    "repo": "https://github.com/ysu444/manus-monitor",
+    "sha_based": "https://raw.githubusercontent.com/ysu444/manus-monitor/937d4d15/",
+    "gist": "https://gist.githubusercontent.com/ysu444/6b7bb5ea5ae7e9619fcc33d92c464598/raw/"
   }
 }
