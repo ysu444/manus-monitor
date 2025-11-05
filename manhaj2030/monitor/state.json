@@ -1,1 +1,37 @@
-/srv/manhaj2030/pmc/shared/collective_state.json
+{
+  "timestamp": "2025-11-05T16:13:37.828901Z",
+  "events_total": 21126,
+  "last_event": "DASHBOARD_HEALTH_CHECK",
+  "last_timestamp": "2025-11-05T16:10:04Z",
+  "gpu": {
+    "count": 16,
+    "avg_util": 0.0,
+    "avg_mem_used": 64.12,
+    "avg_mem_total": 16384.0
+  },
+  "system": {
+    "cpu": 0.4,
+    "mem": 1.8,
+    "disk": 81.1,
+    "overall": "yellow"
+  },
+  "active_inboxes": [
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5",
+    "agent_6",
+    "agent_7",
+    "agent_8",
+    "agent_9",
+    "agent_10",
+    "agent_11",
+    "agent_12",
+    "agent_13",
+    "agent_14",
+    "agent_15"
+  ],
+  "inboxes_active_count": 15,
+  "snapshot_exists": true
+}
