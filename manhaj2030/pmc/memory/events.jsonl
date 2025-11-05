@@ -21224,3 +21224,6 @@
 {"timestamp":"2025-11-05T17:31:06Z","agent":10,"event":"GITHUB_MONITOR_UPDATED","status":"success","details":"GitHub Monitor auto-updated — SHA: 4cf3fc16"}
 {"timestamp":"2025-11-05T17:32:07Z","agent":10,"event":"GITHUB_MONITOR_UPDATED","status":"success","details":"GitHub Monitor auto-updated — SHA: 044871af"}
 {"timestamp":"2025-11-05T17:33:06Z","agent":10,"event":"GITHUB_MONITOR_UPDATED","status":"success","details":"GitHub Monitor auto-updated — SHA: 232ad772"}
+{"timestamp":"2025-11-05T17:34:07Z","agent":10,"event":"GITHUB_MONITOR_UPDATED","status":"success","details":"GitHub Monitor auto-updated — SHA: d26bc3ed"}
+{"timestamp":"2025-11-05T17:34:21Z","agent":"M","event":"Q9_AMBIGUOUS_REJECTED_LOW_CONFIDENCE","status":"success","details":"Rejected 4 low-confidence matches from Q-7 (confidence 0.7-0.8, score 1.0) per Quality First Principle – no write executed."}
+{"timestamp": "2025-11-05T17:35:01.581270Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
