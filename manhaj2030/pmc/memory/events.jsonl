@@ -21725,3 +21725,8 @@
 {"timestamp": "2025-11-05T23:45:04Z", "agent": "M", "event": "Q11_INDEXES", "status": "✅", "details": "Indexes ensured: RijalRef(id), RijalRef(evaluation_source)"}
 {"timestamp": "2025-11-05T23:45:04Z", "agent": "M", "event": "Q11_FAILED", "status": "❌", "details": "Error: {neo4j_code: Neo.ClientError.Statement.SyntaxError} {message: Invalid input 'r': expected an expression or 'AS' (line 2, column 12 (offset: 12))\n\"UNWIND  AS r\"\n            ^} {gql_status: 50N42} {gql_status_description: error: general processing exception - unexpected error. Unexpected error has occurred. See debug log for details.}"}
 {"timestamp":"2025-11-05T23:45:08Z","agent":10,"event":"GITHUB_MONITOR_UPDATED","status":"success","details":"GitHub Monitor auto-updated — SHA: 1ab4ef8e"}
+{"timestamp":"2025-11-05T23:46:08Z","agent":10,"event":"GITHUB_MONITOR_UPDATED","status":"success","details":"GitHub Monitor auto-updated — SHA: 550fa611"}
+{"timestamp": "2025-11-05T23:46:48Z", "agent": "M", "event": "Q11_WRITE_STARTED", "status": "🚀", "details": "Starting write of 361 nodes"}
+{"timestamp": "2025-11-05T23:46:48Z", "agent": "M", "event": "Q11_INDEXES", "status": "✅", "details": "Indexes created"}
+{"timestamp": "2025-11-05T23:46:48Z", "agent": "M", "event": "Q11_VERIFY", "status": "✅", "details": "expected=361, actual=361, verdict=PASS"}
+{"timestamp": "2025-11-05T23:46:48Z", "agent": "M", "event": "Q11_COMPLETED", "status": "✅", "details": "Successfully inserted 361 nodes (conf≥0.85)"}
