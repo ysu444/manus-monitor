@@ -1,8 +1,8 @@
 {
-  "timestamp": "2025-11-06T04:05:06.504832Z",
-  "events_total": 22084,
+  "timestamp": "2025-11-06T04:15:07.774254Z",
+  "events_total": 22097,
   "last_event": "BUDGET_GUARD_TICK",
-  "last_timestamp": "2025-11-06T04:05:01.747690Z",
+  "last_timestamp": "2025-11-06T04:15:00.728897Z",
   "gpu": {
     "count": 16,
     "avg_util": 0.0,
@@ -10,7 +10,7 @@
     "avg_mem_total": 16384.0
   },
   "system": {
-    "cpu": 1.4,
+    "cpu": 0.1,
     "mem": 2.1,
     "disk": 80.1,
     "overall": "yellow"
