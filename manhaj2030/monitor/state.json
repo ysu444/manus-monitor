@@ -1,17 +1,17 @@
 {
-  "timestamp": "2025-11-06T00:24:38.819552Z",
-  "events_total": 21788,
+  "timestamp": "2025-11-06T00:34:40.094488Z",
+  "events_total": 21801,
   "last_event": "GITHUB_MONITOR_UPDATED",
-  "last_timestamp": "2025-11-06T00:24:09Z",
+  "last_timestamp": "2025-11-06T00:34:08Z",
   "gpu": {
     "count": 16,
-    "avg_util": 0.0,
-    "avg_mem_used": 64.12,
+    "avg_util": 6.19,
+    "avg_mem_used": 371.06,
     "avg_mem_total": 16384.0
   },
   "system": {
-    "cpu": 0.1,
-    "mem": 2.0,
+    "cpu": 4.0,
+    "mem": 2.2,
     "disk": 79.9,
     "overall": "yellow"
   },
