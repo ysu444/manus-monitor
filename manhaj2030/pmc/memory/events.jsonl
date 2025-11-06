@@ -22063,3 +22063,5 @@
 {"timestamp": "2025-11-06T06:49:52.627812", "event": "R3_ANALYSIS_COMPLETED", "phase": "R-3", "details": {"hadith_count": 10003, "rawi_count": 84957, "narrated_by_count": 10012, "coverage_percent": 100.0, "avg_confidence": 0.8500699161006822}, "status": "SUCCESS"}
 {"timestamp": "2025-11-06T03:50:00.223202Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
 {"timestamp":"2025-11-06T03:50:08Z","agent":10,"event":"GITHUB_MONITOR_UPDATED","status":"success","details":"GitHub Monitor auto-updated — SHA: 6512cab3"}
+{"timestamp":"2025-11-06T03:51:04Z","agent":5,"event":"DASHBOARD_HEALTH_CHECK","status":"success","details":"Dashboard Health Check → All endpoints OK (200)."}
+{"timestamp":"2025-11-06T03:51:08Z","agent":10,"event":"GITHUB_MONITOR_UPDATED","status":"success","details":"GitHub Monitor auto-updated — SHA: f478752a"}
