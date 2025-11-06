@@ -1,8 +1,8 @@
 {
-  "timestamp": "2025-11-06T17:16:45.250128Z",
-  "events_total": 23113,
+  "timestamp": "2025-11-06T17:26:46.521953Z",
+  "events_total": 23126,
   "last_event": "GITHUB_MONITOR_UPDATED",
-  "last_timestamp": "2025-11-06T17:16:09Z",
+  "last_timestamp": "2025-11-06T17:26:08Z",
   "gpu": {
     "count": 16,
     "avg_util": 0.0,
