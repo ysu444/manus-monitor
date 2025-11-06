@@ -22035,3 +22035,5 @@
 {"timestamp": "2025-11-06T06:28:47.633261", "event": "R3_NARRATED_BY_V4_COMPLETED", "phase": "R-3", "details": {"hadiths_processed": 10003, "names_extracted": 20006, "matches": 10006, "match_rate": 50.01, "relationships_created": 10006, "total_relationships": 10012, "avg_confidence": 0.85, "execution_time_seconds": 879.45, "version": "v4_rawi_arabic"}, "status": "SUCCESS"}
 {"timestamp":"2025-11-06T03:29:08Z","agent":10,"event":"GITHUB_MONITOR_UPDATED","status":"success","details":"GitHub Monitor auto-updated — SHA: b76f5721"}
 {"timestamp": "2025-11-06T03:30:01.375174Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
+{"timestamp":"2025-11-06T03:30:08Z","agent":10,"event":"GITHUB_MONITOR_UPDATED","status":"success","details":"GitHub Monitor auto-updated — SHA: 89bf0cef"}
+{"timestamp":"2025-11-06T03:31:02Z","agent":5,"event":"DASHBOARD_HEALTH_CHECK","status":"success","details":"Dashboard Health Check → All endpoints OK (200)."}
