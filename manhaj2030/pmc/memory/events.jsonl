@@ -21892,3 +21892,6 @@
 {"timestamp":"2025-11-06T01:41:08Z","agent":10,"event":"GITHUB_MONITOR_UPDATED","status":"success","details":"GitHub Monitor auto-updated — SHA: 93779de5"}
 {"timestamp":"2025-11-06T01:42:08Z","agent":10,"event":"GITHUB_MONITOR_UPDATED","status":"success","details":"GitHub Monitor auto-updated — SHA: 4c97d89e"}
 {"timestamp":"2025-11-06T01:43:07Z","agent":10,"event":"GITHUB_MONITOR_UPDATED","status":"success","details":"GitHub Monitor auto-updated — SHA: 4aab706a"}
+{"timestamp": "2025-11-06T01:44:06.674674Z", "agent": 12, "event": "CONTEXT_KEEPER_INTEGRITY_CHECK", "result": "ok", "latest_snapshot": "context_snapshot_1762393274.json", "age_hours": 0.05, "timer_active": true}
+{"timestamp":"2025-11-06T01:44:08Z","agent":10,"event":"GITHUB_MONITOR_UPDATED","status":"success","details":"GitHub Monitor auto-updated — SHA: 95a8638b"}
+{"timestamp": "2025-11-06T01:45:00.225774Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
