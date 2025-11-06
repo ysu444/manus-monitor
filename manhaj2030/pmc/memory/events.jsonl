@@ -21765,3 +21765,5 @@
 {"timestamp": "2025-11-06T00:08:49Z", "agent": "M", "event": "Q11_RESET_V15", "status": "⚠️", "details": "Deleted previous Q10_FULL_V6 nodes"}
 {"timestamp": "2025-11-06T00:08:50Z", "agent": "M", "event": "Q11_VERIFY_V15", "status": "✅", "details": "expected=361, actual=361, verdict=PASS"}
 {"timestamp": "2025-11-06T00:08:50Z", "agent": "M", "event": "Q11_COMPLETED_V15", "status": "✅", "details": "Inserted 361 nodes"}
+{"timestamp":"2025-11-06T00:09:08Z","agent":10,"event":"GITHUB_MONITOR_UPDATED","status":"success","details":"GitHub Monitor auto-updated — SHA: 1b42ce1c"}
+{"timestamp": "2025-11-06T00:10:01.215702Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
