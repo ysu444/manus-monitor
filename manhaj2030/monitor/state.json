@@ -1,8 +1,8 @@
 {
-  "timestamp": "2025-11-06T14:56:27.803678Z",
-  "events_total": 22931,
+  "timestamp": "2025-11-06T15:06:29.078293Z",
+  "events_total": 22944,
   "last_event": "GITHUB_MONITOR_UPDATED",
-  "last_timestamp": "2025-11-06T14:56:09Z",
+  "last_timestamp": "2025-11-06T15:06:08Z",
   "gpu": {
     "count": 16,
     "avg_util": 0.0,
@@ -11,7 +11,7 @@
   },
   "system": {
     "cpu": 0.1,
-    "mem": 1.7,
+    "mem": 1.8,
     "disk": 84.1,
     "overall": "yellow"
   },
