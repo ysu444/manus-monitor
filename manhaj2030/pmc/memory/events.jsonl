@@ -23515,3 +23515,6 @@
 {"timestamp":"2025-11-06T22:24:08Z","agent":10,"event":"GITHUB_MONITOR_UPDATED","status":"success","details":"GitHub Monitor auto-updated — SHA: 3636f502c"}
 {"timestamp": "2025-11-06T22:25:00.157073Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
 {"timestamp":"2025-11-06T22:25:08Z","agent":10,"event":"GITHUB_MONITOR_UPDATED","status":"success","details":"GitHub Monitor auto-updated — SHA: d67927524"}
+{"timestamp":"2025-11-06T22:26:08Z","agent":10,"event":"GITHUB_MONITOR_UPDATED","status":"success","details":"GitHub Monitor auto-updated — SHA: bc56440ad"}
+{"timestamp":"20251106T222614Z","agent":12,"event":"DHVS_v3_1_COMPLETED","status":"success","details":"DHVS scores computed for 132,272 narrators. Top narrator: ابي هريرة with 468 hadiths."}
+{"timestamp":"20251106T222519Z","agent":10,"event":"R5_3_MERGE_COMPLETED","status":"success","details":"Graph v7 merged from Muslim"}
