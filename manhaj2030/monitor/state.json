@@ -1,8 +1,8 @@
 {
-  "timestamp": "2025-11-06T23:57:35.452054Z",
-  "events_total": 23657,
-  "last_event": "GITHUB_MONITOR_UPDATED",
-  "last_timestamp": "2025-11-06T23:57:08Z",
+  "timestamp": "2025-11-07T00:07:36.655062Z",
+  "events_total": 23675,
+  "last_event": "GATE_E_HTML_AUTORENEW_ENABLED",
+  "last_timestamp": "2025-11-07T00:07:20Z",
   "gpu": {
     "count": 16,
     "avg_util": 0.0,
@@ -12,7 +12,7 @@
   "system": {
     "cpu": 1.2,
     "mem": 2.1,
-    "disk": 84.3,
+    "disk": 83.8,
     "overall": "yellow"
   },
   "active_inboxes": [
