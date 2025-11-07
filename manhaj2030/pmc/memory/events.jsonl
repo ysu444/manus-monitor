@@ -25529,3 +25529,6 @@
 {"timestamp":"2025-11-07T23:07:08Z","agent":10,"event":"GITHUB_MONITOR_UPDATED","status":"success","details":"GitHub Monitor auto-updated — SHA: 1b902553c"}
 {"timestamp": "2025-11-08 02:08:00", "agent": "Agent 5", "event": "✅ PHASE_M2_ENTITY_RESOLUTION_COMPLETED", "status": "success", "details": {"total_entities": 447, "in_l2": 323, "l2_coverage": 0.723, "exact_matches": 213, "fuzzy_matches": 110, "high_confidence": 1, "mid_confidence": 61}}
 {"timestamp":"2025-11-07T23:08:09Z","agent":10,"event":"GITHUB_MONITOR_UPDATED","status":"success","details":"GitHub Monitor auto-updated — SHA: e9efa846c"}
+{"timestamp":"2025-11-07T23:09:08Z","agent":10,"event":"GITHUB_MONITOR_UPDATED","status":"success","details":"GitHub Monitor auto-updated — SHA: 0f6f5ac72"}
+{"timestamp":"2025-11-07T23:10:00Z","agent":5,"event":"DASHBOARD_HEALTH_CHECK","status":"failure","details":"Dashboard Health Check FAILED → Trigger restart for manhaj-dashboard.service"}
+{"timestamp": "2025-11-07T23:10:00.287966Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
