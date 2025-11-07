@@ -24587,3 +24587,5 @@
 {"timestamp":"2025-11-07T10:58:08Z","agent":10,"event":"GITHUB_MONITOR_UPDATED","status":"success","details":"GitHub Monitor auto-updated — SHA: b3034f053"}
 {"timestamp":"2025-11-07T10:59:08Z","agent":10,"event":"GITHUB_MONITOR_UPDATED","status":"success","details":"GitHub Monitor auto-updated — SHA: 37970f81b"}
 {"timestamp": "2025-11-07T11:00:01.727536Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
+{"timestamp":"2025-11-07T11:00:08Z","agent":10,"event":"GITHUB_MONITOR_UPDATED","status":"success","details":"GitHub Monitor auto-updated — SHA: abe0b9382"}
+{"timestamp": "2025-11-07T10:55:09Z", "agent": 8, "event": "ADVANCED_CLEANUP_COMPLETED", "status": "success", "details": {"freed_space_mb": 14867, "freed_space_gb": 14, "disk_before": "1.4T", "disk_after": "1.4T", "disk_available": "111G", "disk_usage": "93%"}}
