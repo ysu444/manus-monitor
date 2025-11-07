@@ -25465,3 +25465,6 @@
 {"timestamp":"2025-11-07T22:27:09Z","agent":10,"event":"GITHUB_MONITOR_UPDATED","status":"success","details":"GitHub Monitor auto-updated — SHA: 6957ff623"}
 {"timestamp":"2025-11-07T22:28:09Z","agent":10,"event":"GITHUB_MONITOR_UPDATED","status":"success","details":"GitHub Monitor auto-updated — SHA: afd5f5ae5"}
 {"timestamp":"2025-11-07T22:28:19Z","agent":9,"event":"PHASE_ARCHIVE_MAINTENANCE_COMPLETED","status":"success","compressed_files":7,"space_saved_mb":178,"backup_dir":"/srv/manhaj2030/reports/archive/backup_20251108_012636"}
+{"timestamp":"2025-11-07T22:29:07Z","agent":10,"event":"GITHUB_MONITOR_UPDATED","status":"success","details":"GitHub Monitor auto-updated — SHA: 13691df57"}
+{"timestamp":"2025-11-07T22:29:56Z","agent":5,"event":"DASHBOARD_HEALTH_CHECK","status":"failure","details":"Dashboard Health Check FAILED → Trigger restart for manhaj-dashboard.service"}
+{"timestamp": "2025-11-07T22:30:00.292202Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
