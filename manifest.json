@@ -1,8 +1,8 @@
 {
-  "generated_at": "2025-11-07T10:09:04Z",
-  "generated_at_unix": 1762510144,
-  "commit_sha": "717ee8cff9e82aab4f3388f8cb825742a7debab2",
-  "commit_sha_short": "717ee8cff",
+  "generated_at": "2025-11-07T10:10:04Z",
+  "generated_at_unix": 1762510204,
+  "commit_sha": "b9127aa1dcd1013726da4a9b175c95fb0e3a9d3c",
+  "commit_sha_short": "b9127aa1d",
   "version": "4.0.0",
   "description": "Manus Monitor - Real-time data with SHA-based URLs (zero CDN caching)",
   
@@ -10,19 +10,19 @@
     "raw_github_live": {
       "description": "Use these links for real-time data (zero cache)",
       "manifest": "https://raw.githubusercontent.com/ysu444/manus-monitor/main/manifest.json",
-      "state": "https://raw.githubusercontent.com/ysu444/manus-monitor/717ee8cff/manhaj2030/monitor/state.json",
-      "agents_status": "https://raw.githubusercontent.com/ysu444/manus-monitor/717ee8cff/manhaj2030/pmc/inbox/AGENTS_STATUS.json",
-      "pmc_events": "https://raw.githubusercontent.com/ysu444/manus-monitor/717ee8cff/manhaj2030/pmc/memory/events.jsonl",
-      "pmc_unified": "https://raw.githubusercontent.com/ysu444/manus-monitor/717ee8cff/manhaj2030/pmc/unified/pmc_unified_latest.md",
-      "scientific_closure": "https://raw.githubusercontent.com/ysu444/manus-monitor/717ee8cff/manhaj2030/reports/scientific_closure_v1.md",
-      "training_metrics": "https://raw.githubusercontent.com/ysu444/manus-monitor/717ee8cff/manhaj2030/reports/training_metrics.json",
-      "system_info": "https://raw.githubusercontent.com/ysu444/manus-monitor/717ee8cff/system-info.json",
-      "pm2_status": "https://raw.githubusercontent.com/ysu444/manus-monitor/717ee8cff/pm2-status.json"
+      "state": "https://raw.githubusercontent.com/ysu444/manus-monitor/b9127aa1d/manhaj2030/monitor/state.json",
+      "agents_status": "https://raw.githubusercontent.com/ysu444/manus-monitor/b9127aa1d/manhaj2030/pmc/inbox/AGENTS_STATUS.json",
+      "pmc_events": "https://raw.githubusercontent.com/ysu444/manus-monitor/b9127aa1d/manhaj2030/pmc/memory/events.jsonl",
+      "pmc_unified": "https://raw.githubusercontent.com/ysu444/manus-monitor/b9127aa1d/manhaj2030/pmc/unified/pmc_unified_latest.md",
+      "scientific_closure": "https://raw.githubusercontent.com/ysu444/manus-monitor/b9127aa1d/manhaj2030/reports/scientific_closure_v1.md",
+      "training_metrics": "https://raw.githubusercontent.com/ysu444/manus-monitor/b9127aa1d/manhaj2030/reports/training_metrics.json",
+      "system_info": "https://raw.githubusercontent.com/ysu444/manus-monitor/b9127aa1d/system-info.json",
+      "pm2_status": "https://raw.githubusercontent.com/ysu444/manus-monitor/b9127aa1d/pm2-status.json"
     },
     "github_pages": {
       "description": "Fallback links (may have cache)",
-      "manifest": "https://ysu444.github.io/manus-monitor/manifest.json?t=1762510144",
-      "state": "https://ysu444.github.io/manus-monitor/manhaj2030/monitor/state.json?t=1762510144"
+      "manifest": "https://ysu444.github.io/manus-monitor/manifest.json?t=1762510204",
+      "state": "https://ysu444.github.io/manus-monitor/manhaj2030/monitor/state.json?t=1762510204"
     }
   },
   
