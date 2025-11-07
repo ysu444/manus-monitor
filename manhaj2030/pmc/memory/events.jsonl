@@ -24341,3 +24341,5 @@
 {"timestamp": "2025-11-07T08:10:00.726425Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
 {"timestamp":"2025-11-07T08:10:09Z","agent":10,"event":"GITHUB_MONITOR_UPDATED","status":"success","details":"GitHub Monitor auto-updated — SHA: 49ac9b9b2"}
 {"timestamp":"2025-11-07T08:11:08Z","agent":10,"event":"GITHUB_MONITOR_UPDATED","status":"success","details":"GitHub Monitor auto-updated — SHA: 22aaafd12"}
+{"timestamp":"2025-11-07T08:12:08Z","agent":10,"event":"GITHUB_MONITOR_UPDATED","status":"success","details":"GitHub Monitor auto-updated — SHA: 45d7067be"}
+{"timestamp":"2025-11-07T08:12:45Z","agent":9,"event":"NEO4J_BACKUP_FAILED","status":"failed","reason":"backup_execution_failed"}
