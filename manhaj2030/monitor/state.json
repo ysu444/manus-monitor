@@ -1,8 +1,8 @@
 {
-  "timestamp": "2025-11-07T08:18:38.187082Z",
-  "events_total": 24354,
+  "timestamp": "2025-11-07T08:28:39.458757Z",
+  "events_total": 24373,
   "last_event": "GITHUB_MONITOR_UPDATED",
-  "last_timestamp": "2025-11-07T08:18:09Z",
+  "last_timestamp": "2025-11-07T08:28:08Z",
   "gpu": {
     "count": 16,
     "avg_util": 0.0,
@@ -10,9 +10,9 @@
     "avg_mem_total": 16384.0
   },
   "system": {
-    "cpu": 1.3,
+    "cpu": 1.4,
     "mem": 2.2,
-    "disk": 85.0,
+    "disk": 85.4,
     "overall": "red"
   },
   "active_inboxes": [
