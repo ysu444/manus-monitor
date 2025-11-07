@@ -24384,3 +24384,5 @@
 {"timestamp":"2025-11-07T08:32:59Z","agent":12,"event":"TRIVIAL_compress_old_logs","status":"success","details":"Compressed 122 logs >7d in /srv/manhaj2030/logs"}
 {"timestamp":"2025-11-07T08:33:08Z","agent":10,"event":"GITHUB_MONITOR_UPDATED","status":"success","details":"GitHub Monitor auto-updated — SHA: 4b6e83eec"}
 {"timestamp":"2025-11-07T08:33:47Z","agent":5,"event":"DASHBOARD_HEALTH_CHECK","status":"success","details":"Dashboard Health Check → All endpoints OK (200)."}
+{"timestamp":"2025-11-07T08:34:08Z","agent":10,"event":"GITHUB_MONITOR_UPDATED","status":"success","details":"GitHub Monitor auto-updated — SHA: 1173b9153"}
+{"timestamp": "2025-11-07T08:35:01.468078Z", "event": "BUDGET_GUARD_TICK", "status": "OK", "cost_usd": 0.0}
