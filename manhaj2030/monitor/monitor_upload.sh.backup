@@ -1,0 +1,210 @@
+#!/bin/bash
+# Manus Monitor - GitHub Auto Upload Script v4.0.0
+# Updates GitHub repository with latest system state
+# Runs every minute via cron
+
+set -euo pipefail
+
+# Configuration
+REPO_DIR="/root/manus-monitor"
+LOG_FILE="/srv/manhaj2030/pmc/memory/monitor_upload.log"
+MAX_LOG_LINES=1000
+
+# Logging function
+log() {
+    echo "[$(date '+%Y-%m-%d %H:%M:%S')] $1" | tee -a "$LOG_FILE"
+}
+
+# Keep log file size manageable
+if [ -f "$LOG_FILE" ] && [ $(wc -l < "$LOG_FILE") -gt $MAX_LOG_LINES ]; then
+    tail -n $MAX_LOG_LINES "$LOG_FILE" > "${LOG_FILE}.tmp"
+    mv "${LOG_FILE}.tmp" "$LOG_FILE"
+fi
+
+log "===== Starting Monitor Upload ====="
+
+# Change to repository directory
+cd "$REPO_DIR" || {
+    log "ERROR: Cannot access repository directory"
+    exit 1
+}
+
+# Pull latest changes (in case of external updates)
+git pull origin main --quiet || log "WARNING: Git pull failed (continuing anyway)"
+
+# Get current commit SHA
+COMMIT_SHA=$(git rev-parse HEAD)
+COMMIT_SHA_SHORT=$(git rev-parse --short HEAD)
+TIMESTAMP=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+TIMESTAMP_UNIX=$(date +%s)
+
+log "Current SHA: $COMMIT_SHA_SHORT"
+
+# Create directories if they don't exist
+mkdir -p manhaj2030/monitor
+mkdir -p manhaj2030/pmc/inbox
+mkdir -p manhaj2030/pmc/memory
+mkdir -p manhaj2030/pmc/unified
+mkdir -p manhaj2030/reports
+
+# Copy state files from server
+log "Copying state files..."
+
+# 1. Main state
+if [ -f /srv/manhaj2030/pmc/shared/collective_state.json ]; then
+    cp /srv/manhaj2030/pmc/shared/collective_state.json manhaj2030/monitor/state.json
+    log "✅ state.json updated"
+else
+    log "⚠️ collective_state.json not found"
+fi
+
+# 2. Agents status
+if [ -f /srv/manhaj2030/pmc/memory/AGENTS_STATUS.json ]; then
+    cp /srv/manhaj2030/pmc/memory/AGENTS_STATUS.json manhaj2030/pmc/inbox/
+    log "✅ AGENTS_STATUS.json updated"
+else
+    log "⚠️ AGENTS_STATUS.json not found"
+fi
+
+# 3. PMC events
+if [ -f /srv/manhaj2030/pmc/memory/events.jsonl ]; then
+    cp /srv/manhaj2030/pmc/memory/events.jsonl manhaj2030/pmc/memory/
+    log "✅ events.jsonl updated"
+else
+    log "⚠️ events.jsonl not found"
+fi
+
+# 4. PMC unified
+if [ -f /srv/manhaj2030/pmc/unified/pmc_unified_latest.md ]; then
+    cp /srv/manhaj2030/pmc/unified/pmc_unified_latest.md manhaj2030/pmc/unified/
+    log "✅ pmc_unified_latest.md updated"
+else
+    log "⚠️ pmc_unified_latest.md not found"
+fi
+
+# 5. Scientific closure
+if [ -f /srv/manhaj2030/reports/scientific_closure_v1.md ]; then
+    cp /srv/manhaj2030/reports/scientific_closure_v1.md manhaj2030/reports/
+    log "✅ scientific_closure_v1.md updated"
+else
+    log "⚠️ scientific_closure_v1.md not found"
+fi
+
+# 6. Training metrics
+if [ -f /srv/manhaj2030/reports/training_metrics.json ]; then
+    cp /srv/manhaj2030/reports/training_metrics.json manhaj2030/reports/
+    log "✅ training_metrics.json updated"
+else
+    # Create placeholder if not exists
+    echo '{"status":"no_training_in_progress"}' > manhaj2030/reports/training_metrics.json
+    log "⚠️ training_metrics.json not found, created placeholder"
+fi
+
+# 7. System info
+cat > system-info.json << EOF
+{
+  "hostname": "$(hostname)",
+  "uptime": "$(uptime -p)",
+  "timestamp": "$TIMESTAMP",
+  "disk_usage": "$(df -h / | tail -1 | awk '{print $5}')",
+  "memory_usage": "$(free -h | grep Mem | awk '{print $3 "/" $2}')"
+}
+EOF
+log "✅ system-info.json updated"
+
+# 8. PM2 status (if available)
+if command -v pm2 &> /dev/null; then
+    pm2 jlist > pm2-status.json 2>/dev/null || echo '[]' > pm2-status.json
+    log "✅ pm2-status.json updated"
+else
+    echo '[]' > pm2-status.json
+    log "⚠️ PM2 not installed, empty status"
+fi
+
+# Create manifest.json with SHA-based URLs
+log "Creating manifest.json..."
+
+# Create latest_sha.txt for easy access
+echo "$COMMIT_SHA_SHORT" > latest_sha.txt
+log "✅ latest_sha.txt updated"
+
+cat > manifest.json << EOF
+{
+  "generated_at": "$TIMESTAMP",
+  "generated_at_unix": $TIMESTAMP_UNIX,
+  "commit_sha": "$COMMIT_SHA",
+  "commit_sha_short": "$COMMIT_SHA_SHORT",
+  "version": "4.0.0",
+  "description": "Manus Monitor - Real-time data with SHA-based URLs (zero CDN caching)",
+  
+  "direct_links": {
+    "raw_github_live": {
+      "description": "Use these links for real-time data (zero cache)",
+      "manifest": "https://raw.githubusercontent.com/ysu444/manus-monitor/main/manifest.json",
+      "state": "https://raw.githubusercontent.com/ysu444/manus-monitor/$COMMIT_SHA_SHORT/manhaj2030/monitor/state.json",
+      "agents_status": "https://raw.githubusercontent.com/ysu444/manus-monitor/$COMMIT_SHA_SHORT/manhaj2030/pmc/inbox/AGENTS_STATUS.json",
+      "pmc_events": "https://raw.githubusercontent.com/ysu444/manus-monitor/$COMMIT_SHA_SHORT/manhaj2030/pmc/memory/events.jsonl",
+      "pmc_unified": "https://raw.githubusercontent.com/ysu444/manus-monitor/$COMMIT_SHA_SHORT/manhaj2030/pmc/unified/pmc_unified_latest.md",
+      "scientific_closure": "https://raw.githubusercontent.com/ysu444/manus-monitor/$COMMIT_SHA_SHORT/manhaj2030/reports/scientific_closure_v1.md",
+      "training_metrics": "https://raw.githubusercontent.com/ysu444/manus-monitor/$COMMIT_SHA_SHORT/manhaj2030/reports/training_metrics.json",
+      "system_info": "https://raw.githubusercontent.com/ysu444/manus-monitor/$COMMIT_SHA_SHORT/system-info.json",
+      "pm2_status": "https://raw.githubusercontent.com/ysu444/manus-monitor/$COMMIT_SHA_SHORT/pm2-status.json"
+    },
+    "github_pages": {
+      "description": "Fallback links (may have cache)",
+      "manifest": "https://ysu444.github.io/manus-monitor/manifest.json?t=$TIMESTAMP_UNIX",
+      "state": "https://ysu444.github.io/manus-monitor/manhaj2030/monitor/state.json?t=$TIMESTAMP_UNIX"
+    }
+  },
+  
+  "usage_instructions": {
+    "step_1": "Read this manifest.json from main branch",
+    "step_2": "Extract commit_sha_short from manifest",
+    "step_3": "Use SHA-based URLs to get real-time data (bypasses CDN cache)",
+    "note": "SHA-based URLs always point to the exact commit, ensuring zero cache issues"
+  },
+  
+  "cache_info": {
+    "manifest_cache": "Updates immediately (main branch)",
+    "data_files_cache": "Zero cache (SHA-based URLs)",
+    "github_pages_cache": "May have 5-10 min delay (use raw_github_live instead)"
+  }
+}
+EOF
+
+log "✅ manifest.json created"
+
+# Check if there are changes
+if git diff --quiet && git diff --cached --quiet; then
+    log "No changes detected, skipping commit"
+    log "===== Upload Complete (No Changes) ====="
+    exit 0
+fi
+
+# Stage all changes
+git add -A
+
+# Commit with timestamp
+COMMIT_MSG="Auto-update: $(date '+%Y-%m-%d %H:%M:%S %z')"
+git commit -m "$COMMIT_MSG" --quiet
+
+log "Committed: $COMMIT_MSG"
+
+# Push to GitHub
+if git push origin main --quiet 2>&1; then
+    log "✅ Successfully pushed to GitHub"
+    
+    # Record event in PMC
+    DATE_UTC=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+    DETAILS="GitHub Monitor auto-updated — SHA: $COMMIT_SHA_SHORT"
+    echo "$(date +%F\ %T) | Agent 10 | 📡 ${DETAILS}" >> /srv/manhaj2030/pmc/memory/EVENTS_LOG.md
+    echo "{\"timestamp\":\"$DATE_UTC\",\"agent\":10,\"event\":\"GITHUB_MONITOR_UPDATED\",\"status\":\"success\",\"details\":\"$DETAILS\"}" >> /srv/manhaj2030/pmc/memory/events.jsonl
+    
+    log "✅ PMC event recorded"
+else
+    log "❌ Failed to push to GitHub"
+    exit 1
+fi
+
+log "===== Upload Complete Successfully ====="
+exit 0

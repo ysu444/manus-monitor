@@ -1,0 +1,5 @@
+{"timestamp": "2025-11-06T12:57:03.547034Z", "nodes": 132272, "relationships": 0, "avg_degree": 1.4923642191847053, "max_degree": 2531, "min_degree": 0, "status": "warning"}
+{"timestamp": "2025-11-06T12:57:22.408183Z", "nodes": 132272, "relationships": 0, "avg_degree": 1.4923642191847053, "max_degree": 2531, "min_degree": 0, "status": "warning"}
+{"timestamp": "2025-11-06T12:57:48.699059Z", "nodes": 132272, "relationships": 16254, "avg_degree": 1.4923642191847053, "max_degree": 2531, "min_degree": 0, "status": "healthy"}
+{"ts": "2025-11-06T19:34:14.302956Z", "nodes": 132272, "rels": 259446, "max_degree": 2531}
+{"ts": "2025-11-06T19:44:49.510850Z", "nodes": 132272, "rels": 259446, "max_degree": 2531}

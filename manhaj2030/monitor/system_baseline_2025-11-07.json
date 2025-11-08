@@ -1,0 +1,9 @@
+{
+  "timestamp": "2025-11-07T07:46:51Z",
+  "cpu_cores": "96",
+  "ram_total_kb": "990352128",
+  "ram_used_mb": "15020",
+  "disk_used": "1.3T",
+  "disk_available": "246G",
+  "gpu_info": ["NVIDIA A16-16Q, 16384 MiB, 1011 MiB, [N/A]","NVIDIA A16-16Q, 16384 MiB, 1 MiB, [N/A]","NVIDIA A16-16Q, 16384 MiB, 1 MiB, [N/A]","NVIDIA A16-16Q, 16384 MiB, 1 MiB, [N/A]","NVIDIA A16-16Q, 16384 MiB, 1 MiB, [N/A]","NVIDIA A16-16Q, 16384 MiB, 1 MiB, [N/A]","NVIDIA A16-16Q, 16384 MiB, 1 MiB, [N/A]","NVIDIA A16-16Q, 16384 MiB, 1 MiB, [N/A]"]
+}
