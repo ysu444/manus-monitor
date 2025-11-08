@@ -1,11 +1,11 @@
 {
   "version": "4.0.0",
-  "generated_at": "2025-11-08T13:06:01Z",
-  "commit_sha": "2fdc8923",
+  "generated_at": "2025-11-08T13:07:01Z",
+  "commit_sha": "fa734341",
   "description": "Manhaj2030 Monitor - Auto-updated every minute",
   "urls": {
     "repo": "https://github.com/ysu444/manus-monitor",
-    "sha_based": "https://raw.githubusercontent.com/ysu444/manus-monitor/2fdc8923/",
+    "sha_based": "https://raw.githubusercontent.com/ysu444/manus-monitor/fa734341/",
     "gist": "https://gist.githubusercontent.com/ysu444/6b7bb5ea5ae7e9619fcc33d92c464598/raw/"
   }
 }
